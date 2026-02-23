@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Financial Contrast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="menu-icon">☰</div>
+            <h1>LIVE FINANCIAL CONTRAST PLATFORM</h1>
+            <div class="info-icon">ⓘ</div>
+        </header>
+
+        <nav class="year-selector" id="yearSelector">
+            <button class="active">2026</button>
+            <button>2025</button>
+            <button>2024</button>
+            <button>Total</button>
+        </nav>
+
+        <nav class="time-tabs" id="timeTabs">
+            <button data-unit="sec" class="active">per second</button>
+            <button data-unit="min">per minute</button>
+            <button data-unit="hour">per hour</button>
+            <button data-unit="year">per year</button>
+        </nav>
+
+        <main class="contrast-grid">
+            <div class="card spending" id="leftCard">
+                <div class="card-label">SPENDING</div>
+                <h2 class="entity-name">NASA</h2>
+                <div class="entity-type">government</div>
+                
+                <div class="visualizer">
+                    <div class="bar" id="leftBar"></div>
+                </div>
+
+                <div class="counter-group">
+                    <div class="cumulative" id="leftCumulative">0</div>
+                    <div class="subtext">cumulative since Jan 1</div>
+                </div>
+
+                <div class="live-rate">
+                    <span id="leftRate">0.00</span> <small>/ sec</small>
+                </div>
+            </div>
+
+            <div class="card income" id="rightCard">
+                <div class="card-label">INCOME</div>
+                <h2 class="entity-name">ELON MUSK</h2>
+                <div class="entity-type">person</div>
+
+                <div class="visualizer">
+                    <div class="bar" id="rightBar"></div>
+                </div>
+
+                <div class="counter-group">
+                    <div class="cumulative" id="rightCumulative">0</div>
+                    <div class="subtext">cumulative since Jan 1</div>
+                </div>
+
+                <div class="live-rate">
+                    <span id="rightRate">0.00</span> <small>/ sec</small>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
