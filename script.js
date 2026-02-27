@@ -2,7 +2,6 @@ let financialData = null;
 let currentYear = "2026";
 let currentTimeUnit = "sec";
 let cardModes = { left: "spending", right: "income" };
-
 let drift = { left: 1, right: 1 };
 
 const multipliers = {
@@ -19,12 +18,12 @@ async function init() {
         financialData = await response.json();
         setupEventListeners();
         startTickers();
-    } catch (e) { console.error("Error:", e); }
+    } catch (e) { console.error("Error loading JSON:", e); }
 }
 
 function setupEventListeners() {
     document.getElementById('timeTabs').addEventListener('click', (e) => {
-        if (e.target.tagName === 'BUTTON') {
+        if (e.target.dataset.unit) {
             document.querySelectorAll('#timeTabs button').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
             currentTimeUnit = e.target.dataset.unit;
@@ -35,68 +34,92 @@ function setupEventListeners() {
         if (e.target.tagName === 'BUTTON') {
             document.querySelectorAll('#yearSelector button').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
-            currentYear = e.target.innerText;
+            currentYear = e.target.innerText === "Total" ? "2026" : e.target.innerText;
         }
     });
 
     document.querySelectorAll('.mode-switch').forEach(btn => {
         btn.addEventListener('click', (e) => {
             const card = e.target.closest('.card');
-            cardModes[card.dataset.side] = e.target.dataset.mode;
-            card.className = `card ${e.target.dataset.mode}`;
+            const side = card.dataset.side;
+            cardModes[side] = e.target.dataset.mode;
+            card.className = `card ${cardModes[side]}`;
             card.querySelectorAll('.mode-switch').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
+            updateDetails(side); // Оновлюємо список при зміні режиму
         });
     });
+}
+
+// Нова функція для динамічного оновлення категорій та методології
+function updateDetails(side) {
+    const entity = side === "left" ? financialData.entities[0] : financialData.entities[1];
+    const mode = cardModes[side];
+    const yearData = entity.data[currentYear] || entity.data["2025"];
+    
+    if (!yearData) return;
+
+    // 1. Оновлення списку категорій/джерел
+    const detailsContainer = document.getElementById(`${side}Details`);
+    detailsContainer.innerHTML = '';
+
+    // Якщо це Income, можемо спочатку вивести sources, а потім breakdown
+    const dataObj = yearData[mode];
+    if (dataObj && dataObj.breakdown) {
+        Object.values(dataObj.breakdown).forEach(item => {
+            const row = document.createElement('div');
+            row.className = 'detail-item';
+            row.innerHTML = `<span class="detail-name">${item.name}</span><span class="detail-value">${item.percent}%</span>`;
+            detailsContainer.appendChild(row);
+        });
+    }
+
+    // 2. Оновлення підказки методології
+    const infoBtn = document.getElementById(`${side}Methodology`);
+    infoBtn.onclick = () => alert(`Methodology (${entity.name}):\n\n${yearData.methodology}`);
 }
 
 function startTickers() {
     const update = () => {
         if (!financialData) return;
         const now = new Date();
-        const realYear = now.getFullYear().toString();
-        let effectiveYear = currentYear === "Total" ? "2026" : currentYear;
-        const isCurrentYear = realYear === effectiveYear;
-        
-        let secondsPassed = isCurrentYear ? (now - new Date(now.getFullYear(), 0, 1)) / 1000 : multipliers.year;
+        const secondsPassed = (now - new Date(now.getFullYear(), 0, 1)) / 1000;
 
         financialData.entities.forEach((entity, index) => {
             const side = index === 0 ? "left" : "right";
             const mode = cardModes[side];
-            const yearData = entity.data[effectiveYear] || entity.data["2025"];
-            const baseValuePerYear = yearData[mode] || 0;
+            const yearData = entity.data[currentYear] || entity.data["2025"];
+            const baseValuePerYear = yearData[mode].total || 0;
             const basePerSec = baseValuePerYear / multipliers.year;
 
-            if (isCurrentYear && currentTimeUnit !== "year") {
-                drift[side] += (Math.random() - 0.5) * 0.002;
-                if (drift[side] > 1.15) drift[side] -= 0.001;
-                if (drift[side] < 0.85) drift[side] += 0.001;
-            } else { drift[side] = 1; }
+            // Дрифт для "живого" ефекту
+            drift[side] += (Math.random() - 0.5) * 0.002;
+            drift[side] = Math.max(0.85, Math.min(drift[side], 1.15));
 
-            const currentRatePerSec = basePerSec * drift[side];
             const cumulative = secondsPassed * basePerSec;
-            let displayRate = (currentTimeUnit === 'year') ? baseValuePerYear : currentRatePerSec * multipliers[currentTimeUnit];
+            const displayRate = (currentTimeUnit === 'year') ? baseValuePerYear : (basePerSec * drift[side]) * multipliers[currentTimeUnit];
             
-            // Оновлення тексту
+            // Базові тексти
             document.getElementById(`${side}Name`).innerText = entity.name;
             document.getElementById(`${side}Type`).innerText = entity.category;
             document.getElementById(`${side}Unit`).innerText = `/ ${currentTimeUnit}`;
-            document.getElementById(`${side}Approx`).style.display = isCurrentYear ? "inline" : "none";
             
-            const activeFormatter = (currentTimeUnit === 'sec' || currentTimeUnit === 'min') ? rateFormatter : wholeFormatter;
-            document.getElementById(`${side}Rate`).innerText = activeFormatter.format(displayRate);
+            const formatter = (currentTimeUnit === 'sec' || currentTimeUnit === 'min') ? rateFormatter : wholeFormatter;
+            document.getElementById(`${side}Rate`).innerText = formatter.format(displayRate);
             document.getElementById(`${side}Cumulative`).innerText = wholeFormatter.format(Math.floor(cumulative));
-            
-            document.getElementById(`${side}Icon`).src = entity.image || `https://ui-avatars.com/api/?name=${entity.name}&background=333&color=fff`;
+            document.getElementById(`${side}Icon`).src = entity.image;
 
-            // --- НОВИЙ РОЗРАХУНОК ВИСОТИ ---
-            // Адаптуємо висоту під 220px. 8000 - це умовний "стеля" для візуальної краси
-            let heightFactor = (basePerSec / 8000) * 100; 
-            const finalHeight = Math.max(8, Math.min(heightFactor, 92));
-            document.getElementById(`${side}Bar`).style.height = `${finalHeight}%`;
+            // Візуалізація бару (масштабування)
+            let heightFactor = (basePerSec / 10000) * 100; 
+            document.getElementById(`${side}Bar`).style.height = `${Math.max(5, Math.min(heightFactor, 95))}%`;
         });
         requestAnimationFrame(update);
     };
+    
+    // Ініціалізуємо деталі вперше
+    updateDetails("left");
+    updateDetails("right");
     update();
 }
+
 init();
