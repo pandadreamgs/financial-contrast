@@ -28,7 +28,6 @@ header { display: flex; justify-content: space-between; align-items: center; pad
 
 h1 { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; }
 
-/* СТИЛЬНІ ПІДКЛАДКИ */
 .tool-wrapper {
     background: var(--nav-btn-bg);
     border: 1px solid var(--border);
@@ -41,27 +40,26 @@ h1 { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-
     height: 32px;
 }
 
+.theme-btn {
+    background: transparent;
+    border: none;
+    color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .lang-custom {
     display: flex;
     align-items: center;
     gap: 6px;
     font-size: 11px;
     font-weight: bold;
-    text-transform: uppercase; /* Щоб UA завжди було великими */
 }
 
-.lang-custom img {
-    width: 18px;
-    height: 12px;
-    border-radius: 2px;
-    object-fit: cover;
-}
-
-.arrow-down {
-    font-size: 8px;
-    opacity: 0.5;
-    margin-left: 2px;
-}
+.lang-custom img { width: 18px; height: 12px; border-radius: 2px; object-fit: cover; }
 
 .lang-dropdown {
     position: absolute;
@@ -73,7 +71,7 @@ h1 { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-
     display: none;
     flex-direction: column;
     z-index: 1000;
-    min-width: 150px; /* Трохи ширше для повних назв */
+    min-width: 150px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     overflow: hidden;
 }
@@ -88,22 +86,14 @@ h1 { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-
     font-size: 13px;
     color: var(--text-dim);
     transition: 0.2s;
-    cursor: pointer;
 }
 
-.lang-item:hover {
-    background: var(--nav-btn-bg);
-    color: var(--text-main);
-}
+.lang-item:hover { background: var(--nav-btn-bg); color: var(--text-main); }
 
-.lang-item img {
-    width: 18px;
-    height: 12px;
-    border-radius: 2px;
-}
+.lang-item img { width: 18px; height: 12px; border-radius: 2px; }
 
-/* НАВІГАЦІЯ */
-.year-selector, .time-tabs { display: flex; gap: 5px; overflow-x: auto; padding-bottom: 5px; }
+nav { display: flex; gap: 5px; overflow-x: auto; padding-bottom: 5px; }
+
 nav button {
     background: var(--nav-btn-bg);
     border: 1px solid var(--border);
@@ -112,11 +102,13 @@ nav button {
     border-radius: 15px;
     font-size: 11px;
     cursor: pointer;
+    white-space: nowrap;
 }
+
 nav button.active { background: var(--text-main); color: var(--bg-color); }
 
-/* КАРТКИ */
 .contrast-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
 .card {
     background: var(--card-bg);
     border-radius: 15px;
@@ -125,12 +117,13 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     display: flex;
     flex-direction: column;
 }
+
 .card.spending { border-top: 3px solid var(--red-accent); }
 .card.income { border-top: 3px solid var(--green-accent); }
 
 .card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
 .entity-icon { width: 32px; height: 32px; border-radius: 6px; background: white; padding: 2px; }
-.entity-name { font-size: 13px; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.entity-name { font-size: 13px; font-weight: bold; }
 
 .visualizer {
     height: 100px;
@@ -140,7 +133,9 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     justify-content: center;
     align-items: flex-end;
     border-radius: 8px;
+    border: 1px solid var(--border);
 }
+
 .bar { width: 35px; border-radius: 4px 4px 0 0; transition: height 0.3s; }
 .spending .bar { background: linear-gradient(to top, #631414, var(--red-accent)); }
 .income .bar { background: linear-gradient(to top, #146332, var(--green-accent)); }
@@ -149,7 +144,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 .cumulative { font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums; }
 .subtext { font-size: 8px; color: var(--text-dim); text-transform: uppercase; }
 
-.live-rate { font-size: 14px; font-weight: bold; text-align: center; color: var(--text-main); }
+.live-rate { font-size: 14px; font-weight: bold; text-align: center; }
 
 .mode-switcher {
     display: flex;
@@ -159,14 +154,15 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     align-self: center;
     margin-bottom: 10px;
 }
+
 .mode-switcher button {
     padding: 3px 8px;
     font-size: 9px;
     border: none;
     background: transparent;
     color: var(--text-dim);
-    cursor: pointer;
 }
+
 .mode-switcher button.active { background: var(--card-bg); color: var(--text-main); border-radius: 4px; }
 
 .details-list { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); display: flex; flex-direction: column; gap: 4px; }
@@ -180,5 +176,4 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     .cumulative { font-size: 26px; }
     .live-rate { font-size: 20px; }
     .visualizer { height: 160px; }
-    .entity-icon { width: 44px; height: 44px; }
 }
