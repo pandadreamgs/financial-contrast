@@ -9,9 +9,10 @@
 <body data-theme="dark">
     <div class="app-container">
         <header>
-            <div class="lang-selector" id="langSelector"></div>
+            <div class="lang-selector" id="langSelector">
+                </div>
             <h1 id="mainTitle">LIVE FINANCIAL CONTRAST</h1>
-            <button id="themeToggle" class="btn-tool">🌙</button>
+            <button id="themeToggle" class="btn-tool" onclick="toggleTheme()">🌙</button>
         </header>
 
         <nav class="year-selector" id="yearSelector">
@@ -25,22 +26,27 @@
             <button data-unit="min">per minute</button>
             <button data-unit="hour">per hour</button>
             <button data-unit="day">per day</button>
+            <button data-unit="week">per week</button>
+            <button data-unit="month">per month</button>
             <button data-unit="year">per year</button>
         </nav>
 
         <main class="contrast-grid">
-            <div class="card spending" data-side="left" id="leftCard">
+            <div class="card spending" id="leftCard">
                 <div class="card-header">
                     <img src="" id="leftIcon" class="entity-icon">
                     <div class="entity-info">
+                        <div class="mode-switcher">
+                            <button onclick="toggleMode('left', 'spending')" id="leftBtnSpending" class="active">Spending</button>
+                            <button onclick="toggleMode('left', 'income')" id="leftBtnIncome">Income</button>
+                        </div>
                         <h2 class="entity-name" id="leftName">...</h2>
-                        <div class="entity-type" id="leftType">...</div>
                     </div>
                 </div>
                 <div class="visualizer"><div class="bar" id="leftBar"></div></div>
                 <div class="counter-group">
                     <div class="cumulative" id="leftCumulative">0</div>
-                    <div class="subtext">cumulative</div>
+                    <div class="subtext" id="leftCumLabel">cumulative</div>
                 </div>
                 <div class="live-rate">
                     <span id="leftApprox" class="approx">≈</span>
@@ -49,18 +55,21 @@
                 <div class="details-list" id="leftDetails"></div>
             </div>
 
-            <div class="card income" data-side="right" id="rightCard">
+            <div class="card income" id="rightCard">
                 <div class="card-header">
                     <img src="" id="rightIcon" class="entity-icon">
                     <div class="entity-info">
+                        <div class="mode-switcher">
+                            <button onclick="toggleMode('right', 'spending')" id="rightBtnSpending">Spending</button>
+                            <button onclick="toggleMode('right', 'income')" id="rightBtnIncome" class="active">Income</button>
+                        </div>
                         <h2 class="entity-name" id="rightName">...</h2>
-                        <div class="entity-type" id="rightType">...</div>
                     </div>
                 </div>
                 <div class="visualizer"><div class="bar" id="rightBar"></div></div>
                 <div class="counter-group">
                     <div class="cumulative" id="rightCumulative">0</div>
-                    <div class="subtext">cumulative</div>
+                    <div class="subtext" id="rightCumLabel">cumulative</div>
                 </div>
                 <div class="live-rate">
                     <span id="rightApprox" class="approx">≈</span>
@@ -75,11 +84,6 @@
             <p id="donateDesc"></p>
             <a href="#" class="btn-donate" id="donateBtn">☕ Buy Me a Coffee</a>
         </div>
-        <section id="seoContent" class="seo-block"></section>
-        <footer>
-            <span id="footerCreated"></span> <span class="brand-name">PandaDream</span> 🐼
-            <div id="footerSlogan" class="footer-slogan"></div>
-        </footer>
     </div>
     <script src="script.js"></script>
 </body>
