@@ -1,0 +1,140 @@
+{
+      "id": "nasa",
+      "name": "NASA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
+      "category": "government",
+      "color": "#ff4d4d",
+      "data": {
+        "2026": {
+          "income": {
+            "total": 27533300000,
+            "sources": [
+              "H.R. 6938 Consolidated Appropriations Act (Discretionary)",
+              "H.R. 1 One Big Beautiful Bill Act (Supplemental)"
+            ],
+            "breakdown": {
+              "discretionary_funding": {
+                "name": "Base Discretionary Appropriations",
+                "percent": 88.76
+              },
+              "supplemental_funding": {
+                "name": "Supplemental Budget Reconciliation",
+                "percent": 11.24
+              }
+            }
+          },
+          "spending": {
+            "total": 27533300000,
+            "breakdown": {
+              "exploration_systems": {
+                "name": "Exploration Systems Development (Artemis)",
+                "percent": 38.6
+              },
+              "science": {
+                "name": "Science Mission Directorate",
+                "percent": 26.33
+              },
+              "space_operations": {
+                "name": "Space Operations (ISS & LEO)",
+                "percent": 16.07
+              },
+              "mission_support": {
+                "name": "Safety, Security, and Mission Services",
+                "percent": 10.9
+              },
+              "technology_aeronautics": {
+                "name": "Space Technology and Aeronautics",
+                "percent": 8.1
+              }
+            }
+          },
+          "methodology": "Data based on the final FY 2026 NASA Appropriations Bill (H.R. 6938) passed in January 2026 and supplemental funding from H.R. 1. Total reflects the combined sum of $24,438.3M in discretionary and $3,095.0M in supplemental funds. Percentages are derived from the total $27.5333B allocation across major directorates."
+        },
+        "2025": {
+          "income": {
+            "total": 25383700000,
+            "sources": [
+              "U.S. Federal Budget Appropriations (Consolidated Appropriations Act)",
+              "Reimbursable Services for Federal and Non-Federal Entities"
+            ],
+            "breakdown": {
+              "federal_funding": {
+                "name": "Federal Appropriations",
+                "percent": 99.8
+              },
+              "other_revenue": {
+                "name": "Reimbursable and Other Income",
+                "percent": 0.2
+              }
+            }
+          },
+          "spending": {
+            "total": 25383700000,
+            "breakdown": {
+              "deep_space_exploration": {
+                "name": "Deep Space Exploration Systems (Artemis, SLS, Orion)",
+                "percent": 30.01
+              },
+              "science": {
+                "name": "Science (Earth Science, Planetary Science, Astrophysics)",
+                "percent": 29.81
+              },
+              "space_operations": {
+                "name": "Space Operations (ISS, Space Communications)",
+                "percent": 17.29
+              },
+              "mission_support": {
+                "name": "Safety, Security, and Mission Services",
+                "percent": 12.00
+              },
+              "other_programs": {
+                "name": "Space Technology, Aeronautics, STEM Engagement",
+                "percent": 10.89
+              }
+            }
+          },
+          "methodology": "Data based on the FY 2025 President's Budget Request and subsequent Congressional Justifications. Total figure represents the enacted budget authority. Spending breakdown calculated by dividing major mission directorate allocations by the total topline figure."
+        },
+        "2024": {
+          "income": {
+            "total": 24875000000,
+            "sources": [
+              "Consolidated Appropriations Act, 2024 (P.L. 118-42)",
+              "Commerce, Justice, Science, and Related Agencies Appropriations Act"
+            ],
+            "breakdown": {
+              "federal_appropriations": {
+                "name": "Federal Budget Authority",
+                "percent": 100.0
+              }
+            }
+          },
+          "spending": {
+            "total": 24875000000,
+            "breakdown": {
+              "deep_space_exploration": {
+                "name": "Deep Space Exploration Systems",
+                "percent": 30.82
+              },
+              "science": {
+                "name": "Science Mission Directorate",
+                "percent": 29.48
+              },
+              "space_operations": {
+                "name": "Space Operations (ISS & LEO)",
+                "percent": 16.96
+              },
+              "mission_support": {
+                "name": "Safety, Security, and Mission Services",
+                "percent": 12.60
+              },
+              "technology_aeronautics_other": {
+                "name": "Space Technology, Aeronautics & Others",
+                "percent": 10.14
+              }
+            }
+          },
+          "methodology": "Data based on the enacted FY 2024 funding levels from Public Law 118-42 and official NASA Spending Plan. Income reflects the total budget authority provided by Congress. Spending breakdown calculated by dividing specific mission directorate allocations (Science: $7.3342B, Exploration: $7.6662B, Space Ops: $4.22B, SSMS: $3.1335B, etc.) by the total enacted amount of $24.875B."
+        }
+      }
+    }
