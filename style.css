@@ -28,6 +28,7 @@ header { display: flex; justify-content: space-between; align-items: center; pad
 
 h1 { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; }
 
+/* Language & Theme Wrappers */
 .tool-wrapper {
     background: var(--nav-btn-bg);
     border: 1px solid var(--border);
@@ -40,25 +41,9 @@ h1 { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-
     height: 32px;
 }
 
-.theme-btn {
-    background: transparent;
-    border: none;
-    color: inherit;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+.theme-btn { background: transparent; border: none; color: inherit; font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
 
-.lang-custom {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 11px;
-    font-weight: bold;
-}
-
+.lang-custom { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: bold; }
 .lang-custom img { width: 18px; height: 12px; border-radius: 2px; object-fit: cover; }
 
 .lang-dropdown {
@@ -75,25 +60,14 @@ h1 { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     overflow: hidden;
 }
-
 .lang-dropdown.active { display: flex; }
 
-.lang-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 12px 16px;
-    font-size: 13px;
-    color: var(--text-dim);
-    transition: 0.2s;
-}
-
+.lang-item { display: flex; align-items: center; gap: 10px; padding: 12px 16px; font-size: 13px; color: var(--text-dim); transition: 0.2s; }
 .lang-item:hover { background: var(--nav-btn-bg); color: var(--text-main); }
-
 .lang-item img { width: 18px; height: 12px; border-radius: 2px; }
 
+/* Navigation */
 nav { display: flex; gap: 5px; overflow-x: auto; padding-bottom: 5px; }
-
 nav button {
     background: var(--nav-btn-bg);
     border: 1px solid var(--border);
@@ -104,9 +78,9 @@ nav button {
     cursor: pointer;
     white-space: nowrap;
 }
-
 nav button.active { background: var(--text-main); color: var(--bg-color); }
 
+/* Grid & Cards */
 .contrast-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 
 .card {
@@ -144,21 +118,33 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 .cumulative { font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums; }
 .subtext { font-size: 8px; color: var(--text-dim); text-transform: uppercase; }
 
+/* LIVE RATE SECTION - ВИПРАВЛЕНО */
 .live-rate { 
-    font-size: 16px; 
-    font-weight: bold; 
     text-align: center; 
     display: flex;
-    flex-direction: column; /* Ставимо підпис ПІД цифрою */
+    flex-direction: column;
     align-items: center;
-    gap: 2px;
+    margin-top: 10px;
+}
+
+.rate-main { font-size: 20px; font-weight: 800; }
+.spending .live-rate .rate-main { color: var(--red-accent); }
+.income .live-rate .rate-main { color: var(--green-accent); }
+
+.rate-divider {
+    width: 30px;
+    height: 2px;
+    background: var(--border);
+    margin: 4px 0;
+    border-radius: 2px;
 }
 
 .live-rate small { 
-    font-size: 10px; 
+    font-size: 9px;
     text-transform: uppercase; 
     color: var(--text-dim); 
-    font-weight: normal;
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 .mode-switcher {
@@ -169,31 +155,13 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     align-self: center;
     margin-bottom: 10px;
 }
-
-.mode-switcher button {
-    padding: 3px 8px;
-    font-size: 9px;
-    border: none;
-    background: transparent;
-    color: var(--text-dim);
-}
-
+.mode-switcher button { padding: 3px 8px; font-size: 9px; border: none; background: transparent; color: var(--text-dim); cursor: pointer; }
 .mode-switcher button.active { background: var(--card-bg); color: var(--text-main); border-radius: 4px; }
 
 .details-list { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); display: flex; flex-direction: column; gap: 4px; }
 .detail-item { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-dim); }
 
-@media (min-width: 900px) {
-    .app-container { padding: 20px; gap: 20px; }
-    .contrast-grid { gap: 20px; }
-    .card { padding: 20px; }
-    .entity-name { font-size: 18px; }
-    .cumulative { font-size: 26px; }
-    .live-rate { font-size: 20px; }
-    .visualizer { height: 160px; }
-}
-
-/* Footer & Donate Styles */
+/* FOOTER & DONATE */
 .app-footer { margin-top: 20px; display: flex; flex-direction: column; gap: 20px; padding-bottom: 40px; }
 
 .donate-card {
@@ -202,11 +170,14 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     border-radius: 15px;
     padding: 20px;
     text-align: center;
+}
+
+.donate-card h3 { font-size: 16px; margin-bottom: 8px; color: var(--text-dim); }
+.donate-card p { font-size: 12px; color: var(--text-dim); margin-bottom: 15px; }
+
 .donate-btn {
     display: inline-block;
-    /* М'який тускло-зелений фон */
     background: #c3f5da !important; 
-    /* Темно-зелений текст для ідеального контрасту */
     color: #1a5c3d !important;      
     padding: 10px 24px;
     border-radius: 20px;
@@ -219,32 +190,31 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 
 .donate-btn:hover {
     transform: translateY(-2px);
-    background: #b1ebd0 !important; /* Трохи темніший при наведенні */
+    background: #b1ebd0 !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.seo-section {
-    font-size: 12px;
-    color: var(--text-dim);
-    line-height: 1.6;
-    padding: 0 10px;
-}
+.seo-section { font-size: 12px; color: var(--text-dim); line-height: 1.6; padding: 0 10px; }
 .seo-section h2 { font-size: 14px; color: var(--text-main); margin-bottom: 10px; }
 
-.footer-bottom {
-    text-align: center;
-    border-top: 1px solid var(--border);
-    padding-top: 15px;
-    font-size: 11px;
-    color: var(--text-dim);
-}
-.footer-bottom .author { margin-left: 4px; }
+.footer-bottom { text-align: center; border-top: 1px solid var(--border); padding-top: 15px; font-size: 11px; color: var(--text-dim); }
 
 .studio-name {
-    color: #ff4d4d; /* Твій червоний колір */
+    color: #ff4d4d;
     font-weight: 800;
     letter-spacing: 0.5px;
-    /* Якщо хочеш зробити ефектне сяйво, можна розкоментувати рядок нижче: */
     text-shadow: 0 0 8px rgba(255, 77, 77, 0.3);
 }
 .footer-bottom .slogan { margin-top: 5px; opacity: 0.6; font-style: italic; }
+
+/* Desktop Adaptivity */
+@media (min-width: 900px) {
+    .app-container { padding: 20px; gap: 20px; }
+    .contrast-grid { gap: 20px; }
+    .card { padding: 20px; }
+    .entity-name { font-size: 18px; }
+    .cumulative { font-size: 26px; }
+    .rate-main { font-size: 28px; }
+    .live-rate small { font-size: 11px; }
+    .visualizer { height: 160px; }
+}
