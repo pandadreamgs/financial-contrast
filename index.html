@@ -33,6 +33,8 @@
 
         <main class="contrast-grid">
             <div class="card spending" id="leftCard" data-side="left">
+                <div class="methodology-trigger" id="leftMethodology" title="Show Methodology">ⓘ</div>
+                
                 <div class="card-controls">
                     <button class="mode-switch active" data-mode="spending">SPENDING</button>
                     <button class="mode-switch" data-mode="income">INCOME</button>
@@ -58,9 +60,13 @@
                     <span id="leftApprox" class="approx">≈</span>
                     <span id="leftRate">0.00</span> <small id="leftUnit">/ sec</small>
                 </div>
+
+                <div class="details-list" id="leftDetails"></div>
             </div>
 
             <div class="card income" id="rightCard" data-side="right">
+                <div class="methodology-trigger" id="rightMethodology" title="Show Methodology">ⓘ</div>
+
                 <div class="card-controls">
                     <button class="mode-switch" data-mode="spending">SPENDING</button>
                     <button class="mode-switch active" data-mode="income">INCOME</button>
@@ -86,6 +92,8 @@
                     <span id="rightApprox" class="approx">≈</span>
                     <span id="rightRate">0.00</span> <small id="rightUnit">/ sec</small>
                 </div>
+
+                <div class="details-list" id="rightDetails"></div>
             </div>
         </main>
     </div>
