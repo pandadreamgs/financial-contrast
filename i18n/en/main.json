@@ -10,9 +10,11 @@
     "slogan": "Small tools, big dreams"
   },
   "donate": {
-    "title": "Support the project ☕",
-    "desc": "Your donations help us gather accurate data.",
-    "btn_text": "Buy me a coffee"
+    "title": "Find something interesting?",
+    "desc": "Support project with a coffee.",
+    "btn_text": "Buy Me a Coffee ☕"
   },
-  "seo_text": "<h2>About the Project</h2><p>Your SEO content in English goes here...</p>"
+  "seo_text": "<h2>About the Project</h2><p>Your SEO content in English goes here...</p>",
+  "footer_created": "Created by:",
+  "footer_slogan": "Small tools, big dreams"
 }
