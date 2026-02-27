@@ -4,6 +4,7 @@ let currentTimeUnit = "sec";
 let cardModes = { left: "spending", right: "income" };
 let financialData = { left: null, right: null };
 let drift = { left: 1, right: 1 };
+let langLabels = {}; // Сюди завантажимо назви мов
 
 const multipliers = {
     sec: 1, min: 60, hour: 3600, day: 86400,
@@ -15,6 +16,7 @@ const wholeFormatter = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0
 
 async function init() {
     currentLang = localStorage.getItem('lang') || 'ua';
+    applyInitialTheme();
     await loadLanguage(currentLang);
     setupEventListeners();
     startTickers();
@@ -29,12 +31,23 @@ async function loadLanguage(lang) {
             fetch(`i18n/${lang}/data/nasa.json`).then(r => r.json()),
             fetch(`i18n/${lang}/data/elon-musk.json`).then(r => r.json())
         ]);
+
         financialData.left = nasa;
         financialData.right = musk;
+
+        // Завантажуємо назви всіх мов для списку
+        const availableLangs = ['ua', 'en']; 
+        for (let l of availableLangs) {
+            if (!langLabels[l]) {
+                const res = await fetch(`i18n/${l}/main.json`).then(r => r.json());
+                langLabels[l] = res.ui.lang;
+            }
+        }
+
         applyMainTexts(main);
-        setupLangSelector();
+        renderLangSelector();
         updateUI();
-    } catch (e) { console.error("Data error", e); }
+    } catch (e) { console.error("Error loading language", e); }
 }
 
 function applyMainTexts(main) {
@@ -43,15 +56,35 @@ function applyMainTexts(main) {
     document.getElementById('rightCumLabel').innerText = main.ui.cumulative_label;
 }
 
-function setupLangSelector() {
-    const container = document.getElementById('langSelector');
-    const langs = ['ua', 'en'];
-    container.innerHTML = langs.map(l => 
-        `<img src="i18n/${l}/${l.toUpperCase()}.png" 
-              class="lang-btn ${l === currentLang ? 'active' : ''}" 
-              onclick="loadLanguage('${l}')">`
-    ).join('');
+function renderLangSelector() {
+    const selector = document.getElementById('langSelector');
+    const dropdown = document.getElementById('langDropdown');
+    const availableLangs = ['ua', 'en'];
+
+    // Кнопка: прапор + назва поточної мови
+    selector.innerHTML = `
+        <img src="i18n/${currentLang}/${currentLang.toUpperCase()}.png">
+        <span>${langLabels[currentLang]}</span>
+    `;
+
+    // Список: всі інші мови
+    dropdown.innerHTML = availableLangs.map(l => `
+        <div class="lang-item" onclick="loadLanguage('${l}')">
+            <img src="i18n/${l}/${l.toUpperCase()}.png">
+            <span>${langLabels[l]}</span>
+        </div>
+    `).join('');
 }
+
+function toggleLangMenu(e) {
+    e.stopPropagation();
+    document.getElementById('langDropdown').classList.toggle('active');
+}
+
+// Закриваємо меню при кліку в будь-якому місці
+window.onclick = () => {
+    document.getElementById('langDropdown').classList.remove('active');
+};
 
 function toggleMode(side, mode) {
     cardModes[side] = mode;
@@ -77,7 +110,6 @@ function updateUI() {
 function startTickers() {
     const update = () => {
         const now = new Date();
-        // Рахуємо секунди для 2026 року (від початку року до зараз)
         const startOfSelectedYear = new Date(parseInt(currentYear), 0, 1);
         let secondsPassed = (now - startOfSelectedYear) / 1000;
 
@@ -89,15 +121,12 @@ function startTickers() {
             const basePerSec = baseTotal / multipliers.year;
 
             let displayCumulative = 0;
-
             if (currentYear === "2026") {
-                // ДИНАМІКА: Числа ростуть, drift працює
                 drift[side] += (Math.random() - 0.5) * 0.002;
                 drift[side] = Math.max(0.95, Math.min(drift[side], 1.05));
                 displayCumulative = secondsPassed * basePerSec;
-            } else { 
-                // СТАТИКА: Числа не ростуть, drift вимкнено, показуємо фінальний total
-                drift[side] = 1; 
+            } else {
+                drift[side] = 1;
                 displayCumulative = baseTotal;
             }
 
@@ -136,12 +165,19 @@ function setupEventListeners() {
     };
 }
 
+function applyInitialTheme() {
+    const t = localStorage.getItem('theme') || 'dark';
+    document.body.setAttribute('data-theme', t);
+    document.getElementById('themeToggle').innerText = t === 'dark' ? '🌙' : '☀️';
+}
+
 function toggleTheme() {
     const current = document.body.getAttribute('data-theme');
     const next = current === 'dark' ? 'light' : 'dark';
     document.body.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
     document.getElementById('themeToggle').innerText = next === 'dark' ? '🌙' : '☀️';
 }
 
 init();
-                                  
+                                             
