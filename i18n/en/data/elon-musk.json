@@ -1,0 +1,97 @@
+{
+      "id": "elon-musk",
+      "name": "ELON MUSK",
+      "image" : "https://cdn.geekwire.com/wp-content/uploads/2014/09/elonmusk-300x300.jpeg",
+      "category": "person",
+      "color": "#00ff88",
+      "data": {
+        "2026": {
+          "income": {
+            "total": 144000000000,
+            "sources": ["SpaceX-xAI Merger Valuation Surge", "Tesla Performance Stock Options (2018/2025 Packages)", "Starlink Revenue Expansion"],
+            "breakdown": {
+              "asset_appreciation": { "name": "Equity Appreciation (SpaceX/xAI)", "percent": 68.5 },
+              "stock_options": { "name": "Realized/Vested Tesla Options", "percent": 24.2 },
+              "licensing_data": { "name": "X (Twitter) & Data Licensing", "percent": 7.3 }
+            }
+          },
+          "spending": {
+            "total": 28000000000,
+            "breakdown": {
+              "capital_reinvestment": { "name": "xAI Infrastructure & Compute Power", "percent": 71.4 },
+              "aerospace_rd": { "name": "Starship Mars Program Funding", "percent": 17.9 },
+              "debt_servicing": { "name": "X Acquisition Debt Interest & Operations", "percent": 10.7 }
+            }
+          },
+          "methodology": "Income reflects the unrealized net worth increase between Dec 2025 ($700B) and Feb 2026 ($844B) following the SpaceX-xAI merger valuation of $1.25T and Tesla's pivot to robotics. Spending is calculated as personal capital commitments to xAI and Starship development, plus X debt servicing."
+        },
+        "2025": {
+          "income": {
+            "total": 245000000000,
+            "sources": [
+              "Tesla Stock Options Restoration (Delaware Court Ruling)",
+              "SpaceX Tender Offer Valuation Surge",
+              "xAI Funding Rounds and Valuation Growth",
+              "Tesla Market Capitalization Recovery"
+            ],
+            "breakdown": {
+              "asset_appreciation_tesla": {
+                "name": "Tesla Equity & Options Gains",
+                "percent": 53.0
+              },
+              "spacex_valuation_growth": {
+                "name": "SpaceX Private Equity Growth",
+                "percent": 31.0
+              },
+              "xai_valuation_increase": {
+                "name": "xAI Valuation Gains",
+                "percent": 16.0
+              }
+            }
+          },
+          "spending": {
+            "total": 21000000000,
+            "breakdown": {
+              "ai_infrastructure_compute": {
+                "name": "AI Infrastructure & Compute (xAI/Tesla)",
+                "percent": 62.0
+              },
+              "aerospace_rd": {
+                "name": "SpaceX Starship & Mars Program",
+                "percent": 24.0
+              },
+              "direct_equity_reinvestment": {
+                "name": "Direct TSLA Stock Purchases",
+                "percent": 5.0
+              },
+              "other_ventures": {
+                "name": "Neuralink/Boring Co & X Operations",
+                "percent": 9.0
+              }
+            }
+          },
+          "methodology": "Income represents the net increase in wealth (approx. $245B) driven by the restoration of the 2018 Tesla pay package ($56B+), SpaceX valuation hitting $800B, and xAI reaching $200B+. Spending is calculated as a sum of estimated personal capital reinvestments and major Capex commitments in controlled entities (e.g., $13B for xAI compute and $8B for Tesla AI/robotics infrastructure)."
+        },
+        "2024": {
+          "income": {
+            "total": 203000000000,
+            "sources": ["Tesla Stock Appreciation", "SpaceX Valuation Increase", "Tesla 2018 CEO Performance Award Re-ratification"],
+            "breakdown": {
+              "category_1": { "name": "Tesla Equity Growth", "percent": 55.2 },
+              "category_2": { "name": "SpaceX Valuation Gains", "percent": 24.6 },
+              "category_3": { "name": "Stock Options Re-valuation", "percent": 15.0 },
+              "category_4": { "name": "xAI and Other Ventures", "percent": 5.2 }
+            }
+          },
+          "spending": {
+            "total": 1041000000,
+            "sources": ["Political Donations", "xAI Capital Investment", "Operational Debt Service"],
+            "breakdown": {
+              "category_1": { "name": "Business Re-investments (xAI)", "percent": 72.1 },
+              "category_2": { "name": "Political Campaign Contributions", "percent": 27.9 }
+            }
+          },
+          "methodology": "Income calculated as the annual delta in Net Worth based on Bloomberg Billionaires Index (from ~$229B to ~$432B). Spending includes confirmed capital injections into xAI ($750M) and documented donations to America PAC and other political entities ($291M). All figures represent realized and unrealized asset movements as per rules for high-net-worth individuals."
+        }
+      }
+    }
