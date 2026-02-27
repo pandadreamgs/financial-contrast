@@ -8,8 +8,36 @@
       "category": "government",
       "color": "#ff4d4d",
       "data": {
-        "2026": { "income": 24000000000, "spending": 26000000000 },
-        "2025": { "income": 23000000000, "spending": 25400000000 }
+        "2026": { 
+          "income": {
+            "total" : 27533700000,
+            "sources" : {
+              "source_1" : {
+                "name" : "Federal Discretionary Appropriations (H.R. 6938)",
+                "percent" : 88.8
+              },
+              "source_2" : {
+                "name" : "Supplemental Funding (One Big Beautiful Bill Act)",
+                "percent" : 11.2
+              }
+            },
+            "data_sources" : {
+              "source_1" : {
+                "name" : "NASA FY 2025 Budget Agency Fact Sheet",
+                "url" : "https://www.nasa.gov/wp-content/uploads/2024/03/fy-2025-budget-agency-fact-sheet.pdf"
+              },
+              "source_2" : {
+                "name" : "Planetary Society Analysis",
+                "url" : "https://www.planetary.org/space-policy/nasas-fy-2025-budget"
+              }
+            }
+          }, 
+          "spending": 26000000000 
+        },
+        "2025": { 
+          "income": 23000000000, 
+          "spending": 25400000000 
+        }
       }
     },
     {
@@ -19,8 +47,14 @@
       "category": "person",
       "color": "#00ff88",
       "data": {
-        "2026": { "income": 180000000000, "spending": 6000000000 },
-        "2025": { "income": 150000000000, "spending": 5000000000 }
+        "2026": { 
+          "income": 180000000000, 
+          "spending": 6000000000 
+        },
+        "2025": { 
+          "income": 150000000000, 
+          "spending": 5000000000 
+        }
       }
     }
   ]
