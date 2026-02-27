@@ -167,7 +167,7 @@ function startTickers() {
             document.getElementById(`${side}Icon`).src = data.image;
             document.getElementById(`${side}Rate`).innerText = (['sec', 'min'].includes(currentTimeUnit)) ? rateFormatter.format(rate) : wholeFormatter.format(rate);
             document.getElementById(`${side}Cumulative`).innerText = wholeFormatter.format(cumulative);
-            document.getElementById(`${side}Unit`).innerText = `/${currentTimeUnit}`;
+            document.getElementById(`${side}Unit`).innerText = window.langUnits ? window.langUnits[currentTimeUnit] : `/${currentTimeUnit}`;
             
             const approxEl = document.getElementById(`${side}Approx`);
             if(approxEl) approxEl.style.visibility = (currentYear === "2026") ? "visible" : "hidden";
