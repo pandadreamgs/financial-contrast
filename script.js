@@ -5,7 +5,7 @@ let cardModes = { left: "spending", right: "income" };
 let financialData = { left: null, right: null };
 let drift = { left: 1, right: 1 };
 
-const availableLangs = ['ua'];
+const availableLangs = ['en', 'ua'];
 const multipliers = {
     sec: 1, min: 60, hour: 3600, day: 86400,
     week: 604800, month: 2592000, year: 31536000
