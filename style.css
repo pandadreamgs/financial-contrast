@@ -235,5 +235,5 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     /* Футер та Донат */
     .donate-card h3 { font-size: 22px; }
     .donate-card p { font-size: 16px; }
-    .seo-section { font-size: 14px; max-width: 800px; margin: 0 auto; }
+    .seo-section { font-size: 14px; max-width: 800px; margin: 0; }
 }
