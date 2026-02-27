@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Financial Contrast</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Financial Contrast</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
-<body>
+<body data-theme="dark">
     <div class="app-container">
         <header>
-            <div class="menu-icon">☰</div>
-            <h1>LIVE FINANCIAL CONTRAST PLATFORM</h1>
-            <div class="info-icon">ⓘ</div>
+            <div class="lang-selector" id="langSelector">
+                </div>
+            <h1 id="mainTitle">LIVE FINANCIAL CONTRAST</h1>
+            <button id="themeToggle" class="btn-tool">🌙</button>
         </header>
 
         <nav class="year-selector" id="yearSelector">
             <button class="active">2026</button>
             <button>2025</button>
             <button>2024</button>
-            <button>Total</button>
         </nav>
 
         <nav class="time-tabs" id="timeTabs">
@@ -33,70 +34,49 @@
 
         <main class="contrast-grid">
             <div class="card spending" id="leftCard" data-side="left">
-                <div class="methodology-trigger" id="leftMethodology" title="Show Methodology">ⓘ</div>
-                
+                <div class="methodology-trigger" id="leftMethodology">ⓘ</div>
                 <div class="card-controls">
-                    <button class="mode-switch active" data-mode="spending">SPENDING</button>
-                    <button class="mode-switch" data-mode="income">INCOME</button>
+                    <button class="mode-switch active" data-mode="spending" id="labelLeftSpend">SPENDING</button>
+                    <button class="mode-switch" data-mode="income" id="labelLeftInc">INCOME</button>
                 </div>
                 <div class="entity-header-block">
                     <div class="entity-header">
-                        <img src="" class="entity-icon" id="leftIcon" alt="">
-                        <h2 class="entity-name" id="leftName">NASA</h2>
+                        <img src="" class="entity-icon" id="leftIcon">
+                        <h2 class="entity-name" id="leftName">...</h2>
                     </div>
                 </div>
-                <div class="entity-type" id="leftType">government</div>
-                
-                <div class="visualizer">
-                    <div class="bar" id="leftBar"></div>
-                </div>
-
+                <div class="entity-type" id="leftType">...</div>
+                <div class="visualizer"><div class="bar" id="leftBar"></div></div>
                 <div class="counter-group">
                     <div class="cumulative" id="leftCumulative">0</div>
-                    <div class="subtext">cumulative since Jan 1</div>
+                    <div class="subtext" id="labelLeftCum">cumulative since Jan 1</div>
                 </div>
-
                 <div class="live-rate">
                     <span id="leftApprox" class="approx">≈</span>
                     <span id="leftRate">0.00</span> <small id="leftUnit">/ sec</small>
                 </div>
-
                 <div class="details-list" id="leftDetails"></div>
             </div>
 
-            <div class="card income" id="rightCard" data-side="right">
-                <div class="methodology-trigger" id="rightMethodology" title="Show Methodology">ⓘ</div>
+            </main>
 
-                <div class="card-controls">
-                    <button class="mode-switch" data-mode="spending">SPENDING</button>
-                    <button class="mode-switch active" data-mode="income">INCOME</button>
-                </div>
-                <div class="entity-header-block">
-                    <div class="entity-header">
-                        <img src="" class="entity-icon" id="rightIcon" alt="">
-                        <h2 class="entity-name" id="rightName">ELON MUSK</h2>
-                    </div>
-                </div>
-                <div class="entity-type" id="rightType">person</div>
+        <div class="donate-section">
+            <h3 id="donateTitle"></h3>
+            <p id="donateDesc"></p>
+            <a href="#" class="btn-donate" id="donateBtn">☕ Buy Me a Coffee</a>
+        </div>
 
-                <div class="visualizer">
-                    <div class="bar" id="rightBar"></div>
-                </div>
+        <section id="seoContent" class="seo-block"></section>
 
-                <div class="counter-group">
-                    <div class="cumulative" id="rightCumulative">0</div>
-                    <div class="subtext">cumulative since Jan 1</div>
-                </div>
-
-                <div class="live-rate">
-                    <span id="rightApprox" class="approx">≈</span>
-                    <span id="rightRate">0.00</span> <small id="rightUnit">/ sec</small>
-                </div>
-
-                <div class="details-list" id="rightDetails"></div>
+        <footer>
+            <div class="footer-main">
+                <span id="footerCreated"></span> 
+                <span class="brand-name">PandaDream</span> 
+                <span class="panda-emoji">🐼</span>
             </div>
-        </main>
+            <div id="footerSlogan" class="footer-slogan">Small tools, big dreams</div>
+        </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
