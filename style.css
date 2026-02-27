@@ -144,22 +144,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 .cumulative { font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums; }
 .subtext { font-size: 8px; color: var(--text-dim); text-transform: uppercase; }
 
-.live-rate { 
-    font-size: 16px; 
-    font-weight: bold; 
-    text-align: center; 
-    display: flex;
-    flex-direction: column; /* Ставимо підпис ПІД цифрою */
-    align-items: center;
-    gap: 2px;
-}
-
-.live-rate small { 
-    font-size: 10px; 
-    text-transform: uppercase; 
-    color: var(--text-dim); 
-    font-weight: normal;
-}
+.live-rate { font-size: 14px; font-weight: bold; text-align: center; }
 
 .mode-switcher {
     display: flex;
