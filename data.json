@@ -8,35 +8,50 @@
       "category": "government",
       "color": "#ff4d4d",
       "data": {
-        "2026": { 
+        "2025": {
           "income": {
-            "total" : 27533700000,
-            "sources" : {
-              "source_1" : {
-                "name" : "Federal Discretionary Appropriations (H.R. 6938)",
-                "percent" : 88.8
+            "total": 25383700000,
+            "sources": [
+              "U.S. Federal Budget Appropriations (Consolidated Appropriations Act)",
+              "Reimbursable Services for Federal and Non-Federal Entities"
+            ],
+            "breakdown": {
+              "federal_funding": {
+                "name": "Federal Appropriations",
+                "percent": 99.8
               },
-              "source_2" : {
-                "name" : "Supplemental Funding (One Big Beautiful Bill Act)",
-                "percent" : 11.2
-              }
-            },
-            "data_sources" : {
-              "source_1" : {
-                "name" : "NASA FY 2025 Budget Agency Fact Sheet",
-                "url" : "https://www.nasa.gov/wp-content/uploads/2024/03/fy-2025-budget-agency-fact-sheet.pdf"
-              },
-              "source_2" : {
-                "name" : "Planetary Society Analysis",
-                "url" : "https://www.planetary.org/space-policy/nasas-fy-2025-budget"
+              "other_revenue": {
+                "name": "Reimbursable and Other Income",
+                "percent": 0.2
               }
             }
-          }, 
-          "spending": 26000000000 
-        },
-        "2025": { 
-          "income": 23000000000, 
-          "spending": 25400000000 
+          },
+          "spending": {
+            "total": 25383700000,
+            "breakdown": {
+              "deep_space_exploration": {
+                "name": "Deep Space Exploration Systems (Artemis, SLS, Orion)",
+                "percent": 30.01
+              },
+              "science": {
+                "name": "Science (Earth Science, Planetary Science, Astrophysics)",
+                "percent": 29.81
+              },
+              "space_operations": {
+                "name": "Space Operations (ISS, Space Communications)",
+                "percent": 17.29
+              },
+              "mission_support": {
+                "name": "Safety, Security, and Mission Services",
+                "percent": 12.00
+              },
+              "other_programs": {
+                "name": "Space Technology, Aeronautics, STEM Engagement",
+                "percent": 10.89
+              }
+            }
+          },
+          "methodology": "Data based on the FY 2025 President's Budget Request and subsequent Congressional Justifications. Total figure represents the enacted budget authority. Spending breakdown calculated by dividing major mission directorate allocations by the total topline figure."
         }
       }
     },
@@ -47,13 +62,58 @@
       "category": "person",
       "color": "#00ff88",
       "data": {
-        "2026": { 
-          "income": 180000000000, 
-          "spending": 6000000000 
-        },
-        "2025": { 
-          "income": 150000000000, 
-          "spending": 5000000000 
+        "2025": {
+          "income": {
+            "total": 245000000000,
+            "sources": [
+              "Tesla Stock Options Restoration (Delaware Court Ruling)",
+              "SpaceX Tender Offer Valuation Surge",
+              "xAI Funding Rounds and Valuation Growth",
+              "Tesla Market Capitalization Recovery"
+            ],
+            "breakdown": {
+              "asset_appreciation_tesla": {
+                "name": "Tesla Equity & Options Gains",
+                "percent": 53.0
+              },
+              "spacex_valuation_growth": {
+                "name": "SpaceX Private Equity Growth",
+                "percent": 31.0
+              },
+              "xai_valuation_increase": {
+                "name": "xAI Valuation Gains",
+                "percent": 16.0
+              }
+            }
+          },
+          "spending": {
+            "total": 21000000000,
+            "sources": [
+              "Tesla R&D and AI Infrastructure",
+              "xAI Compute Power Acquisition",
+              "SpaceX Starship Development",
+              "Personal TSLA Share Purchases"
+            ],
+            "breakdown": {
+              "ai_infrastructure_compute": {
+                "name": "AI Infrastructure & Compute (xAI/Tesla)",
+                "percent": 62.0
+              },
+              "aerospace_rd": {
+                "name": "SpaceX Starship & Mars Program",
+                "percent": 24.0
+              },
+              "direct_equity_reinvestment": {
+                "name": "Direct TSLA Stock Purchases",
+                "percent": 5.0
+              },
+              "other_ventures": {
+                "name": "Neuralink/Boring Co & X Operations",
+                "percent": 9.0
+              }
+            }
+          },
+          "methodology": "Income represents the net increase in wealth (approx. $245B) driven by the restoration of the 2018 Tesla pay package ($56B+), SpaceX valuation hitting $800B, and xAI reaching $200B+. Spending is calculated as a sum of estimated personal capital reinvestments and major Capex commitments in controlled entities (e.g., $13B for xAI compute and $8B for Tesla AI/robotics infrastructure)."
         }
       }
     }
