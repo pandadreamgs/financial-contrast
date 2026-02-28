@@ -154,11 +154,11 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 .counter-group { text-align: center; margin-bottom: 5px; }
 
 .approx {
-    margin-right: 4px;
-    opacity: 0.6;
     display: inline-block;
-    width: 12px; 
+    width: 20px; /* Фіксуємо його місце */
+    opacity: 0.6;
     text-align: center;
+    margin-right: 5px;
 }
 
 .subtext { font-size: 8px; color: var(--text-dim); text-transform: uppercase; }
