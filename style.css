@@ -173,13 +173,15 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 }
 
 .rate-main, .cumulative { 
-    /* Використовуємо системний моноширинний шрифт */
-    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-family: 'Inter', -apple-system, sans-serif; /* Сучасний товстий шрифт */
+    font-weight: 800; /* Робимо його жирним */
+    
+    /* ОЦЕ НАЙВАЖЛИВІШЕ: вмикає рівну ширину для цифр у шрифті Inter */
+    font-feature-settings: "tnum"; 
     font-variant-numeric: tabular-nums; 
+    
     display: inline-block;
-    min-width: 180px; /* Зафіксуй мінімальну ширину, щоб число не "штовхало" сусіда */
     text-align: center;
-    white-space: nowrap;
 }
 .rate-divider {
     width: 30px;
