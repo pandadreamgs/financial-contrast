@@ -201,6 +201,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     height: 100%;
     border-radius: 2px;
     transition: width 1s ease-in-out;
+    opacity: 0.8;
 }
 
 /* FOOTER & DONATE */
