@@ -135,9 +135,18 @@ function updateUI() {
         const mode = cardModes[side];
         const container = document.getElementById(`${side}Details`);
         const breakdown = data.data[currentYear][mode].breakdown;
-        container.innerHTML = Object.values(breakdown).map(item => 
-            `<div class="detail-item"><span>${item.name}</span><b>${item.percent}%</b></div>`
-        ).join('');
+        
+        container.innerHTML = Object.values(breakdown).map(item => `
+            <div class="detail-item">
+                <div class="detail-info">
+                    <span>${item.name}</span>
+                    <b>${item.percent}%</b>
+                </div>
+                <div class="mini-progress-bg">
+                    <div class="mini-progress-bar" style="width: ${item.percent}%; background: ${mode === 'spending' ? 'var(--red-accent)' : 'var(--green-accent)'}"></div>
+                </div>
+            </div>
+        `).join('');
     });
 }
 
