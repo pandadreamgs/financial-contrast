@@ -152,11 +152,6 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 }
 
 .counter-group { text-align: center; margin-bottom: 5px; }
-.cumulative { 
-    font-size: 18px; 
-    font-weight: 800; 
-    font-variant-numeric: tabular-nums; 
-}
 
 .approx {
     margin-right: 4px;
@@ -177,14 +172,15 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     margin-top: 10px;
 }
 
-.rate-main { 
-    font-size: 20px; 
-    font-weight: 800; 
-    /* Ця команда робить всі цифри однаковими за шириною, як у клітинках зошита */
+.rate-main, .cumulative { 
+    /* Використовуємо системний моноширинний шрифт */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
     font-variant-numeric: tabular-nums; 
-    letter-spacing: -0.5px; /* Трохи зближуємо, щоб виглядало акуратніше */
+    display: inline-block;
+    min-width: 180px; /* Зафіксуй мінімальну ширину, щоб число не "штовхало" сусіда */
+    text-align: center;
+    white-space: nowrap;
 }
-
 .rate-divider {
     width: 30px;
     height: 2px;
