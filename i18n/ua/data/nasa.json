@@ -2,7 +2,7 @@
   "id": "nasa",
   "name": "NASA",
   "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
-  "category": "government",
+  "category": "уряд",
   "color": "#ff4d4d",
   "data": {
     "2026": {
