@@ -441,6 +441,17 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     align-items: center;
     gap: 8px;
 }
+
+/* Пульсація при натисканні (опціонально) */
+.tool-wrapper:active {
+    transform: scale(0.95);
+    transition: 0.1s;
+}
+
+/* Якщо хочеш, щоб скріншот не захоплював іконки підказок "?" */
+.info-tooltip-wrapper[data-html2canvas-ignore] {
+    display: none;
+}
 /* Desktop Adaptivity */
 @media (max-width: 380px) {
     .approx { display: none; } /* Прибираємо ≈ якщо зовсім мало місця */
