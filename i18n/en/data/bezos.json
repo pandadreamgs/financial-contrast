@@ -1,7 +1,7 @@
 {
       "id": "bezos",
       "name": "JEFFREY  BEZOS",
-      "image" : "https://upload.wikimedia.org/wikipedia/commons/3/33/Jeff_Bezos_2016.jpg",
+      "image" : "images/bezos.jpg",
       "category": "person",
       "color": "#00ff88",
       "data": {
