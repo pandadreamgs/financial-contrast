@@ -5,7 +5,9 @@
     "short": "UA",
     "spending": "Витрати",
     "income": "Доходи",
-    "cumulative_label": "накопичено з 1 січня",
+    "income_label": "накопичено з 1 січня",
+    "spent_label" : "витрачено з 1 січня",
+    "loss_label" : "втрачено з 1 січня",
     "units": {
       "sec": "за сек",
       "min": "за хв",
