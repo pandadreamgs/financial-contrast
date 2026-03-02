@@ -380,7 +380,67 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     text-shadow: 0 0 8px rgba(255, 77, 77, 0.3);
 }
 .footer-bottom .slogan { margin-top: 5px; opacity: 0.8; font-style: italic; font-size: 12px;}
+/* Контейнер підказки */
+.info-tooltip-wrapper {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 10;
+}
 
+.info-icon {
+    width: 18px;
+    height: 18px;
+    background: var(--nav-btn-bg);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: var(--text-dim);
+    cursor: help;
+    transition: 0.2s;
+}
+
+.info-icon:hover {
+    background: var(--text-main);
+    color: var(--bg-color);
+}
+
+/* Сама плашка з текстом */
+.tooltip-text {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 11px;
+    line-height: 1.4;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s;
+    pointer-events: none;
+    text-align: left;
+}
+
+.info-tooltip-wrapper:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    top: calc(100% + 5px);
+}
+
+/* Фікс для того, щоб картинка і ім'я не з'їжджали вбік */
+.header-main-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 /* Desktop Adaptivity */
 @media (max-width: 380px) {
     .approx { display: none; } /* Прибираємо ≈ якщо зовсім мало місця */
