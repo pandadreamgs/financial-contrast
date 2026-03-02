@@ -113,9 +113,13 @@ window.addEventListener('click', () => {
 
 function applyMainTexts(main) {
     document.getElementById('mainTitle').innerText = main.ui.title;
-    
-    document.getElementById('leftCumLabel').innerText = main.ui.cumulative_label;
-    document.getElementById('rightCumLabel').innerText = main.ui.cumulative_label;
+
+    window.uiLabels = {
+        income: main.ui.income_label,
+        spent: main.ui.spent_label,
+        loss: main.ui.loss_label
+    };
+
     document.getElementById('leftBtnSpending').innerText = main.ui.spending;
     document.getElementById('rightBtnSpending').innerText = main.ui.spending;
     document.getElementById('leftBtnIncome').innerText = main.ui.income;
@@ -223,7 +227,7 @@ function startTickers() {
             if (!data) return;
 
             Object.keys(data.data).forEach(year => {
-                const val = data.data[year][mode].total;
+                const val = Math.abs(data.data[year][mode].total); // Використовуємо абсолютне значення
                 if (val > currentContextMax) currentContextMax = val;
             });
         });
@@ -252,6 +256,20 @@ function startTickers() {
             document.getElementById(`${side}Cumulative`).innerText = wholeFormatter.format(cumulative);
             document.getElementById(`${side}Unit`).innerText = window.langUnits ? window.langUnits[currentTimeUnit] : `/${currentTimeUnit}`;
 
+            // --- НОВА ЛОГІКА ВИБОРУ ЯРЛИКА (Підпис під великим числом) ---
+            let labelText = "";
+            if (window.uiLabels) {
+                if (mode === 'spending') {
+                    labelText = window.uiLabels.spent;
+                } else {
+                    // Якщо доходи, але число мінусове (втрата капіталу)
+                    labelText = (yearlyTotal >= 0) ? window.uiLabels.income : window.uiLabels.loss;
+                }
+                const labelElement = document.getElementById(`${side}CumLabel`);
+                if (labelElement) labelElement.innerText = labelText;
+            }
+            // -----------------------------------------------------------
+
             const visualizer = document.getElementById(`${side}Visualizer`);
             if (visualizer) {
                 if (visualizer.children.length !== 12) {
@@ -266,8 +284,8 @@ function startTickers() {
                 for (let i = 0; i < 12; i++) {
                     const col = columns[i];
                     
-                    // Тепер baseHeight рахується від динамічного currentContextMax
-                    const baseHeight = (yearlyTotal / currentContextMax) * 100;
+                    // Тепер baseHeight рахується від динамічного currentContextMax (використовуємо Math.abs для мінусових значень)
+                    const baseHeight = (Math.abs(yearlyTotal) / currentContextMax) * 100;
 
                     let heightPercent = 0;
                     if (i < currentMonth || currentYear !== "2026") {
