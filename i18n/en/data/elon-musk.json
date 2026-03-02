@@ -1,7 +1,7 @@
 {
       "id": "elon-musk",
       "name": "ELON MUSK",
-      "image" : "https://cdn.geekwire.com/wp-content/uploads/2014/09/elonmusk-300x300.jpeg",
+      "image" : "images/"elon-musk.jpeg",
       "category": "person",
       "color": "#00ff88",
       "data": {
