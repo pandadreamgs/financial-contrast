@@ -198,17 +198,35 @@ function updateUI() {
         const container = document.getElementById(`${side}Details`);
         const breakdown = data.data[currentYear][mode].breakdown;
         
-        container.innerHTML = Object.values(breakdown).map(item => `
-            <div class="detail-item">
-                <div class="detail-info">
-                    <span>${item.name}</span>
-                    <b>${item.percent}%</b>
+        container.innerHTML = Object.values(breakdown).map(item => {
+            // --- РОЗУМНА ЛОГІКА КОЛЬОРУ ---
+            // 1. Якщо ми в режимі витрат (spending) — все червоне.
+            // 2. Якщо в доходах (income): 
+            //    - якщо відсоток мінусовий — червоне (збиток)
+            //    - якщо відсоток плюсовий — зелене (прибуток)
+            
+            let barColor = 'var(--green-accent)';
+            
+            if (mode === 'spending' || item.percent < 0) {
+                barColor = 'var(--red-accent)';
+            }
+
+            // Для відображення тексту використовуємо Math.abs, 
+            // щоб не малювати мінус перед відсотками в інтерфейсі (за бажанням)
+            const displayPercent = Math.abs(item.percent);
+
+            return `
+                <div class="detail-item">
+                    <div class="detail-info">
+                        <span>${item.name}</span>
+                        <b>${displayPercent}%</b>
+                    </div>
+                    <div class="mini-progress-bg">
+                        <div class="mini-progress-bar" style="width: ${displayPercent}%; background: ${barColor}"></div>
+                    </div>
                 </div>
-                <div class="mini-progress-bg">
-                    <div class="mini-progress-bar" style="width: ${item.percent}%; background: ${mode === 'spending' ? 'var(--red-accent)' : 'var(--green-accent)'}"></div>
-                </div>
-            </div>
-        `).join('');
+            `;
+        }).join('');
     });
 }
 
