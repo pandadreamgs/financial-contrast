@@ -78,10 +78,16 @@
                     <button id="rightBtnIncome" class="active" onclick="toggleMode('right', 'income')"></button>
                 </div>
                 <div class="card-header" onclick="toggleEntityMenu('right', event)">
-                    <img id="rightIcon" class="entity-icon" src="">
-                    <div class="name-wrapper">
-                        <span id="rightName" class="entity-name">...</span>
-                        <span class="selector-arrow">▼</span>
+                    <div class="header-main-info">
+                        <img id="rightIcon" class="entity-icon" src="">
+                        <div class="name-wrapper">
+                            <span id="rightName" class="entity-name">...</span>
+                            <span class="selector-arrow">▼</span>
+                        </div>
+                    </div>
+                    <div class="info-tooltip-wrapper" onclick="event.stopPropagation()">
+                        <span class="info-icon">?</span>
+                        <div class="tooltip-text" id="rightMethodology">...</div>
                     </div>
                     <div id="rightEntityMenu" class="entity-dropdown"></div>
                 </div>
