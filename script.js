@@ -299,10 +299,12 @@ function startTickers() {
                 const daysInMonth = new Date(now.getFullYear(), currentMonth + 1, 0).getDate();
                 const monthProgress = now.getDate() / daysInMonth;
 
+                // Перевіряємо, чи загальний результат року від'ємний
+                const isYearlyLoss = yearlyTotal < 0;
+
                 for (let i = 0; i < 12; i++) {
                     const col = columns[i];
                     
-                    // Тепер baseHeight рахується від динамічного currentContextMax (використовуємо Math.abs для мінусових значень)
                     const baseHeight = (Math.abs(yearlyTotal) / currentContextMax) * 100;
 
                     let heightPercent = 0;
@@ -321,8 +323,11 @@ function startTickers() {
 
                     col.style.height = `${Math.max(heightPercent, 2)}%`;
                     
-                    const color = (mode === 'spending') ? '#ff4d4d' : '#00ff88';
-                    const shadow = (mode === 'spending') ? 'rgba(255, 77, 77, 0.3)' : 'rgba(0, 255, 136, 0.3)';
+                    // --- ЛОГІКА КОЛЬОРУ ГРАФІКА ---
+                    // Якщо режим 'spending' АБО якщо доходи пішли в мінус — малюємо червоним
+                    const color = (mode === 'spending' || isYearlyLoss) ? '#ff4d4d' : '#00ff88';
+                    const shadow = (mode === 'spending' || isYearlyLoss) ? 'rgba(255, 77, 77, 0.3)' : 'rgba(0, 255, 136, 0.3)';
+                    
                     col.style.setProperty('--accent-color', color);
                     col.style.setProperty('--accent-shadow', shadow);
                 }
