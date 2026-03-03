@@ -288,6 +288,9 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     color: var(--text-dim); 
     font-weight: 500;
     letter-spacing: 0.5px;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 .mode-switcher {
