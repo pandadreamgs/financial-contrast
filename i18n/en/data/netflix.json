@@ -1,0 +1,169 @@
+{
+      "id": "netflix",
+      "name": "NETFLIX",
+      "image": "images/netflix.svg",
+      "category": "corporation",
+      "color": "#ff4d4d",
+      "data": {
+        "2026": {
+          "income": {
+            "total": 51200000000,
+            "sources": [
+              "Netflix Q4 2025 Shareholder Letter Guidance",
+              "Zacks Investment Research Consensus 2026",
+              "Morgan Stanley Equity Research 2026 Forecast"
+            ],
+            "breakdown": {
+              "ucan_streaming": {
+                "name": "United States and Canada",
+                "percent": 43.15
+              },
+              "emea_streaming": {
+                "name": "Europe, Middle East, and Africa",
+                "percent": 32.10
+              },
+              "latam_streaming": {
+                "name": "Latin America",
+                "percent": 11.50
+              },
+              "apac_streaming": {
+                "name": "Asia-Pacific",
+                "percent": 9.25
+              },
+              "advertising_revenue": {
+                "name": "Advertising Revenue",
+                "percent": 4.00
+              }
+            }
+          },
+          "spending": {
+            "total": 35072000000,
+            "breakdown": {
+              "cost_of_revenues": {
+                "name": "Cost of Revenues (Content Amortization)",
+                "percent": 74.50
+              },
+              "marketing": {
+                "name": "Marketing Expenses",
+                "percent": 8.80
+              },
+              "technology_development": {
+                "name": "Technology and Development",
+                "percent": 8.50
+              },
+              "general_administrative": {
+                "name": "General and Administrative",
+                "percent": 8.20
+              }
+            }
+          },
+          "methodology": "The 2026 forecast uses the midpoint of Netflix's official revenue guidance ($50.7B - $51.7B). Spending is calculated based on the management target of a 31.5% operating margin. Total operating expenses derived as Revenue * (1 - Operating Margin). Income breakdown reflects a projected doubling of ad revenue to $2B-$3B and steady growth in international segments, while spending breakdown assumes a 10% increase in content amortization as per CFO guidance."
+        },
+        "2025": {
+          "income": {
+            "total": 45183000000,
+            "sources": [
+              "Netflix Q4 2025 Shareholder Letter (January 20, 2026)",
+              "Netflix Inc. Annual Report 2025 (Form 10-K)"
+            ],
+            "breakdown": {
+              "ucan_streaming": {
+                "name": "United States and Canada",
+                "percent": 44.20
+              },
+              "emea_streaming": {
+                "name": "Europe, Middle East, and Africa",
+                "percent": 31.85
+              },
+              "latam_streaming": {
+                "name": "Latin America",
+                "percent": 11.98
+              },
+              "apac_streaming": {
+                "name": "Asia-Pacific",
+                "percent": 9.32
+              },
+              "advertising_revenue": {
+                "name": "Advertising Revenue",
+                "percent": 2.65
+              }
+            }
+          },
+          "spending": {
+            "total": 31854015000,
+            "breakdown": {
+              "cost_of_revenues": {
+                "name": "Cost of Revenues (Content & Licensing)",
+                "percent": 74.05
+              },
+              "marketing": {
+                "name": "Marketing",
+                "percent": 9.15
+              },
+              "technology_development": {
+                "name": "Technology and Development",
+                "percent": 8.92
+              },
+              "general_administrative": {
+                "name": "General and Administrative",
+                "percent": 7.88
+              }
+            }
+          },
+          "methodology": "Actual 2025 fiscal year figures based on the SEC 10-K filing. Total spending is calculated as the sum of operating expenses (Cost of Revenues + Marketing + Tech & Development + G&A). Revenue breakdown uses reported regional segments, with Advertising Revenue highlighted as a separate high-growth lever reaching over $1.2B."
+        },
+        "2024": {
+          "income": {
+            "total": 39000966000,
+            "sources": [
+              "Netflix Annual Report (Form 10-K) 2024",
+              "Q4 2024 Shareholder Letter"
+            ],
+            "breakdown": {
+              "ucan_streaming": {
+                "name": "United States and Canada Streaming",
+                "percent": 44.49
+              },
+              "emea_streaming": {
+                "name": "Europe, Middle East and Africa Streaming",
+                "percent": 31.75
+              },
+              "latam_streaming": {
+                "name": "Latin America Streaming",
+                "percent": 12.42
+              },
+              "apac_streaming": {
+                "name": "Asia-Pacific Streaming",
+                "percent": 9.64
+              },
+              "other_revenue": {
+                "name": "Advertising and Non-streaming Revenue",
+                "percent": 1.70
+              }
+            }
+          },
+          "spending": {
+            "total": 28583352000,
+            "breakdown": {
+              "cost_of_revenues": {
+                "name": "Cost of Revenues (Content Amortization and Licensing)",
+                "percent": 73.61
+              },
+              "marketing": {
+                "name": "Marketing Expenses",
+                "percent": 9.42
+              },
+              "technology_development": {
+                "name": "Technology and Development",
+                "percent": 9.11
+              },
+              "general_administrative": {
+                "name": "General and Administrative",
+                "percent": 7.86
+              }
+            }
+          },
+          "methodology": "Data extracted from the consolidated statements of operations in Netflix's 2024 10-K filing. Total spending is calculated as the sum of all operating expenses (Cost of Revenues, Marketing, Technology & Development, and G&A). Percentages are derived by dividing each categorical value by the respective total income or spending figure."
+        }
+      }
+    }
