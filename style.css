@@ -277,13 +277,14 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     width: 30px;
     height: 2px;
     background: var(--border);
-    margin: 4px 0;
+    margin: 4px auto;
     border-radius: 2px;
 }
 
 .live-rate small { 
     font-size: 9px;
     text-transform: uppercase; 
+    align-items: center;
     color: var(--text-dim); 
     font-weight: 500;
     letter-spacing: 0.5px;
