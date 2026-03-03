@@ -112,7 +112,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 .card-header:hover { background: rgba(255,255,255,0.05); }
 .year-badge {
     position: absolute;
-    top: 55px;
+    top: 95px;
     right: 8px;
     background: var(--nav-btn-bg);
     border: 1px solid var(--border);
@@ -524,7 +524,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     .year-badge {
         font-size: 12px;
         padding: 4px 10px;
-        top: 55px;
+        top: 95px;
         right: 15px;
     }
 
