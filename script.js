@@ -297,6 +297,7 @@ function startTickers() {
             }
 
             // --- ДОДАЄМО ТЕГ РОКУ НА КАРТКУ ---
+            // --- ДОДАЄМО ТЕГ РОКУ НА КАРТКУ (З ЕФЕКТОМ LIVE) ---
             const card = document.getElementById(`${side}Card`);
             let yearBadge = card.querySelector('.year-badge');
             if (!yearBadge) {
@@ -304,7 +305,13 @@ function startTickers() {
                 yearBadge.className = 'year-badge';
                 card.appendChild(yearBadge);
             }
-            yearBadge.innerText = currentYear;
+
+            if (currentYear === "2026") {
+                yearBadge.innerHTML = `<span class="live-dot"></span> LIVE ${currentYear}`;
+                yearBadge.classList.add('live-active');
+            } else {
+                yearBadge.innerText = currentYear;
+                yearBadge.classList.remove('live-active');
             }
             // -----------------------------------------------------------
 
