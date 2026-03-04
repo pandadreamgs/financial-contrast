@@ -1,20 +1,20 @@
 {
   "id": "us-defence-department",
-  "name": "United States Department of Defense",
+  "name": "Міністерство оборони США",
   "image": "images/us-defence-department.svg",
-  "category": "department",
+  "category": "департамент",
   "color": "#ff4d4d",
   "data": {
     "2026": {
       "income": {
         "total": 874000000000,
         "sources": [
-          "Presidential Budget Request FY2026",
-          "CBO Multi-year Defense Spending Projections"
+          "Запит на президентський бюджет на 2026 фінансовий рік",
+          "Прогнози багаторічних витрат на оборону CBO (Бюджетне управління Конгресу)"
         ],
         "breakdown": {
           "discretionary_funding": {
-            "name": "Discretionary Budget Authority",
+            "name": "Дискреційні бюджетні повноваження",
             "percent": 100.0
           }
         }
@@ -23,39 +23,39 @@
         "total": 874000000000,
         "breakdown": {
           "operation_and_maintenance": {
-            "name": "Operation and Maintenance",
+            "name": "Експлуатація та технічне обслуговування",
             "percent": 38.8
           },
           "procurement": {
-            "name": "Procurement of Advanced Weapon Systems",
+            "name": "Закупівля сучасних систем озброєння",
             "percent": 20.2
           },
           "military_personnel": {
-            "name": "Military Personnel",
+            "name": "Грошове забезпечення військовослужбовців",
             "percent": 21.1
           },
           "research_and_development": {
-            "name": "Research, Development, Test and Evaluation",
+            "name": "Дослідження, розробка, випробування та оцінка (RDT&E)",
             "percent": 17.5
           },
           "other": {
-            "name": "Atomic Energy and Defense-Related Activities",
+            "name": "Атомна енергія та діяльність, пов'язана з обороною",
             "percent": 2.4
           }
         }
       },
-      "methodology": "The 2026 total is derived from the official FY2026 budget submission to Congress. Breakdown percentages are calculated using a 3-year CAGR (Compound Annual Growth Rate) of 2.8% applied to core accounts, adjusted for the shift towards RDT&E and Procurement in alignment with the National Defense Strategy."
+      "methodology": "Загальна сума на 2026 рік отримана з офіційного бюджетного запиту на 2026 фінансовий рік, поданого до Конгресу. Відсотковий розподіл розрахований з використанням 3-річного CAGR (середньорічного темпу зростання) у розмірі 2,8% для основних рахунків, з урахуванням зміщення пріоритетів у бік RDT&E та закупівель відповідно до Стратегії національної оборони."
     },
     "2025": {
       "income": {
         "total": 849800000000,
         "sources": [
-          "President’s Budget Request FY2025",
-          "Congressional Budget Office (CBO) Estimates"
+          "Запит на бюджет Президента на 2025 фінансовий рік",
+          "Оцінки Бюджетного управління Конгресу (CBO)"
         ],
         "breakdown": {
           "discretionary_funding": {
-            "name": "Discretionary Budget Authority",
+            "name": "Дискреційні бюджетні повноваження",
             "percent": 100.0
           }
         }
@@ -64,39 +64,39 @@
         "total": 849800000000,
         "breakdown": {
           "operation_and_maintenance": {
-            "name": "Operation and Maintenance",
+            "name": "Експлуатація та технічне обслуговування",
             "percent": 39.7
           },
           "military_personnel": {
-            "name": "Military Personnel",
+            "name": "Грошове забезпечення військовослужбовців",
             "percent": 21.4
           },
           "research_and_development": {
-            "name": "Research, Development, Test and Evaluation (RDT&E)",
+            "name": "Дослідження, розробка, випробування та оцінка (RDT&E)",
             "percent": 16.8
           },
           "procurement": {
-            "name": "Procurement",
+            "name": "Закупівлі озброєння",
             "percent": 19.7
           },
           "other": {
-            "name": "Military Construction and Family Housing",
+            "name": "Військове будівництво та сімейне житло",
             "percent": 2.4
           }
         }
       },
-      "methodology": "The income total reflects the FY2025 Department of Defense budget request aligned with the Fiscal Responsibility Act caps. Spending breakdown is derived from the 'Department of Defense Budget Fiscal Year 2025 Financial Summary Tables', focusing on the primary appropriation titles."
+      "methodology": "Загальний дохід відображає запит на бюджет Міністерства оборони на 2025 фінансовий рік, узгоджений з обмеженнями Закону про фіскальну відповідальність. Розподіл витрат отримано з «Таблиць фінансового підсумку бюджету Міністерства оборони на 2025 фінансовий рік», зосереджуючись на основних статтях асигнувань."
     },
     "2024": {
       "income": {
         "total": 841400000000,
         "sources": [
-          "National Defense Authorization Act (NDAA) FY2024",
-          "Congressional Defense Appropriations"
+          "Закон про повноваження у сфері національної оборони (NDAA) на 2024 фінансовий рік",
+          "Оборонні асигнування Конгресу"
         ],
         "breakdown": {
           "discretionary_appropriations": {
-            "name": "Federal Discretionary Budget Authority",
+            "name": "Федеральні дискреційні бюджетні повноваження",
             "percent": 100.0
           }
         }
@@ -105,28 +105,28 @@
         "total": 826000000000,
         "breakdown": {
           "operation_and_maintenance": {
-            "name": "Operation and Maintenance",
+            "name": "Експлуатація та технічне обслуговування",
             "percent": 38.0
           },
           "military_personnel": {
-            "name": "Military Personnel",
+            "name": "Грошове забезпечення військовослужбовців",
             "percent": 22.0
           },
           "procurement": {
-            "name": "Procurement of Weapons and Systems",
+            "name": "Закупівля зброї та систем",
             "percent": 17.0
           },
           "research_and_development": {
-            "name": "Research, Development, Test and Evaluation",
+            "name": "Дослідження, розробка, випробування та оцінка",
             "percent": 16.0
           },
           "other": {
-            "name": "Construction, Family Housing and Other Activities",
+            "name": "Будівництво, сімейне житло та інша діяльність",
             "percent": 7.0
           }
         }
       },
-      "methodology": "Income represents the total enacted budget authority specifically for the Department of Defense as per the FY2024 NDAA. Spending reflects actual outlays for DoD military activities (excluding broader National Defense spending by the DoE and other agencies), with percentage breakdowns based on OMB and Peterson Foundation financial reports for FY2024."
+      "methodology": "Дохід представляє загальні затверджені бюджетні повноваження саме для Міністерства оборони згідно з NDAA на 2024 фінансовий рік. Витрати відображають фактичні виплати на військову діяльність Міноборони (виключаючи ширші витрати на національну оборону Міністерства енергетики та інших відомств); відсотковий розподіл базується на фінансових звітах OMB та Фонду Петерсона за 2024 фінансовий рік."
     }
   }
 }
