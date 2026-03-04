@@ -1,0 +1,81 @@
+{
+      "id": "red-cross",
+      "name": "International Committee of the Red Cross",
+      "image": "images/red-cross.svg",
+      "category": "Non-profit organization",
+      "data": {
+        "2026": {
+          "income": {
+            "total": 1800000000,
+            "sources": [
+              "States Party to the Geneva Conventions",
+              "European Commission (DG ECHO)",
+              "National Red Cross and Red Crescent Societies",
+              "Private and Philanthropic Donors"
+            ],
+            "breakdown": {
+              "government_donors": { "name": "Governments and Supranational Organizations", "percent": 82.0 },
+              "private_public_sources": { "name": "Public and Private Sector Contributions", "percent": 15.0 },
+              "movement_partners": { "name": "Red Cross and Red Crescent Movement", "percent": 3.0 }
+            }
+          },
+          "spending": {
+            "total": 1800000000,
+            "breakdown": {
+              "field_operations": { "name": "Frontline Operations and Field Programs", "percent": 89.0 },
+              "headquarters_support": { "name": "Headquarters and Institutional Management", "percent": 11.0 }
+            }
+          },
+          "methodology": "Official 2026 Budget Appeal approved by the ICRC Assembly. Total amount is 1.8 billion Swiss Francs (CHF), representing a 17% reduction compared to 2025. Spending breakdown follows the institutional efficiency target of 89/11 ratio between operations and support costs."
+        },
+        "2025": {
+          "income": {
+            "total": 2170000000,
+            "sources": [
+              "State Parties to the Geneva Conventions",
+              "European Commission (DG ECHO)",
+              "National Red Cross and Red Crescent Societies",
+              "Private Foundations and Individual Donors"
+            ],
+            "breakdown": {
+              "government_contributions": { "name": "Governments and Supranational Organizations", "percent": 87.0 },
+              "private_sector": { "name": "Private and Public Sources", "percent": 11.0 },
+              "movement_partners": { "name": "Red Cross and Red Crescent Movement", "percent": 2.0 }
+            }
+          },
+          "spending": {
+            "total": 2170000000,
+            "breakdown": {
+              "field_operations": { "name": "Field Operations (Assistance and Protection)", "percent": 89.0 },
+              "hq_management": { "name": "Headquarters and Administrative Support", "percent": 11.0 }
+            }
+          },
+          "methodology": "Data based on the ICRC Official Appeal 2025. The total budget of CHF 2.17 billion is split between field operations (CHF 1.9 billion) and headquarters (CHF 243 million). Income is projected as voluntary contributions based on historical 90% implementation rates."
+        },
+        "2024": {
+          "income": {
+            "total": 2040000000,
+            "sources": [
+              "Governments and European Commission",
+              "Public and Private Sources",
+              "National Red Cross and Red Crescent Societies",
+              "Supranational Organizations"
+            ],
+            "breakdown": {
+              "governments_ec": { "name": "Governments and European Commission", "percent": 90.0 },
+              "private_public": { "name": "Private and Public Sources", "percent": 9.0 },
+              "movement_partners": { "name": "Red Cross and Red Crescent Movement", "percent": 1.0 }
+            }
+          },
+          "spending": {
+            "total": 1920000000,
+            "breakdown": {
+              "field_operations": { "name": "Field Operations (Protection and Assistance)", "percent": 88.0 },
+              "headquarters_management": { "name": "Headquarters and Support Costs", "percent": 11.0 },
+              "other_activities": { "name": "Other Humanitarian Activities", "percent": 1.0 }
+            }
+          },
+          "methodology": "Data based on the ICRC Annual Report 2024. Total income represents donor contributions of CHF 2.04 billion. Spending is based on total expenditure of CHF 1.92 billion, where CHF 1.69 billion was allocated directly to field operations."
+        }
+      }
+    }
