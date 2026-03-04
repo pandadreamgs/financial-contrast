@@ -1,6 +1,6 @@
 let currentLang = 'ua';
 const availableLangs = ['ua', 'en']; 
-const entityList = ['nasa', 'elon-musk', 'bezos', 'netflix', 'south-sudan', 'us-defence-department', 'tokio'];
+const entityList = ['nasa', 'elon-musk', 'bezos', 'netflix', 'south-sudan', 'us-defence-department', 'tokio', 'european-union'];
 let langDataCache = {}; 
 let currentYear = "2026";
 let currentTimeUnit = "sec";
