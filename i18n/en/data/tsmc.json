@@ -1,7 +1,7 @@
 {
   "id": "tsmc",
   "name": "TSMC",
-  "image": "images/TSMC.svg",
+  "image": "images/tsmc.svg",
   "category": "corporation",
   "data": {
     "2026": {
