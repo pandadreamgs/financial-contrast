@@ -1,7 +1,7 @@
 {
   "id": "usa",
   "name": "USA",
-  "image": "images/USA.svg",
+  "image": "images/usa.svg",
   "category": "country",
   "data": {
     "2026": {
