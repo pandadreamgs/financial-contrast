@@ -1,77 +1,173 @@
 {
-      "id": "tokio",
-      "name": "TOKIO",
-      "image": "images/tokio.svg",
-      "category": "city",
-      "data": {
-        "2026": {
-          "income": {
-            "total": 8703000000000,
-            "sources": ["Metropolitan Tax Revenue", "National Treasury Disbursements", "Metropolitan Bonds", "Local Transfer Taxes"],
-            "breakdown": {
-              "metropolitan_taxes": { "name": "Metropolitan Taxes", "percent": 74.5 },
-              "national_disbursements": { "name": "National Treasury Disbursements", "percent": 6.3 },
-              "metropolitan_bonds": { "name": "Metropolitan Bonds", "percent": 4.5 },
-              "others": { "name": "Other Revenues and Fees", "percent": 14.7 }
-            }
+  "id": "tokio",
+  "name": "TOKIO",
+  "image": "images/tokio.svg",
+  "category": "city",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 54693020061,
+        "sources": [
+          "Metropolitan Tax Revenue",
+          "National Treasury Disbursements",
+          "Metropolitan Bonds",
+          "Local Transfer Taxes"
+        ],
+        "breakdown": {
+          "metropolitan_taxes": {
+            "name": "Metropolitan Taxes",
+            "percent": 74.5
           },
-          "spending": {
-            "total": 8703000000000,
-            "breakdown": {
-              "welfare_health": { "name": "Welfare and Aging Population Support", "percent": 20.1 },
-              "green_transformation": { "name": "Green Transformation and Energy Security", "percent": 14.8 },
-              "education_childcare": { "name": "Digital Education and Childcare Support", "percent": 13.9 },
-              "infrastructure_resilience": { "name": "Urban Resilience and Disaster Infrastructure", "percent": 12.5 },
-              "others": { "name": "General Administration and Debt Service", "percent": 38.7 }
-            }
+          "national_disbursements": {
+            "name": "National Treasury Disbursements",
+            "percent": 6.3
           },
-          "methodology": "Forecast for 2026 is based on a 3-year CAGR of 1.49% applied to the FY2025 base budget. Income projections account for a 1.2% expected growth in corporate tax revenue due to strong performance in the tech sector, partially offset by increased bond dependency (4.5%). Spending reflects the shift under PM Takaichi's 'proactive' fiscal stance, specifically prioritizing green energy subsidies and digital infrastructure, alongside the mandatory 2% annual increase in social security costs for the aging population. Total general account remains balanced at 8.703 trillion yen."
-        },
-        "2025": {
-          "income": {
-            "total": 8575000000000,
-            "sources": ["Metropolitan Tax Revenue", "National Treasury Disbursements", "Metropolitan Bonds", "Local Transfer Taxes"],
-            "breakdown": {
-              "metropolitan_taxes": { "name": "Metropolitan Taxes", "percent": 74.8 },
-              "national_disbursements": { "name": "National Treasury Disbursements", "percent": 6.1 },
-              "metropolitan_bonds": { "name": "Metropolitan Bonds", "percent": 4.2 },
-              "others": { "name": "Other Revenues and Fees", "percent": 14.9 }
-            }
+          "metropolitan_bonds": {
+            "name": "Metropolitan Bonds",
+            "percent": 4.5
           },
-          "spending": {
-            "total": 8575000000000,
-            "breakdown": {
-              "welfare_health": { "name": "Welfare and Social Services", "percent": 19.5 },
-              "education_childcare": { "name": "Education and Childcare Support", "percent": 14.2 },
-              "disaster_resilience": { "name": "Disaster Prevention and Resilience", "percent": 13.1 },
-              "economic_growth": { "name": "Industrial and Economic Promotion", "percent": 8.7 },
-              "others": { "name": "General Administration and Debt Service", "percent": 44.5 }
-            }
-          },
-          "methodology": "The 2025 figures represent the Initial Budget General Account as approved by the TMG. The increase in total volume reflects a 1.44% growth compared to FY2024, driven by record-high tax revenue projections and increased spending on the 'Children First' policy and urban decarbonization initiatives. Calculations maintain the precise 8.575 trillion yen benchmark."
-        },
-        "2024": {
-          "income": {
-            "total": 8453000000000,
-            "sources": ["Tokyo Metropolitan Tax Revenue", "National Treasury Disbursements", "Metropolitan Bonds", "Local Transfer Taxes"],
-            "breakdown": {
-              "metropolitan_taxes": { "name": "Metropolitan Taxes", "percent": 75.3 },
-              "national_disbursements": { "name": "National Treasury Disbursements", "percent": 5.8 },
-              "metropolitan_bonds": { "name": "Metropolitan Bonds", "percent": 3.7 },
-              "others": { "name": "Other Revenues and Transfers", "percent": 15.2 }
-            }
-          },
-          "spending": {
-            "total": 8453000000000,
-            "breakdown": {
-              "welfare_health": { "name": "Welfare and Public Health", "percent": 18.2 },
-              "education_culture": { "name": "Education and Culture", "percent": 13.5 },
-              "infrastructure_city": { "name": "Infrastructure and City Planning", "percent": 12.8 },
-              "industrial_labor": { "name": "Industrial and Labor Affairs", "percent": 9.4 },
-              "others": { "name": "General Administration and Debt Service", "percent": 46.1 }
-            }
-          },
-          "methodology": "Data based on the Tokyo Metropolitan Government (TMG) Fiscal Year 2024 Initial General Account Budget. Income is derived primarily from metropolitan tax revenues and bond issuances. Spending reflects the strategic priorities under the 'Future Tokyo' strategy, focusing on child welfare, disaster resilience, and economic growth. Figures are calculated based on the official 8.453 trillion yen total for the General Account."
+          "others": {
+            "name": "Other Revenues and Fees",
+            "percent": 14.7
+          }
         }
-      }
+      },
+      "spending": {
+        "total": 54693020061,
+        "breakdown": {
+          "welfare_health": {
+            "name": "Welfare and Aging Population Support",
+            "percent": 20.1
+          },
+          "green_transformation": {
+            "name": "Green Transformation and Energy Security",
+            "percent": 14.8
+          },
+          "education_childcare": {
+            "name": "Digital Education and Childcare Support",
+            "percent": 13.9
+          },
+          "infrastructure_resilience": {
+            "name": "Urban Resilience and Disaster Infrastructure",
+            "percent": 12.5
+          },
+          "others": {
+            "name": "General Administration and Debt Service",
+            "percent": 38.7
+          }
+        }
+      },
+      "methodology": "Forecast for 2026 is based on a 3-year CAGR of 1.49% applied to the FY2025 base budget. Income projections account for a 1.2% expected growth in corporate tax revenue due to strong performance in the tech sector, partially offset by increased bond dependency (4.5%). Spending reflects the shift under PM Takaichi's 'proactive' fiscal stance, specifically prioritizing green energy subsidies and digital infrastructure, alongside the mandatory 2% annual increase in social security costs for the aging population. Total general account remains balanced at 54.693 billion USD."
+    },
+    "2025": {
+      "income": {
+        "total": 53888618525,
+        "sources": [
+          "Metropolitan Tax Revenue",
+          "National Treasury Disbursements",
+          "Metropolitan Bonds",
+          "Local Transfer Taxes"
+        ],
+        "breakdown": {
+          "metropolitan_taxes": {
+            "name": "Metropolitan Taxes",
+            "percent": 74.8
+          },
+          "national_disbursements": {
+            "name": "National Treasury Disbursements",
+            "percent": 6.1
+          },
+          "metropolitan_bonds": {
+            "name": "Metropolitan Bonds",
+            "percent": 4.2
+          },
+          "others": {
+            "name": "Other Revenues and Fees",
+            "percent": 14.9
+          }
+        }
+      },
+      "spending": {
+        "total": 53888618525,
+        "breakdown": {
+          "welfare_health": {
+            "name": "Welfare and Social Services",
+            "percent": 19.5
+          },
+          "education_childcare": {
+            "name": "Education and Childcare Support",
+            "percent": 14.2
+          },
+          "disaster_resilience": {
+            "name": "Disaster Prevention and Resilience",
+            "percent": 13.1
+          },
+          "economic_growth": {
+            "name": "Industrial and Economic Promotion",
+            "percent": 8.7
+          },
+          "others": {
+            "name": "General Administration and Debt Service",
+            "percent": 44.5
+          }
+        }
+      },
+      "methodology": "The 2025 figures represent the Initial Budget General Account as approved by the TMG. The increase in total volume reflects a 1.44% growth compared to FY2024, driven by record-high tax revenue projections and increased spending on the 'Children First' policy and urban decarbonization initiatives. Calculations maintain the precise 53.889 billion USD benchmark."
+    },
+    "2024": {
+      "income": {
+        "total": 53121923311,
+        "sources": [
+          "Tokyo Metropolitan Tax Revenue",
+          "National Treasury Disbursements",
+          "Metropolitan Bonds",
+          "Local Transfer Taxes"
+        ],
+        "breakdown": {
+          "metropolitan_taxes": {
+            "name": "Metropolitan Taxes",
+            "percent": 75.3
+          },
+          "national_disbursements": {
+            "name": "National Treasury Disbursements",
+            "percent": 5.8
+          },
+          "metropolitan_bonds": {
+            "name": "Metropolitan Bonds",
+            "percent": 3.7
+          },
+          "others": {
+            "name": "Other Revenues and Transfers",
+            "percent": 15.2
+          }
+        }
+      },
+      "spending": {
+        "total": 53121923311,
+        "breakdown": {
+          "welfare_health": {
+            "name": "Welfare and Public Health",
+            "percent": 18.2
+          },
+          "education_culture": {
+            "name": "Education and Culture",
+            "percent": 13.5
+          },
+          "infrastructure_city": {
+            "name": "Infrastructure and City Planning",
+            "percent": 12.8
+          },
+          "industrial_labor": {
+            "name": "Industrial and Labor Affairs",
+            "percent": 9.4
+          },
+          "others": {
+            "name": "General Administration and Debt Service",
+            "percent": 46.1
+          }
+        }
+      },
+      "methodology": "Data based on the Tokyo Metropolitan Government (TMG) Fiscal Year 2024 Initial General Account Budget. Income is derived primarily from metropolitan tax revenues and bond issuances. Spending reflects the strategic priorities under the 'Future Tokyo' strategy, focusing on child welfare, disaster resilience, and economic growth. Figures are calculated based on the official 53.122 billion USD total for the General Account."
     }
+  }
+}
