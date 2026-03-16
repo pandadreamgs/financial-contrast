@@ -1,7 +1,12 @@
 let currentLang = 'ua';
 const availableLangs = ['ua', 'en']; 
 const entityList = ['nasa', 'elon-musk', 'bezos', 'netflix', 'south-sudan', 'us-defence-department',
-                    'tokio', 'european-union', 'healthcare-canada'];
+                    'tokio', 'european-union', 'healthcare-canada', 'red-cross', 'african-union',
+                    'amazon', 'amnesty-international', 'apple', 'arab-league',
+                    'asean', 'bernard-arnault', 'bill-gates', 'bundeswehr', 'cern', 'china',
+                    'coca-cola', 'cristiano-ronaldo', 'department-of-energy', 'disney', 'dubai',
+                    'eda', 'emirates', 'esa', 'faa', 'fbi', 'fifa', 'g7', 'gates-foundation',
+                    'google', 'greenpeace', 'hong-kong'];
 let langDataCache = {}; 
 let currentYear = "2026";
 let currentTimeUnit = "sec";
