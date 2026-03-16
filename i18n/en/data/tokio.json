@@ -2,7 +2,7 @@
       "id": "tokio",
       "name": "TOKIO",
       "image": "images/tokio.svg",
-      "category": "sity",
+      "category": "city",
       "data": {
         "2026": {
           "income": {
