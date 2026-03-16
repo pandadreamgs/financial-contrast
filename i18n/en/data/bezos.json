@@ -1,0 +1,68 @@
+{
+      "id": "bezos",
+      "name": "JEFFREY  BEZOS",
+      "image" : "images/bezos.jpg",
+      "category": "person",
+      "data": {
+        "2026": {
+          "income": {
+            "total": -26480000000,
+            "sources": ["Amazon (AMZN) Market Valuation Adjustment", "Scheduled Stock Divestment (Ending May 2026)", "Blue Origin Commercial & NASA Contracts"],
+            "breakdown": {
+              "unrealized_market_loss": { "name": "Unrealized Capital Loss (Market Correction)", "percent": -118.4 },
+              "realized_liquidity": { "name": "Realized Cash from Scheduled Sales", "percent": 18.4 }
+            }
+          },
+          "spending": {
+            "total": 12850000000,
+            "breakdown": {
+              "space_exploration": { "name": "Blue Origin Capital Expenditure", "percent": 31.1 },
+              "philanthropy": { "name": "Bezos Earth Fund 2030 Decisive Decade Grants", "percent": 10.1 },
+              "private_equity": { "name": "Bezos Expeditions AI & Fusion Investments", "percent": 8.6 },
+              "operational_and_tax": { "name": "Tax Obligations & Asset Management", "percent": 50.2 }
+            }
+          },
+          "methodology": "2026 Income is calculated as a net loss due to a $16B single-day drop in Feb 2026 and subsequent Q1 volatility, totaling an estimated $31B unrealized loss, offset by $4.87B in realized cash from a trading plan active through May 29, 2026. Spending follows the established $4B/year Blue Origin burn rate plus accelerated Earth Fund outlays as the fund aims for its $10B target by 2030."
+        },
+        "2025": {
+          "income": {
+            "total": 65128000000,
+            "sources": ["Amazon (AMZN) Equity Appreciation", "SEC Form 144 Stock Divestment", "Blue Origin Government Contracts (NASA/USSF)"],
+            "breakdown": {
+              "unrealized_capital_gains": { "name": "Unrealized Portfolio Growth", "percent": 84.4 },
+              "realized_stock_sales": { "name": "Liquidated Amazon Shares", "percent": 15.6 }
+            }
+          },
+          "spending": {
+            "total": 15450000000,
+            "breakdown": {
+              "space_exploration": { "name": "Blue Origin Operational Funding", "percent": 25.9 },
+              "philanthropy": { "name": "Bezos Earth Fund & AI Grand Challenge", "percent": 6.8 },
+              "real_estate_and_luxury": { "name": "Property Acquisitions & Yacht Maintenance", "percent": 3.2 },
+              "tax_and_reinvestment": { "name": "Capital Gains Tax & Family Office Reinvestment", "percent": 64.1 }
+            }
+          },
+          "methodology": "Income calculated as the delta in Net Worth (from $174.3B to $239.4B per Forbes/Bloomberg 2025 indices) plus $10.15B in realized cash from scheduled 10b5-1 stock sales (notably June/July 2025 tranches). Spending includes a baseline $4B annual injection into Blue Origin, $1.05B in confirmed philanthropic grants, and estimated tax obligations on realized gains."
+        },
+        "2024": {
+          "income": {
+            "total": 60000000000,
+            "sources": ["Amazon Stock Appreciation", "Amazon Stock Divestment (SEC Form 4)", "Bezos Expeditions Portfolio Growth"],
+            "breakdown": {
+              "unrealized_capital_gains": { "name": "Unrealized Asset Appreciation", "percent": 77.3 },
+              "realized_stock_sales": { "name": "Realized Amazon Stock Sales", "percent": 22.7 }
+            }
+          },
+          "spending": {
+            "total": 13600000000,
+            "breakdown": {
+              "space_exploration": { "name": "Blue Origin Funding", "percent": 22.1 },
+              "philanthropy": { "name": "Bezos Earth Fund & Charitable Donations", "percent": 7.3 },
+              "private_investments": { "name": "Bezos Expeditions (AI & Tech Startups)", "percent": 7.4 },
+              "liquidity_reserve": { "name": "Cash Reserve & Taxes on Realized Gains", "percent": 63.2 }
+            }
+          },
+          "methodology": "Income reflects the estimated annual increase in net worth (~$60B) as reported by Bloomberg/Forbes, primarily driven by Amazon stock performance. Spending is calculated based on the $13.6B in realized proceeds from stock sales, which Bezos utilizes to fund Blue Origin (avg. $3B/year), climate pledges, and private equity via Bezos Expeditions."
+        }
+      }
+    }
