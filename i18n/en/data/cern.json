@@ -1,7 +1,7 @@
 {
   "id": "cern",
   "name": "Conseil Européen pour la Recherche Nucléaire (CERN)",
-  "image": "images/CERN.svg",
+  "image": "images/cern.svg",
   "category": "supranational-organisation",
   "data": {
     "2026": {
