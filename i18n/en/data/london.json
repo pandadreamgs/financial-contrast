@@ -1,7 +1,7 @@
 {
   "id": "london",
   "name": "London",
-  "image": "images/London.svg",
+  "image": "images/london.svg",
   "category": "city",
   "data": {
     "2026": {
