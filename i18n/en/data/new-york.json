@@ -1,7 +1,7 @@
 {
   "id": "new-york",
   "name": "New York City",
-  "image": "images/New-York.svg",
+  "image": "images/new-york.svg",
   "category": "city",
   "data": {
     "2026": {
