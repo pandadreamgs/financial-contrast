@@ -1,96 +1,96 @@
 {
-      "id": "european-union",
-      "name": "EUROPEAN UNION",
-      "image": "images/european-union.svg",
-      "category": "supranational-organisation",
-      "data": {
-        "2026": {
-          "income": {
-            "total": 190110000000,
-            "sources": [
-              "GNI-based own resources",
-              "Traditional own resources (Customs duties)",
-              "VAT-based own resources",
-              "Plastic packaging waste resources",
-              "EURI and Flexibility Instrument mobilization"
-            ],
-            "breakdown": {
-              "category_1": { "name": "GNI-based resources", "percent": 72.0 },
-              "category_2": { "name": "Traditional own resources", "percent": 11.12 },
-              "category_3": { "name": "VAT-based resources", "percent": 10.0 },
-              "category_4": { "name": "Other (Plastics, EURI and margins)", "percent": 6.88 }
-            }
-          },
-          "spending": {
-            "total": 190110000000,
-            "breakdown": {
-              "category_1": { "name": "Cohesion, Resilience and Values", "percent": 37.68 },
-              "category_2": { "name": "Natural Resources and Environment", "percent": 29.73 },
-              "category_3": { "name": "Single Market, Innovation and Digital", "percent": 11.66 },
-              "category_4": { "name": "Neighbourhood and the World", "percent": 8.21 },
-              "category_5": { "name": "European Public Administration", "percent": 6.99 },
-              "category_6": { "name": "Security, Defence and Migration", "percent": 5.73 }
-            }
-          },
-          "methodology": "The 2026 figures are based on the officially signed EU Annual Budget (November 2025). Payment appropriations were set at 190.11 billion EUR, representing a 17.9% increase over 2025. Income is calculated following the equilibrium principle where total revenue equals total authorized expenditure. Spending breakdown is derived from the final compromise text between the Parliament and Council, including allocations for Horizon Europe, Erasmus+, and the Ukraine Facility."
-        },
-        "2025": {
-          "income": {
-            "total": 152648700000,
-            "sources": [
-              "GNI-based own resources",
-              "Traditional own resources (Customs duties)",
-              "VAT-based own resources",
-              "Plastic packaging waste resources",
-              "Statistical revenue (CBAM and ETS-related adjustments)"
-            ],
-            "breakdown": {
-              "category_1": { "name": "GNI-based resources", "percent": 74.20 },
-              "category_2": { "name": "Traditional own resources", "percent": 12.80 },
-              "category_3": { "name": "VAT-based resources", "percent": 11.50 },
-              "category_4": { "name": "Environmental-based resources", "percent": 1.50 }
-            }
-          },
-          "spending": {
-            "total": 152648700000,
-            "breakdown": {
-              "category_1": { "name": "Cohesion, Resilience and Values", "percent": 41.20 },
-              "category_2": { "name": "Natural Resources and Environment", "percent": 34.50 },
-              "category_3": { "name": "Neighborhood and the World", "percent": 9.80 },
-              "category_4": { "name": "Single Market, Innovation and Digital", "percent": 8.50 },
-              "category_5": { "name": "European Public Administration", "percent": 6.00 }
-            }
-          },
-          "methodology": "Total amount is based on the 2025 EU Adopted Budget for payment appropriations. Income is equal to spending to maintain the balance principle. Spending breakdown reflects the Mid-term Revision of the Multiannual Financial Framework (MFF) 2021-2027, which increased funding for Ukraine Facility and migration management compared to 2024 levels."
-        },
-        "2024": {
-          "income": {
-            "total": 142630300222,
-            "sources": [
-              "GNI-based own resources",
-              "Traditional own resources (Customs duties)",
-              "VAT-based own resources",
-              "Plastic packaging waste based own resource",
-              "Other revenue and surpluses"
-            ],
-            "breakdown": {
-              "category_1": { "name": "GNI-based resources", "percent": 73.03 },
-              "category_2": { "name": "Traditional own resources", "percent": 13.39 },
-              "category_3": { "name": "VAT-based resources", "percent": 12.98 },
-              "category_4": { "name": "Plastic waste resources", "percent": 0.6 }
-            }
-          },
-          "spending": {
-            "total": 142630300222,
-            "breakdown": {
-              "category_1": { "name": "Natural Resources and Environment", "percent": 37.96 },
-              "category_2": { "name": "Cohesion, Resilience and Values", "percent": 23.64 },
-              "category_3": { "name": "Single Market, Innovation and Digital", "percent": 14.60 },
-              "category_4": { "name": "Neighborhood and the World", "percent": 11.38 },
-              "category_5": { "name": "European Public Administration", "percent": 8.12 }
-            }
-          },
-          "methodology": "Data based on the 2024 EU Adopted Budget payment appropriations. Total income is set to match total spending as per the EU budgetary balance principle. Percentages for income are derived from standard historical own resource contributions for the 2021-2027 MFF period applied to the 2024 total. Spending breakdown is calculated based on specific heading allocations from official EUR-Lex 2024 budget summary."
+  "id": "european-union",
+  "name": "EUROPEAN UNION",
+  "image": "images/european-union.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 218379357000,
+        "sources": [
+          "GNI-based own resources",
+          "Traditional own resources (Customs duties)",
+          "VAT-based own resources",
+          "Plastic packaging waste resources",
+          "EURI and Flexibility Instrument mobilization"
+        ],
+        "breakdown": {
+          "category_1": { "name": "GNI-based resources", "percent": 72.0 },
+          "category_2": { "name": "Traditional own resources", "percent": 11.12 },
+          "category_3": { "name": "VAT-based resources", "percent": 10.0 },
+          "category_4": { "name": "Other (Plastics, EURI and margins)", "percent": 6.88 }
         }
-      }
+      },
+      "spending": {
+        "total": 218379357000,
+        "breakdown": {
+          "category_1": { "name": "Cohesion, Resilience and Values", "percent": 37.68 },
+          "category_2": { "name": "Natural Resources and Environment", "percent": 29.73 },
+          "category_3": { "name": "Single Market, Innovation and Digital", "percent": 11.66 },
+          "category_4": { "name": "Neighbourhood and the World", "percent": 8.21 },
+          "category_5": { "name": "European Public Administration", "percent": 6.99 },
+          "category_6": { "name": "Security, Defence and Migration", "percent": 5.73 }
+        }
+      },
+      "methodology": "The 2026 figures are based on the officially signed EU Annual Budget (November 2025). Payment appropriations were set at 218.38 billion USD, representing a 17.9% increase over 2025. Income is calculated following the equilibrium principle where total revenue equals total authorized expenditure. Spending breakdown is derived from the final compromise text between the Parliament and Council, including allocations for Horizon Europe, Erasmus+, and the Ukraine Facility."
+    },
+    "2025": {
+      "income": {
+        "total": 175347561690,
+        "sources": [
+          "GNI-based own resources",
+          "Traditional own resources (Customs duties)",
+          "VAT-based own resources",
+          "Plastic packaging waste resources",
+          "Statistical revenue (CBAM and ETS-related adjustments)"
+        ],
+        "breakdown": {
+          "category_1": { "name": "GNI-based resources", "percent": 74.20 },
+          "category_2": { "name": "Traditional own resources", "percent": 12.80 },
+          "category_3": { "name": "VAT-based resources", "percent": 11.50 },
+          "category_4": { "name": "Environmental-based resources", "percent": 1.50 }
+        }
+      },
+      "spending": {
+        "total": 175347561690,
+        "breakdown": {
+          "category_1": { "name": "Cohesion, Resilience and Values", "percent": 41.20 },
+          "category_2": { "name": "Natural Resources and Environment", "percent": 34.50 },
+          "category_3": { "name": "Neighborhood and the World", "percent": 9.80 },
+          "category_4": { "name": "Single Market, Innovation and Digital", "percent": 8.50 },
+          "category_5": { "name": "European Public Administration", "percent": 6.00 }
+        }
+      },
+      "methodology": "Total amount is based on the 2025 EU Adopted Budget for payment appropriations. Income is equal to spending to maintain the balance principle. Spending breakdown reflects the Mid-term Revision of the Multiannual Financial Framework (MFF) 2021-2027, which increased funding for Ukraine Facility and migration management compared to 2024 levels."
+    },
+    "2024": {
+      "income": {
+        "total": 163839425865,
+        "sources": [
+          "GNI-based own resources",
+          "Traditional own resources (Customs duties)",
+          "VAT-based own resources",
+          "Plastic packaging waste based own resource",
+          "Other revenue and surpluses"
+        ],
+        "breakdown": {
+          "category_1": { "name": "GNI-based resources", "percent": 73.03 },
+          "category_2": { "name": "Traditional own resources", "percent": 13.39 },
+          "category_3": { "name": "VAT-based resources", "percent": 12.98 },
+          "category_4": { "name": "Plastic waste resources", "percent": 0.6 }
+        }
+      },
+      "spending": {
+        "total": 163839425865,
+        "breakdown": {
+          "category_1": { "name": "Natural Resources and Environment", "percent": 37.96 },
+          "category_2": { "name": "Cohesion, Resilience and Values", "percent": 23.64 },
+          "category_3": { "name": "Single Market, Innovation and Digital", "percent": 14.60 },
+          "category_4": { "name": "Neighborhood and the World", "percent": 11.38 },
+          "category_5": { "name": "European Public Administration", "percent": 8.12 }
+        }
+      },
+      "methodology": "Data based on the 2024 EU Adopted Budget payment appropriations. Total income is set to match total spending as per the EU budgetary balance principle. Percentages for income are derived from standard historical own resource contributions for the 2021-2027 MFF period applied to the 2024 total. Spending breakdown is calculated based on specific heading allocations from official EUR-Lex 2024 budget summary."
     }
+  }
+}
