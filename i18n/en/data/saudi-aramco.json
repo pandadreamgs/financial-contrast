@@ -1,0 +1,154 @@
+{
+  "id": "saudi-aramco",
+  "name": "Saudi Aramco",
+  "image": "images/Saudi-Aramco.svg",
+  "category": "corporation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 458200000000,
+        "sources": [
+          "Liquid hydrocarbons sales",
+          "Natural gas and NGL expansion",
+          "Downstream chemical products"
+        ],
+        "breakdown": {
+          "upstream_oil": {
+            "name": "Upstream Oil Production",
+            "percent": 68.5
+          },
+          "upstream_gas": {
+            "name": "Strategic Gas Expansion",
+            "percent": 5.2
+          },
+          "downstream": {
+            "name": "Downstream & Chemicals",
+            "percent": 25.1
+          },
+          "digital_ai": {
+            "name": "AI-Driven Operational Value",
+            "percent": 1.2
+          }
+        }
+      },
+      "spending": {
+        "total": 355500000000,
+        "breakdown": {
+          "dividends": {
+            "name": "Progressive Shareholder Distributions",
+            "percent": 24.6
+          },
+          "capital_expenditure": {
+            "name": "Strategic Capital Investment (Capex)",
+            "percent": 15.5
+          },
+          "operating_costs": {
+            "name": "Production & AI-optimized Operations",
+            "percent": 30.4
+          },
+          "taxes_royalties": {
+            "name": "Government Royalties and Taxes",
+            "percent": 29.5
+          }
+        }
+      },
+      "methodology": "Forecast based on official 2026 guidance (March 10, 2026). Revenue assumes average oil production of 10.0 mbpd and ramp-up of Jafurah gas field. Spending includes guided Capex of $55,000,000,000 and total projected dividends of $87,600,000,000. Calculations incorporate a 3.5% increase in base dividends and the impact of the $3B share buyback program initiated in 2025."
+    },
+    "2025": {
+      "income": {
+        "total": 445654000000,
+        "sources": [
+          "Crude oil and related sales",
+          "Refining and chemicals revenue",
+          "Natural gas and NGL sales"
+        ],
+        "breakdown": {
+          "upstream": {
+            "name": "Upstream operations",
+            "percent": 70.8
+          },
+          "downstream": {
+            "name": "Downstream activities",
+            "percent": 27.9
+          },
+          "tech_digital": {
+            "name": "Technology Realized Value (AI/Digital)",
+            "percent": 1.3
+          }
+        }
+      },
+      "spending": {
+        "total": 352274000000,
+        "breakdown": {
+          "dividends": {
+            "name": "Shareholder distributions",
+            "percent": 24.3
+          },
+          "operating_costs": {
+            "name": "Operating and production expenses",
+            "percent": 30.1
+          },
+          "taxes_zakat": {
+            "name": "Income taxes, Royalties and Zakat",
+            "percent": 29.1
+          },
+          "capital_expenditure": {
+            "name": "Capital investments",
+            "percent": 14.8
+          },
+          "share_buyback": {
+            "name": "Share buyback program",
+            "percent": 1.7
+          }
+        }
+      },
+      "methodology": "Data extracted from Saudi Aramco FY 2025 Results Press Release (March 2026). Total Income is based on Revenue and other income related to sales ($445.654B). Spending is derived as Total Income minus Adjusted Net Income ($104.653B), including Capital Investment of $52.2B and total dividends of $85.5B. Percentages reflect segment revenue and cash flow allocation from the consolidated financial statements."
+    },
+    "2024": {
+      "income": {
+        "total": 480446000000,
+        "sources": [
+          "Crude oil sales",
+          "Refined products and chemicals",
+          "Natural gas and NGLs"
+        ],
+        "breakdown": {
+          "upstream": {
+            "name": "Upstream (Exploration & Production)",
+            "percent": 71.2
+          },
+          "downstream": {
+            "name": "Downstream (Refining & Chemicals)",
+            "percent": 27.5
+          },
+          "corporate_others": {
+            "name": "Corporate and Others",
+            "percent": 1.3
+          }
+        }
+      },
+      "spending": {
+        "total": 374200000000,
+        "breakdown": {
+          "dividends": {
+            "name": "Total Dividend Distributions",
+            "percent": 33.2
+          },
+          "operating_costs": {
+            "name": "Production and Operating Expenses",
+            "percent": 24.5
+          },
+          "taxes_zakat": {
+            "name": "Taxes, Royalties and Zakat",
+            "percent": 28.8
+          },
+          "capital_expenditure": {
+            "name": "Capital Investments (Capex)",
+            "percent": 13.5
+          }
+        }
+      },
+      "methodology": "Data derived from Saudi Aramco Annual Report 2024. Total Income represents Gross Revenue ($480.446B). Spending is calculated as Total Income minus Net Income ($106.246B), plus Capital Expenditures ($50.4B). Percentage breakdowns are based on segment reporting and cash flow allocations for dividends and royalties."
+    }
+  }
+}

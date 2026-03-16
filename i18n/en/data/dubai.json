@@ -1,0 +1,167 @@
+{
+  "id": "dubai",
+  "name": "Dubai",
+  "image": "images/Dubai.svg",
+  "category": "city",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 29326072158,
+        "sources": [
+          "Government of Dubai General Budget Cycle 2026-2028",
+          "Dubai Department of Finance (DOF) 2026 Fiscal Outlook"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Fees, Fines and Services",
+            "percent": 52.0
+          },
+          "category_2": {
+            "name": "Tax Revenues (VAT & Corporate Tax)",
+            "percent": 21.0
+          },
+          "category_3": {
+            "name": "Government Investment Returns",
+            "percent": 15.0
+          },
+          "category_4": {
+            "name": "Customs Duties",
+            "percent": 9.0
+          },
+          "category_5": {
+            "name": "Oil Revenue",
+            "percent": 3.0
+          }
+        }
+      },
+      "spending": {
+        "total": 27093396869,
+        "breakdown": {
+          "category_1": {
+            "name": "Infrastructure and Construction",
+            "percent": 48.0
+          },
+          "category_2": {
+            "name": "Social Development (Health, Education, Research)",
+            "percent": 28.0
+          },
+          "category_3": {
+            "name": "Security, Justice and Safety",
+            "percent": 18.0
+          },
+          "category_4": {
+            "name": "Government Excellence and Innovation",
+            "percent": 6.0
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is derived from the approved USD 82.42B three-year expenditure plan. Revenue growth is projected at 10.5% compared to 2025, driven by full-scale corporate tax integration and D33 economic expansion projects. Infrastructure spending sees a significant increase to 48% to support the Dubai Metro Blue Line expansion and Al Maktoum International Airport development. Figures include a mandatory USD 1.36B deduction for general reserves. All figures converted from AED to USD at a fixed rate of 3.6725."
+    },
+    "2025": {
+      "income": {
+        "total": 26529611981,
+        "sources": [
+          "Government of Dubai Department of Finance (DOF) 2024-2026 Budget Cycle",
+          "Dubai Economic Agenda D33 Strategic Projections"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Fees and Fines",
+            "percent": 54.0
+          },
+          "category_2": {
+            "name": "Tax Revenues (VAT, Excise, Corporate Tax)",
+            "percent": 18.0
+          },
+          "category_3": {
+            "name": "Investment Returns",
+            "percent": 16.0
+          },
+          "category_4": {
+            "name": "Customs Duties",
+            "percent": 9.0
+          },
+          "category_5": {
+            "name": "Oil Revenue",
+            "percent": 3.0
+          }
+        }
+      },
+      "spending": {
+        "total": 23485364193,
+        "breakdown": {
+          "category_1": {
+            "name": "Infrastructure and Construction",
+            "percent": 41.0
+          },
+          "category_2": {
+            "name": "Social Development (Health, Education, Housing)",
+            "percent": 33.0
+          },
+          "category_3": {
+            "name": "Security and Justice",
+            "percent": 18.0
+          },
+          "category_4": {
+            "name": "Government Excellence and Administrative Costs",
+            "percent": 8.0
+          }
+        }
+      },
+      "methodology": "Figures represent the medium-term budget plan (USD 67.15B total for 2024-2026). The 2025 estimates account for an approximate 7.5% growth in non-oil revenue driven by the D33 agenda and the expansion of the corporate tax base which became fully integrated into fiscal reporting by 2025. All figures converted from AED to USD at a fixed rate of 3.6725."
+    },
+    "2024": {
+      "income": {
+        "total": 24678284547,
+        "sources": [
+          "Dubai Department of Finance (DOF) Official Budget 2024",
+          "Law No. (20) of 2023 regarding the General Budget of the Dubai Government"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Fees and Fines",
+            "percent": 56.0
+          },
+          "category_2": {
+            "name": "Returns on Government Investments",
+            "percent": 17.0
+          },
+          "category_3": {
+            "name": "Value Added Tax, Excise Tax, and Corporate Tax",
+            "percent": 14.0
+          },
+          "category_4": {
+            "name": "Customs Duties",
+            "percent": 8.0
+          },
+          "category_5": {
+            "name": "Oil Revenue",
+            "percent": 4.0
+          }
+        }
+      },
+      "spending": {
+        "total": 21546834568,
+        "breakdown": {
+          "category_1": {
+            "name": "Infrastructure and Transportation",
+            "percent": 42.0
+          },
+          "category_2": {
+            "name": "Social Development (Health, Education, Housing)",
+            "percent": 34.0
+          },
+          "category_3": {
+            "name": "Security, Justice and Safety",
+            "percent": 19.0
+          },
+          "category_4": {
+            "name": "Government Excellence and Public Services",
+            "percent": 5.0
+          }
+        }
+      },
+      "methodology": "Data extracted from the official 2024-2026 budget cycle approved by the Ruler of Dubai. Total revenue (USD 24.68B) includes USD 1.5B allocated to general reserves, leaving USD 23.18B for budget operations. Spending breakdown follows the sectoral distribution defined in the Dubai Strategic Plan 2030 and Economic Agenda D33. All figures converted from AED to USD at a fixed rate of 3.6725."
+    }
+  }
+}

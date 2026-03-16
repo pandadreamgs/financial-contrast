@@ -1,0 +1,162 @@
+{
+  "id": "open-society",
+  "name": "Open Society Foundations",
+  "image": "images/Open-Society.png",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 1135717000,
+        "sources": [
+          "Investment Portfolio Growth",
+          "Realized Capital Gains",
+          "Institutional Matching Grants"
+        ],
+        "breakdown": {
+          "asset_sales": {
+            "name": "Strategic Asset Sales",
+            "percent": 88.5
+          },
+          "investment_income": {
+            "name": "Dividends and Interest",
+            "percent": 9.2
+          },
+          "other_revenue": {
+            "name": "Miscellaneous and External Pledges",
+            "percent": 2.3
+          }
+        }
+      },
+      "spending": {
+        "total": 1050000000,
+        "breakdown": {
+          "global_programs": {
+            "name": "Thematic Global Advocacy",
+            "percent": 55.0
+          },
+          "united_states": {
+            "name": "United States Human Rights & Democracy",
+            "percent": 22.5
+          },
+          "europe_ukraine": {
+            "name": "Europe and Ukraine Reconstruction Support",
+            "percent": 11.2
+          },
+          "africa": {
+            "name": "Africa Democratic Governance",
+            "percent": 6.8
+          },
+          "other_regions": {
+            "name": "Asia Pacific and Middle East",
+            "percent": 4.5
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is calculated using a 3-year CAGR of -3.8% for expenditures, reflecting the foundation's planned strategic consolidation and the transition to a leaner 'hub-and-spoke' operational model. Income projection assumes a standardized 5% payout rate from the $23B endowment, adjusted for current market volatility and specific multi-year commitments like the Bard College endowment challenge completion in early 2026."
+    },
+    "2025": {
+      "income": {
+        "total": 1056534220,
+        "sources": [
+          "Investment Portfolio Returns",
+          "Endowment Asset Liquidations",
+          "Private Contributions"
+        ],
+        "breakdown": {
+          "asset_sales": {
+            "name": "Net Gain from Asset Dispositions",
+            "percent": 91.4
+          },
+          "investments": {
+            "name": "Dividends and Interest Income",
+            "percent": 7.2
+          },
+          "other": {
+            "name": "Private Donor Contributions",
+            "percent": 1.4
+          }
+        }
+      },
+      "spending": {
+        "total": 1080000000,
+        "breakdown": {
+          "global_programs": {
+            "name": "Global Cross-regional Advocacy",
+            "percent": 48.5
+          },
+          "united_states": {
+            "name": "United States Human Rights & Democracy",
+            "percent": 24.2
+          },
+          "europe_central_asia": {
+            "name": "Europe and Central Asia Initiatives",
+            "percent": 12.8
+          },
+          "africa": {
+            "name": "Africa Regional Programs",
+            "percent": 8.1
+          },
+          "other_regions": {
+            "name": "Asia Pacific and Latin America",
+            "percent": 6.4
+          }
+        }
+      },
+      "methodology": "The 2025 figures are derived from the Foundation's strategic budget adjustments following the 2023-2024 organizational pivot. Income reflects targeted endowment drawdowns to maintain grant-making levels, while spending aligns with the consolidated 'new operating model' which prioritizes thematic global programs over localized offices."
+    },
+    "2024": {
+      "income": {
+        "total": 935043439,
+        "sources": [
+          "Net gain from sale of assets",
+          "Investment income and dividends",
+          "Miscellaneous revenues"
+        ],
+        "breakdown": {
+          "asset_sales": {
+            "name": "Net gain from sale of assets",
+            "percent": 99.05
+          },
+          "investments": {
+            "name": "Investment income and dividends",
+            "percent": 0.05
+          },
+          "other": {
+            "name": "Miscellaneous revenues",
+            "percent": 0.9
+          }
+        }
+      },
+      "spending": {
+        "total": 1190100000,
+        "breakdown": {
+          "global_programs": {
+            "name": "Global * (Cross-regional initiatives)",
+            "percent": 53.1
+          },
+          "united_states": {
+            "name": "United States",
+            "percent": 20.3
+          },
+          "latin_america": {
+            "name": "Latin America and the Caribbean",
+            "percent": 9.8
+          },
+          "europe_central_asia": {
+            "name": "Europe and Central Asia",
+            "percent": 7.0
+          },
+          "africa": {
+            "name": "Africa",
+            "percent": 5.9
+          },
+          "other_regions": {
+            "name": "Asia Pacific, Middle East and North Africa",
+            "percent": 3.9
+          }
+        }
+      },
+      "methodology": "Income data is based on the 2024 Form 990-PF (Foundation To Promote Open Society), where the majority of revenue stems from the sale of non-inventory assets. Spending data represents the total 'Expenditures' for the 2024 fiscal year as reported in the OSF official Financial Figures report, broken down by geographic region."
+    }
+  }
+}

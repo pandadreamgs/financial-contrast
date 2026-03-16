@@ -1,0 +1,123 @@
+{
+  "id": "bundeswehr",
+  "name": "Bundeswehr",
+  "image": "images/Bundeswehr.svg",
+  "category": "government",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 121172800000,
+        "sources": [
+          "German Federal Budget (Einzelplan 14)",
+          "Bundeswehr Special Fund (Sondervermögen)"
+        ],
+        "breakdown": {
+          "core_defense_budget": {
+            "name": "Regular Federal Defense Budget",
+            "percent": 76.4
+          },
+          "special_fund_allocation": {
+            "name": "Special Fund (Off-budget Debt)",
+            "percent": 23.6
+          }
+        }
+      },
+      "spending": {
+        "total": 121172800000,
+        "breakdown": {
+          "military_procurement": {
+            "name": "Procurement and Military Investments",
+            "percent": 41.3
+          },
+          "personnel_expenses": {
+            "name": "Personnel Salaries and New Positions",
+            "percent": 22.8
+          },
+          "operating_and_admin": {
+            "name": "Operating, Administrative and Maintenance",
+            "percent": 22.9
+          },
+          "infrastructure_and_rd": {
+            "name": "Infrastructure, Digitalization and R&D",
+            "percent": 13.0
+          }
+        }
+      },
+      "methodology": "Figures represent the 2026 federal budget approved by the Bundestag in late 2025. Total spending consists of $92.61B USD from the core budget and $28.56B USD from the Sondervermögen. The breakdown reflects a strategic shift towards large-scale procurement (Puma IFVs, Eurofighters, and air defense) and the creation of 12,000 new military/civilian positions as part of the rearmament program."
+    },
+    "2025": {
+      "income": {
+        "total": 84336000000,
+        "sources": [
+          "Federal Budget (Einzelplan 14)",
+          "Bundeswehr Special Fund (Sondervermögen)"
+        ],
+        "breakdown": {
+          "core_budget": {
+            "name": "Regular Defense Budget",
+            "percent": 70.8
+          },
+          "special_fund": {
+            "name": "Special Fund Drawdown",
+            "percent": 29.2
+          }
+        }
+      },
+      "spending": {
+        "total": 84336000000,
+        "breakdown": {
+          "personnel_costs": {
+            "name": "Personnel Salaries and Pensions",
+            "percent": 41.5
+          },
+          "investment_procurement": {
+            "name": "Military Procurement and R&D",
+            "percent": 38.0
+          },
+          "maintenance_and_ops": {
+            "name": "Operating and Maintenance Costs",
+            "percent": 20.5
+          }
+        }
+      },
+      "methodology": "The 2025 data is based on the German Federal Government's medium-term financial plan. Total budget includes the core defense budget (approx. $59.70B USD) and the legally allocated portion of the 100B EUR Special Fund (approx. $24.64B USD). The increase in procurement spending reflects accelerated F-35 and heavy-lift helicopter acquisitions."
+    },
+    "2024": {
+      "income": {
+        "total": 80595200000,
+        "sources": [
+          "German Federal Budget (Einzelplan 14)",
+          "Special Fund for the Bundeswehr (Sondervermögen)"
+        ],
+        "breakdown": {
+          "federal_allocation": {
+            "name": "Core Defense Budget (Einzelplan 14)",
+            "percent": 72.2
+          },
+          "special_fund_drawdown": {
+            "name": "Special Fund Drawdown",
+            "percent": 27.8
+          }
+        }
+      },
+      "spending": {
+        "total": 80595200000,
+        "breakdown": {
+          "personnel_and_operating": {
+            "name": "Personnel and Operational Costs",
+            "percent": 53.4
+          },
+          "procurement_and_rd": {
+            "name": "Military Procurement and R&D",
+            "percent": 35.2
+          },
+          "maintenance_and_infrastructure": {
+            "name": "Maintenance and Infrastructure",
+            "percent": 11.4
+          }
+        }
+      },
+      "methodology": "Data aggregated from the German Federal Ministry of Finance (BMF) 2024 budget plan and the Bundeswehr Special Fund (Sondervermögen) Law. Total income is defined as the sum of the regular defense budget (approx. $58.18B USD) and the planned credit-financed drawdown from the Special Fund (approx. $22.41B USD). NATO-reported figures may differ as they include additional costs like military pensions and aid to Ukraine not directly in the Bundeswehr's core operational budget."
+    }
+  }
+}

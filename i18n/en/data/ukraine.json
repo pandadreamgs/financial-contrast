@@ -1,0 +1,166 @@
+{
+  "id": "ukraine",
+  "name": "Ukraine",
+  "image": "images/Ukraine.svg",
+  "category": "country",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 64979865772,
+        "sources": [
+          "Budget Declaration of Ukraine for 2026–2028",
+          "Ministry of Finance of Ukraine - 2026 Draft Budget Report",
+          "IMF Extended Fund Facility (EFF) 2026 Projection"
+        ],
+        "breakdown": {
+          "tax_on_goods_and_services": {
+            "name": "VAT and Excise Duties",
+            "percent": 45.8
+          },
+          "income_and_profit_taxes": {
+            "name": "PIT, Military Levy, and Corporate Income Tax",
+            "percent": 32.5
+          },
+          "non_tax_revenues": {
+            "name": "NBU Profit and Administrative Fees",
+            "percent": 14.2
+          },
+          "international_grants": {
+            "name": "Official International Grants",
+            "percent": 7.5
+          }
+        }
+      },
+      "spending": {
+        "total": 107921700224,
+        "breakdown": {
+          "defense_and_security": {
+            "name": "National Security and Defense Sector",
+            "percent": 58.2
+          },
+          "social_protection": {
+            "name": "Social Security and Pension Indexation",
+            "percent": 9.7
+          },
+          "education_and_science": {
+            "name": "Education and R&D (including teacher pay rise)",
+            "percent": 6.2
+          },
+          "debt_servicing": {
+            "name": "Public Debt Servicing",
+            "percent": 13.6
+          },
+          "healthcare_and_recovery": {
+            "name": "Medical Guarantees and Infrastructure Recovery",
+            "percent": 12.3
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is based on the Government-approved Budget Declaration and the 2026 Draft Budget. Revenue is projected to reach approx. $64.98 billion USD due to nominal GDP growth and improved tax administration. Total expenditures reach $107.92 billion USD, with a continued focus on defense (approx. $62.64 billion USD). The fiscal gap (deficit) of approx. $42.94 billion USD is planned to be covered by external financing and domestic borrowing. Calculations converted from UAH using an average exchange rate of 44.7 UAH/USD."
+    },
+    "2025": {
+      "income": {
+        "total": 52259507830,
+        "sources": [
+          "Law of Ukraine on the State Budget for 2025",
+          "Ministry of Finance of Ukraine Budget Projection",
+          "Macroeconomic Forecast by the National Bank of Ukraine"
+        ],
+        "breakdown": {
+          "tax_revenues": {
+            "name": "Tax Revenues (VAT, CIT, Personal Income Tax)",
+            "percent": 76.8
+          },
+          "non_tax_revenues": {
+            "name": "Non-tax Revenues (NBU Profits, Administrative Fees)",
+            "percent": 18.2
+          },
+          "international_grants": {
+            "name": "Official International Grants and Aid",
+            "percent": 5.0
+          }
+        }
+      },
+      "spending": {
+        "total": 88098434004,
+        "breakdown": {
+          "security_and_defense": {
+            "name": "National Security and Defense",
+            "percent": 56.4
+          },
+          "social_protection": {
+            "name": "Social Protection and Pensions",
+            "percent": 10.7
+          },
+          "debt_servicing": {
+            "name": "Public Debt Servicing",
+            "percent": 12.2
+          },
+          "healthcare_and_education": {
+            "name": "Healthcare and Education Support",
+            "percent": 9.5
+          },
+          "reserve_fund_and_recovery": {
+            "name": "Reserve Fund and Reconstruction Projects",
+            "percent": 11.2
+          }
+        }
+      },
+      "methodology": "Data derived from the Law of Ukraine No. 4024-IX 'On the State Budget of Ukraine for 2025'. Revenue is calculated at $52.26 billion USD. Spending is prioritized for defense (approx. $49.66 billion USD). The massive fiscal gap between income and spending is planned to be financed through approx. $35.84 billion USD in external borrowing and domestic bonds (OVDP). Calculations converted from UAH using the forecast rate of 44.7 UAH/USD."
+    },
+    "2024": {
+      "income": {
+        "total": 69798657718,
+        "sources": [
+          "Ministry of Finance of Ukraine - Budget Execution Report 2024",
+          "State Tax Service of Ukraine",
+          "Cabinet of Ministers of Ukraine - Official Revenue Data"
+        ],
+        "breakdown": {
+          "tax_revenues": {
+            "name": "Tax Revenues (VAT, CIT, PIT, Excise)",
+            "percent": 53.4
+          },
+          "international_grants": {
+            "name": "International Grants and Non-refundable Aid",
+            "percent": 15.2
+          },
+          "budgetary_institutions_own_income": {
+            "name": "Own Revenue of Budgetary Institutions",
+            "percent": 25.0
+          },
+          "other_non_tax_revenues": {
+            "name": "Other Non-tax Revenues and Fees",
+            "percent": 6.4
+          }
+        }
+      },
+      "spending": {
+        "total": 100447427293,
+        "breakdown": {
+          "defense_and_security": {
+            "name": "Security and Defense Sector",
+            "percent": 66.1
+          },
+          "social_protection": {
+            "name": "Social Protection and Pensions",
+            "percent": 12.9
+          },
+          "debt_servicing": {
+            "name": "Public Debt Servicing",
+            "percent": 9.4
+          },
+          "recovery_and_infrastructure": {
+            "name": "Capital Expenditures and Recovery",
+            "percent": 6.8
+          },
+          "education_and_healthcare": {
+            "name": "Education and Healthcare",
+            "percent": 4.8
+          }
+        }
+      },
+      "methodology": "The data reflects execution of the State Budget for 2024. Total income converted to $69.80 billion USD. Spending reached $100.45 billion USD, with $66.44 billion USD allocated to Security and Defense. The deficit was covered primarily through international loans and domestic bonds. Calculations converted from UAH using the fixed reference rate of 44.7 UAH/USD."
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "id": "amazon",
+  "name": "Amazon",
+  "image": "images/Amazon.svg",
+  "category": "corporation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 800804000000,
+        "sources": [
+          "Amazon Q4 2025 Earnings Guidance",
+          "Analyst Consensus Estimates (Bloomberg/Reuters) March 2026",
+          "Project Kuiper & AWS AI Infrastructure Outlook"
+        ],
+        "breakdown": {
+          "aws": {
+            "name": "Amazon Web Services (AWS)",
+            "percent": 19.5
+          },
+          "online_stores": {
+            "name": "Online Stores (1P)",
+            "percent": 36.2
+          },
+          "third_party_services": {
+            "name": "Third-Party Seller Services (3P)",
+            "percent": 25.1
+          },
+          "advertising": {
+            "name": "Advertising Services",
+            "percent": 10.4
+          },
+          "other": {
+            "name": "Subscriptions & Physical Stores",
+            "percent": 8.8
+          }
+        }
+      },
+      "spending": {
+        "total": 732000000000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales",
+            "percent": 51.5
+          },
+          "technology_infrastructure": {
+            "name": "Technology and Infrastructure (AI/Capex)",
+            "percent": 21.8
+          },
+          "fulfillment": {
+            "name": "Fulfillment",
+            "percent": 15.2
+          },
+          "marketing": {
+            "name": "Marketing",
+            "percent": 7.5
+          },
+          "general_admin": {
+            "name": "General and Administrative",
+            "percent": 4.0
+          }
+        }
+      },
+      "methodology": "The 2026 forecast applies a 3-year historical CAGR of 11.7% to the 2025 actual revenue of $716.9B. Spending projections incorporate the company's confirmed $200 billion capital expenditure plan for 2026, which significantly shifts the spending weight toward Technology and Infrastructure (primarily for AWS AI server clusters and Project Kuiper). Operating expenses are modeled based on expected efficiency gains in fulfillment (regionalization) offsetting increased depreciation from massive infrastructure investments."
+    },
+    "2025": {
+      "income": {
+        "total": 716924000000,
+        "sources": [
+          "Amazon.com, Inc. 2025 Annual Report",
+          "SEC Form 10-K Filing (February 2026)"
+        ],
+        "breakdown": {
+          "online_stores": {
+            "name": "Online Stores",
+            "percent": 37.5
+          },
+          "third_party_services": {
+            "name": "Third-Party Seller Services",
+            "percent": 24.8
+          },
+          "aws": {
+            "name": "Amazon Web Services (AWS)",
+            "percent": 18.0
+          },
+          "advertising": {
+            "name": "Advertising Services",
+            "percent": 9.6
+          },
+          "other": {
+            "name": "Subscriptions, Physical Stores & Others",
+            "percent": 10.1
+          }
+        }
+      },
+      "spending": {
+        "total": 636924000000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales",
+            "percent": 53.4
+          },
+          "fulfillment": {
+            "name": "Fulfillment",
+            "percent": 16.9
+          },
+          "technology_infrastructure": {
+            "name": "Technology and Infrastructure",
+            "percent": 15.6
+          },
+          "marketing": {
+            "name": "Marketing",
+            "percent": 8.1
+          },
+          "general_admin_other": {
+            "name": "General, Administrative and Other",
+            "percent": 6.0
+          }
+        }
+      },
+      "methodology": "The 2025 data represents the actual audited figures reported in the Q4 2025 earnings release (issued Feb 2026). Total Income is the reported Net Sales. Total Spending is calculated as Total Operating Expenses. The percentage breakdown is calculated based on the net sales by segment (Online, AWS, Ads, etc.) and the detailed operating expense line items provided in the Consolidated Statements of Operations. Special charges, including legal settlements and severance costs reported in Q3 and Q4, are integrated into the General, Administrative and Other category."
+    },
+    "2024": {
+      "income": {
+        "total": 638000000000,
+        "sources": [
+          "Amazon Annual Report 2024",
+          "SEC Form 10-K Amazon.com, Inc."
+        ],
+        "breakdown": {
+          "online_stores": {
+            "name": "Online Stores",
+            "percent": 38.7
+          },
+          "third_party_services": {
+            "name": "Third-Party Seller Services",
+            "percent": 24.5
+          },
+          "aws": {
+            "name": "Amazon Web Services (AWS)",
+            "percent": 16.9
+          },
+          "advertising": {
+            "name": "Advertising Services",
+            "percent": 8.8
+          },
+          "other": {
+            "name": "Physical Stores, Subscriptions & Others",
+            "percent": 11.1
+          }
+        }
+      },
+      "spending": {
+        "total": 569400000000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales",
+            "percent": 53.0
+          },
+          "fulfillment": {
+            "name": "Fulfillment",
+            "percent": 17.3
+          },
+          "technology_content": {
+            "name": "Technology and Content",
+            "percent": 14.6
+          },
+          "marketing": {
+            "name": "Marketing",
+            "percent": 8.4
+          },
+          "general_admin_other": {
+            "name": "General, Administrative and Other",
+            "percent": 6.7
+          }
+        }
+      },
+      "methodology": "Data extracted from the FY2024 Consolidated Statements of Operations. Total income represents Net Sales. Total spending is calculated as Total Operating Expenses (Cost of sales + Operating expenses). Percentage breakdown is derived by dividing individual segment revenue/expense by the total reported figures for the fiscal year ended December 31, 2024."
+    }
+  }
+}

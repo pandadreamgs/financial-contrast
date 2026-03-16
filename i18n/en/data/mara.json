@@ -1,0 +1,146 @@
+{
+  "id": "mara",
+  "name": "Ministry of Agriculture and Rural Affairs (MARA)",
+  "image": "images/MARA.svg",
+  "category": "department",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 372842753421,
+        "sources": [
+          "Central General Public Budget Allocations",
+          "Ultra-long Special Treasury Bonds for Food Security",
+          "Agricultural Infrastructure Special Bonds"
+        ],
+        "breakdown": {
+          "budgetary_appropriations": {
+            "name": "General Public Budget Allocations",
+            "percent": 90.8
+          },
+          "special_treasury_bonds": {
+            "name": "Ultra-long Special Treasury Bonds",
+            "percent": 6.5
+          },
+          "other_institutional_revenue": {
+            "name": "Institutional and Operational Income",
+            "percent": 2.7
+          }
+        }
+      },
+      "spending": {
+        "total": 372842753421,
+        "breakdown": {
+          "smart_agriculture": {
+            "name": "AI and Robotic Agricultural Equipment Deployment",
+            "percent": 22.4
+          },
+          "grain_capacity_expansion": {
+            "name": "Enhanced Grain Production Capacity (725m Ton Target)",
+            "percent": 41.6
+          },
+          "rural_revitalization": {
+            "name": "Integrated Rural-Urban Development and Housing",
+            "percent": 20.2
+          },
+          "climate_resilience": {
+            "name": "Water Conservancy and Disaster Mitigation Infrastructure",
+            "percent": 15.8
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is derived from the 2026 Government Work Report (4th session of the 14th NPC). Figures are converted to USD at the projected March 2026 rate (1 USD = 7.25 CNY). Total spending reflects a 6.5% increase in R&D within the national budget framework."
+    },
+    "2025": {
+      "income": {
+        "total": 350087092414,
+        "sources": [
+          "Central Government General Public Budget",
+          "Special Purpose Bonds for Rural Revitalization",
+          "Government Managed Fund Income"
+        ],
+        "breakdown": {
+          "central_appropriations": {
+            "name": "Central Government Budgetary Allocations",
+            "percent": 92.1
+          },
+          "special_bonds": {
+            "name": "Local Government Special Bonds for Agriculture",
+            "percent": 5.4
+          },
+          "internal_revenue": {
+            "name": "Institutional Operations and Carryover",
+            "percent": 2.5
+          }
+        }
+      },
+      "spending": {
+        "total": 350087092414,
+        "breakdown": {
+          "food_security": {
+            "name": "Grain Production and Arable Land Protection",
+            "percent": 45.2
+          },
+          "seed_industry": {
+            "name": "Seed Industry Revitalization and Biotech R&D",
+            "percent": 18.3
+          },
+          "rural_modernization": {
+            "name": "Digital Village and Smart Farming Infrastructure",
+            "percent": 22.5
+          },
+          "disaster_relief": {
+            "name": "Agricultural Disaster Prevention and Mitigation",
+            "percent": 14.0
+          }
+        }
+      },
+      "methodology": "Figures represent the 2025 National Budget Plan approved by the NPC, converted to USD (1 USD = 7.25 CNY). The total reflects the consolidated 'Agriculture, Forestry, and Water' expenditure line managed by MARA."
+    },
+    "2024": {
+      "income": {
+        "total": 330895172414,
+        "sources": [
+          "Central General Public Budget Appropriations",
+          "Government-managed Fund Receipts",
+          "Carryover Funds from 2023"
+        ],
+        "breakdown": {
+          "budgetary_appropriations": {
+            "name": "General Public Budget Appropriations",
+            "percent": 91.5
+          },
+          "fund_receipts": {
+            "name": "Government Managed Funds",
+            "percent": 6.2
+          },
+          "other_income": {
+            "name": "Institutional Carryovers and Other Income",
+            "percent": 2.3
+          }
+        }
+      },
+      "spending": {
+        "total": 330895172414,
+        "breakdown": {
+          "agricultural_production": {
+            "name": "Agricultural Production and Food Security Subsidies",
+            "percent": 47.0
+          },
+          "rural_infrastructure": {
+            "name": "Rural Revitalization and Infrastructure Construction",
+            "percent": 25.4
+          },
+          "tech_innovation": {
+            "name": "Agricultural Science and Technology Innovation",
+            "percent": 15.6
+          },
+          "poverty_alleviation": {
+            "name": "Consolidation of Poverty Alleviation Achievements",
+            "percent": 12.0
+          }
+        }
+      },
+      "methodology": "Data derived from the 2024 Budget Execution Report (PRC). Original CNY values converted to USD for comparison using the standardized March 2026 forecast rate (1 USD = 7.25 CNY) to maintain longitudinal consistency."
+    }
+  }
+}

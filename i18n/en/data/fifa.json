@@ -1,0 +1,173 @@
+{
+  "id": "fifa",
+  "name": "FIFA",
+  "image": "images/FIFA.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 10900000000,
+        "sources": [
+          "FIFA Revised Cycle Budget 2023-2026",
+          "Sports Value Financial Analysis 2026",
+          "FIFA Annual Report 2024 - Revenue Projections"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Television Broadcasting Rights",
+            "percent": 38.53
+          },
+          "category_2": {
+            "name": "Hospitality Rights and Ticket Sales",
+            "percent": 27.52
+          },
+          "category_3": {
+            "name": "Marketing Rights",
+            "percent": 25.69
+          },
+          "category_4": {
+            "name": "Licensing Rights and Other Revenue",
+            "percent": 8.26
+          }
+        }
+      },
+      "spending": {
+        "total": 3700000000,
+        "breakdown": {
+          "category_1": {
+            "name": "FIFA World Cup 2026 Operations",
+            "percent": 44.32
+          },
+          "category_2": {
+            "name": "Prize Money and Contributions to Teams",
+            "percent": 32.43
+          },
+          "category_3": {
+            "name": "Development and Education (FIFA Forward)",
+            "percent": 14.86
+          },
+          "category_4": {
+            "name": "Governance and Administration",
+            "percent": 5.41
+          },
+          "category_5": {
+            "name": "TV Production and Marketing Expenses",
+            "percent": 2.98
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is derived from the official FIFA quadrennial budget, updated with 2026-specific projections. Revenue reflects a record-breaking $10.9B target driven by the 48-team tournament expansion and the high commercial value of the North American market (USA, Canada, Mexico). Spending is calculated based on the $3.7B event budget, which includes $1.12B for direct operations, optimized by recent $100M cost-cutting measures in the Miami headquarters to increase efficiency. Percentages are derived from exact projections of broadcasting ($4.2B), sponsorship ($2.8B), and hospitality/ticketing ($3B) streams."
+    },
+    "2025": {
+      "income": {
+        "total": 2436000000,
+        "sources": [
+          "FIFA Revised Budget 2023-2026",
+          "FIFA Annual Report 2024 - Financial Projections",
+          "FIFA Club World Cup 2025 Commercial Estimates"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "FIFA Club World Cup 2025 Revenue",
+            "percent": 82.1
+          },
+          "category_2": {
+            "name": "Marketing Rights",
+            "percent": 12.31
+          },
+          "category_3": {
+            "name": "Licensing Rights",
+            "percent": 2.46
+          },
+          "category_4": {
+            "name": "Television Broadcasting Rights",
+            "percent": 1.35
+          },
+          "category_5": {
+            "name": "Other Revenue and Income",
+            "percent": 1.77
+          }
+        }
+      },
+      "spending": {
+        "total": 3460000000,
+        "breakdown": {
+          "category_1": {
+            "name": "FIFA Club World Cup 2025 Operations",
+            "percent": 57.8
+          },
+          "category_2": {
+            "name": "Development and Education",
+            "percent": 20.3
+          },
+          "category_3": {
+            "name": "Governance and Administration",
+            "percent": 5.94
+          },
+          "category_4": {
+            "name": "FIFA World Cup 2026 Preparation",
+            "percent": 3.33
+          },
+          "category_5": {
+            "name": "Other Competitions and Football Events",
+            "percent": 12.63
+          }
+        }
+      },
+      "methodology": "Figures derived from the revised 2023-2026 quadrennial budget approved by the FIFA Council. The 2025 fiscal year includes a massive revenue spike of $2B specifically attributed to the inaugural 32-team FIFA Club World Cup. Spending reflects the strategic decision to reinvest all Club World Cup revenues into the tournament's operational costs and prize money, alongside ongoing FIFA Forward 3.0 development programs."
+    },
+    "2024": {
+      "income": {
+        "total": 482666000,
+        "sources": [
+          "FIFA Annual Report 2024 - Consolidated Statement of Comprehensive Income",
+          "FIFA Financials 2024 - Revenue Categories"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Marketing Rights",
+            "percent": 62.95
+          },
+          "category_2": {
+            "name": "Licensing Rights",
+            "percent": 9.89
+          },
+          "category_3": {
+            "name": "Television Broadcasting Rights",
+            "percent": 8.11
+          },
+          "category_4": {
+            "name": "Other Revenue and Income",
+            "percent": 19.05
+          }
+        }
+      },
+      "spending": {
+        "total": 1297873000,
+        "breakdown": {
+          "category_1": {
+            "name": "Development and Education",
+            "percent": 54.12
+          },
+          "category_2": {
+            "name": "Competitions and Events",
+            "percent": 22.02
+          },
+          "category_3": {
+            "name": "Governance and Administration",
+            "percent": 15.84
+          },
+          "category_4": {
+            "name": "Marketing and TV Broadcasting Expenses",
+            "percent": 4.28
+          },
+          "category_5": {
+            "name": "Football Governance and Other Expenses",
+            "percent": 3.74
+          }
+        }
+      },
+      "methodology": "Data extracted from the FIFA Annual Report 2024. Total income represents the sum of revenue and other income. Spending includes total investments in football and administrative activities. Percentages are calculated based on exact TUSD (thousands of USD) figures provided in the consolidated financial statements: Revenue (482,666 TUSD) and Expenses (1,297,873 TUSD)."
+    }
+  }
+}

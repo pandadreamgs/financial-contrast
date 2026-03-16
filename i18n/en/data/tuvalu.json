@@ -1,0 +1,154 @@
+{
+  "id": "tuvalu",
+  "name": "Tuvalu",
+  "image": "images/Tuvalu.svg",
+  "category": "country",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 75306000,
+        "sources": [
+          "Government of Tuvalu 2025-2026 National Budget Speech",
+          "IMF Country Report No. 25/257 (September 2025)",
+          "Australia-Tuvalu Falepili Union Financial Commitment Framework"
+        ],
+        "breakdown": {
+          "fishing_licenses": {
+            "name": "Fisheries Revenue (including new bilateral agreements)",
+            "percent": 36.5
+          },
+          "external_grants": {
+            "name": "Development Partner Budget Support (Australia, World Bank, ADB)",
+            "percent": 32.8
+          },
+          "investment_returns": {
+            "name": "Tuvalu Trust Fund and CIF Distributions",
+            "percent": 15.2
+          },
+          "tax_and_digital": {
+            "name": "Taxation and .tv Domain Royalties",
+            "percent": 15.5
+          }
+        }
+      },
+      "spending": {
+        "total": 75306000,
+        "breakdown": {
+          "operating_expenses": {
+            "name": "Government Operating and Recurrent Expenditure",
+            "percent": 87.4
+          },
+          "capital_investment": {
+            "name": "Infrastructure and Outer-Island Development",
+            "percent": 9.8
+          },
+          "statutory_expenditure": {
+            "name": "Debt Servicing and Statutory Obligations",
+            "percent": 2.8
+          }
+        }
+      },
+      "methodology": "Projections are based on the balanced budget model adopted for the 2025-2026 fiscal year. Total revenue includes a 38% projected increase in fishing license fees due to new vessel agreements with Taiwan and China. All figures have been converted from AUD to USD at the projected March 2026 exchange rate (0.66). Spending is aligned with the 'Enabling Progress' strategy."
+    },
+    "2025": {
+      "income": {
+        "total": 45144000,
+        "sources": [
+          "Tuvalu 2025 National Budget Appropriations Act",
+          "Asian Development Bank (ADB) Pacific Economic Monitor 2025",
+          "IMF Fiscal Monitor Data 2025"
+        ],
+        "breakdown": {
+          "fishing_licenses": {
+            "name": "Fishing Licenses and Vessel Access Fees",
+            "percent": 61.5
+          },
+          "grants_external": {
+            "name": "External Development and Budget Support Grants",
+            "percent": 24.8
+          },
+          "digital_assets": {
+            "name": ".tv Domain Licensing and Digital Revenue",
+            "percent": 8.1
+          },
+          "domestic_tax": {
+            "name": "General Taxation and Customs Duties",
+            "percent": 5.6
+          }
+        }
+      },
+      "spending": {
+        "total": 42372000,
+        "breakdown": {
+          "public_sector": {
+            "name": "Civil Service Salaries and General Administration",
+            "percent": 55.4
+          },
+          "healthcare_education": {
+            "name": "Health Services (TOMRS) and Education Programs",
+            "percent": 20.2
+          },
+          "climate_adaptation": {
+            "name": "Climate Resilience and Coastal Protection Projects",
+            "percent": 15.1
+          },
+          "community_dev": {
+            "name": "Outer Island Development and Subsidies",
+            "percent": 9.3
+          }
+        }
+      },
+      "methodology": "Figures represent the 2025 National Budget estimates converted to USD. Total Income reflects recurrent revenue plus committed external grants. Spending is calculated based on the 2025 Appropriations Act. Data accounts for strategic investments in climate adaptation as outlined in the FALEPILI Union agreement framework, adjusted for the USD exchange rate."
+    },
+    "2024": {
+      "income": {
+        "total": 42900000,
+        "sources": [
+          "Tuvalu Ministry of Finance 2024 National Budget",
+          "IMF Article IV Consultation Report 2025",
+          "Tuvalu Central Statistics Division Economics Report"
+        ],
+        "breakdown": {
+          "fishing_licenses": {
+            "name": "Fishing Licenses and Vessel Access Fees",
+            "percent": 64.2
+          },
+          "development_grants": {
+            "name": "Foreign Development Assistance and Grants",
+            "percent": 21.5
+          },
+          "dot_tv_domain": {
+            "name": ".tv Top-Level Domain Lease and Royalties",
+            "percent": 7.3
+          },
+          "tax_revenue": {
+            "name": "Taxation and Customs Duties",
+            "percent": 7.0
+          }
+        }
+      },
+      "spending": {
+        "total": 39798000,
+        "breakdown": {
+          "recurrent_expenditure": {
+            "name": "Public Administration and Personnel Emoluments",
+            "percent": 58.0
+          },
+          "social_services": {
+            "name": "Health (TOMRS) and Education Services",
+            "percent": 18.5
+          },
+          "infrastructure": {
+            "name": "Coastal Adaptation and Island Infrastructure",
+            "percent": 12.8
+          },
+          "subsidies": {
+            "name": "Energy Subsidies and SOE Support",
+            "percent": 10.7
+          }
+        }
+      },
+      "methodology": "Data derived from the Tuvalu 2024 National Budget projected actuals. All values are converted from AUD to USD (0.66 rate). Total income includes recurrent revenue and general budget support. Spending is calculated based on allocated recurrent and capital expenditure for the 2024 fiscal cycle."
+    }
+  }
+}

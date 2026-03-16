@@ -1,0 +1,142 @@
+{
+  "id": "msf",
+  "name": "Doctors Without Borders (MSF)",
+  "image": "images/MSF.svg",
+  "category": "Non-profit organization",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 2731212000,
+        "sources": [
+          "Private Individual Contributions",
+          "Legacies and Bequests",
+          "Corporate and Private Foundation Grants"
+        ],
+        "breakdown": {
+          "individual_donors": {
+            "name": "Private individuals and regular donors",
+            "percent": 78.5
+          },
+          "legacies": {
+            "name": "Legacies and bequests",
+            "percent": 18.0
+          },
+          "corporate_and_foundations": {
+            "name": "Corporates and foundations",
+            "percent": 3.5
+          }
+        }
+      },
+      "spending": {
+        "total": 3555090000,
+        "breakdown": {
+          "field_operations": {
+            "name": "Medical and humanitarian field projects",
+            "percent": 81.5
+          },
+          "fundraising": {
+            "name": "Fundraising and communication",
+            "percent": 13.5
+          },
+          "hq_administration": {
+            "name": "General management and administration",
+            "percent": 5.0
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is derived using a 3-year CAGR of 4.5% applied to the 2024-2025 income base of 2.61B USD. Spending is projected to remain high at approx. 3.56B USD due to the persistent 'funding cliff' in global health systems and increased operational costs in high-risk zones (Sudan, Ukraine, Gaza). MSF maintains a policy of zero US Government funding to preserve neutrality, relying on an estimated 7.5 million individual donors worldwide. The projected deficit of ~823M USD is planned to be offset by the MSF Strategic Reserve Fund, which is mandated to cover between 3 and 12 months of operational activity."
+    },
+    "2025": {
+      "income": {
+        "total": 2613600000,
+        "sources": [
+          "Private Donors and Foundations",
+          "Public Institutional Funding",
+          "Financial and Other Revenue"
+        ],
+        "breakdown": {
+          "individual_giving": {
+            "name": "Private individuals and legacies",
+            "percent": 97.5
+          },
+          "institutional_grants": {
+            "name": "Public and multilateral grants",
+            "percent": 1.2
+          },
+          "other_revenue": {
+            "name": "Investment and exceptional income",
+            "percent": 1.3
+          }
+        }
+      },
+      "spending": {
+        "total": 3402000000,
+        "breakdown": {
+          "medical_operations": {
+            "name": "Direct humanitarian medical projects",
+            "percent": 82.0
+          },
+          "fundraising_costs": {
+            "name": "Fundraising and communication",
+            "percent": 13.0
+          },
+          "administration": {
+            "name": "Management and general administration",
+            "percent": 5.0
+          }
+        }
+      },
+      "methodology": "The 2025 figures are compiled using the MSF International Provisional Results and MSF-USA 'Year in Review 2025'. Total income is converted to a base of 2.61B USD to reflect the 2.5% growth in private donor contributions. Spending is estimated based on the operational budget expansion in high-intensity zones (Gaza, Sudan, and Afghanistan) as reported in Q3 2025. The deficit between income and spending is strategically covered by the organization's liquid reserves, maintaining the policy of 3-12 months of operating liquidity."
+    },
+    "2024": {
+      "income": {
+        "total": 2548800000,
+        "sources": [
+          "Private Income (Individual Donors and Private Institutions)",
+          "Public Institutional Income (Governments and Multilateral Agencies)",
+          "Other Operating Income"
+        ],
+        "breakdown": {
+          "private_donors": {
+            "name": "Private individuals and organizations",
+            "percent": 98.0
+          },
+          "public_institutions": {
+            "name": "Public institutional income",
+            "percent": 1.0
+          },
+          "other": {
+            "name": "Other operating income",
+            "percent": 1.0
+          }
+        }
+      },
+      "spending": {
+        "total": 3815640000,
+        "breakdown": {
+          "program_expenses": {
+            "name": "Humanitarian programs and field projects",
+            "percent": 64.0
+          },
+          "fundraising": {
+            "name": "Fundraising and communication",
+            "percent": 16.0
+          },
+          "program_support": {
+            "name": "Program support and headquarters coordination",
+            "percent": 12.0
+          },
+          "management_admin": {
+            "name": "Management and general administration",
+            "percent": 5.0
+          },
+          "awareness_other": {
+            "name": "Awareness-raising and other humanitarian activities",
+            "percent": 3.0
+          }
+        }
+      },
+      "methodology": "Data sourced from the 2024 MSF International Activity Report and Provisional International Financial Report. Total income is stated in USD (2.55B USD). Spending is calculated based on the combined international operating expenses of all MSF sections. The high spending relative to annual income is covered by strategic reserves accumulated in previous fiscal years to ensure independence during global crises."
+    }
+  }
+}

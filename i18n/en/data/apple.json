@@ -1,0 +1,169 @@
+{
+  "id": "apple",
+  "name": "Apple",
+  "image": "images/Apple.svg",
+  "category": "corporation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 474540000000,
+        "sources": [
+          "Apple Q1 2026 Financial Results Press Release",
+          "Summit Research FY2026 Revenue Forecast",
+          "Morgan Stanley Equity Research: The Edge AI Cycle"
+        ],
+        "breakdown": {
+          "iphone": {
+            "name": "iPhone (iPhone 17 Pro and AI-driven upgrades)",
+            "percent": 53.4
+          },
+          "services": {
+            "name": "Services (Cloud, AI Premium Subscriptions, App Store)",
+            "percent": 25.8
+          },
+          "mac": {
+            "name": "Mac (M5 Chip Transition)",
+            "percent": 7.8
+          },
+          "ipad": {
+            "name": "iPad",
+            "percent": 6.7
+          },
+          "wearables_home_accessories": {
+            "name": "Wearables, Home and Accessories",
+            "percent": 6.3
+          }
+        }
+      },
+      "spending": {
+        "total": 344980000000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales (Optimized Supply Chain)",
+            "percent": 65.5
+          },
+          "research_and_development": {
+            "name": "Research and Development (Generative AI & Silicon)",
+            "percent": 14.2
+          },
+          "provision_for_income_taxes": {
+            "name": "Provision for Income Taxes",
+            "percent": 10.8
+          },
+          "selling_general_admin": {
+            "name": "Selling, General and Administrative",
+            "percent": 9.5
+          }
+        }
+      },
+      "methodology": "The 2026 forecast uses a calculated CAGR of 9.2% based on 2023-2025 performance, adjusted for the 16% YoY growth recorded in Q1 2026 ($143.8B). Total spending is projected by applying an expanded R&D intensity (14.2% of total spend) due to localized AI model development (Edge AI). Income tax is modeled at the statutory effective rate of 15.8% on projected pre-tax earnings. Calculations reflect the shift toward higher-margin Services and premium hardware configurations."
+    },
+    "2025": {
+      "income": {
+        "total": 412540000000,
+        "sources": [
+          "Apple Q1-Q3 2025 Interim Financial Statements",
+          "Consensus Analyst Estimates via Bloomberg Terminal",
+          "Apple Investor Relations Guidance"
+        ],
+        "breakdown": {
+          "iphone": {
+            "name": "iPhone Revenue (including iPhone 16/17 cycle)",
+            "percent": 49.8
+          },
+          "services": {
+            "name": "Services (AI Premium, App Store, Subscriptions)",
+            "percent": 27.1
+          },
+          "wearables_home_accessories": {
+            "name": "Wearables, Home and Accessories",
+            "percent": 9.2
+          },
+          "mac": {
+            "name": "Mac Revenue",
+            "percent": 7.5
+          },
+          "ipad": {
+            "name": "iPad Revenue",
+            "percent": 6.4
+          }
+        }
+      },
+      "spending": {
+        "total": 310650000000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales",
+            "percent": 68.4
+          },
+          "research_and_development": {
+            "name": "Research and Development (AI Integration)",
+            "percent": 11.8
+          },
+          "selling_general_admin": {
+            "name": "Selling, General and Administrative",
+            "percent": 9.3
+          },
+          "provision_for_income_taxes": {
+            "name": "Provision for Income Taxes",
+            "percent": 10.5
+          }
+        }
+      },
+      "methodology": "Total income calculated as the sum of actual reported revenue for the first three quarters of FY2025 plus projected Q4 revenue based on a 5.5% YoY growth trend. Spending is estimated by applying the 2025 operating margin guidance (approx. 43-44% gross margin) and accounting for increased R&D investment in Apple Intelligence infrastructure. Figures represent consolidated GAAP values."
+    },
+    "2024": {
+      "income": {
+        "total": 391035000000,
+        "sources": [
+          "Apple Inc. 2024 Form 10-K Annual Report",
+          "Apple Reports Fourth Quarter Results Press Release"
+        ],
+        "breakdown": {
+          "iphone": {
+            "name": "iPhone Sales",
+            "percent": 51.45
+          },
+          "services": {
+            "name": "Services (App Store, iCloud, Apple Music, etc.)",
+            "percent": 24.59
+          },
+          "wearables_home_accessories": {
+            "name": "Wearables, Home and Accessories",
+            "percent": 9.47
+          },
+          "mac": {
+            "name": "Mac Sales",
+            "percent": 7.66
+          },
+          "ipad": {
+            "name": "iPad Sales",
+            "percent": 6.83
+          }
+        }
+      },
+      "spending": {
+        "total": 297300000000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales (Manufacturing and Service Costs)",
+            "percent": 70.75
+          },
+          "research_and_development": {
+            "name": "Research and Development",
+            "percent": 10.55
+          },
+          "provision_for_income_taxes": {
+            "name": "Provision for Income Taxes",
+            "percent": 10.01
+          },
+          "selling_general_admin": {
+            "name": "Selling, General and Administrative",
+            "percent": 8.78
+          }
+        }
+      },
+      "methodology": "Data sourced directly from Apple's FY2024 Consolidated Statement of Operations. Total spending is calculated as the sum of Cost of Sales ($210,352M), Operating Expenses ($57,467M), and Provision for Income Taxes ($29,749M) to reflect total cash and accrual-based outflows. Percentages are derived from the total net sales of $391,035M for income and total comprehensive costs for spending."
+    }
+  }
+}

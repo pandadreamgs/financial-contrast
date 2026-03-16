@@ -1,0 +1,134 @@
+{
+  "id": "mark-zuckerberg",
+  "name": "Mark Zuckerberg",
+  "image": "images/Mark-Zuckerberg.jpg",
+  "category": "person",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 319293441864,
+        "sources": [
+          "Projected Meta Stock Appreciation",
+          "Dividend Income (Quarterly Distribution)",
+          "Executive Compensation and Benefits"
+        ],
+        "breakdown": {
+          "unrealized_gains": {
+            "name": "Estimated Asset Appreciation",
+            "percent": 99.75
+          },
+          "dividends": {
+            "name": "Annual Dividends",
+            "percent": 0.24
+          },
+          "compensation": {
+            "name": "Personal Security and Logistics Compensation",
+            "percent": 0.01
+          }
+        }
+      },
+      "spending": {
+        "total": 2354011787,
+        "breakdown": {
+          "philanthropy": {
+            "name": "Chan Zuckerberg Initiative (CZI) Funding",
+            "percent": 42.48
+          },
+          "taxes": {
+            "name": "Estimated Taxes on Realized Gains & Dividends",
+            "percent": 56.71
+          },
+          "security_lifestyle": {
+            "name": "Personal Security and Private Aviation",
+            "percent": 0.81
+          }
+        }
+      },
+      "methodology": "Income is based on projected META stock price of $832/share by end of 2026 applied to 349.2M shares. Spending is corrected to reflect personal cash flow: CZI annual commitment ($1B), estimated 20% tax on annual dividends (~$157M), taxes on projected 10b5-1 stock sales ($1.17B), and personal security indexed for inflation ($19M)."
+    },
+    "2025": {
+      "income": {
+        "total": 128766437537,
+        "sources": [
+          "Meta Platforms Equity Appreciation",
+          "Dividend Payments",
+          "Executive Security and Travel Allowance"
+        ],
+        "breakdown": {
+          "unrealized_gains": {
+            "name": "Stock Value Appreciation",
+            "percent": 99.41
+          },
+          "dividends": {
+            "name": "Dividends Earned",
+            "percent": 0.57
+          },
+          "compensation": {
+            "name": "Personal Security and Aviation Compensation",
+            "percent": 0.02
+          }
+        }
+      },
+      "spending": {
+        "total": 2160754874,
+        "breakdown": {
+          "philanthropy": {
+            "name": "CZI Science & AI Grants",
+            "percent": 46.28
+          },
+          "taxes": {
+            "name": "Capital Gains and Dividend Taxes",
+            "percent": 53.06
+          },
+          "security_lifestyle": {
+            "name": "Personal Security and Logistics",
+            "percent": 0.66
+          }
+        }
+      },
+      "methodology": "Spending is recalculated to exclude Meta's corporate CapEx. It includes a $1B allocation to CZI, estimated $1.14B in taxes (based on a 20% rate on dividends and planned share liquidations for philanthropy/operations), and $27.2M for personal security and travel as reported in proxy statements."
+    },
+    "2024": {
+      "income": {
+        "total": 73727220001,
+        "sources": [
+          "Meta Platforms Stock Appreciation",
+          "Meta Platforms Dividends",
+          "Meta Platforms Executive Compensation"
+        ],
+        "breakdown": {
+          "unrealized_gains": {
+            "name": "Asset Capitalization Growth",
+            "percent": 99.02
+          },
+          "dividends": {
+            "name": "Dividend Income",
+            "percent": 0.95
+          },
+          "compensation": {
+            "name": "Executive Compensation and Benefits",
+            "percent": 0.03
+          }
+        }
+      },
+      "spending": {
+        "total": 1156620001,
+        "breakdown": {
+          "philanthropy": {
+            "name": "CZI Charitable Grants",
+            "percent": 86.46
+          },
+          "taxes": {
+            "name": "Estimated Dividend Tax",
+            "percent": 12.1
+          },
+          "security_lifestyle": {
+            "name": "Personal Security and Private Aviation",
+            "percent": 1.44
+          }
+        }
+      },
+      "methodology": "Spending excludes corporate share repurchases. It reflects personal outlays: $1B to the Chan Zuckerberg Initiative, $140M in estimated taxes on the first year of Meta dividends, and $16.6M in personal security and private air travel costs per Meta's 2024 proxy statement."
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "asean",
+  "name": "Association of SouthEast Asian Nations (ASEAN)",
+  "image": "images/ASEAN.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 4242607200000,
+        "sources": [
+          "ASEAN Economic Community (AEC) 2025-2026 Strategic Plan",
+          "Asian Development Bank (ADB) Outlook 2024-2026",
+          "International Monetary Fund (IMF) World Economic Outlook 2026 Forecast"
+        ],
+        "breakdown": {
+          "services": {
+            "name": "Tertiary Sector (Digital Finance & E-commerce)",
+            "percent": 56.2
+          },
+          "manufacturing": {
+            "name": "Secondary Sector (Electronics & EV Components)",
+            "percent": 31.5
+          },
+          "agriculture": {
+            "name": "Primary Sector (Agri-tech & Commodities)",
+            "percent": 12.3
+          }
+        }
+      },
+      "spending": {
+        "total": 2638843200000,
+        "breakdown": {
+          "household_consumption": {
+            "name": "Private Consumption Expenditure",
+            "percent": 61.0
+          },
+          "infrastructure_and_green_energy": {
+            "name": "Sustainable Infrastructure and Energy Transition",
+            "percent": 26.2
+          },
+          "public_governance_and_defense": {
+            "name": "General Government Expenditure",
+            "percent": 12.8
+          }
+        }
+      },
+      "methodology": "The 2026 forecast applies a CAGR of 4.4% to the 2025 estimated GDP of $4.06T. Income categories reflect the ongoing shift toward service-oriented economies, specifically digital trade under the DEFA (Digital Economy Framework Agreement). Spending breakdown accounts for increased state-led investments in green energy and physical connectivity across the region."
+    },
+    "2025": {
+      "income": {
+        "total": 4063800000000,
+        "sources": [
+          "ASEANstats Data Portal",
+          "International Monetary Fund (IMF) World Economic Outlook Database",
+          "Asian Development Bank (ADB) Outlook"
+        ],
+        "breakdown": {
+          "services": {
+            "name": "Tertiary Sector (Services & Digital Services)",
+            "percent": 55.4
+          },
+          "manufacturing": {
+            "name": "Secondary Sector (Manufacturing & Industry)",
+            "percent": 30.8
+          },
+          "agriculture": {
+            "name": "Primary Sector (Agriculture, Forestry, Fishing)",
+            "percent": 13.8
+          }
+        }
+      },
+      "spending": {
+        "total": 2527683600000,
+        "breakdown": {
+          "household_consumption": {
+            "name": "Household Final Consumption Expenditure",
+            "percent": 61.8
+          },
+          "infrastructure_development": {
+            "name": "Public and Private Capital Investment",
+            "percent": 25.5
+          },
+          "government_expenditure": {
+            "name": "General Government Final Consumption",
+            "percent": 12.7
+          }
+        }
+      },
+      "methodology": "The 2025 Income figure is calculated using a 4.2% growth rate over the 2024 baseline of 3.9T USD. Spending reflects a weighted average of Consumption and Capital Formation across the top 5 ASEAN economies (Indonesia, Thailand, Singapore, Vietnam, Malaysia), where consumption remains the primary driver of the regional economy."
+    },
+    "2024": {
+      "income": {
+        "total": 3900000000000,
+        "sources": [
+          "ASEANstats Data Portal",
+          "HKTDC Research Market Profile",
+          "IMF World Economic Outlook"
+        ],
+        "breakdown": {
+          "services": {
+            "name": "Tertiary Sector (Services)",
+            "percent": 54.7
+          },
+          "manufacturing": {
+            "name": "Secondary Sector (Manufacturing & Industry)",
+            "percent": 30.2
+          },
+          "agriculture": {
+            "name": "Primary Sector (Agriculture, Forestry, Fishing)",
+            "percent": 15.1
+          }
+        }
+      },
+      "spending": {
+        "total": 2425800000000,
+        "breakdown": {
+          "household_consumption": {
+            "name": "Household Final Consumption Expenditure",
+            "percent": 62.2
+          },
+          "government_spending": {
+            "name": "General Government Final Consumption",
+            "percent": 12.8
+          },
+          "investment_fixed_capital": {
+            "name": "Gross Fixed Capital Formation",
+            "percent": 25.0
+          }
+        }
+      },
+      "methodology": "Income represents the total Nominal GDP of all 10 ASEAN member states. Spending is calculated as the Final Consumption Expenditure (both Private and Public) based on a weighted average of 62.2% of GDP across the region's major economies (Indonesia, Thailand, Vietnam, Philippines)."
+    }
+  }
+}

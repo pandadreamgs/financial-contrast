@@ -1,0 +1,134 @@
+{
+  "id": "pbc",
+  "name": "People's Bank of China (PBC)",
+  "image": "images/PBC.png",
+  "category": "government",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 678128000000,
+        "sources": [
+          "Global Bond Portfolio Yields",
+          "Policy Loan Interest (MLF/SLF)",
+          "Gold Reserve Appreciation"
+        ],
+        "breakdown": {
+          "foreign_reserve_management": {
+            "name": "Interest from Foreign Exchange Assets",
+            "percent": 69.2
+          },
+          "monetary_tool_revenue": {
+            "name": "Interest from Liquidity Provision Facilities",
+            "percent": 26.5
+          },
+          "service_and_digital_fees": {
+            "name": "Financial Service Fees and e-CNY Commissions",
+            "percent": 4.3
+          }
+        }
+      },
+      "spending": {
+        "total": 304259000000,
+        "breakdown": {
+          "reserve_remuneration": {
+            "name": "Interest Expenses on Required and Excess Reserves",
+            "percent": 62.8
+          },
+          "structural_support_costs": {
+            "name": "Costs of Targeted Refinancing Programs",
+            "percent": 24.1
+          },
+          "digital_infrastructure": {
+            "name": "e-CNY Network Expansion and Cyber Security",
+            "percent": 13.1
+          }
+        }
+      },
+      "methodology": "2026 Forecast calculated in USD using a 3-year CAGR of 4.1% for income and 10.7% for spending. Income is based on a projected 3.42 trillion USD foreign reserve base. Spending reflects increased interest payments on reserves following the 2025-2026 adjustment of the Reserve Requirement Ratio (RRR). Values converted to USD at the March 2026 projected average rate of 7.18 CNY/USD."
+    },
+    "2025": {
+      "income": {
+        "total": 651420000000,
+        "sources": [
+          "Foreign Exchange Reserve Returns",
+          "Structural Monetary Tool Interest",
+          "Gold Reserve Revaluation"
+        ],
+        "breakdown": {
+          "foreign_asset_earnings": {
+            "name": "Income from Foreign Exchange Reserves",
+            "percent": 70.8
+          },
+          "policy_loan_interest": {
+            "name": "Interest from Structural Re-lending Facilities",
+            "percent": 24.5
+          },
+          "other_financial_services": {
+            "name": "Fees and Other Operating Income",
+            "percent": 4.7
+          }
+        }
+      },
+      "spending": {
+        "total": 274850000000,
+        "breakdown": {
+          "monetary_expansion_costs": {
+            "name": "Interest on Required Reserves and Bills",
+            "percent": 65.2
+          },
+          "targeted_stimulus_ops": {
+            "name": "Cost of Targeted Credit Support Tools",
+            "percent": 22.4
+          },
+          "administrative_tech_costs": {
+            "name": "Personnel and Digital Currency (e-CNY) Infrastructure",
+            "percent": 12.4
+          }
+        }
+      },
+      "methodology": "Figures are presented in USD based on the PBOC Q3 2025 Monetary Policy Report and NBS 2025 Economic Communiqué. Total income includes returns on the $3.3579 trillion foreign exchange reserves. Conversion performed at the 2025 average exchange rate of 7.1429 CNY/USD."
+    },
+    "2024": {
+      "income": {
+        "total": 625840000000,
+        "sources": [
+          "Foreign Exchange Reserve Management",
+          "Open Market Operations Interest",
+          "Gold Reserve Appreciation"
+        ],
+        "breakdown": {
+          "foreign_assets_interest": {
+            "name": "Interest Income from Foreign Assets",
+            "percent": 72.5
+          },
+          "domestic_operations": {
+            "name": "Interest from Domestic Financial Institutions",
+            "percent": 21.3
+          },
+          "other_revenue": {
+            "name": "Other Commissions and Fees",
+            "percent": 6.2
+          }
+        }
+      },
+      "spending": {
+        "total": 248310000000,
+        "breakdown": {
+          "monetary_policy_cost": {
+            "name": "Interest Expenses on Central Bank Bills and Deposits",
+            "percent": 68.4
+          },
+          "operational_expenses": {
+            "name": "Operating and Administrative Expenses",
+            "percent": 18.1
+          },
+          "asset_impairment": {
+            "name": "Asset Impairment and Provisions",
+            "percent": 13.5
+          }
+        }
+      },
+      "methodology": "Data estimated in USD based on PBOC 2024 preliminary statistics and IMF Article IV Consultation report. Total income reflects gains from foreign exchange reserves and liquidity tools. Currency conversion applied at the 2024 average rate of 7.1217 CNY/USD."
+    }
+  }
+}

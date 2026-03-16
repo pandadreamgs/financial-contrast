@@ -1,0 +1,165 @@
+{
+  "id": "nato",
+  "name": "North Atlantic Treaty Organization (NATO)",
+  "image": "images/NATO.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 5724000000,
+        "sources": [
+          "NATO Common Funding (Civil and Military Budgets)",
+          "NATO Security Investment Programme (NSIP) 2026 Ceiling",
+          "New Cost-Sharing Formula (Post-January 2026 Agreement)"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "USA and Germany Contributions",
+            "percent": 29.81
+          },
+          "category_2": {
+            "name": "United Kingdom and France Contributions",
+            "percent": 20.43
+          },
+          "category_3": {
+            "name": "Turkey Contribution",
+            "percent": 6.3
+          },
+          "category_4": {
+            "name": "Poland and Italy Contributions",
+            "percent": 11.37
+          },
+          "category_5": {
+            "name": "Other 26 Allies Combined",
+            "percent": 32.09
+          }
+        }
+      },
+      "spending": {
+        "total": 5724000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Military Budget (Operations and Command Structure)",
+            "percent": 45.66
+          },
+          "category_2": {
+            "name": "NATO Security Investment Programme (NSIP)",
+            "percent": 43.1
+          },
+          "category_3": {
+            "name": "Civil Budget (HQ and Political Consultations)",
+            "percent": 9.97
+          },
+          "category_4": {
+            "name": "Innovation, Data and Deep Tech Initiatives",
+            "percent": 1.27
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is based on the official NATO budget ceilings agreed in December 2025, converted to USD (1 EUR = 1.08 USD). Total spending includes the Military Budget ($2,613,600,000), the Civil Budget ($570,456,000), and the adjusted NSIP ceiling of approximately $2,539,944,000. Income breakdown reflects the updated cost-sharing formula."
+    },
+    "2025": {
+      "income": {
+        "total": 4802112000,
+        "sources": [
+          "Common Funding Cost-Sharing Pool (32 Allies)",
+          "Member State Direct Contributions",
+          "NSIP Dedicated Infrastructure Grants"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "USA and Germany Contributions",
+            "percent": 31.76
+          },
+          "category_2": {
+            "name": "United Kingdom and France Contributions",
+            "percent": 21.15
+          },
+          "category_3": {
+            "name": "Italy and Canada Contributions",
+            "percent": 14.8
+          },
+          "category_4": {
+            "name": "Poland and Spain Contributions",
+            "percent": 8.7
+          },
+          "category_5": {
+            "name": "Rest of Alliance Members",
+            "percent": 23.59
+          }
+        }
+      },
+      "spending": {
+        "total": 4802112000,
+        "breakdown": {
+          "category_1": {
+            "name": "Military Operations and Command Structure",
+            "percent": 53.4
+          },
+          "category_2": {
+            "name": "Strategic Infrastructure Investments (NSIP)",
+            "percent": 34.3
+          },
+          "category_3": {
+            "name": "Civil Budget and Administrative Personnel",
+            "percent": 10.8
+          },
+          "category_4": {
+            "name": "Emerging Technologies and Innovation Initiatives",
+            "percent": 1.5
+          }
+        }
+      },
+      "methodology": "The 2025 data reflects the approved budgets (Civil: €483.3M, Military: €2.37B), converted to USD at the 1.08 rate. NSIP funding accounts for the remainder of the total common-funded resources."
+    },
+    "2024": {
+      "income": {
+        "total": 4069548000,
+        "sources": [
+          "Direct National Contributions based on Cost-sharing Formula",
+          "NATO Common Funding (Civil, Military, NSIP)"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "United States Contribution",
+            "percent": 15.88
+          },
+          "category_2": {
+            "name": "Germany Contribution",
+            "percent": 15.88
+          },
+          "category_3": {
+            "name": "United Kingdom Contribution",
+            "percent": 10.96
+          },
+          "category_4": {
+            "name": "France Contribution",
+            "percent": 10.19
+          },
+          "category_5": {
+            "name": "Other 28 Allies Combined",
+            "percent": 47.09
+          }
+        }
+      },
+      "spending": {
+        "total": 4069548000,
+        "breakdown": {
+          "category_1": {
+            "name": "Military Budget (Operations and Maintenance)",
+            "percent": 53.87
+          },
+          "category_2": {
+            "name": "NATO Security Investment Programme (NSIP)",
+            "percent": 34.5
+          },
+          "category_3": {
+            "name": "Civil Budget (Personnel and HQ Operations)",
+            "percent": 11.63
+          }
+        }
+      },
+      "methodology": "Data represents NATO's 'Common Funding' budget for 2024 (Civil: €438.1M, Military: €2.03B, NSIP: €1.3B), converted to USD at the 1.08 rate. Percentages for contributions follow the official 2024 cost-sharing agreement."
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "bill-gates",
+  "name": "Bill Gates",
+  "image": "images/Bill-Gates.jpg",
+  "category": "person",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 6700000000,
+        "sources": [
+          "Microsoft Dividend Yields",
+          "Cascade Investment LLC Portfolio Returns",
+          "Berkshire Hathaway Equity Growth"
+        ],
+        "breakdown": {
+          "dividend_income": {
+            "name": "Public Equity Dividends",
+            "percent": 38.5
+          },
+          "capital_gains": {
+            "name": "Realized and Unrealized Capital Gains",
+            "percent": 44.2
+          },
+          "fixed_income_real_estate": {
+            "name": "Fixed Income and Real Estate Yields",
+            "percent": 17.3
+          }
+        }
+      },
+      "spending": {
+        "total": 9000000000,
+        "breakdown": {
+          "global_health": {
+            "name": "Global Health (Infectious Diseases & Vaccines)",
+            "percent": 43.0
+          },
+          "global_development": {
+            "name": "Global Development & Agriculture",
+            "percent": 27.0
+          },
+          "us_education": {
+            "name": "US Education & Economic Mobility",
+            "percent": 11.5
+          },
+          "gender_equality": {
+            "name": "Gender Equality & Women's Health",
+            "percent": 4.5
+          },
+          "operating_expenses": {
+            "name": "Operational Costs (Capped at 14%)",
+            "percent": 14.0
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is based on the Bill & Melinda Gates Foundation's officially ratified historic $9 billion annual payout commitment announced in early 2026. Spending breakdown follows the board-approved cap on operating expenses (OpEx) at $1.25 billion (14%). Income is projected using a 3-year CAGR of 5.8% applied to core investment vehicles (Cascade Investment LLC), adjusted for the 2026 market outlook and estimated Microsoft dividend increases. Total income is significantly lower than spending due to the intentional acceleration of wealth distribution toward the foundation's 2045 sunset goal."
+    },
+    "2025": {
+      "income": {
+        "total": 1300000000,
+        "sources": [
+          "Microsoft Stock Dividends",
+          "Cascade Investment LLC Portfolio Gains",
+          "Berkshire Hathaway Equity Appreciation"
+        ],
+        "breakdown": {
+          "investment_dividends": {
+            "name": "Public Equity Dividends",
+            "percent": 45.0
+          },
+          "portfolio_growth": {
+            "name": "Private Equity and Real Estate Appreciation",
+            "percent": 38.0
+          },
+          "royalties_and_other": {
+            "name": "Royalties and Fixed Income",
+            "percent": 17.0
+          }
+        }
+      },
+      "spending": {
+        "total": 8740000000,
+        "breakdown": {
+          "global_health": {
+            "name": "Global Health Programs (Polio, HIV, Malaria)",
+            "percent": 41.2
+          },
+          "global_development": {
+            "name": "Global Development & Poverty Alleviation",
+            "percent": 22.1
+          },
+          "us_program": {
+            "name": "United States Education and Economic Mobility",
+            "percent": 14.5
+          },
+          "gender_equality": {
+            "name": "Gender Equality Initiatives",
+            "percent": 8.2
+          },
+          "operational_costs": {
+            "name": "Operating Expenditures (OpEx) Cap",
+            "percent": 14.0
+          }
+        }
+      },
+      "methodology": "Income calculation for 2025 reflects a conservative net gain from core holdings (Cascade Investment and Microsoft) as reported by financial indexes, specifically accounting for an 8% decline in MSFT stock offset by Berkshire Hathaway gains. Spending is based on the Bill & Melinda Gates Foundation's officially approved 2025 annual budget of $8.74B, including the 14% cap on operational expenses as mandated by the board to maximize programmatic impact during the foundation's accelerated sunset phase."
+    },
+    "2024": {
+      "income": {
+        "total": 38400000000,
+        "sources": [
+          "Bloomberg Billionaires Index Asset Appreciation",
+          "Microsoft Dividends",
+          "Cascade Investment Portfolio Returns"
+        ],
+        "breakdown": {
+          "asset_growth": {
+            "name": "Capitalization and Asset Appreciation",
+            "percent": 74.0
+          },
+          "dividends": {
+            "name": "Microsoft and Portfolio Dividends",
+            "percent": 21.0
+          },
+          "other_investments": {
+            "name": "Cascade Investment LLC Yields",
+            "percent": 5.0
+          }
+        }
+      },
+      "spending": {
+        "total": 8600000000,
+        "breakdown": {
+          "global_health": {
+            "name": "Global Health & Infectious Diseases",
+            "percent": 22.2
+          },
+          "global_development": {
+            "name": "Global Development & Poverty Alleviation",
+            "percent": 24.3
+          },
+          "us_education": {
+            "name": "United States Education Programs",
+            "percent": 9.1
+          },
+          "gender_equality": {
+            "name": "Gender Equality Programs",
+            "percent": 10.9
+          },
+          "operational_and_others": {
+            "name": "Operational Costs and Special Initiatives",
+            "percent": 33.5
+          }
+        }
+      },
+      "methodology": "Income is calculated as the total Year-To-Date (YTD) net worth increase reported by Bloomberg Billionaires Index for 2024, including realized dividends and unrealized asset appreciation. Spending reflects the officially approved 2024 budget of the Bill & Melinda Gates Foundation, which represents the primary vehicle for his annual capital outflow, as personal lifestyle spending is statistically negligible compared to philanthropic commitments."
+    }
+  }
+}

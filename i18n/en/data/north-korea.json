@@ -1,0 +1,162 @@
+{
+  "id": "north-korea",
+  "name": "North Korea",
+  "image": "images/North-Korea.svg",
+  "category": "country",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 35745380000,
+        "sources": [
+          "WPK 9th Congress Economic Strategy Report",
+          "Bank of Korea (BOK) Trend Analysis 2023-2025",
+          "Estimated Heavy Industry Export Growth (Russia-China axis)"
+        ],
+        "breakdown": {
+          "state_enterprise_profits": {
+            "name": "Profits from State Enterprises and Transaction Taxes",
+            "percent": 85.1
+          },
+          "cooperative_sector": {
+            "name": "Cooperative Organizations and Regional Development 20x10",
+            "percent": 8.4
+          },
+          "strategic_exports": {
+            "name": "Heavy Industry and Special Commodity Exports",
+            "percent": 3.9
+          },
+          "other_revenue": {
+            "name": "Social Insurance and Local Fees",
+            "percent": 2.6
+          }
+        }
+      },
+      "spending": {
+        "total": 35614350000,
+        "breakdown": {
+          "economic_construction": {
+            "name": "Economic Development (Energy, Mining, and 20x10 Infrastructure)",
+            "percent": 45.2
+          },
+          "social_cultural_work": {
+            "name": "Education, Health, and Public Welfare",
+            "percent": 36.1
+          },
+          "national_defense": {
+            "name": "National Defense and Strategic Capability Enhancement",
+            "percent": 16.2
+          },
+          "general_administration": {
+            "name": "State Management and Political Administration",
+            "percent": 2.5
+          }
+        }
+      },
+      "methodology": "The 2026 forecast applies a CAGR of 3.4% to the 2025 GNI estimate. Income is projected based on the intensification of the '20x10 Regional Development Policy' and expanded heavy industry output. Spending reflects a shift toward increased defense allocation (16.2%) as signaled in the 9th Party Congress (Feb 2026) and sustained investment in 'Economic Construction' which serves dual-use military and civilian industrial recovery. USD conversion is based on a projected stable parity against estimated shadow market rates and official SPA budget growth targets of ~1.8% in local currency terms."
+    },
+    "2025": {
+      "income": {
+        "total": 34570000000,
+        "sources": [
+          "KCNA State Budget Report 2025",
+          "Bank of Korea Economic Estimates",
+          "KOTRA Trade Analysis"
+        ],
+        "breakdown": {
+          "state_enterprise_profits": {
+            "name": "Transaction Taxes and State Enterprise Profits",
+            "percent": 84.7
+          },
+          "cooperative_orgs": {
+            "name": "Profits from Cooperative Organizations",
+            "percent": 8.2
+          },
+          "social_insurance": {
+            "name": "Social Insurance and Rent",
+            "percent": 4.3
+          },
+          "other_income": {
+            "name": "Other External and Special Revenues",
+            "percent": 2.8
+          }
+        }
+      },
+      "spending": {
+        "total": 34410000000,
+        "breakdown": {
+          "economic_development": {
+            "name": "Economic Construction (Energy, Agriculture, Mining)",
+            "percent": 44.5
+          },
+          "social_welfare": {
+            "name": "Social and Cultural Work (Health, Education)",
+            "percent": 36.9
+          },
+          "defense": {
+            "name": "National Defense Expenditure",
+            "percent": 15.9
+          },
+          "administration": {
+            "name": "State Management and Administration",
+            "percent": 2.7
+          }
+        }
+      },
+      "methodology": "The 2025 figures are calculated by applying the official 1.7% revenue growth target and 1.8% expenditure increase announced by the Supreme People's Assembly to the base GNI estimates. The total USD value is derived using a constant conversion rate from the estimated 47.9 trillion KPW budget. Defense spending reflects the official '15.9%' figure, though external analysts (SIPRI/BOK) suggest actual military-related industrial investment is embedded within 'Economic Construction' categories."
+    },
+    "2024": {
+      "income": {
+        "total": 32010000000,
+        "sources": [
+          "Bank of Korea (BOK) GNI Estimates",
+          "Korean Central News Agency (KCNA) State Budget Report",
+          "UNCTAD/ITC Trade Data"
+        ],
+        "breakdown": {
+          "state_enterprises": {
+            "name": "Profits from State Enterprises",
+            "percent": 84.3
+          },
+          "cooperative_organizations": {
+            "name": "Profits of Cooperative Organizations",
+            "percent": 8.1
+          },
+          "social_insurance_rent": {
+            "name": "Real Estate Rent and Social Insurance",
+            "percent": 4.6
+          },
+          "external_trade_services": {
+            "name": "External Trade and Services",
+            "percent": 3.0
+          }
+        }
+      },
+      "spending": {
+        "total": 31850000000,
+        "sources": [
+          "Bank of Korea (BOK) Economic Growth Reports",
+          "KCNA Budgetary Expenditure Allocation"
+        ],
+        "breakdown": {
+          "economic_construction": {
+            "name": "Socialist Economic Construction",
+            "percent": 44.1
+          },
+          "social_cultural_work": {
+            "name": "Education, Health, and Culture",
+            "percent": 37.7
+          },
+          "national_defense": {
+            "name": "National Defense Expenditure",
+            "percent": 15.7
+          },
+          "state_management": {
+            "name": "General Administration and Management",
+            "percent": 2.5
+          }
+        }
+      },
+      "methodology": "The total income is derived from the Bank of Korea's nominal Gross National Income (GNI) estimate for 2024, valued at 44.4 trillion KRW and converted to USD using the average 2024 exchange rate. Spending is calculated based on the historic state policy of maintaining a balanced budget with a slight surplus, applying the official percentage allocations reported by the KCNA during the Supreme People's Assembly sessions. Economic sectors (Industry, Mining, Construction) saw growth due to increased military-industrial cooperation with Russia."
+    }
+  }
+}

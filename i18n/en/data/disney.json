@@ -1,0 +1,144 @@
+{
+  "id": "disney",
+  "name": "Disney",
+  "image": "images/Disney.svg",
+  "category": "corporation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 98860000000,
+        "sources": [
+          "Disney Fiscal 2026 Guidance",
+          "Analyst Consensus Estimates (Zacks/Bloomberg)",
+          "Q1 FY2026 Executive Commentary"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Entertainment (DTC, Linear Networks, Content Sales)",
+            "percent": 44.5
+          },
+          "category_2": {
+            "name": "Experiences (Parks, Disney Cruise Line, Consumer Products)",
+            "percent": 38.2
+          },
+          "category_3": {
+            "name": "Sports (ESPN Global & Domestic)",
+            "percent": 17.3
+          }
+        }
+      },
+      "spending": {
+        "total": 89400000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Operating Expenses and Production Costs",
+            "percent": 62.1
+          },
+          "category_2": {
+            "name": "Content Investment (Entertainment & Sports)",
+            "percent": 26.85
+          },
+          "category_3": {
+            "name": "Capital Expenditures (Parks & Cruise Ships Expansion)",
+            "percent": 10.05
+          },
+          "category_4": {
+            "name": "Pre-opening and Dry Dock Expenses",
+            "percent": 1.0
+          }
+        }
+      },
+      "methodology": "The 2026 forecast uses a 4.5% projected revenue growth rate based on the 3-year CAGR and 2026 market consensus of $98.86B. Spending is derived from Disney's official guidance of $24B in content investment and $9B in CapEx, plus projected operating costs. Total spending reflects $80.4B in total operating/content costs and $9B in CapEx. Percentages reflect segment operating income targets for the second half of FY2026."
+    },
+    "2025": {
+      "income": {
+        "total": 94558000000,
+        "sources": [
+          "The Walt Disney Company 2025 Interim Earnings Reports",
+          "Analyst Consensus Estimates (Bloomberg/Reuters)"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Experiences (Domestic & International Parks)",
+            "percent": 38.5
+          },
+          "category_2": {
+            "name": "Entertainment (Streaming & Content Sales)",
+            "percent": 44.2
+          },
+          "category_3": {
+            "name": "Sports (ESPN Expansion)",
+            "percent": 17.3
+          }
+        }
+      },
+      "spending": {
+        "total": 85102000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Operating Expenses (Direct-to-Consumer & Parks)",
+            "percent": 61.4
+          },
+          "category_2": {
+            "name": "Content Amortization and Production",
+            "percent": 21.8
+          },
+          "category_3": {
+            "name": "Selling, General and Administrative",
+            "percent": 10.3
+          },
+          "category_4": {
+            "name": "Capital Expenditures (Park Expansions & Cruise Ships)",
+            "percent": 6.5
+          }
+        }
+      },
+      "methodology": "The 2025 figures represent a blend of realized H1 2025 data and projected H2 performance. Income reflects total estimated revenue with a 3.5% growth YoY. Spending includes increased investment in the Disney Cruise Line fleet and digital infrastructure for ESPN’s 'Flagship' DTC launch."
+    },
+    "2024": {
+      "income": {
+        "total": 91361000000,
+        "sources": [
+          "The Walt Disney Company Fiscal Year 2024 Annual Report",
+          "SEC Form 10-K"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Entertainment (DTC, Linear Networks, Content Sales)",
+            "percent": 45.08
+          },
+          "category_2": {
+            "name": "Experiences (Parks, Experiences and Products)",
+            "percent": 37.4
+          },
+          "category_3": {
+            "name": "Sports (ESPN and Star)",
+            "percent": 17.52
+          }
+        }
+      },
+      "spending": {
+        "total": 83042000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Operating Expenses (Costs of Services and Products)",
+            "percent": 63.22
+          },
+          "category_2": {
+            "name": "Selling, General, Administrative and Other",
+            "percent": 19.46
+          },
+          "category_3": {
+            "name": "Programming and Production Costs",
+            "percent": 10.81
+          },
+          "category_4": {
+            "name": "Capital Expenditures",
+            "percent": 6.51
+          }
+        }
+      },
+      "methodology": "Data extracted from the official FY2024 earnings report. Income represents total annual revenue. Spending is calculated as a sum of total operating expenses ($79.043B in segment costs + corporate) and capital expenditures ($5.41B). Percentages are derived from the total revenue for income and total outflows for spending."
+    }
+  }
+}

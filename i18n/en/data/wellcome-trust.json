@@ -1,0 +1,130 @@
+{
+  "id": "wellcome-trust",
+  "name": "The Wellcome Trust",
+  "image": "images/Wellcome-Trust.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 852442500,
+        "sources": [
+          "Investment Portfolio Returns",
+          "Strategic Partnerships",
+          "Charitable Income"
+        ],
+        "breakdown": {
+          "investment_income": {
+            "name": "Projected Investment Income",
+            "percent": 95.5
+          },
+          "partnership_grants": {
+            "name": "Strategic Partnership & Other Grants",
+            "percent": 4.5
+          }
+        }
+      },
+      "spending": {
+        "total": 2730000000,
+        "breakdown": {
+          "health_challenges": {
+            "name": "Climate, Infectious Disease & Mental Health",
+            "percent": 48.0
+          },
+          "discovery_research": {
+            "name": "Discovery Research Awards",
+            "percent": 42.0
+          },
+          "operational_costs": {
+            "name": "Operating and Management Costs",
+            "percent": 10.0
+          }
+        }
+      },
+      "methodology": "Forecast based on the 10-year £16B investment mandate (2022-2032) converted to USD at a projected rate of 1.30. Total income reflects $852.4M USD projected yield. Spending reflects a strategic shift toward 'Health Challenges' with a total of $2.73B USD based on the 20% CAGR trend."
+    },
+    "2025": {
+      "income": {
+        "total": 811850000,
+        "sources": [
+          "Investment Portfolio Income",
+          "Charitable Activities Income",
+          "Grants and Other Income"
+        ],
+        "breakdown": {
+          "investment_income": {
+            "name": "Investment Portfolio Income",
+            "percent": 95.1
+          },
+          "charitable_activities": {
+            "name": "Charitable Activities & Contracts",
+            "percent": 4.6
+          },
+          "other_grants": {
+            "name": "Government and Other Grants",
+            "percent": 0.3
+          }
+        }
+      },
+      "spending": {
+        "total": 2496000000,
+        "breakdown": {
+          "discovery_research": {
+            "name": "Discovery Research",
+            "percent": 43.8
+          },
+          "health_challenges": {
+            "name": "Infectious Disease, Climate & Mental Health",
+            "percent": 46.5
+          },
+          "operating_investment_costs": {
+            "name": "Operating and Investment Management Costs",
+            "percent": 9.7
+          }
+        }
+      },
+      "methodology": "Data sourced from the Wellcome Trust Annual Report 2024/25. Original GBP figures converted to USD at 1.30. Total income of $811.85M USD excludes unrealized gains. Spending of $2.496B USD reflects record charitable funding including core Discovery Research ($1.09B USD) and Health Challenges."
+    },
+    "2024": {
+      "income": {
+        "total": 740350000,
+        "sources": [
+          "Investment Income",
+          "Charitable Activities Income",
+          "Government Grants"
+        ],
+        "breakdown": {
+          "investment_income": {
+            "name": "Investment Income",
+            "percent": 94.8
+          },
+          "charitable_activities": {
+            "name": "Income from Charitable Activities",
+            "percent": 4.9
+          },
+          "government_grants": {
+            "name": "Government Grants",
+            "percent": 0.3
+          }
+        }
+      },
+      "spending": {
+        "total": 2119000000,
+        "breakdown": {
+          "discovery_research": {
+            "name": "Discovery Research Grants",
+            "percent": 65.0
+          },
+          "global_health_challenges": {
+            "name": "Infectious Disease, Climate & Health, Mental Health",
+            "percent": 24.4
+          },
+          "investment_management": {
+            "name": "Investment Management & Other Costs",
+            "percent": 10.6
+          }
+        }
+      },
+      "methodology": "Data based on the Wellcome Trust Annual Report 2024. Figures converted from GBP to USD at 1.30. Total income reflects $740.35M USD gross income. Spending reflects $2.119B USD total charitable expenditure and operational costs for the fiscal year ending Sept 30, 2024."
+    }
+  }
+}

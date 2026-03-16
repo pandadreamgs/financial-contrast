@@ -1,0 +1,183 @@
+{
+  "id": "switzerland",
+  "name": "Switzerland",
+  "image": "images/Switzerland.svg",
+  "category": "country",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 103845000000,
+        "sources": [
+          "Swiss Federal Assembly Approved Budget 2026",
+          "Federal Finance Administration (FFA) Integrated Task and Financial Plan"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Value Added Tax (VAT)",
+            "percent": 34.2
+          },
+          "category_2": {
+            "name": "Direct Federal Tax (Corporate & Personal)",
+            "percent": 32.8
+          },
+          "category_3": {
+            "name": "Withholding Tax (Verrechnungssteuer)",
+            "percent": 10.9
+          },
+          "category_4": {
+            "name": "Mineral Oil & Tobacco Duties",
+            "percent": 9.7
+          },
+          "category_5": {
+            "name": "Other Receipts (incl. Canton Contributions)",
+            "percent": 12.4
+          }
+        }
+      },
+      "spending": {
+        "total": 104765000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Welfare (incl. 13th AHV Pension Payment)",
+            "percent": 33.8
+          },
+          "category_2": {
+            "name": "Finances and Taxes (Cantonal Shares)",
+            "percent": 14.8
+          },
+          "category_3": {
+            "name": "Transport & Infrastructure",
+            "percent": 12.9
+          },
+          "category_4": {
+            "name": "Security and Defense",
+            "percent": 11.5
+          },
+          "category_5": {
+            "name": "Education, Research and Innovation",
+            "percent": 11.2
+          },
+          "category_6": {
+            "name": "Other (Foreign Affairs, Agriculture, etc.)",
+            "percent": 15.8
+          }
+        }
+      },
+      "methodology": "The 2026 data is derived from the official budget approved by the Swiss Parliament, converted to USD (1 CHF = 1.15 USD). Ordinary expenditure is driven by the 13th monthly pension (AHV) and increased defense. Total income includes a surplus contribution of approx. $333.5 million USD from Geneva. The financing deficit of approx. $920 million USD is managed within the 'debt brake' framework."
+    },
+    "2025": {
+      "income": {
+        "total": 98579150000,
+        "sources": [
+          "Swiss Federal Council Budget Report 2025",
+          "Federal Finance Administration (FFA) Financial Plan"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Direct Federal Tax (Profit and Income)",
+            "percent": 34.1
+          },
+          "category_2": {
+            "name": "Value Added Tax (VAT)",
+            "percent": 33.8
+          },
+          "category_3": {
+            "name": "Withholding Tax",
+            "percent": 11.4
+          },
+          "category_4": {
+            "name": "Mineral Oil and Transport Taxes",
+            "percent": 10.2
+          },
+          "category_5": {
+            "name": "Tobacco, Customs and Other Duties",
+            "percent": 10.5
+          }
+        }
+      },
+      "spending": {
+        "total": 99054100000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Welfare",
+            "percent": 33.4
+          },
+          "category_2": {
+            "name": "Finances and Taxes (Canton Shares)",
+            "percent": 15.1
+          },
+          "category_3": {
+            "name": "Transport and Communications",
+            "percent": 13.5
+          },
+          "category_4": {
+            "name": "Education, Research and Innovation",
+            "percent": 11.6
+          },
+          "category_5": {
+            "name": "Security (Defense) and International Affairs",
+            "percent": 26.4
+          }
+        }
+      },
+      "methodology": "The 2025 figures are based on the official Federal Budget, converted to USD. Income reflects expected tax yields adjusted for the 2025 outlook. The deficit of approximately $475 million USD is managed through the 'debt brake' rule mechanism (Schuldenbremse)."
+    },
+    "2024": {
+      "income": {
+        "total": 91131750000,
+        "sources": [
+          "Swiss Federal Finance Administration (FFA)",
+          "Federal Department of Finance (EFD) Financial Statistics"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Value Added Tax (VAT)",
+            "percent": 33.2
+          },
+          "category_2": {
+            "name": "Direct Federal Tax (Income & Profit)",
+            "percent": 31.5
+          },
+          "category_3": {
+            "name": "Mineral Oil & Tobacco Taxes",
+            "percent": 11.2
+          },
+          "category_4": {
+            "name": "Withholding Tax & Stamp Duties",
+            "percent": 10.8
+          },
+          "category_5": {
+            "name": "Other Revenues (Duties, Fees, etc.)",
+            "percent": 13.3
+          }
+        }
+      },
+      "spending": {
+        "total": 96941550000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Welfare",
+            "percent": 32.8
+          },
+          "category_2": {
+            "name": "Finances and Taxes (Transfers to Cantons)",
+            "percent": 15.4
+          },
+          "category_3": {
+            "name": "Transport & Infrastructure",
+            "percent": 13.1
+          },
+          "category_4": {
+            "name": "Education and Research",
+            "percent": 11.2
+          },
+          "category_5": {
+            "name": "Security, Defense and Other Expenses",
+            "percent": 27.5
+          }
+        }
+      },
+      "methodology": "Data represents the federal level of Switzerland, converted to USD. Figures reflect 2024 fiscal results. Total spending includes ordinary and extraordinary expenditures, including COVID-19 amortizations. Percentages are based on official budget distribution for 2024."
+    }
+  }
+}

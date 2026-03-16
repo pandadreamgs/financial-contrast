@@ -1,0 +1,134 @@
+{
+  "id": "who",
+  "name": "World Health Organization (WHO)",
+  "image": "images/WHO.png",
+  "category": "Non-profit organization",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 3050000000,
+        "sources": [
+          "Assessed Contributions (Increased by 20%)",
+          "WHO Investment Round Pledges",
+          "Voluntary Contributions from G20 and New Donors"
+        ],
+        "breakdown": {
+          "voluntary_contributions": {
+            "name": "Voluntary Contributions (Specified and Flexible)",
+            "percent": 64.7
+          },
+          "assessed_contributions": {
+            "name": "Assessed Contributions",
+            "percent": 30.2
+          },
+          "other_revenue": {
+            "name": "Service Concessions and Misc Revenue",
+            "percent": 5.1
+          }
+        }
+      },
+      "spending": {
+        "total": 2985000000,
+        "breakdown": {
+          "base_programmes_gpw14": {
+            "name": "GPW 14 Base Programmes (Health Equity & Resilience)",
+            "percent": 71.5
+          },
+          "emergency_operations": {
+            "name": "Health Emergencies and Outbreak Response",
+            "percent": 16.2
+          },
+          "polio_and_special": {
+            "name": "Polio Eradication and Specific Research Mandates",
+            "percent": 12.3
+          }
+        }
+      },
+      "methodology": "Forecast based on the Proposed Programme Budget 2026–2027 (A78/6) approved by the 78th WHA. The income projection accounts for a 20% increase in Assessed Contributions ($1.074B for the biennium) and the $1.7B pledged during the 2024-2025 Investment Round. Total spending is adjusted for a 14% reduction in the base segment compared to the previous biennium, reflecting cost-containment measures and the financial impact of the U.S. withdrawal."
+    },
+    "2025": {
+      "income": {
+        "total": 3314000000,
+        "sources": [
+          "Member State Assessed Contributions",
+          "Voluntary Contributions (Flexible and Specified)",
+          "WHO Investment Round"
+        ],
+        "breakdown": {
+          "voluntary_specified": {
+            "name": "Specified Voluntary Contributions",
+            "percent": 78.5
+          },
+          "assessed_contributions": {
+            "name": "Assessed Contributions",
+            "percent": 15.0
+          },
+          "core_voluntary": {
+            "name": "Core Voluntary and Partnerships",
+            "percent": 6.5
+          }
+        }
+      },
+      "spending": {
+        "total": 3894000000,
+        "breakdown": {
+          "base_programmes": {
+            "name": "Base Programmes (UHC and Life Expectancy)",
+            "percent": 74.2
+          },
+          "emergency_preparedness": {
+            "name": "Emergency Preparedness and Response",
+            "percent": 15.8
+          },
+          "polio_and_special": {
+            "name": "Polio Eradication and Special Research",
+            "percent": 10.0
+          }
+        }
+      },
+      "methodology": "The 2025 data represents the final year of the 2024-2025 biennium. Income reflects the increase in assessed contributions approved during the 77th World Health Assembly and the first significant results of the WHO Investment Round. Spending corresponds to the 14th General Programme of Work (GPW 14) execution, utilizing carry-forward funds to meet high operational demand in emergency response sectors."
+    },
+    "2024": {
+      "income": {
+        "total": 3314000000,
+        "sources": [
+          "Member State Assessed Contributions",
+          "Voluntary Contributions (Flexible and Specified)",
+          "WHO Investment Round"
+        ],
+        "breakdown": {
+          "voluntary_specified": {
+            "name": "Specified Voluntary Contributions",
+            "percent": 78.5
+          },
+          "assessed_contributions": {
+            "name": "Assessed Contributions",
+            "percent": 15.0
+          },
+          "core_voluntary": {
+            "name": "Core Voluntary and Partnerships",
+            "percent": 6.5
+          }
+        }
+      },
+      "spending": {
+        "total": 3894000000,
+        "breakdown": {
+          "base_programmes": {
+            "name": "Base Programmes (UHC and Life Expectancy)",
+            "percent": 74.2
+          },
+          "emergency_preparedness": {
+            "name": "Emergency Preparedness and Response",
+            "percent": 15.8
+          },
+          "polio_and_special": {
+            "name": "Polio Eradication and Special Research",
+            "percent": 10.0
+          }
+        }
+      },
+      "methodology": "The 2025 data represents the final year of the 2024-2025 biennium. Income reflects the increase in assessed contributions approved during the 77th World Health Assembly and the first significant results of the WHO Investment Round. Spending corresponds to the 14th General Programme of Work (GPW 14) execution, utilizing carry-forward funds to meet high operational demand in emergency response sectors."
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "tsmc",
+  "name": "TSMC",
+  "image": "images/TSMC.svg",
+  "category": "corporation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 159146000000,
+        "sources": [
+          "TSMC FY2026 Revenue Guidance (January 15, 2026)",
+          "TSMC Investor Relations: Long-term CAGR Update",
+          "J.P. Morgan & Goldman Sachs Equity Research on TSMC 2026 Outlook"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "High Performance Computing (HPC)",
+            "percent": 62.0
+          },
+          "category_2": {
+            "name": "Smartphones",
+            "percent": 25.0
+          },
+          "category_3": {
+            "name": "Internet of Things (IoT)",
+            "percent": 5.0
+          },
+          "category_4": {
+            "name": "Automotive",
+            "percent": 5.0
+          },
+          "category_5": {
+            "name": "Others (Packaging & Digital Electronics)",
+            "percent": 3.0
+          }
+        }
+      },
+      "spending": {
+        "total": 92304680000,
+        "breakdown": {
+          "category_1": {
+            "name": "Capital Expenditures (CapEx)",
+            "percent": 58.5
+          },
+          "category_2": {
+            "name": "Cost of Goods Sold (COGS)",
+            "percent": 24.1
+          },
+          "category_3": {
+            "name": "Research and Development (R&D)",
+            "percent": 14.8
+          },
+          "category_4": {
+            "name": "Selling, General and Administrative",
+            "percent": 2.6
+          }
+        }
+      },
+      "methodology": "Total income is calculated based on the 2025 actual revenue ($122.42B) multiplied by the management's growth guidance of 30%. Spending includes the mid-point of the record CapEx guidance ($54B out of $52B-$56B range) and estimated operating expenses derived from the target gross margin of 64% and operating margin of 55%, factoring in the N2 (2nm) mass production ramp-up costs."
+    },
+    "2025": {
+      "income": {
+        "total": 122420000000,
+        "sources": [
+          "TSMC 4Q25 Management Report",
+          "TSMC Full Year 2025 Financial Statement",
+          "Taiwan Semiconductor Manufacturing Co. Investor Relations"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "High Performance Computing (HPC)",
+            "percent": 58.0
+          },
+          "category_2": {
+            "name": "Smartphones",
+            "percent": 29.0
+          },
+          "category_3": {
+            "name": "Internet of Things (IoT)",
+            "percent": 5.0
+          },
+          "category_4": {
+            "name": "Automotive",
+            "percent": 5.0
+          },
+          "category_5": {
+            "name": "Digital Consumer Electronics (DCE) & Others",
+            "percent": 3.0
+          }
+        }
+      },
+      "spending": {
+        "total": 71758580000,
+        "breakdown": {
+          "category_1": {
+            "name": "Capital Expenditures (CapEx)",
+            "percent": 57.0
+          },
+          "category_2": {
+            "name": "Cost of Goods Sold (COGS)",
+            "percent": 25.8
+          },
+          "category_3": {
+            "name": "Operating Expenses (R&D, SG&A)",
+            "percent": 15.5
+          },
+          "category_4": {
+            "name": "Non-Operating Expenses & Taxes",
+            "percent": 1.7
+          }
+        }
+      },
+      "methodology": "Income represents the actual consolidated net revenue of $122.42B (3.809 trillion TWD) reported for FY2025. Spending is the sum of cash capital expenditure ($40.9B) and total operational/non-operational costs. Total spending reflects a reported gross margin of 59.9% and an operating margin of 50.8% for the full year 2025."
+    },
+    "2024": {
+      "income": {
+        "total": 90080000000,
+        "sources": [
+          "TSMC 2024 Annual Report",
+          "TSMC Q4 2024 Earnings Release",
+          "Taiwan Semiconductor Manufacturing Co. Financial Statements"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "High Performance Computing (HPC)",
+            "percent": 51.0
+          },
+          "category_2": {
+            "name": "Smartphones",
+            "percent": 35.0
+          },
+          "category_3": {
+            "name": "Internet of Things (IoT)",
+            "percent": 7.0
+          },
+          "category_4": {
+            "name": "Automotive",
+            "percent": 5.0
+          },
+          "category_5": {
+            "name": "Digital Consumer Electronics & Others",
+            "percent": 2.0
+          }
+        }
+      },
+      "spending": {
+        "total": 53560000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Capital Expenditures (CapEx)",
+            "percent": 55.6
+          },
+          "category_2": {
+            "name": "Cost of Goods Sold (Operating Costs)",
+            "percent": 34.2
+          },
+          "category_3": {
+            "name": "Research and Development (R&D)",
+            "percent": 8.1
+          },
+          "category_4": {
+            "name": "Selling, General and Administrative",
+            "percent": 2.1
+          }
+        }
+      },
+      "methodology": "Income represents total consolidated revenue in USD as reported in the 2024 annual financial summary. Spending is calculated as a sum of reported Capital Expenditures (CapEx) of $29.8B and Total Operating Expenses including COGS, R&D, and SG&A, derived from the reported gross and operating margins (56.1% and 45.7% respectively)."
+    }
+  }
+}
