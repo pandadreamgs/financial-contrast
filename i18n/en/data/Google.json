@@ -1,0 +1,176 @@
+{
+  "id": "Google",
+  "name": "Google",
+  "image": "images/Google.svg",
+  "category": "corporation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 461650000000,
+        "sources": [
+          "Alphabet Inc. Q4 2025 Earnings Call Guidance",
+          "Wall Street Analyst Consensus (March 2026)",
+          "Historical 3-Year Revenue CAGR Analysis"
+        ],
+        "breakdown": {
+          "google_search": {
+            "name": "Google Search & Other",
+            "percent": 54.2
+          },
+          "google_cloud": {
+            "name": "Google Cloud",
+            "percent": 16.8
+          },
+          "google_subscriptions_platforms_devices": {
+            "name": "Subscriptions, Platforms, and Devices",
+            "percent": 12.5
+          },
+          "youtube_ads": {
+            "name": "YouTube Ads",
+            "percent": 9.8
+          },
+          "google_network": {
+            "name": "Google Network",
+            "percent": 6.7
+          }
+        }
+      },
+      "spending": {
+        "total": 361400000000,
+        "breakdown": {
+          "capital_expenditures_ai_infrastructure": {
+            "name": "Capital Expenditures (AI & Data Centers)",
+            "percent": 49.8
+          },
+          "research_and_development": {
+            "name": "Research and Development",
+            "percent": 19.5
+          },
+          "cost_of_revenues_operational": {
+            "name": "Operational Cost of Revenues",
+            "percent": 18.2
+          },
+          "sales_marketing_admin": {
+            "name": "Sales, Marketing, and G&A",
+            "percent": 12.5
+          }
+        }
+      },
+      "methodology": "The 2026 Income forecast uses a projected growth rate of 14.6% based on the 3-year historical CAGR (2023-2025). Total Spending is estimated by combining the official CapEx guidance of $180,000,000,000 (midpoint of $175B-$185B range) with projected operational expenses. The spending breakdown reflects Alphabet's strategic pivot where nearly 50% of total cash outflow is allocated to AI infrastructure, including TPU development and global data center expansion for Gemini 3.1 and future models."
+    },
+    "2025": {
+      "income": {
+        "total": 402836000000,
+        "sources": [
+          "Alphabet Inc. Form 10-K Annual Report 2025",
+          "SEC EDGAR - Alphabet Investor Relations (February 4, 2026)"
+        ],
+        "breakdown": {
+          "google_search": {
+            "name": "Google Search & Other",
+            "percent": 55.4
+          },
+          "google_cloud": {
+            "name": "Google Cloud",
+            "percent": 14.6
+          },
+          "google_subscriptions_platforms_devices": {
+            "name": "Subscriptions, Platforms, and Devices",
+            "percent": 12.0
+          },
+          "youtube_ads": {
+            "name": "YouTube Ads",
+            "percent": 10.1
+          },
+          "google_network": {
+            "name": "Google Network",
+            "percent": 7.8
+          },
+          "other_bets_and_hedging": {
+            "name": "Other Bets & Hedging",
+            "percent": 0.1
+          }
+        }
+      },
+      "spending": {
+        "total": 273797000000,
+        "breakdown": {
+          "cost_of_revenues": {
+            "name": "Cost of Revenues",
+            "percent": 59.4
+          },
+          "research_and_development": {
+            "name": "Research and Development",
+            "percent": 21.3
+          },
+          "sales_and_marketing": {
+            "name": "Sales and Marketing",
+            "percent": 11.5
+          },
+          "general_and_administrative": {
+            "name": "General and Administrative",
+            "percent": 7.8
+          }
+        }
+      },
+      "methodology": "Data based on the audited 10-K filing for the fiscal year ended December 31, 2025. Total Income represents 'Revenues' ($402.836B). Total Spending reflects 'Total Costs and Expenses'. Note that spending includes a $3.5B EC fine and a $2.1B compensation charge for Waymo, primarily impacting the G&A and Cost of Revenue categories. Percentages are calculated by dividing specific segment/functional costs by the total consolidated values for the year."
+    },
+    "2024": {
+      "income": {
+        "total": 350018000000,
+        "sources": [
+          "Alphabet Inc. Form 10-K Annual Report 2024",
+          "SEC EDGAR - Alphabet Investor Relations"
+        ],
+        "breakdown": {
+          "google_search": {
+            "name": "Google Search & Other",
+            "percent": 56.6
+          },
+          "google_cloud": {
+            "name": "Google Cloud",
+            "percent": 12.4
+          },
+          "google_subscriptions_platforms_devices": {
+            "name": "Subscriptions, Platforms, and Devices",
+            "percent": 11.5
+          },
+          "youtube_ads": {
+            "name": "YouTube Ads",
+            "percent": 10.3
+          },
+          "google_network": {
+            "name": "Google Network",
+            "percent": 8.7
+          },
+          "other_bets_and_hedging": {
+            "name": "Other Bets & Hedging",
+            "percent": 0.5
+          }
+        }
+      },
+      "spending": {
+        "total": 237628000000,
+        "breakdown": {
+          "cost_of_revenues": {
+            "name": "Cost of Revenues",
+            "percent": 61.6
+          },
+          "research_and_development": {
+            "name": "Research and Development",
+            "percent": 20.8
+          },
+          "sales_and_marketing": {
+            "name": "Sales and Marketing",
+            "percent": 12.3
+          },
+          "general_and_administrative": {
+            "name": "General and Administrative",
+            "percent": 5.3
+          }
+        }
+      },
+      "methodology": "Data extracted from the consolidated statements of income in Alphabet's 10-K filing for the fiscal year ended December 31, 2024. Total Income represents 'Revenues'. Total Spending is calculated as 'Total Costs and Expenses' (Operating Expenses). Category percentages are derived by dividing segment/functional results by the respective totals without rounding the base figures."
+    }
+  }
+}

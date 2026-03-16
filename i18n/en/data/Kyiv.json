@@ -1,0 +1,171 @@
+{
+  "id": "Kyiv",
+  "name": "Kyiv",
+  "image": "images/Kyiv.svg",
+  "category": "city",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 2391011236,
+        "sources": [
+          "Kyiv City Council Decision on 2026 Municipal Budget",
+          "Medium-term Budget Forecast for Kyiv Community",
+          "Official Statement by Mayor Vitaliy Klitschko"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Personal Income Tax (PIT)",
+            "percent": 45.1
+          },
+          "category_2": {
+            "name": "Local Taxes (Single Tax, Property Tax)",
+            "percent": 25.4
+          },
+          "category_3": {
+            "name": "Corporate Income Tax",
+            "percent": 11.5
+          },
+          "category_4": {
+            "name": "Internal Borrowing and Transfers",
+            "percent": 18.0
+          }
+        }
+      },
+      "spending": {
+        "total": 2539325843,
+        "breakdown": {
+          "category_1": {
+            "name": "Education",
+            "percent": 33.6
+          },
+          "category_2": {
+            "name": "Transport and Infrastructure Maintenance",
+            "percent": 18.6
+          },
+          "category_3": {
+            "name": "Economic and Social Development Programs",
+            "percent": 11.4
+          },
+          "category_4": {
+            "name": "Social Protection",
+            "percent": 9.7
+          },
+          "category_5": {
+            "name": "Defense Support (Kyiv Defender Program)",
+            "percent": 1.8
+          }
+        }
+      },
+      "methodology": "The 2026 figures reflect the budget adopted by the Kyiv City Council (95 votes), converted to USD at the March 2026 projected rate. Total income includes internal revenue and borrowing. Spending prioritizes education and transport, with approximately $45 million initially allocated for defense. Calculations are based on nominal values approved in December 2025."
+    },
+    "2025": {
+      "income": {
+        "total": 1833707865,
+        "sources": [
+          "Kyiv City Council Budget Resolution 2025",
+          "State Treasury Service of Ukraine",
+          "Department of Finance of KMDA"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Personal Income Tax (PIT)",
+            "percent": 46.2
+          },
+          "category_2": {
+            "name": "Single Tax and Local Fees",
+            "percent": 24.5
+          },
+          "category_3": {
+            "name": "Corporate Income Tax",
+            "percent": 11.1
+          },
+          "category_4": {
+            "name": "Land and Property Taxes",
+            "percent": 10.2
+          }
+        }
+      },
+      "spending": {
+        "total": 2094382022,
+        "breakdown": {
+          "category_1": {
+            "name": "Education and Science",
+            "index": 0,
+            "percent": 32.4
+          },
+          "category_2": {
+            "name": "Transport and Infrastructure Maintenance",
+            "percent": 26.8
+          },
+          "category_3": {
+            "name": "Social Welfare and Veterans Support",
+            "percent": 12.3
+          },
+          "category_4": {
+            "name": "Housing and Communal Services",
+            "percent": 9.5
+          },
+          "category_5": {
+            "name": "Healthcare and Rehabilitation",
+            "percent": 7.2
+          }
+        }
+      },
+      "methodology": "Data reflects the approved 2025 budget including mid-year adjustments, converted to USD. Revenue is driven by PIT. Spending shows increased allocations for social welfare and veteran support. All figures represent the consolidated budget of the Kyiv territorial community."
+    },
+    "2024": {
+      "income": {
+        "total": 1631460674,
+        "sources": [
+          "Kyiv City Council Budget Decree",
+          "State Tax Service of Ukraine",
+          "KMDA Financial Reports"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Personal Income Tax (PIT)",
+            "percent": 44.08
+          },
+          "category_2": {
+            "name": "Local Taxes and Fees",
+            "percent": 23.14
+          },
+          "category_3": {
+            "name": "Corporate Income Tax",
+            "percent": 10.33
+          },
+          "category_4": {
+            "name": "Land Sales and Rent",
+            "percent": 3.86
+          }
+        }
+      },
+      "spending": {
+        "total": 1916853933,
+        "breakdown": {
+          "category_1": {
+            "name": "Education",
+            "percent": 31.89
+          },
+          "category_2": {
+            "name": "Transport and Road Infrastructure",
+            "percent": 27.9
+          },
+          "category_3": {
+            "name": "Housing and Communal Services",
+            "percent": 9.61
+          },
+          "category_4": {
+            "name": "Social Protection",
+            "percent": 9.14
+          },
+          "category_5": {
+            "name": "Healthcare",
+            "percent": 7.03
+          }
+        }
+      },
+      "methodology": "Data based on the 2024 budget of the Kyiv community, converted to USD. Income includes planned tax and non-tax receipts. Spending represents planned allocations across functional categories. Percentages are derived from the initial planned figures of the primary budget decree."
+    }
+  }
+}

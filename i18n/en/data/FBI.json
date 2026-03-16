@@ -1,0 +1,122 @@
+{
+  "id": "FBI",
+  "name": "Federal Bureau of Investigation (FBI)",
+  "image": "images/FBI.svg",
+  "category": "government",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 10100000000,
+        "sources": [
+          "President's FY 2026 Budget Request",
+          "Salaries and Expenses Base Appropriation",
+          "Reimbursable Revenue Forecast"
+        ],
+        "breakdown": {
+          "salaries_and_expenses": {
+            "name": "Personnel Salaries and Operating Expenses",
+            "percent": 94.5
+          },
+          "technical_surveillance_and_it": {
+            "name": "Intelligence and Technical Support Services",
+            "percent": 5.5
+          }
+        }
+      },
+      "spending": {
+        "total": 10100000000,
+        "breakdown": {
+          "counterterrorism_and_national_security": {
+            "name": "Counterterrorism, Intelligence, and Cyber Security",
+            "percent": 45.0
+          },
+          "violent_crime_and_border_enforcement": {
+            "name": "Violent Crime, Gangs, and Border Support",
+            "percent": 40.0
+          },
+          "criminal_justice_services": {
+            "name": "Criminal Justice Services and Information Technology",
+            "percent": 15.0
+          }
+        }
+      },
+      "methodology": "The 2026 figures reflect the official FBI budget request for 'Salaries and Expenses' submitted to the U.S. House of Representatives. Income is projected based on the requested $10.1B base authority. Spending breakdown is adjusted according to the administration's stated priorities of streamlining non-law enforcement missions and focusing on core national security and border-related support. Forecast excludes additional multi-year construction funds not part of the primary S&E request."
+    },
+    "2025": {
+      "income": {
+        "total": 11350085000,
+        "sources": [
+          "Consolidated Appropriations Act, 2025",
+          "FBI Salaries and Expenses Appropriation",
+          "Construction Appropriation"
+        ],
+        "breakdown": {
+          "salaries_and_expenses": {
+            "name": "Salaries and Expenses",
+            "percent": 98.24
+          },
+          "construction_projects": {
+            "name": "Construction and Infrastructure",
+            "percent": 1.76
+          }
+        }
+      },
+      "spending": {
+        "total": 11412000000,
+        "breakdown": {
+          "counter_terrorism_intelligence": {
+            "name": "Counterterrorism and Intelligence",
+            "percent": 42.5
+          },
+          "cyber_and_criminal_investigations": {
+            "name": "Cyber and Criminal Investigations",
+            "percent": 38.3
+          },
+          "criminal_justice_info_services": {
+            "name": "Criminal Justice Information Services",
+            "percent": 19.2
+          }
+        }
+      },
+      "methodology": "Figures derived from the FY 2025 President's Budget Request and subsequent Enacted Appropriations. Income reflects Total New Budget Authority. Spending represents estimated gross outlays and obligations for the fiscal period based on quarterly execution reports."
+    },
+    "2024": {
+      "income": {
+        "total": 12884872000,
+        "sources": [
+          "Department of Justice Appropriations Act, 2024",
+          "Reimbursable Agreements (Earned Revenue)",
+          "Violent Crime Reduction Program Funds"
+        ],
+        "breakdown": {
+          "direct_appropriations": {
+            "name": "Direct Budget Authority",
+            "percent": 90.76
+          },
+          "earned_revenue": {
+            "name": "Reimbursable Services and Fees",
+            "percent": 9.24
+          }
+        }
+      },
+      "spending": {
+        "total": 13096699000,
+        "breakdown": {
+          "criminal_justice_services": {
+            "name": "Criminal Justice Services and Law Enforcement",
+            "percent": 58.4
+          },
+          "national_security": {
+            "name": "National Security and Intelligence",
+            "percent": 34.2
+          },
+          "support_infrastructure": {
+            "name": "Criminal Justice Information Services and Construction",
+            "percent": 7.4
+          }
+        }
+      },
+      "methodology": "Data extracted from the 'Audit of the Federal Bureau of Investigation Annual Financial Statements Fiscal Year 2024'. Income is defined as Total Resources (budgetary authority plus earned revenue). Spending is defined as Total Gross Costs. Percentages are calculated based on the functional breakdown of net costs and obligations provided in the Management's Discussion and Analysis (MD&A) section."
+    }
+  }
+}

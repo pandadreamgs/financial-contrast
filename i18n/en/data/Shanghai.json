@@ -1,0 +1,179 @@
+{
+  "id": "Shanghai",
+  "name": "Shanghai",
+  "image": "images/Shanghai.jpg",
+  "category": "city",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 126406896552,
+        "sources": [
+          "Shanghai Municipal Budget Plan for 2026",
+          "Shanghai Municipal Finance Bureau: 2026 Revenue Projections"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Value-Added Tax (VAT)",
+            "percent": 27.5
+          },
+          "category_2": {
+            "name": "Corporate Income Tax",
+            "percent": 21.0
+          },
+          "category_3": {
+            "name": "Personal Income Tax",
+            "percent": 16.8
+          },
+          "category_4": {
+            "name": "Non-tax Revenue",
+            "percent": 12.0
+          },
+          "category_5": {
+            "name": "Other Taxes and Duties",
+            "percent": 22.7
+          }
+        }
+      },
+      "spending": {
+        "total": 142377931034,
+        "breakdown": {
+          "category_1": {
+            "name": "Science, Technology and Education",
+            "percent": 26.2
+          },
+          "category_2": {
+            "name": "Social Security and Healthcare",
+            "percent": 20.8
+          },
+          "category_3": {
+            "name": "Urban Maintenance and Infrastructure",
+            "percent": 15.0
+          },
+          "category_4": {
+            "name": "Green Development and Environment",
+            "percent": 9.5
+          },
+          "category_5": {
+            "name": "General Public Services and Others",
+            "percent": 28.5
+          }
+        }
+      },
+      "methodology": "The 2026 forecast uses the official Shanghai Municipal Budget Plan as a baseline, projecting a 5% revenue growth target. Total income is converted to approximately 126.41 billion USD, and total spending is projected at 142.38 billion USD (converted from RMB at the March 2026 forecast rate). Spending breakdown reflects the city's strategic shift toward 'High-Quality Development', prioritizing AI R&D and digital infrastructure."
+    },
+    "2025": {
+      "income": {
+        "total": 120387586207,
+        "sources": [
+          "Shanghai Municipal Finance Bureau 2025 Budget Execution Report",
+          "National Bureau of Statistics of China: Local Finance Statistics"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Value-Added Tax (VAT)",
+            "percent": 27.8
+          },
+          "category_2": {
+            "name": "Corporate Income Tax",
+            "percent": 20.5
+          },
+          "category_3": {
+            "name": "Personal Income Tax",
+            "percent": 16.2
+          },
+          "category_4": {
+            "name": "Non-tax Revenue",
+            "percent": 13.1
+          },
+          "category_5": {
+            "name": "Other Taxes and Duties",
+            "percent": 22.4
+          }
+        }
+      },
+      "spending": {
+        "total": 135598620690,
+        "breakdown": {
+          "category_1": {
+            "name": "Education and Science & Technology",
+            "percent": 25.1
+          },
+          "category_2": {
+            "name": "Social Security and Employment",
+            "percent": 19.4
+          },
+          "category_3": {
+            "name": "Urban and Rural Community Affairs",
+            "percent": 15.5
+          },
+          "category_4": {
+            "name": "Health and Medical Services",
+            "percent": 12.0
+          },
+          "category_5": {
+            "name": "General Public Services and Others",
+            "percent": 28.0
+          }
+        }
+      },
+      "methodology": "Data represents the actual 2025 General Public Budget execution figures. Income is converted to 120.39 billion USD, while spending reflects 135.60 billion USD. Growth in high-tech investment and social security adjustments account for the shift in spending percentages compared to the previous fiscal year. Values converted from CNY to USD."
+    },
+    "2024": {
+      "income": {
+        "total": 114655172414,
+        "sources": [
+          "Shanghai Municipal Finance Bureau Official Budget Execution Report 2024",
+          "National Bureau of Statistics of China: Local Government General Public Budget Revenue"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Value-Added Tax (VAT)",
+            "percent": 28.4
+          },
+          "category_2": {
+            "name": "Corporate Income Tax",
+            "percent": 21.2
+          },
+          "category_3": {
+            "name": "Personal Income Tax",
+            "percent": 15.8
+          },
+          "category_4": {
+            "name": "Non-tax Revenue",
+            "percent": 12.5
+          },
+          "category_5": {
+            "name": "Other Taxes and Duties",
+            "percent": 22.1
+          }
+        }
+      },
+      "spending": {
+        "total": 129142068966,
+        "breakdown": {
+          "category_1": {
+            "name": "Education and Science & Technology",
+            "percent": 24.6
+          },
+          "category_2": {
+            "name": "Social Security and Employment",
+            "percent": 18.3
+          },
+          "category_3": {
+            "name": "Urban and Rural Community Affairs",
+            "percent": 16.1
+          },
+          "category_4": {
+            "name": "Health and Medical Services",
+            "percent": 11.4
+          },
+          "category_5": {
+            "name": "General Public Services and Others",
+            "percent": 29.6
+          }
+        }
+      },
+      "methodology": "The data is derived from the 'General Public Budget' of Shanghai Municipality for the full fiscal year 2024. Total income is converted to 114.66 billion USD and total spending to 129.14 billion USD. Values were converted from the official reporting in RMB (831.25B revenue / 936.28B expenditure) to USD based on 2026 forecast exchange rates for longitudinal consistency."
+    }
+  }
+}

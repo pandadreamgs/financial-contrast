@@ -1,0 +1,170 @@
+{
+  "id": "UN",
+  "name": "United Nations (UN)",
+  "image": "images/UN.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 71484758372,
+        "sources": [
+          "UN General Assembly Proposed Programme Budget for 2026",
+          "Estimated Voluntary Contributions based on 3-year CAGR",
+          "Assessed Contributions for Peacekeeping Operations"
+        ],
+        "breakdown": {
+          "voluntary_earmarked": {
+            "name": "Voluntary Earmarked Contributions",
+            "percent": 61.8
+          },
+          "assessed_regular": {
+            "name": "Assessed Regular Budget",
+            "percent": 19.5
+          },
+          "assessed_peacekeeping": {
+            "name": "Assessed Peacekeeping Budget",
+            "percent": 9.2
+          },
+          "other_revenue": {
+            "name": "Investment Income and Services Revenue",
+            "percent": 9.5
+          }
+        }
+      },
+      "spending": {
+        "total": 70126850512,
+        "breakdown": {
+          "humanitarian_aid": {
+            "name": "Humanitarian Assistance",
+            "percent": 37.2
+          },
+          "sustainable_development": {
+            "name": "Sustainable Development Goals (SDG)",
+            "percent": 26.8
+          },
+          "peace_security": {
+            "name": "Peace and Security Operations",
+            "percent": 15.5
+          },
+          "human_rights_law": {
+            "name": "Human Rights and International Law",
+            "percent": 8.5
+          },
+          "admin_support": {
+            "name": "Common Support and Administration",
+            "percent": 12.0
+          }
+        }
+      },
+      "methodology": "The 2026 forecast applies a 2.3% CAGR derived from 2023-2025 revenue trends to total income. Spending distribution accounts for the increasing demand in humanitarian response plans (HRP) and a slight pivot towards human rights monitoring, as outlined in the UN's long-term strategic planning documents."
+    },
+    "2025": {
+      "income": {
+        "total": 69877574166,
+        "sources": [
+          "UN General Assembly Regular Budget Resolution 78/252",
+          "UN System Chief Board for Coordination Projections",
+          "Member State Pledges for Voluntary Contributions"
+        ],
+        "breakdown": {
+          "voluntary_earmarked": {
+            "name": "Voluntary Earmarked Contributions",
+            "percent": 61.2
+          },
+          "assessed_regular": {
+            "name": "Assessed Regular Budget",
+            "percent": 19.8
+          },
+          "assessed_peacekeeping": {
+            "name": "Assessed Peacekeeping Budget",
+            "percent": 9.5
+          },
+          "other_revenue": {
+            "name": "Internal Revenue and Investment Income",
+            "percent": 9.5
+          }
+        }
+      },
+      "spending": {
+        "total": 68416439524,
+        "breakdown": {
+          "humanitarian_aid": {
+            "name": "Humanitarian Assistance",
+            "percent": 36.5
+          },
+          "sustainable_development": {
+            "name": "Sustainable Development Goals (SDG)",
+            "percent": 27.5
+          },
+          "peace_security": {
+            "name": "Peace and Security Operations",
+            "percent": 16.0
+          },
+          "human_rights_law": {
+            "name": "Human Rights and International Law",
+            "percent": 8.0
+          },
+          "admin_support": {
+            "name": "Common Support and Administration",
+            "percent": 12.0
+          }
+        }
+      },
+      "methodology": "The 2025 income reflects the UN General Assembly approved regular budget of 3,591,108,600 USD as a baseline, combined with projected voluntary contributions calculated using a 3-year CAGR of 2.3% and current peacekeeping assessments. Spending targets align with the 2025 Programme Budget and anticipated humanitarian response plans (HRPs)."
+    },
+    "2024": {
+      "income": {
+        "total": 68306524088,
+        "sources": [
+          "UN System Chief Board for Coordination (CEB) Financial Data",
+          "United Nations Regular Budget Assessments",
+          "Voluntary Contributions from Member States"
+        ],
+        "breakdown": {
+          "voluntary_non_core": {
+            "name": "Voluntary non-core (earmarked) contributions",
+            "percent": 60.6
+          },
+          "assessed_contributions": {
+            "name": "Assessed contributions (Mandatory)",
+            "percent": 20.2
+          },
+          "voluntary_core": {
+            "name": "Voluntary core (un-earmarked) contributions",
+            "percent": 7.8
+          },
+          "other_revenue": {
+            "name": "Revenue from other activities and investments",
+            "percent": 11.4
+          }
+        }
+      },
+      "spending": {
+        "total": 66039034290,
+        "breakdown": {
+          "humanitarian_assistance": {
+            "name": "Humanitarian Assistance",
+            "percent": 35.0
+          },
+          "development_assistance": {
+            "name": "Development Assistance",
+            "percent": 28.0
+          },
+          "peace_operations": {
+            "name": "Peace Operations",
+            "percent": 15.0
+          },
+          "specialized_assistance": {
+            "name": "Global Agenda and Specialized Assistance",
+            "percent": 12.0
+          },
+          "technical_cooperation": {
+            "name": "Technical Cooperation and Other Expenses",
+            "percent": 10.0
+          }
+        }
+      },
+      "methodology": "Data based on the UN System Chief Board for Coordination (CEB) financial statistics for the fiscal year 2024. Total income represents the sum of assessed and voluntary contributions across all UN entities. Spending reflects total system-wide expenses including peacekeeping, humanitarian, and development programs."
+    }
+  }
+}

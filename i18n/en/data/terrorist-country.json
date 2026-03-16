@@ -1,0 +1,154 @@
+{
+  "id": "terrorist-country",
+  "name": "terrorist country (russia)",
+  "image": "images/terrorist-country.png",
+  "category": "country",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 500372670807,
+        "sources": [
+          "federal law on the 2026-2028 federal budget",
+          "ministry of finance of the russian federation strategy 2026",
+          "russian state duma budget committee reports (dec 2025)"
+        ],
+        "breakdown": {
+          "non_oil_and_gas_taxation": {
+            "name": "non-oil and gas revenues (incl. 22% vat)",
+            "percent": 77.7
+          },
+          "oil_and_gas_revenues": {
+            "name": "oil and gas revenues (based on $59/bbl urals)",
+            "percent": 22.3
+          }
+        }
+      },
+      "spending": {
+        "total": 547204968944,
+        "breakdown": {
+          "national_defense_and_security": {
+            "name": "combined war machine and internal terror",
+            "percent": 38.2
+          },
+          "social_policy": {
+            "name": "social policy (pensions for silence)",
+            "percent": 25.0
+          },
+          "national_economy": {
+            "name": "national economy and militarized infrastructure",
+            "percent": 10.9
+          },
+          "debt_service": {
+            "name": "public debt servicing",
+            "percent": 7.5
+          },
+          "other": {
+            "name": "general government, education, and health",
+            "percent": 18.4
+          }
+        }
+      },
+      "methodology": "the 2026 forecast is derived from the official federal budget law. revenue projections account for the 2% increase in vat (from 20% to 22%) and a broadened tax base for small businesses. spending reflects a consolidation of the 'wartime economy' model where defense and security stay above 38% of total outlays. conversion applied at the 2026 projected exchange rate of 80.5 rub/usd. calculations incorporate a 10% 'optimization' of non-protected expenditures due to falling energy prices."
+    },
+    "2025": {
+      "income": {
+        "total": 429518716577,
+        "sources": [
+          "federal budget law of the russian federation 2025-2027",
+          "ministry of finance projections",
+          "federal tax service data"
+        ],
+        "breakdown": {
+          "non_oil_and_gas_revenues": {
+            "name": "non-oil and gas revenues (vat, income tax)",
+            "percent": 73.0
+          },
+          "oil_and_gas_revenues": {
+            "name": "oil and gas revenues",
+            "percent": 27.0
+          }
+        }
+      },
+      "spending": {
+        "total": 443529411764,
+        "breakdown": {
+          "national_defense": {
+            "name": "national defense (direct war costs)",
+            "percent": 32.5
+          },
+          "social_policy": {
+            "name": "social policy and pensions",
+            "percent": 15.7
+          },
+          "national_security": {
+            "name": "national security and internal law enforcement",
+            "percent": 8.3
+          },
+          "national_economy": {
+            "name": "national economy development",
+            "percent": 10.1
+          },
+          "other": {
+            "name": "education, health, and public debt service",
+            "percent": 33.4
+          }
+        }
+      },
+      "methodology": "figures represent the approved federal budget for 2025. conversion from rub to usd at a projected average rate of 93.5 rub/usd. income breakdown reflects the structural shift towards non-resource taxation to fund increased military expenditures."
+    },
+    "2024": {
+      "income": {
+        "total": 403373626373,
+        "sources": [
+          "ministry of finance of the russian federation (minfin)",
+          "federal tax service of russia",
+          "federal customs service of russia"
+        ],
+        "breakdown": {
+          "oil_and_gas_revenue": {
+            "name": "oil and gas revenues",
+            "percent": 30.3
+          },
+          "vat_and_domestic_taxes": {
+            "name": "value added tax and domestic excise",
+            "percent": 44.6
+          },
+          "non_tax_revenue": {
+            "name": "non-tax revenues (incl. central bank profits)",
+            "percent": 18.6
+          },
+          "other_taxes": {
+            "name": "other taxes and duties",
+            "percent": 6.5
+          }
+        }
+      },
+      "spending": {
+        "total": 441670329670,
+        "breakdown": {
+          "national_defense": {
+            "name": "national defense (war machine)",
+            "percent": 29.0
+          },
+          "national_security": {
+            "name": "internal security and police apparatus",
+            "percent": 9.2
+          },
+          "social_policy": {
+            "name": "social policy (pensions, benefits)",
+            "percent": 21.1
+          },
+          "national_economy": {
+            "name": "national economy",
+            "percent": 11.5
+          },
+          "other_expenditures": {
+            "name": "education, healthcare, and other",
+            "percent": 29.2
+          }
+        }
+      },
+      "methodology": "data derived from the 2024 federal budget execution reports by the ministry of finance. all values converted from rub to usd using the average annual exchange rate of 91.0 rub per 1 usd. total spending figures include additional allocations made in q4 2024 for defense and social obligations."
+    }
+  }
+}

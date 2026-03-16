@@ -1,0 +1,155 @@
+{
+  "id": "Emirates",
+  "name": "United Arab Emirates",
+  "image": "images/Emirates.svg",
+  "category": "country",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 25160000000,
+        "sources": [
+          "UAE Ministry of Finance Federal Budget Decree 2026",
+          "UAE Cabinet Approval Session Report"
+        ],
+        "breakdown": {
+          "tax_revenue": {
+            "name": "Corporate Tax, VAT and Excise Receipts",
+            "percent": 74.2
+          },
+          "government_fees": {
+            "name": "Administrative Fees and Service Charges",
+            "percent": 22.8
+          },
+          "investment_returns": {
+            "name": "Returns on Federal Investments",
+            "percent": 3.0
+          }
+        }
+      },
+      "spending": {
+        "total": 25160000000,
+        "breakdown": {
+          "social_development": {
+            "name": "Social Development and Pensions (Education & Health)",
+            "percent": 37.4
+          },
+          "government_affairs": {
+            "name": "Government Affairs and Public Administration",
+            "percent": 29.3
+          },
+          "financial_investments": {
+            "name": "Federal Financial Investments",
+            "percent": 16.7
+          },
+          "public_services_other": {
+            "name": "Public Services and Other Federal Expenses",
+            "percent": 13.8
+          },
+          "infrastructure_economic": {
+            "name": "Infrastructure and Economic Development",
+            "percent": 2.8
+          }
+        }
+      },
+      "methodology": "The 2026 data is based on the officially approved Federal Budget of the UAE. It reflects a balanced budget policy (zero-deficit). Revenue growth is calculated based on the full-year impact of the 9% corporate tax and OECD-aligned minimum top-up tax measures. Expenditure categories are derived from the 'Federal Budget Yearbook 2026' sectoral allocations. Values have been converted from AED to USD based on the March 2026 projected exchange rate (1 USD = 3.6725 AED)."
+    },
+    "2025": {
+      "income": {
+        "total": 18700000000,
+        "sources": [
+          "UAE Federal Budget 2024-2026 Strategy",
+          "Ministry of Finance Strategic Fiscal Report"
+        ],
+        "breakdown": {
+          "taxation": {
+            "name": "Direct and Indirect Tax Revenues",
+            "percent": 70.2
+          },
+          "government_services": {
+            "name": "Government Service Fees and Fines",
+            "percent": 27.1
+          },
+          "investment_income": {
+            "name": "Federal Investment Returns",
+            "percent": 2.7
+          }
+        }
+      },
+      "spending": {
+        "total": 18340000000,
+        "breakdown": {
+          "social_development": {
+            "name": "Social Development (Education, Health, Welfare)",
+            "percent": 41.6
+          },
+          "government_affairs": {
+            "name": "Government Affairs and Public Administration",
+            "percent": 38.5
+          },
+          "pensions_social_benefits": {
+            "name": "Pensions and Social Benefits",
+            "percent": 11.2
+          },
+          "infrastructure": {
+            "name": "Infrastructure and Economic Resources",
+            "percent": 4.1
+          },
+          "other_expenditures": {
+            "name": "Other Federal Expenditures",
+            "percent": 4.6
+          }
+        }
+      },
+      "methodology": "Figures derived from the UAE Federal Budget Allocation for the second year of the 2024-2026 cycle. Total revenue reflects the continued implementation of corporate tax alongside VAT. Expenditure figures include allocated increases for the 'We the UAE 2031' vision projects. Amounts are converted from AED to USD at the projected 2026 rate."
+    },
+    "2024": {
+      "income": {
+        "total": 17900000000,
+        "sources": [
+          "UAE Ministry of Finance Federal Budget Decree",
+          "Federal Competitiveness and Statistics Centre Report"
+        ],
+        "breakdown": {
+          "taxes": {
+            "name": "Tax Revenue (VAT, Corporate Tax, Excise)",
+            "percent": 68.4
+          },
+          "other_revenues": {
+            "name": "Government Fees and Service Charges",
+            "percent": 28.5
+          },
+          "social_contributions": {
+            "name": "Social Contributions",
+            "percent": 3.1
+          }
+        }
+      },
+      "spending": {
+        "total": 17440000000,
+        "breakdown": {
+          "social_development": {
+            "name": "Social Development and Benefits (Education, Health, Welfare)",
+            "percent": 42.0
+          },
+          "government_affairs": {
+            "name": "Government Affairs (Administration and Operations)",
+            "percent": 39.0
+          },
+          "infrastructure_economic": {
+            "name": "Infrastructure and Economic Resources",
+            "percent": 4.0
+          },
+          "financial_investments": {
+            "name": "Financial Investments (Federal Projects)",
+            "percent": 4.0
+          },
+          "other_federal": {
+            "name": "Other Federal Expenses and Pensions",
+            "percent": 11.0
+          }
+        }
+      },
+      "methodology": "Data extracted from the UAE Federal Budget Law for 2024. Revenue figures represent consolidated estimates from federal taxes and administrative fees. Expenditure percentages are based on sectoral allocations defined in the UAE Cabinet's official fiscal roadmap. Values converted from AED to USD (10^9)."
+    }
+  }
+}

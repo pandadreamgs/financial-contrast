@@ -1,0 +1,182 @@
+{
+  "id": "Singapore",
+  "name": "Singapore",
+  "image": "images/Singapore.svg",
+  "category": "city",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 124032000000,
+        "sources": [
+          "Inland Revenue Authority of Singapore (IRAS)",
+          "Net Investment Returns Contribution (NIRC)",
+          "Ministry of Finance (MOF) Revenue Projections 2026"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Corporate Income Tax",
+            "percent": 23.2
+          },
+          "category_2": {
+            "name": "Net Investment Returns Contribution (NIRC)",
+            "percent": 18.0
+          },
+          "category_3": {
+            "name": "Goods and Services Tax (GST)",
+            "percent": 15.6
+          },
+          "category_4": {
+            "name": "Personal Income Tax",
+            "percent": 14.5
+          },
+          "category_5": {
+            "name": "Other Revenue (Stamp Duties, Customs, Fees)",
+            "percent": 28.7
+          }
+        }
+      },
+      "spending": {
+        "total": 117572000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Development (Healthcare, Education, SG60 Vouchers)",
+            "percent": 41.0
+          },
+          "category_2": {
+            "name": "Security and External Relations (Defense, Home Affairs)",
+            "percent": 24.1
+          },
+          "category_3": {
+            "name": "Economic Development (AI Strategy, Infrastructure, RIE2030)",
+            "percent": 18.5
+          },
+          "category_4": {
+            "name": "Special Transfers (including Business Support & PWCS)",
+            "percent": 14.0
+          },
+          "category_5": {
+            "name": "Government Administration & Interest Costs",
+            "percent": 2.4
+          }
+        }
+      },
+      "methodology": "Figures represent the Official Budget 2026 Estimates. Total Income reflects Operating Revenue plus NIRC and other capital receipts, converted to USD (from S$163.2B) at the March 2026 projected rate. Total Spending (approx. $117.57B USD) accounts for ministry expenditures and special transfers. Forecast is driven by an AI investment boom and 2-4% GDP growth."
+    },
+    "2025": {
+      "income": {
+        "total": 111872000000,
+        "sources": [
+          "Inland Revenue Authority of Singapore (IRAS)",
+          "Net Investment Returns Contribution (NIRC)",
+          "Ministry of Finance (MOF) Revenue Estimates 2025"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Corporate Income Tax (CIT)",
+            "percent": 22.4
+          },
+          "category_2": {
+            "name": "Net Investment Returns Contribution (NIRC)",
+            "percent": 17.2
+          },
+          "category_3": {
+            "name": "Goods and Services Tax (GST)",
+            "percent": 15.3
+          },
+          "category_4": {
+            "name": "Personal Income Tax (PIT)",
+            "percent": 14.1
+          },
+          "category_5": {
+            "name": "Asset-based and Other Taxes",
+            "percent": 31.0
+          }
+        }
+      },
+      "spending": {
+        "total": 106248000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Development (Healthcare, Education, Social Support)",
+            "percent": 43.5
+          },
+          "category_2": {
+            "name": "Security and External Relations",
+            "percent": 21.8
+          },
+          "category_3": {
+            "name": "Economic Development and Infrastructure",
+            "percent": 16.5
+          },
+          "category_4": {
+            "name": "Special Transfers and Forward Singapore Initiatives",
+            "percent": 14.9
+          },
+          "category_5": {
+            "name": "Government Administration",
+            "percent": 3.3
+          }
+        }
+      },
+      "methodology": "The 2025 figures are Revised Estimates (RE). Total Income and Spending have been converted from SGD to USD. Values include the full-year impact of the 9% GST rate and social spending under the 'Forward Singapore' roadmap, adjusted for the March 2026 exchange rate outlook."
+    },
+    "2024": {
+      "income": {
+        "total": 106856000000,
+        "sources": [
+          "Inland Revenue Authority (IRAS)",
+          "Net Investment Returns Contribution (NIRC)",
+          "Ministry of Finance Budget Estimates 2024"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Corporate Income Tax",
+            "percent": 21.9
+          },
+          "category_2": {
+            "name": "Net Investment Returns Contribution (NIRC)",
+            "percent": 16.7
+          },
+          "category_3": {
+            "name": "Goods and Services Tax (GST)",
+            "percent": 14.7
+          },
+          "category_4": {
+            "name": "Personal Income Tax",
+            "percent": 13.6
+          },
+          "category_5": {
+            "name": "Other Taxes and Fees",
+            "percent": 33.1
+          }
+        }
+      },
+      "spending": {
+        "total": 99864000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Development (Health, Education, Housing)",
+            "percent": 42.7
+          },
+          "category_2": {
+            "name": "Security and External Relations (Defense, Home Affairs)",
+            "percent": 22.1
+          },
+          "category_3": {
+            "name": "Economic Development (Transport, Trade & Industry)",
+            "percent": 17.0
+          },
+          "category_4": {
+            "name": "Special Transfers and Endowment Top-ups",
+            "percent": 15.0
+          },
+          "category_5": {
+            "name": "Government Administration",
+            "percent": 3.2
+          }
+        }
+      },
+      "methodology": "Data aggregated from Singapore Budget 2024. Total Income (Inflows) and Spending have been converted from SGD to USD based on March 2026 projections. Includes Operating Revenue (approx. $82.5B USD) and NIRC (approx. $17.8B USD)."
+    }
+  }
+}

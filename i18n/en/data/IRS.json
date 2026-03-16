@@ -1,0 +1,147 @@
+{
+  "id": "IRS",
+  "name": "Internal Revenue Service (IRS)",
+  "image": "images/IRS.svg",
+  "category": "government",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 5600000000000,
+        "sources": [
+          "CBO Budget and Economic Outlook: 2026 to 2036",
+          "IRS Revenue Procedure 2025-32 (2026 Tax Year Adjustments)"
+        ],
+        "breakdown": {
+          "individual_income_taxes": {
+            "name": "Individual Income and Social Insurance Taxes",
+            "percent": 83.1
+          },
+          "corporate_income_taxes": {
+            "name": "Corporate Income Taxes",
+            "percent": 8.6
+          },
+          "customs_and_tariffs": {
+            "name": "Customs Duties and Tariffs",
+            "percent": 7.5
+          },
+          "other_taxes": {
+            "name": "Estate, Gift, and Miscellaneous Taxes",
+            "percent": 0.8
+          }
+        }
+      },
+      "spending": {
+        "total": 9831368000,
+        "breakdown": {
+          "taxpayer_services": {
+            "name": "Taxpayer Services",
+            "percent": 36.96
+          },
+          "enforcement": {
+            "name": "Enforcement Activities",
+            "percent": 36.62
+          },
+          "technology_and_operations": {
+            "name": "Technology and Operations Support",
+            "percent": 26.42
+          }
+        }
+      },
+      "methodology": "Income projection is based on the CBO February 2026 baseline for federal revenues ($5.6 trillion), accounting for the implementation of the OBBBA (One Big Beautiful Bill) provisions and inflation-adjusted tax brackets. Spending is based on the FY 2026 President's Budget Request ($9.831 billion), which proposes a significant restructuring of base appropriations and a name change for 'Operations Support' to 'Technology and Operations Support', reflecting a shift towards digital-first enforcement and service despite a reduction in total annual discretionary funding."
+    },
+    "2025": {
+      "income": {
+        "total": 5300000000000,
+        "sources": [
+          "U.S. Department of the Treasury FY 2025 Budget Estimates",
+          "Congressional Budget Office (CBO) Revenue Projections"
+        ],
+        "breakdown": {
+          "individual_income_taxes": {
+            "name": "Individual Income and Social Insurance Taxes",
+            "percent": 81.2
+          },
+          "corporate_income_taxes": {
+            "name": "Corporate Income Taxes",
+            "percent": 11.5
+          },
+          "excise_estate_customs": {
+            "name": "Excise, Estate, and Gift Taxes",
+            "percent": 7.3
+          }
+        }
+      },
+      "spending": {
+        "total": 12317000000,
+        "breakdown": {
+          "enforcement": {
+            "name": "Enforcement Activities",
+            "percent": 43.9
+          },
+          "operations_support": {
+            "name": "Operations Support",
+            "percent": 30.2
+          },
+          "taxpayer_services": {
+            "name": "Taxpayer Services",
+            "percent": 21.8
+          },
+          "modernization": {
+            "name": "Business Systems Modernization",
+            "percent": 4.1
+          }
+        }
+      },
+      "methodology": "Income reflects the estimated gross tax collections for FY 2025 based on CBO baseline projections and Treasury Department estimates. Spending total is derived from the FY 2025 Congressional Budget Justification, representing the requested discretionary budget authority of $12.317 billion, reflecting a continuation of base funding levels while leveraging separate multi-year Inflation Reduction Act (IRA) allocations for specific transformation projects."
+    },
+    "2024": {
+      "income": {
+        "total": 5100000000000,
+        "sources": [
+          "Internal Revenue Service Data Book 2024",
+          "U.S. Department of the Treasury Gross Collections"
+        ],
+        "breakdown": {
+          "individual_income_taxes": {
+            "name": "Individual Income and Payroll Taxes",
+            "percent": 80.39
+          },
+          "corporate_income_taxes": {
+            "name": "Corporate Income Taxes",
+            "percent": 10.39
+          },
+          "employment_taxes": {
+            "name": "Employment Taxes",
+            "percent": 7.55
+          },
+          "estate_gift_excise_taxes": {
+            "name": "Estate, Gift, and Excise Taxes",
+            "percent": 1.67
+          }
+        }
+      },
+      "spending": {
+        "total": 12300000000,
+        "breakdown": {
+          "enforcement": {
+            "name": "Enforcement Activities",
+            "percent": 44.21
+          },
+          "operations_support": {
+            "name": "Operations Support",
+            "percent": 28.98
+          },
+          "taxpayer_services": {
+            "name": "Taxpayer Services",
+            "percent": 20.94
+          },
+          "business_systems_modernization": {
+            "name": "Business Systems Modernization",
+            "percent": 5.87
+          }
+        }
+      },
+      "methodology": "Income represents the 'Gross Collections' processed by the IRS as reported in the 2024 Data Book ($5.1 trillion). Spending is based on the 'Enacted Budget Authority' for Fiscal Year 2024 ($12.3 billion), excluding supplemental Inflation Reduction Act (IRA) long-term funding draws to reflect the base operational fiscal year footprint."
+    }
+  }
+}

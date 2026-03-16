@@ -1,0 +1,143 @@
+{
+  "id": "CERN",
+  "name": "Conseil Européen pour la Recherche Nucléaire (CERN)",
+  "image": "images/CERN.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 1546295750,
+        "sources": [
+          "CERN/SPC/1275-CERN/FC/6963-CERN/3954 Final Budget 2026",
+          "CERN Council News: Cost-Variation Index for 2026"
+        ],
+        "breakdown": {
+          "member_states_contributions": {
+            "name": "Member States Contributions (Indexed)",
+            "percent": 94.6
+          },
+          "associate_member_states": {
+            "name": "Associate Member States Contributions",
+            "percent": 3.6
+          },
+          "other_revenue": {
+            "name": "External Grants and Financial Revenue",
+            "percent": 1.8
+          }
+        }
+      },
+      "spending": {
+        "total": 1742250000,
+        "breakdown": {
+          "personnel_expenses": {
+            "name": "Personnel Expenses (including 1.35% salary indexation)",
+            "percent": 43.8
+          },
+          "capital_expenditure": {
+            "name": "Capital Investment (HL-LHC Full-Scale Tests & Infrastructure)",
+            "percent": 27.5
+          },
+          "materials_and_operating": {
+            "name": "Materials, Energy and Accelerator Operation",
+            "percent": 26.5
+          },
+          "financial_and_other": {
+            "name": "Financial Charges and Debt Service",
+            "percent": 2.2
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is derived from the Final Budget approved by the CERN Council in December 2025. Total Income (1,546,295,750 USD) accounts for the 0.39% cost-variation index applied to Member State contributions. Spending (1,742,250,000 USD) reflects the peak of the HL-LHC construction cycle and increased energy procurement costs. The budget follows the 'corridor principle' for indexation and incorporates a 1.24% overall personnel budget increase due to social benefit adjustments effective Jan 1, 2026. Values converted from CHF to USD at the March 2026 projected rate."
+    },
+    "2025": {
+      "income": {
+        "total": 1515976000,
+        "sources": [
+          "CERN Medium-Term Plan 2025-2029",
+          "CERN Budget Document CERN/FC/6841"
+        ],
+        "breakdown": {
+          "member_states_contributions": {
+            "name": "Member States Contributions",
+            "percent": 94.8
+          },
+          "associate_member_states": {
+            "name": "Associate Member States Contributions",
+            "percent": 3.4
+          },
+          "other_revenue": {
+            "name": "Other Revenue (EU and Third Parties)",
+            "percent": 1.8
+          }
+        }
+      },
+      "spending": {
+        "total": 1696974500,
+        "breakdown": {
+          "personnel_expenses": {
+            "name": "Personnel Expenses",
+            "percent": 44.5
+          },
+          "materials_operating": {
+            "name": "Materials and Operating Expenses",
+            "percent": 28.1
+          },
+          "capital_expenditure": {
+            "name": "Capital Expenditure (HL-LHC & Infrastructure)",
+            "percent": 25.0
+          },
+          "financial_costs": {
+            "name": "Financial and Other Costs",
+            "percent": 2.4
+          }
+        }
+      },
+      "methodology": "Figures represent the approved Budget for 2025 as per the CERN Medium-Term Plan. Income is calculated based on Member State scale of contributions (approx. 1,437,615,000 USD) and anticipated Associate Member fees. Spending includes a planned deficit financed by previous surpluses or credit facilities to cover peak investment years for the High-Luminosity LHC project. Personnel costs include salaries and social contributions for approximately 2,600 staff members. All totals converted to USD."
+    },
+    "2024": {
+      "income": {
+        "total": 1481802600,
+        "sources": [
+          "CERN Financial Statements 2024 - Revenue Section",
+          "CERN Annual Progress Report 2024"
+        ],
+        "breakdown": {
+          "member_states_contributions": {
+            "name": "Member States Contributions",
+            "percent": 95.0
+          },
+          "associate_member_states": {
+            "name": "Associate Member States Contributions",
+            "percent": 3.3
+          },
+          "other_revenue": {
+            "name": "Other Revenue (EU grants, Financial income, etc.)",
+            "percent": 1.7
+          }
+        }
+      },
+      "spending": {
+        "total": 1655452600,
+        "breakdown": {
+          "personnel_expenses": {
+            "name": "Personnel Expenses",
+            "percent": 45.8
+          },
+          "materials_and_operating": {
+            "name": "Materials, Electricity and Operating Expenses",
+            "percent": 27.2
+          },
+          "capital_expenditure": {
+            "name": "Depreciation and Capital Investment (LHC/Infrastructure)",
+            "percent": 24.5
+          },
+          "financial_and_other": {
+            "name": "Financial and Other Expenses",
+            "percent": 2.5
+          }
+        }
+      },
+      "methodology": "Data extracted from CERN/FC/6835 (Financial Statements 2024). Total income is calculated as the sum of Member State contributions (approx. 1,407,563,200 USD), Associate Member contributions (48,818,650 USD), and other revenue streams. Spending includes material expenses, personnel costs, and depreciation of fixed assets. The resulting deficit reflects planned investments in the HL-LHC project and post-employment benefit adjustments. Converted to USD for reporting purposes."
+    }
+  }
+}

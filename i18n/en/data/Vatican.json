@@ -1,0 +1,158 @@
+{
+  "id": "Vatican",
+  "name": "Vatican City",
+  "image": "images/Vatican.svg",
+  "category": "country",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 984500000,
+        "sources": [
+          "Prefecture for Economic Affairs 2026 Fiscal Strategy",
+          "APSA Real Estate Commercialization Plan 2026",
+          "Vatican Museums Post-Jubilee Revenue Forecast"
+        ],
+        "breakdown": {
+          "commercial_and_museums": {
+            "name": "Commercial Services and Museum Admissions",
+            "percent": 38.0
+          },
+          "real_estate_investments": {
+            "name": "Global Real Estate and Asset Management",
+            "percent": 34.0
+          },
+          "donations_and_peter_pence": {
+            "name": "Global Faithful Donations (Peter's Pence)",
+            "percent": 22.0
+          },
+          "financial_services": {
+            "name": "IOR Profits and Financial Operations",
+            "percent": 6.0
+          }
+        }
+      },
+      "spending": {
+        "total": 1003200000,
+        "breakdown": {
+          "apostolic_mission_curia": {
+            "name": "Curial Operations and Global Apostolic Mission",
+            "percent": 45.0
+          },
+          "personnel_and_social_security": {
+            "name": "Salaries, Benefits, and Pension Fund Stabilization",
+            "percent": 30.0
+          },
+          "maintenance_and_security": {
+            "name": "Infrastructure Maintenance and Swiss Guard",
+            "percent": 15.0
+          },
+          "charity_and_humanitarian_aid": {
+            "name": "Global Charitable Works and Emergency Aid",
+            "percent": 10.0
+          }
+        }
+      },
+      "methodology": "The 2026 forecast assumes a return to baseline activity levels following the 2025 Jubilee. Total income is projected based on a 35% decrease in museum traffic compared to the peak year. Spending reflects the new administration's focus on long-term pension fund solvency and a reduction in extraordinary security costs. The projected deficit of 18,700,000 USD is expected to be covered by asset liquidations as part of the ongoing transparency and sustainability reform initiated by the Secretariat for the Economy. Figures converted from EUR to USD at a projected rate of 1.10."
+    },
+    "2025": {
+      "income": {
+        "total": 1529000000,
+        "sources": [
+          "Holy See Budget Estimates 2025",
+          "Prefecture for the Economic Affairs Forecast",
+          "Jubilee 2025 Pilgrimage Revenue Projections"
+        ],
+        "breakdown": {
+          "pilgrimage_and_tourism": {
+            "name": "Museums and Pilgrimage Services",
+            "percent": 48.0
+          },
+          "real_estate_assets": {
+            "name": "Institutional Asset Management (APSA)",
+            "percent": 32.0
+          },
+          "donations_peter_pence": {
+            "name": "Direct Donations and Peter's Pence",
+            "percent": 15.0
+          },
+          "financial_returns": {
+            "name": "IOR Portfolio Returns",
+            "percent": 5.0
+          }
+        }
+      },
+      "spending": {
+        "total": 1551000000,
+        "breakdown": {
+          "jubilee_events_logistics": {
+            "name": "Jubilee 2025 Operational Support",
+            "percent": 42.0
+          },
+          "apostolic_mission": {
+            "name": "Global Evangelization and Nunciatures",
+            "percent": 30.0
+          },
+          "personnel_and_pensions": {
+            "name": "Vatican Staff Salaries and Pension Fund",
+            "percent": 20.0
+          },
+          "charity_and_aid": {
+            "name": "Dicastery for the Service of Charity",
+            "percent": 8.0
+          }
+        }
+      },
+      "methodology": "Figures for 2025 reflect the significant impact of the Jubilee year. Income is projected with a 13% increase compared to 2024 due to record Vatican Museum attendance and commemorative sales. Spending shows a planned deficit of 22,000,000 USD to cover extraordinary maintenance and security costs associated with the Holy Year events. Methodology utilizes the official 2025 budget framework approved by the Pope. Converted to USD at a 1.10 rate."
+    },
+    "2024": {
+      "income": {
+        "total": 1353000000,
+        "sources": [
+          "Holy See Consolidated Financial Statement 2024",
+          "Administration of the Patrimony of the Apostolic See (APSA) Annual Report",
+          "Institute for the Works of Religion (IOR) Annual Report"
+        ],
+        "breakdown": {
+          "external_donations": {
+            "name": "External Donations (Peter's Pence and others)",
+            "percent": 43.0
+          },
+          "self_generated_revenue": {
+            "name": "Real Estate and Commercial Services",
+            "percent": 40.0
+          },
+          "financial_investments": {
+            "name": "Financial Investments and Asset Management",
+            "percent": 11.0
+          },
+          "vatican_city_state_contribution": {
+            "name": "Contributions from Vatican City State Governor's Office",
+            "percent": 6.0
+          }
+        }
+      },
+      "spending": {
+        "total": 1351240000,
+        "breakdown": {
+          "apostolic_mission": {
+            "name": "Apostolic Mission and Evangelization",
+            "percent": 37.0
+          },
+          "administration_general": {
+            "name": "Administrative and General Costs",
+            "percent": 36.0
+          },
+          "personnel_costs": {
+            "name": "Salaries and Personnel Benefits",
+            "percent": 15.0
+          },
+          "charitable_services": {
+            "name": "Charity and Diplomatic Presence (Nunciatures)",
+            "percent": 12.0
+          }
+        }
+      },
+      "methodology": "Data compiled from the 2024 Consolidated Financial Statement of the Holy See. Total operating income reported at 1.353 billion USD. Spending calculated based on total operating expenses adjusted for the reported 1.76 million USD surplus. Percentages for income sources and spending categories are derived from the Secretariat for the Economy's breakdown excluding hospital entities to reflect the core mission budget. Converted from EUR to USD."
+    }
+  }
+}

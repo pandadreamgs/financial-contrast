@@ -1,0 +1,173 @@
+{
+  "id": "London",
+  "name": "London",
+  "image": "images/London.svg",
+  "category": "city",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 30188400000,
+        "sources": [
+          "Government Integrated Settlement (Grant Funding)",
+          "Business Rates Retention (Baseline & Surplus)",
+          "Council Tax (Increased Precept)",
+          "TfL Fare Revenue and Commercial Income"
+        ],
+        "breakdown": {
+          "transport_fares_and_operating": {
+            "name": "TfL Fares and Operating Income",
+            "percent": 43.1
+          },
+          "government_integrated_funding": {
+            "name": "Integrated Settlement & Specific Grants",
+            "percent": 30.5
+          },
+          "business_rates": {
+            "name": "Retained Business Rates",
+            "percent": 18.6
+          },
+          "council_tax": {
+            "name": "Council Tax Precept",
+            "percent": 7.8
+          }
+        }
+      },
+      "spending": {
+        "total": 30188400000,
+        "breakdown": {
+          "transport_network": {
+            "name": "Transport for London (Capital & Revenue)",
+            "percent": 56.3
+          },
+          "policing_and_crime": {
+            "name": "Mayor's Office for Policing and Crime (MOPAC)",
+            "percent": 22.8
+          },
+          "housing_and_infrastructure": {
+            "name": "Capital Spending Plan & Housing Grants",
+            "percent": 14.2
+          },
+          "fire_and_emergency": {
+            "name": "London Fire Commissioner",
+            "percent": 3.2
+          },
+          "core_gla_and_mayoral_priorities": {
+            "name": "Universal Free School Meals & Core GLA",
+            "percent": 3.5
+          }
+        }
+      },
+      "methodology": "The 2026-27 forecast is based on the Mayor's Final Draft Consolidated Budget published in February 2026. Total budget converted to USD ($30.19 billion) from GBP (£22.87 billion) at the projected March 2026 rate. Adjusted gross revenue expenditure increased to approx. $23.01 billion, while gross capital expenditure rose to $7.18 billion. Includes a 4.1% council tax increase and £280 million in savings."
+    },
+    "2025": {
+      "income": {
+        "total": 28842000000,
+        "sources": [
+          "Transport for London (TfL) Passenger Income",
+          "Business Rates Retention",
+          "Council Tax Precept",
+          "Government Grants"
+        ],
+        "breakdown": {
+          "fares_and_operating_income": {
+            "name": "Transport Fares and Operating Revenue",
+            "percent": 41.5
+          },
+          "business_rates": {
+            "name": "Retained Business Rates",
+            "percent": 18.2
+          },
+          "grants_and_funding": {
+            "name": "Central Government Support and Specific Grants",
+            "percent": 32.8
+          },
+          "council_tax": {
+            "name": "Council Tax Precept",
+            "percent": 7.5
+          }
+        }
+      },
+      "spending": {
+        "total": 28842000000,
+        "breakdown": {
+          "transportation": {
+            "name": "Transport for London Services and Infrastructure",
+            "percent": 48.2
+          },
+          "police_and_crime": {
+            "name": "Mayor's Office for Policing and Crime",
+            "percent": 24.5
+          },
+          "housing_and_regeneration": {
+            "name": "Housing and Land Investment",
+            "percent": 15.6
+          },
+          "fire_and_emergency": {
+            "name": "London Fire Brigade and Emergency Planning",
+            "percent": 3.1
+          },
+          "other_authority_services": {
+            "name": "Culture, Environment and GLA Core Services",
+            "percent": 8.6
+          }
+        }
+      },
+      "methodology": "Figures represent the 2025-26 GLA Group Consolidated Budget. Total converted to USD ($28.84 billion) from the original GBP (£21.85 billion). Calculations are based on the Mayor of London's budget proposals, adjusted for inflation and projected increases in business rates and council tax yields for the fiscal year."
+    },
+    "2024": {
+      "income": {
+        "total": 27269484000,
+        "sources": [
+          "Business Rates Retention Scheme",
+          "Council Tax Precept",
+          "Fares, Charges and Other Operating Income",
+          "Central Government Grants"
+        ],
+        "breakdown": {
+          "fares_and_charges": {
+            "name": "Fares, Charges and Other Income",
+            "percent": 39.2
+          },
+          "business_rates": {
+            "name": "Retained Business Rates",
+            "percent": 17.4
+          },
+          "government_grants": {
+            "name": "Government Grants and Other Funding",
+            "percent": 36.1
+          },
+          "council_tax": {
+            "name": "Council Tax Precept",
+            "percent": 7.3
+          }
+        }
+      },
+      "spending": {
+        "total": 27269484000,
+        "breakdown": {
+          "transport": {
+            "name": "Transport for London (TfL)",
+            "percent": 46.7
+          },
+          "policing": {
+            "name": "Mayor's Office for Policing and Crime (MOPAC)",
+            "percent": 23.2
+          },
+          "fire_and_emergency": {
+            "name": "London Fire Commissioner (LFC)",
+            "percent": 2.8
+          },
+          "capital_investment": {
+            "name": "Capital Spending Plan (Infrastructure & Housing)",
+            "percent": 21.2
+          },
+          "other_services": {
+            "name": "GLA Mayor and Other Functional Bodies",
+            "percent": 6.1
+          }
+        }
+      },
+      "methodology": "Data extracted from the GLA Final Consolidated Budget 2024-25. Total converted to USD ($27.27 billion) from the original GBP (£20.6587 billion). The total represents the gross expenditure and income for the GLA Group (including TfL and MOPAC)."
+    }
+  }
+}

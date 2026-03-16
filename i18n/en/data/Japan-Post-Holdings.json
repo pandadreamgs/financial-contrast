@@ -1,0 +1,157 @@
+{
+  "id": "Japan-Post-Holdings",
+  "name": "Japan Post Holdings",
+  "image": "images/Japan-Post-Holdings.png",
+  "category": "corporation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 78413793103,
+        "sources": [
+          "Japan Post Holdings: Notice Regarding Revisions to the Consolidated Financial Results Forecast for the Fiscal Year Ending March 31, 2026 (Nov 14, 2025)",
+          "Financial Results for the 3rd Quarter of the Fiscal Year Ending March 31, 2026 (Feb 13, 2026)"
+        ],
+        "breakdown": {
+          "banking_business": {
+            "name": "Banking Business Ordinary Income (Japan Post Bank)",
+            "percent": 24.2
+          },
+          "life_insurance": {
+            "name": "Life Insurance Ordinary Income (Japan Post Insurance)",
+            "percent": 48.1
+          },
+          "postal_logistics": {
+            "name": "Postal and Domestic Logistics Business Revenue",
+            "percent": 20.4
+          },
+          "other_segments": {
+            "name": "Post Office Business, Real Estate and International Logistics",
+            "percent": 7.3
+          }
+        }
+      },
+      "spending": {
+        "total": 71793103448,
+        "breakdown": {
+          "insurance_claims": {
+            "name": "Insurance Claims and Benefits Payments",
+            "percent": 44.5
+          },
+          "operating_expenses": {
+            "name": "Postal and Logistics Operating Expenses",
+            "percent": 22.8
+          },
+          "personnel_costs": {
+            "name": "Personnel and Labor Expenses",
+            "percent": 18.2
+          },
+          "investment_and_admin": {
+            "name": "Interest Expenses, IT Investments and General Admin",
+            "percent": 14.5
+          }
+        }
+      },
+      "methodology": "Total income is converted to USD from the revised 'Ordinary Income' forecast of 11.37 trillion JPY. Spending is calculated as Ordinary Income minus the projected Net Ordinary Income (960 billion JPY), converted to USD at the Mar 2026 forecast rate (145 JPY/USD). The breakdown reflects the strong performance of Japan Post Bank due to rising JGB yields."
+    },
+    "2025": {
+      "income": {
+        "total": 77241379310,
+        "sources": [
+          "Japan Post Holdings Consolidated Financial Results Forecast FY2025",
+          "Japan Post Bank Interim Report Nov 2024",
+          "Japan Post Insurance Strategic Update 2025"
+        ],
+        "breakdown": {
+          "banking_business": {
+            "name": "Banking Business (Japan Post Bank)",
+            "percent": 19.5
+          },
+          "life_insurance": {
+            "name": "Life Insurance Business (Japan Post Insurance)",
+            "percent": 51.0
+          },
+          "postal_logistics": {
+            "name": "Postal and Domestic Logistics Business",
+            "percent": 21.5
+          },
+          "other_services": {
+            "name": "Real Estate and Digital Services",
+            "percent": 8.0
+          }
+        }
+      },
+      "spending": {
+        "total": 72068965517,
+        "breakdown": {
+          "operating_expenses": {
+            "name": "Postal and Logistics Operating Costs",
+            "percent": 24.5
+          },
+          "insurance_claims": {
+            "name": "Insurance Claims and Policyholder Dividends",
+            "percent": 46.0
+          },
+          "personnel_costs": {
+            "name": "Human Resources and Labor Expenses",
+            "percent": 19.0
+          },
+          "it_investment": {
+            "name": "Digital Transformation (DX) and Systems",
+            "percent": 10.5
+          }
+        }
+      },
+      "methodology": "Figures represent the consolidated forecast for FY2025, converted from 11.2 trillion JPY (income) and 10.45 trillion JPY (spending) to USD. Income reflects a shift towards higher banking margins due to interest rate hikes."
+    },
+    "2024": {
+      "income": {
+        "total": 79091724138,
+        "sources": [
+          "Japan Post Holdings Consolidated Financial Results FY2024",
+          "Japan Post Bank Annual Report 2024",
+          "Japan Post Insurance Financial Highlights 2024"
+        ],
+        "breakdown": {
+          "banking_business": {
+            "name": "Banking Business (Japan Post Bank)",
+            "percent": 18.0
+          },
+          "life_insurance": {
+            "name": "Life Insurance Business (Japan Post Insurance)",
+            "percent": 53.0
+          },
+          "postal_logistics": {
+            "name": "Postal and Domestic Logistics Business",
+            "percent": 21.0
+          },
+          "other_services": {
+            "name": "Post Office and Other Operations",
+            "percent": 8.0
+          }
+        }
+      },
+      "spending": {
+        "total": 73474482759,
+        "breakdown": {
+          "operating_expenses": {
+            "name": "Operating Expenses (Postal & Logistics)",
+            "percent": 23.0
+          },
+          "insurance_claims": {
+            "name": "Insurance Claims and Benefits",
+            "percent": 48.0
+          },
+          "personnel_costs": {
+            "name": "Personnel Expenses",
+            "percent": 19.0
+          },
+          "general_admin": {
+            "name": "General and Administrative Expenses",
+            "percent": 10.0
+          }
+        }
+      },
+      "methodology": "Data extracted from FY2024 'Ordinary Income' (11.4683 trillion JPY) and 'Ordinary Expenses' (10.6538 trillion JPY), converted to USD. Banking and Insurance segments remain the primary revenue drivers."
+    }
+  }
+}

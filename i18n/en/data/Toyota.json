@@ -1,0 +1,133 @@
+{
+  "id": "Toyota",
+  "name": "Toyota",
+  "image": "images/Toyota.svg",
+  "category": "corporation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 333333333333,
+        "sources": [
+          "Toyota Motor Corporation FY2026 Third Quarter Financial Results Summary",
+          "TMC Revised Full-Year Forecast (February 6, 2026)",
+          "Toyota Investor Relations Guidance Update"
+        ],
+        "breakdown": {
+          "automotive": {
+            "name": "Automotive Sales",
+            "percent": 91.1
+          },
+          "financial_services": {
+            "name": "Financial Services",
+            "percent": 7.7
+          },
+          "all_other": {
+            "name": "Other Businesses (Mobility, Robotics, Housing)",
+            "percent": 1.2
+          }
+        }
+      },
+      "spending": {
+        "total": 308000000000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales & Tariff Impact",
+            "percent": 83.4
+          },
+          "selling_general_admin": {
+            "name": "Selling, General and Administrative Expenses",
+            "percent": 10.1
+          },
+          "capex_rd": {
+            "name": "R&D and Strategic Investments (BEV, SDV)",
+            "percent": 6.5
+          }
+        }
+      },
+      "methodology": "The income total is based on Toyota's revised full-year forecast, converted to approximately 333.33 billion USD (from 50 trillion yen) at the March 2026 exchange rate. Total spending is calculated by subtracting the projected operating income of approximately 25.33 billion USD from the total revenue. Spending includes a massive 9.67 billion USD negative impact from newly imposed U.S. tariffs, which significantly compressed the operating margin to approximately 7.6%."
+    },
+    "2025": {
+      "income": {
+        "total": 320244693333,
+        "sources": [
+          "Toyota Motor Corporation FY2025 Consolidated Financial Results",
+          "TMC Press Briefing (May 8, 2025)",
+          "SEC Form 20-F Toyota Motor Corp 2025"
+        ],
+        "breakdown": {
+          "automotive": {
+            "name": "Automotive Sales",
+            "percent": 91.2
+          },
+          "financial_services": {
+            "name": "Financial Services",
+            "percent": 7.6
+          },
+          "all_other": {
+            "name": "Other Businesses (Housing, Information Technology)",
+            "percent": 1.2
+          }
+        }
+      },
+      "spending": {
+        "total": 288274120000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales",
+            "percent": 82.5
+          },
+          "selling_general_admin": {
+            "name": "Selling, General and Administrative Expenses",
+            "percent": 11.2
+          },
+          "capex_rd": {
+            "name": "Capital Expenditures and R&D Investment",
+            "percent": 6.3
+          }
+        }
+      },
+      "methodology": "The income total reflects the consolidated net revenue converted to approximately 320.24 billion USD from the 48,036,704 million yen reported in FY2025. Total spending is derived by subtracting the reported operating income (approx. 31.97 billion USD) from the net revenue to account for all operational costs in USD. Breakdown percentages remain consistent with reported departmental results."
+    },
+    "2024": {
+      "income": {
+        "total": 300635333333,
+        "sources": [
+          "Toyota Motor Corporation Consolidated Financial Results FY2024",
+          "SEC Form 20-F Toyota Motor Corp"
+        ],
+        "breakdown": {
+          "automotive": {
+            "name": "Automotive Sales",
+            "percent": 91.4
+          },
+          "financial_services": {
+            "name": "Financial Services",
+            "percent": 7.4
+          },
+          "all_other": {
+            "name": "Other Businesses (Housing, etc.)",
+            "percent": 1.2
+          }
+        }
+      },
+      "spending": {
+        "total": 264949333333,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales",
+            "percent": 81.3
+          },
+          "selling_general_admin": {
+            "name": "Selling, General and Administrative Expenses",
+            "percent": 10.6
+          },
+          "capex_rd": {
+            "name": "Capital Expenditures and R&D",
+            "percent": 8.1
+          }
+        }
+      },
+      "methodology": "Data extracted from the consolidated financial statements for FY2024 and converted to USD (approx. 300.64 billion USD from 45.1 trillion yen). Spending total is calculated as Net Revenue minus Operating Income, converted to USD, to reflect all operational outflows. R&D and CAPEX are isolated from total operating costs for breakdown clarity."
+    }
+  }
+}

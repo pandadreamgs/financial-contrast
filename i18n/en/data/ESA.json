@@ -1,0 +1,169 @@
+{
+  "id": "ESA",
+  "name": "European Space Agency (ESA)",
+  "image": "images/ESA.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 9086000000,
+        "sources": [
+          "ESA Member States Contributions",
+          "European Union (EU) Budget",
+          "Third-party Partner Programmes",
+          "EUMETSAT"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "ESA Member States",
+            "percent": 64.2
+          },
+          "category_2": {
+            "name": "European Union (Copernicus, Galileo, IRIS²)",
+            "percent": 23.4
+          },
+          "category_3": {
+            "name": "Third-party and Commercial Partnerships",
+            "percent": 11.0
+          },
+          "category_4": {
+            "name": "EUMETSAT",
+            "percent": 1.4
+          }
+        }
+      },
+      "spending": {
+        "total": 9086000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Earth Observation",
+            "percent": 31.2
+          },
+          "category_2": {
+            "name": "Space Transportation & Launcher Evolution",
+            "percent": 20.1
+          },
+          "category_3": {
+            "name": "Navigation & Connectivity (IRIS²)",
+            "percent": 17.5
+          },
+          "category_4": {
+            "name": "Human and Robotic Exploration",
+            "percent": 13.5
+          },
+          "category_5": {
+            "name": "Scientific Programmes",
+            "percent": 17.7
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is based on the official budget commitments from the ESA Ministerial Council 2025 (CM25) in Bremen. The total budget for 2026 is set at $9.086 billion USD, reflecting a 7.6% increase from 2025. This surge is driven by a 31% increase in member state subscriptions for the 2026–2028 cycle compared to the previous one. Income breakdown reflects specific pledges from Germany ($5.58B USD), France ($3.96B USD), and Italy ($3.81B USD) for the three-year term. Spending distribution is calculated based on the $24.28B USD total program allocation, prioritizing Ariane 6 ramp-up, the European Launcher Challenge, and the Earth Observation Copernicus missions."
+    },
+    "2025": {
+      "income": {
+        "total": 8448000000,
+        "sources": [
+          "ESA Member States Contributions",
+          "European Union (EU) Budget",
+          "EUMETSAT",
+          "Third-party Partner Programmes"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "ESA Member States",
+            "percent": 66.0
+          },
+          "category_2": {
+            "name": "European Union",
+            "percent": 22.1
+          },
+          "category_3": {
+            "name": "Other Sources and Eumetsat",
+            "percent": 11.9
+          }
+        }
+      },
+      "spending": {
+        "total": 8448000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Earth Observation",
+            "percent": 29.8
+          },
+          "category_2": {
+            "name": "Space Transportation & Launchers",
+            "percent": 14.2
+          },
+          "category_3": {
+            "name": "Navigation",
+            "percent": 13.0
+          },
+          "category_4": {
+            "name": "Human and Robotic Exploration",
+            "percent": 10.5
+          },
+          "category_5": {
+            "name": "Scientific Programmes",
+            "percent": 9.2
+          }
+        }
+      },
+      "methodology": "The data reflects the approved initial budget for the 2025 fiscal year as of early 2025. While the Ministerial Council in November 2025 (CM25) committed a record $24.28 billion USD for the 2026-2028 cycle, the 2025 operational budget saw a slight technical dip of 1.4% compared to 2024 due to national budget cycles in Germany and the UK. The 2025 total stands at $8.448 billion USD. Spending reflects the transitional allocation toward Ariane 6 ramp-up and Earth Observation continuity."
+    },
+    "2024": {
+      "income": {
+        "total": 8569000000,
+        "sources": [
+          "ESA Member States Contributions",
+          "European Union (EU) Budget",
+          "EUMETSAT",
+          "Other Third-Party Agreements"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "ESA Member States",
+            "percent": 64.5
+          },
+          "category_2": {
+            "name": "European Union",
+            "percent": 23.4
+          },
+          "category_3": {
+            "name": "Third-party agreement income",
+            "percent": 10.5
+          },
+          "category_4": {
+            "name": "Eumetsat",
+            "percent": 1.6
+          }
+        }
+      },
+      "spending": {
+        "total": 8569000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Earth Observation",
+            "percent": 30.5
+          },
+          "category_2": {
+            "name": "Space Transportation & Launchers",
+            "percent": 13.5
+          },
+          "category_3": {
+            "name": "Navigation",
+            "percent": 13.3
+          },
+          "category_4": {
+            "name": "Human and Robotic Exploration",
+            "percent": 11.2
+          },
+          "category_5": {
+            "name": "Scientific Programmes",
+            "percent": 8.7
+          }
+        }
+      },
+      "methodology": "Data based on the official 2024 ESA budget announcement and annual press briefing. Income is calculated as the sum of member state contributions and institutional partnerships (EU, Eumetsat), totaling $8.569 billion USD. Spending is categorized by programmatic allocation as per the 2024 budget cycle."
+    }
+  }
+}

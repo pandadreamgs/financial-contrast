@@ -1,0 +1,134 @@
+{
+  "id": "Rotary-Foundation",
+  "name": "The Rotary Foundation",
+  "image": "images/Rotary-Foundation.png",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 451530000,
+        "sources": [
+          "Annual Fund Contributions",
+          "Endowment Fund Spendable Earnings",
+          "PolioPlus Matching (Gates Foundation)"
+        ],
+        "breakdown": {
+          "annual_fund": {
+            "name": "Annual Fund",
+            "percent": 74.5
+          },
+          "endowment_earnings": {
+            "name": "Endowment Earnings",
+            "percent": 11.5
+          },
+          "polio_plus": {
+            "name": "PolioPlus Contributions",
+            "percent": 14.0
+          }
+        }
+      },
+      "spending": {
+        "total": 402140000,
+        "breakdown": {
+          "global_and_district_grants": {
+            "name": "Global and District Grants",
+            "percent": 88.0
+          },
+          "fundraising": {
+            "name": "Fundraising & Development",
+            "percent": 9.5
+          },
+          "administrative_overhead": {
+            "name": "General Administration",
+            "percent": 2.5
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is derived using a 3-year CAGR of 3.8% applied to the 2025 budget baseline ($435M). Income projections account for the increased yield from the Endowment Fund which surpassed its $2.025 billion target in 2025. Spending follows the Foundation's 'SHARE' system where 50% of Annual Fund contributions from three years prior (2023) become available for grants in 2026, supplemented by the ongoing 2:1 match from the Bill & Melinda Gates Foundation for PolioPlus."
+    },
+    "2025": {
+      "income": {
+        "total": 435000000,
+        "sources": [
+          "Annual Fund Contributions",
+          "PolioPlus Fund",
+          "Endowment Fund and Investment Returns"
+        ],
+        "breakdown": {
+          "annual_fund": {
+            "name": "Annual Fund Contributions",
+            "percent": 75.5
+          },
+          "polio_plus": {
+            "name": "PolioPlus Fund",
+            "percent": 15.0
+          },
+          "investment_and_other": {
+            "name": "Endowment and Investment Income",
+            "percent": 9.5
+          }
+        }
+      },
+      "spending": {
+        "total": 385000000,
+        "breakdown": {
+          "service_grants": {
+            "name": "Service Grants and Programs",
+            "percent": 88.0
+          },
+          "fundraising": {
+            "name": "Fundraising Expenses",
+            "percent": 10.0
+          },
+          "management": {
+            "name": "General Management",
+            "percent": 2.0
+          }
+        }
+      },
+      "methodology": "Figures represent the approved budget targets and financial projections for the fiscal year ending June 30, 2025. Income is projected based on the 'World Fund' goals and historical giving patterns, including the Bill & Melinda Gates Foundation 2:1 match for PolioPlus. Spending is calculated based on allocated program awards and the foundation's 90% efficiency target for program services."
+    },
+    "2024": {
+      "income": {
+        "total": 418096647,
+        "sources": [
+          "Contributions and Grants",
+          "Investment Income",
+          "Other Revenue"
+        ],
+        "breakdown": {
+          "contributions": {
+            "name": "Contributions",
+            "percent": 92.9
+          },
+          "investment_income": {
+            "name": "Investment Income",
+            "percent": 6.4
+          },
+          "other_revenue": {
+            "name": "Other Revenue",
+            "percent": 0.7
+          }
+        }
+      },
+      "spending": {
+        "total": 361086677,
+        "breakdown": {
+          "program_awards": {
+            "name": "Program Awards and Operations",
+            "percent": 87.0
+          },
+          "fund_development": {
+            "name": "Fund Development",
+            "percent": 11.0
+          },
+          "general_administration": {
+            "name": "General Administration",
+            "percent": 2.0
+          }
+        }
+      },
+      "methodology": "Data extracted from the Rotary International 2023-24 Annual Report and audited financial statements for the fiscal year ending 30 June 2024. Income includes contributions to the Annual Fund, PolioPlus Fund, and Endowment Fund, as well as net investment returns. Spending reflects total expenditures categorized by program grants, fundraising costs, and administrative overhead."
+    }
+  }
+}

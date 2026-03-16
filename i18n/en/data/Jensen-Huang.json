@@ -1,0 +1,139 @@
+{
+  "id": "Jensen-Huang",
+  "name": "Jensen Huang",
+  "image": "images/Jensen-Huang.jpg",
+  "category": "person",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 35218000000,
+        "sources": [
+          "Projected Net Worth Increase (Unrealized)",
+          "Rule 10b5-1 Stock Sale Plan",
+          "FY2027 Executive Cash Bonus and Stock Awards"
+        ],
+        "breakdown": {
+          "unrealized_capital_gains": {
+            "name": "NVIDIA Equity Value Appreciation",
+            "percent": 96.95
+          },
+          "realized_stock_sales": {
+            "name": "Liquidation of 6 Million Shares",
+            "percent": 3.02
+          },
+          "salary_and_bonuses": {
+            "name": "Target Cash Bonus and Base Salary",
+            "percent": 0.03
+          }
+        }
+      },
+      "spending": {
+        "total": 685300000,
+        "breakdown": {
+          "philanthropy": {
+            "name": "Huang Foundation Statutory Distributions",
+            "percent": 68.58
+          },
+          "taxation": {
+            "name": "Federal and State Tax on Realized Gains",
+            "percent": 31.02
+          },
+          "operational_security": {
+            "name": "Enhanced Executive Protection and Travel",
+            "percent": 0.4
+          }
+        }
+      },
+      "methodology": "Income projection reflects a forecasted $34.13B gain in net worth based on a $275 median analyst price target for NVDA. Realized income includes $1.06B from the 2026 stock sale plan (approx. 6M shares at current prices) and a $4M target cash bonus. Spending estimates include the mandatory 5% payout from the $9.4B Huang Foundation ($470M), estimated 20% federal tax on $1.06B capital gains ($212M), and $3.3M in reported security costs."
+    },
+    "2025": {
+      "income": {
+        "total": 57414900000,
+        "sources": [
+          "NVIDIA Stock Price Appreciation (Unrealized)",
+          "SEC Form 4 Scheduled Stock Sales (Realized)",
+          "Fiscal Year 2025 Executive Compensation"
+        ],
+        "breakdown": {
+          "unrealized_capital_gains": {
+            "name": "NVIDIA Asset Value Surge",
+            "percent": 98.49
+          },
+          "realized_stock_sales": {
+            "name": "Scheduled 10b5-1 Share Disposals",
+            "percent": 1.42
+          },
+          "executive_compensation": {
+            "name": "Total CEO Pay Package",
+            "percent": 0.09
+          }
+        }
+      },
+      "spending": {
+        "total": 535200000,
+        "breakdown": {
+          "philanthropy": {
+            "name": "Foundation Grants and Direct Pledges",
+            "percent": 65.34
+          },
+          "taxation": {
+            "name": "Estimated Tax on Realized Gains",
+            "percent": 31.28
+          },
+          "operational_and_security": {
+            "name": "Personal Security and Logistics",
+            "percent": 3.38
+          }
+        }
+      },
+      "methodology": "Income includes a $56.5B net worth increase based on Forbes/Bloomberg real-time data for 2025, plus $815M in realized stock sales under the March 2025 trading plan and $49.9M in total compensation. Spending is derived from the mandatory 5% distribution of the $9.2B Huang Foundation assets (~$460M), estimated 20% federal capital gains tax on $815M sales (~$163M), and $18.1M in security/travel opex as per updated proxy guidance."
+    },
+    "2024": {
+      "income": {
+        "total": 73264200000,
+        "sources": [
+          "NVIDIA Stock Appreciation (Unrealized)",
+          "NVIDIA Executive Compensation Package",
+          "SEC Form 4 Stock Sales (Realized)"
+        ],
+        "breakdown": {
+          "unrealized_capital_gains": {
+            "name": "NVIDIA Asset Value Increase",
+            "percent": 99.55
+          },
+          "realized_stock_sales": {
+            "name": "Direct Shares Disposal (June/July)",
+            "percent": 0.4
+          },
+          "salary_and_bonuses": {
+            "name": "Annual CEO Compensation",
+            "percent": 0.05
+          }
+        }
+      },
+      "spending": {
+        "total": 218500000,
+        "sources": [
+          "U.S. Federal Capital Gains Tax (Estimated)",
+          "Jen-Hsun & Lori Huang Foundation Distributions",
+          "Corporate Security and Transportation"
+        ],
+        "breakdown": {
+          "philanthropy": {
+            "name": "Charitable Donations and Foundation Grants",
+            "percent": 56.29
+          },
+          "taxes": {
+            "name": "Estimated Tax on Realized Gains",
+            "percent": 42.56
+          },
+          "personal_security_ops": {
+            "name": "Residential Security and Travel",
+            "percent": 1.15
+          }
+        }
+      },
+      "methodology": "Income total is based on the Bloomberg Billionaires Index net worth surge of $73B for 2024 plus $230M in realized stock sales and $34.2M in annual compensation. Spending is calculated as 5% mandatory distribution from the Huang Foundation assets ($123M), estimated 15-20% federal tax on the $230M realized gain ($46M-$92M), and $2.5M in security/travel expenses per proxy filings."
+    }
+  }
+}

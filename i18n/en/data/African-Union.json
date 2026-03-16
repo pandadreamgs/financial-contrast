@@ -1,0 +1,135 @@
+{
+  "id": "African-Union",
+  "name": "African Union",
+  "image": "images/African-Union.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 700000000,
+        "sources": [
+          "Member States Assessed Contributions (via 0.2% Import Levy)",
+          "International Partners (EU, China, World Bank, Google Partnership)",
+          "AU Peace Fund Endowment",
+          "Afreximbank Infrastructure Financing"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "International Partners & Grants",
+            "percent": 64.0
+          },
+          "category_2": {
+            "name": "Member States Statutory Contributions",
+            "percent": 28.5
+          },
+          "category_3": {
+            "name": "Peace Fund & Private Sector Partnerships",
+            "percent": 7.5
+          }
+        }
+      },
+      "spending": {
+        "total": 700000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Peace Support Operations & Security Priorities",
+            "percent": 45.0
+          },
+          "category_2": {
+            "name": "Agenda 2063 Strategic Programmes",
+            "percent": 32.0
+          },
+          "category_3": {
+            "name": "Operational and Administrative Costs",
+            "percent": 23.0
+          }
+        }
+      },
+      "methodology": "The 2026 projection reflects the $700,000,000 baseline identified in the February 2026 AU Summit reports. Despite a target of $1B for security, realized funding tracks closely to this $700M figure. Spending shift (45% for Security) is driven by 2026 priorities in Sudan, Somalia, and the Sahel. Income includes a notable $30M infrastructure grant from China and private-sector digital initiatives (Google AI Partnership). The 0.2% levy remains the primary internal mechanism, though only 17 member states are fully compliant as of Q1 2026."
+    },
+    "2025": {
+      "income": {
+        "total": 608248415,
+        "sources": [
+          "Member States Statutory Contributions",
+          "International Development Partners",
+          "African Institutions and Internal Sources"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "International Partners Funding",
+            "percent": 58.1
+          },
+          "category_2": {
+            "name": "Member States Assessed Contributions",
+            "percent": 32.9
+          },
+          "category_3": {
+            "name": "Internal and Institutional Sources",
+            "percent": 9.0
+          }
+        }
+      },
+      "spending": {
+        "total": 608248415,
+        "breakdown": {
+          "category_1": {
+            "name": "Programme Budget",
+            "percent": 63.8
+          },
+          "category_2": {
+            "name": "Operational Budget",
+            "percent": 27.5
+          },
+          "category_3": {
+            "name": "Peace Support Operations",
+            "percent": 8.7
+          }
+        }
+      },
+      "methodology": "Data based on the AU 2025 budget resolution adopted in Accra (July 2024). The total of $608,248,415 consists of a regular budget of $555,319,415 and specialized funds. Operational budget ($167,045,485) is almost entirely funded by member states (98%), while the Programme budget ($388,273,929) remains heavily partner-dependent (77.5%). Peace support operations ($52,929,131) are currently 100% funded by international partners as per the 2025 fiscal framework."
+    },
+    "2024": {
+      "income": {
+        "total": 605756610,
+        "sources": [
+          "Member States Assessed Contributions",
+          "International Development Partners (EU, USA, China, Germany)",
+          "Internal Levies and Miscellaneous Income"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "International Partners Funding",
+            "percent": 61.8
+          },
+          "category_2": {
+            "name": "Member States Statutory Contributions",
+            "percent": 33.2
+          },
+          "category_3": {
+            "name": "Miscellaneous and Internal Reserves",
+            "percent": 5.0
+          }
+        }
+      },
+      "spending": {
+        "total": 605756610,
+        "breakdown": {
+          "category_1": {
+            "name": "Programme Budget",
+            "percent": 61.5
+          },
+          "category_2": {
+            "name": "Operational Budget (Administration)",
+            "percent": 28.5
+          },
+          "category_3": {
+            "name": "Peace Support Operations",
+            "percent": 10.0
+          }
+        }
+      },
+      "methodology": "Official 2024 budget data approved during the AU Summit. Total amount of 605,756,610 USD is split into Operational ($172.6M), Programme ($372.6M), and Peace Support ($60.5M). Member states are responsible for 100% of the operational budget, while international partners cover 77% of the programme budget and 100% of peace support operations as per the 2024 fiscal framework."
+    }
+  }
+}

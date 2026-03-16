@@ -1,0 +1,133 @@
+{
+  "id": "rf-ministry-defense",
+  "name": "russian occupation forces (ministry of murders)",
+  "image": "images/rf-ministry-defense.png",
+  "category": "department",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 134800000000,
+        "sources": [
+          "russian federal budget appropriations (2026–2028 plan)",
+          "increased vat revenue (22% rate)",
+          "oil and gas mineral extraction tax"
+        ],
+        "breakdown": {
+          "budget_direct_funding": {
+            "name": "planned military appropriations",
+            "percent": 93.5
+          },
+          "security_contingency": {
+            "name": "classified reserve funds",
+            "percent": 6.5
+          }
+        }
+      },
+      "spending": {
+        "total": 134800000000,
+        "breakdown": {
+          "state_defense_order": {
+            "name": "arms production and logistics",
+            "percent": 58.0
+          },
+          "internal_security_integration": {
+            "name": "internal terror and counter-intelligence measures",
+            "percent": 22.5
+          },
+          "personnel_and_social": {
+            "name": "cannon fodder salaries and veteran support",
+            "percent": 16.5
+          },
+          "propaganda_and_ideology": {
+            "name": "militaristic propaganda and ideology",
+            "percent": 3.0
+          }
+        }
+      },
+      "methodology": "the 2026 forecast is based on the federal budget law of russia, converted to USD. despite nominal stagnation in national currency, the real tax burden on the population is rising due to increased vat. the figure reflects only the official 'national defense' section in USD, excluding hidden expenditures on other security structures."
+    },
+    "2025": {
+      "income": {
+        "total": 142100000000,
+        "sources": [
+          "russian federal budget",
+          "national wealth fund strategic reserves"
+        ],
+        "breakdown": {
+          "budget_appropriations": {
+            "name": "direct state budget funding",
+            "percent": 91.2
+          },
+          "other_funding": {
+            "name": "reserve funds and inter-budgetary transfers",
+            "percent": 8.8
+          }
+        }
+      },
+      "spending": {
+        "total": 142100000000,
+        "breakdown": {
+          "weaponry_procurement": {
+            "name": "state defense order and modernization",
+            "percent": 62.5
+          },
+          "personnel_compensation": {
+            "name": "military personnel compensation",
+            "percent": 24.1
+          },
+          "combat_operations": {
+            "name": "direct operational warfare costs",
+            "percent": 11.4
+          },
+          "research_development": {
+            "name": "military r&d and strategic projects",
+            "percent": 2.0
+          }
+        }
+      },
+      "methodology": "data derived from the official 2025 russian budget allocation for 'national defense'. the figure of 142.1 billion USD is a record high, reflecting maximum resource concentration for the continuation of the war."
+    },
+    "2024": {
+      "income": {
+        "total": 140800000000,
+        "sources": [
+          "russian federal appropriations",
+          "oil and gas revenue redistribution",
+          "national wealth fund transfers"
+        ],
+        "breakdown": {
+          "federal_budget_allocation": {
+            "name": "direct federal budget funding",
+            "percent": 88.5
+          },
+          "extra_budgetary_transfers": {
+            "name": "reserve fund transfers",
+            "percent": 11.5
+          }
+        }
+      },
+      "spending": {
+        "total": 140800000000,
+        "breakdown": {
+          "procurement_and_rd": {
+            "name": "arms procurement and development",
+            "percent": 65.0
+          },
+          "personnel_costs": {
+            "name": "salaries, social benefits, and insurance",
+            "percent": 22.0
+          },
+          "operations_and_maintenance": {
+            "name": "operational combat support",
+            "percent": 10.0
+          },
+          "infrastructure": {
+            "name": "military construction and facilities",
+            "percent": 3.0
+          }
+        }
+      },
+      "methodology": "data based on revised 2024 russian federal budget laws, calculated in USD. defense spending surged by 42% compared to 2023, highlighting the total transition of the aggressor's economy to a war footing."
+    }
+  }
+}

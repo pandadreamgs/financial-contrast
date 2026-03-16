@@ -1,0 +1,137 @@
+{
+  "id": "Taylor-Swift",
+  "name": "Taylor Swift",
+  "image": "images/Taylor-Swift.png",
+  "category": "person",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 420000000,
+        "sources": [
+          "Streaming Royalties (100% Ownership)",
+          "Physical Vinyl Sales (Record Store Day)",
+          "The Life of a Showgirl Post-release Revenue",
+          "Synchronized Licensing (Film/Ads)"
+        ],
+        "breakdown": {
+          "catalog_royalties": {
+            "name": "Catalog and Streaming Royalties",
+            "percent": 55.0
+          },
+          "merchandise_and_physical": {
+            "name": "Merchandise and Special Edition Vinyls",
+            "percent": 25.0
+          },
+          "sync_and_licensing": {
+            "name": "Licensing and Film Synchronization",
+            "percent": 20.0
+          }
+        }
+      },
+      "spending": {
+        "total": 115000000,
+        "breakdown": {
+          "film_production": {
+            "name": "Feature Film Directorial Debut Production",
+            "percent": 52.0
+          },
+          "operational_costs": {
+            "name": "Management, Security and Private Aviation",
+            "percent": 28.0
+          },
+          "philanthropy": {
+            "name": "Charitable Foundations and Grants",
+            "percent": 20.0
+          }
+        }
+      },
+      "methodology": "2026 Forecast is based on the 3-year CAGR of 18% for non-touring revenue. Income assumes a full year of 100% royalty retention from the re-acquired masters (May 2025 deal) and sustained momentum from the October 2025 album release. Spending accounts for the $60M initial budget of her Searchlight Pictures directorial debut and a $23M tax-optimized donation to food banks and music education programs."
+    },
+    "2025": {
+      "income": {
+        "total": 500000000,
+        "sources": [
+          "The Life of a Showgirl Album Sales",
+          "Back-catalog Streaming Revenue",
+          "Endorsement Extensions",
+          "Investment Portfolio Gains"
+        ],
+        "breakdown": {
+          "album_and_physical_sales": {
+            "name": "New Album Sales (The Life of a Showgirl)",
+            "percent": 42.0
+          },
+          "streaming_and_royalties": {
+            "name": "Digital Streaming and Catalog Royalties",
+            "percent": 38.0
+          },
+          "merchandise_and_brand": {
+            "name": "Ongoing Merchandise and Licensing",
+            "percent": 20.0
+          }
+        }
+      },
+      "spending": {
+        "total": 410000000,
+        "breakdown": {
+          "asset_acquisition": {
+            "name": "Buyback of Original Masters (Rights Recovery)",
+            "percent": 87.8
+          },
+          "lifestyle_and_security": {
+            "name": "Real Estate Maintenance and Private Security",
+            "percent": 4.2
+          },
+          "marketing_and_production": {
+            "name": "Album Promotion and Production",
+            "percent": 8.0
+          }
+        }
+      },
+      "methodology": "Income is based on the reported $500M increase in net worth (Forbes 2025) driven by the launch of her 12th studio album. Spending includes a landmark $360,000,000 transaction in May 2025 to officially re-acquire her original masters, alongside standard high-tier celebrity operational costs."
+    },
+    "2024": {
+      "income": {
+        "total": 575000000,
+        "sources": [
+          "The Eras Tour (International Legs)",
+          "Disney+ Streaming Deal",
+          "Music Royalties (Taylor's Versions)",
+          "The Tortured Poets Department Sales"
+        ],
+        "breakdown": {
+          "touring_and_merch": {
+            "name": "Touring Profits and Merchandise",
+            "percent": 65.0
+          },
+          "streaming_and_royalties": {
+            "name": "Streaming and Music Royalties",
+            "percent": 22.0
+          },
+          "film_licensing": {
+            "name": "Concert Film Licensing (Disney+)",
+            "percent": 13.0
+          }
+        }
+      },
+      "spending": {
+        "total": 235000000,
+        "breakdown": {
+          "tour_production": {
+            "name": "Tour Production and Logistics",
+            "percent": 45.0
+          },
+          "personnel_bonuses": {
+            "name": "Staff Bonuses and Commissions",
+            "percent": 25.0
+          },
+          "taxes_and_legal": {
+            "name": "Taxes, Legal and Management Fees",
+            "percent": 30.0
+          }
+        }
+      },
+      "methodology": "Income calculated as artist's net take-home from the Eras Tour (approx. $10-13M per show for 2024 dates), a reported $75M one-time payment from Disney+ for streaming rights, and record-breaking sales of the 2024 album. Spending reflects standard industry tour overhead (40-50%), a high-profile $55M bonus pool distributed to tour crew, and the top federal tax bracket."
+    }
+  }
+}
