@@ -1,0 +1,176 @@
+{
+    "id": "google",
+    "name": "Google",
+    "image": "images/google.svg",
+    "category": "corporation",
+    "data": {
+        "2026": {
+            "income": {
+                "total": 461650000000,
+                "sources": [
+                    "Прогноз доходів Alphabet Inc. за результатами дзвінка щодо Q4 2025",
+                    "Консенсус-прогноз аналітиків Wall Street (березень 2026)",
+                    "Аналіз історичного середньорічного темпу зростання доходу за 3 роки"
+                ],
+                "breakdown": {
+                    "google_search": {
+                        "name": "Пошук Google та інше",
+                        "percent": 54.2
+                    },
+                    "google_cloud": {
+                        "name": "Google Cloud",
+                        "percent": 16.8
+                    },
+                    "google_subscriptions_platforms_devices": {
+                        "name": "Підписки, платформи та пристрої",
+                        "percent": 12.5
+                    },
+                    "youtube_ads": {
+                        "name": "Реклама на YouTube",
+                        "percent": 9.8
+                    },
+                    "google_network": {
+                        "name": "Мережа Google",
+                        "percent": 6.7
+                    }
+                }
+            },
+            "spending": {
+                "total": 361400000000,
+                "breakdown": {
+                    "capital_expenditures_ai_infrastructure": {
+                        "name": "Капітальні витрати (ШІ та дата-центри)",
+                        "percent": 49.8
+                    },
+                    "research_and_development": {
+                        "name": "Дослідження та розробка (R&D)",
+                        "percent": 19.5
+                    },
+                    "cost_of_revenues_operational": {
+                        "name": "Операційна собівартість доходів",
+                        "percent": 18.2
+                    },
+                    "sales_marketing_admin": {
+                        "name": "Продажі, маркетинг та адміністративні витрати",
+                        "percent": 12.5
+                    }
+                }
+            },
+            "methodology": "Прогноз доходів на 2026 рік базується на прогнозованому темпі зростання 14,6% згідно з історичним показником CAGR за 3 роки (2023–2025). Загальні витрати оцінюються шляхом поєднання офіційного прогнозу капітальних витрат у розмірі $180 000 000 000 (середнє значення діапазону $175–$185 млрд) із прогнозованими операційними витратами. Розподіл витрат відображає стратегічний розворот Alphabet, де майже 50% загального відтоку грошових коштів спрямовано на інфраструктуру ШІ, включаючи розробку TPU та глобальне розширення центрів обробки даних для Gemini 3.1 та майбутніх моделей."
+        },
+        "2025": {
+            "income": {
+                "total": 402836000000,
+                "sources": [
+                    "Річний звіт Alphabet Inc. за формою 10-K за 2025 рік",
+                    "SEC EDGAR — Alphabet Investor Relations (4 лютого 2026)"
+                ],
+                "breakdown": {
+                    "google_search": {
+                        "name": "Пошук Google та інше",
+                        "percent": 55.4
+                    },
+                    "google_cloud": {
+                        "name": "Google Cloud",
+                        "percent": 14.6
+                    },
+                    "google_subscriptions_platforms_devices": {
+                        "name": "Підписки, платформи та пристрої",
+                        "percent": 12.0
+                    },
+                    "youtube_ads": {
+                        "name": "Реклама на YouTube",
+                        "percent": 10.1
+                    },
+                    "google_network": {
+                        "name": "Мережа Google",
+                        "percent": 7.8
+                    },
+                    "other_bets_and_hedging": {
+                        "name": "Інші напрямки та хеджування",
+                        "percent": 0.1
+                    }
+                }
+            },
+            "spending": {
+                "total": 273797000000,
+                "breakdown": {
+                    "cost_of_revenues": {
+                        "name": "Собівартість доходів",
+                        "percent": 59.4
+                    },
+                    "research_and_development": {
+                        "name": "Дослідження та розробка (R&D)",
+                        "percent": 21.3
+                    },
+                    "sales_and_marketing": {
+                        "name": "Продажі та маркетинг",
+                        "percent": 11.5
+                    },
+                    "general_and_administrative": {
+                        "name": "Загальні та адміністративні витрати",
+                        "percent": 7.8
+                    }
+                }
+            },
+            "methodology": "Дані базуються на аудитованому звіті 10-K за фінансовий рік, що закінчився 31 грудня 2025 року. Загальний дохід відповідає статті «Виручка» ($402,836 млрд). Загальні витрати відображають «Загальні витрати та витрати на діяльність». Зверніть увагу, що витрати включають штраф ЄК у розмірі $3,5 млрд та витрати на компенсацію Waymo у розмірі $2,1 млрд, що переважно вплинуло на адміністративні витрати та собівартість доходів. Відсотки розраховані шляхом ділення витрат конкретних сегментів/функцій на загальні консолідовані показники за рік."
+        },
+        "2024": {
+            "income": {
+                "total": 350018000000,
+                "sources": [
+                    "Річний звіт Alphabet Inc. за формою 10-K за 2024 рік",
+                    "SEC EDGAR — Alphabet Investor Relations"
+                ],
+                "breakdown": {
+                    "google_search": {
+                        "name": "Пошук Google та інше",
+                        "percent": 56.6
+                    },
+                    "google_cloud": {
+                        "name": "Google Cloud",
+                        "percent": 12.4
+                    },
+                    "google_subscriptions_platforms_devices": {
+                        "name": "Підписки, платформи та пристрої",
+                        "percent": 11.5
+                    },
+                    "youtube_ads": {
+                        "name": "Реклама на YouTube",
+                        "percent": 10.3
+                    },
+                    "google_network": {
+                        "name": "Мережа Google",
+                        "percent": 8.7
+                    },
+                    "other_bets_and_hedging": {
+                        "name": "Інші напрямки та хеджування",
+                        "percent": 0.5
+                    }
+                }
+            },
+            "spending": {
+                "total": 237628000000,
+                "breakdown": {
+                    "cost_of_revenues": {
+                        "name": "Собівартість доходів",
+                        "percent": 61.6
+                    },
+                    "research_and_development": {
+                        "name": "Дослідження та розробка (R&D)",
+                        "percent": 20.8
+                    },
+                    "sales_and_marketing": {
+                        "name": "Продажі та маркетинг",
+                        "percent": 12.3
+                    },
+                    "general_and_administrative": {
+                        "name": "Загальні та адміністративні витрати",
+                        "percent": 5.3
+                    }
+                }
+            },
+            "methodology": "Дані витягнуто з консолідованих звітів про доходи у формі 10-K компанії Alphabet за фінансовий рік, що закінчився 31 грудня 2024 року. Загальний дохід відповідає статті «Виручка». Загальні витрати розраховані як «Загальні витрати та витрати на діяльність» (операційні витрати). Відсоткові частки категорій отримані шляхом ділення результатів сегментів/функцій на відповідні підсумкові показники без округлення базових цифр."
+        }
+    }
+}
