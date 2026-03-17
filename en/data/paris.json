@@ -1,0 +1,173 @@
+{
+  "id": "paris",
+  "name": "Paris",
+  "image": "images/paris.svg",
+  "category": "city",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 12870000000,
+        "sources": [
+          "Local Direct Taxation (Taxe Foncière)",
+          "Real Estate Transfer Duties (DMTO)",
+          "Operational Management Revenue",
+          "State Financial Allocation and Equalization Funds"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Direct Local Taxes",
+            "percent": 58.4
+          },
+          "category_2": {
+            "name": "Management and Operational Income",
+            "percent": 13.7
+          },
+          "category_3": {
+            "name": "Real Estate Transaction Levies",
+            "percent": 12.5
+          },
+          "category_4": {
+            "name": "State Transfers and Solidarity Grants",
+            "percent": 15.4
+          }
+        }
+      },
+      "spending": {
+        "total": 12870000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Action, Health and Solidarity",
+            "percent": 21.0
+          },
+          "category_2": {
+            "name": "Education, Youth and Sports",
+            "percent": 16.5
+          },
+          "category_3": {
+            "name": "Environment, Urban Planning and Housing",
+            "percent": 19.8
+          },
+          "category_4": {
+            "name": "Personnel and Administrative Costs",
+            "percent": 22.4
+          },
+          "category_5": {
+            "name": "Public Space, Security and Transport",
+            "percent": 20.3
+          }
+        }
+      },
+      "methodology": "Projections are based on the 2026 Budgetary Orientation Report (ROB). Figures converted to USD (1.10 rate). Income reflects the maintained 20.50% property tax rate and an estimated $1.76 billion in management revenue. Spending follows the mandatory 'balanced budget' rule, with a specific focus on a $1.87 billion investment envelope for ecological transition and social housing."
+    },
+    "2025": {
+      "income": {
+        "total": 12430000000,
+        "sources": [
+          "Taxe Foncière (Property Tax)",
+          "Droits de Mutation à Titre Onéreux (DMTO)",
+          "State Financial Allocation (DGF)",
+          "Commercial Levies and Tourism Tax"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Local Direct Taxation",
+            "percent": 56.8
+          },
+          "category_2": {
+            "name": "Real Estate Transfer Duties",
+            "percent": 13.1
+          },
+          "category_3": {
+            "name": "Operational Grants and Subsidies",
+            "percent": 17.5
+          },
+          "category_4": {
+            "name": "Sundry Management Products",
+            "percent": 12.6
+          }
+        }
+      },
+      "spending": {
+        "total": 12430000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Solidarity and Family",
+            "percent": 20.4
+          },
+          "category_2": {
+            "name": "Urban Maintenance and Environment",
+            "percent": 24.2
+          },
+          "category_3": {
+            "name": "Personnel Costs",
+            "percent": 22.1
+          },
+          "category_4": {
+            "name": "Education and Culture",
+            "percent": 15.3
+          },
+          "category_5": {
+            "name": "Investment in Public Infrastructure",
+            "percent": 18.0
+          }
+        }
+      },
+      "methodology": "Figures represent the Consolidated Financial Report for the 2025 fiscal year, converted to USD. Revenue reflects the stabilization of property tax yields after the 2023-2024 reform. Spending is balanced with revenue as per French municipal accounting law (M57 standard) at $12.43 billion USD."
+    },
+    "2024": {
+      "income": {
+        "total": 12156650000,
+        "sources": [
+          "Property Tax (Taxe Foncière)",
+          "Real Estate Transfer Duties (DMTO)",
+          "State Operating Grant (DGF)",
+          "Olympic-related Commercial Revenue and Tourist Tax"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Local Taxation",
+            "percent": 55.4
+          },
+          "category_2": {
+            "name": "Institutional Grants and Subsidies",
+            "percent": 18.5
+          },
+          "category_3": {
+            "name": "Real Estate and Asset Duties",
+            "percent": 14.2
+          },
+          "category_4": {
+            "name": "Public Domain and Services Revenue",
+            "percent": 11.9
+          }
+        }
+      },
+      "spending": {
+        "total": 12156650000,
+        "breakdown": {
+          "category_1": {
+            "name": "General Administration and Staff",
+            "percent": 22.3
+          },
+          "category_2": {
+            "name": "Social Welfare and Housing",
+            "percent": 20.8
+          },
+          "category_3": {
+            "name": "Olympic Operations and Public Security",
+            "percent": 16.5
+          },
+          "category_4": {
+            "name": "Education and Early Childhood",
+            "percent": 15.1
+          },
+          "category_5": {
+            "name": "Urban Planning and Green Transition",
+            "percent": 25.3
+          }
+        }
+      },
+      "methodology": "Data derived from the 2024 Budget Primitif (BP) of the Ville de Paris, converted to USD. Figures integrate exceptional costs associated with the 2024 Summer Games. The total budget remains balanced at 12.16 billion USD, including both operating and investment sections."
+    }
+  }
+}

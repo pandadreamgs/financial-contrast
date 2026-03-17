@@ -1,0 +1,149 @@
+{
+  "id": "nhs",
+  "name": "National Health Service (NHS)",
+  "image": "images/nhs.svg",
+  "category": "department",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 266370000000,
+        "sources": [
+          "HM Treasury Resource DEL Settlement 2026-27",
+          "National Insurance Contributions (Updated Rates)",
+          "NHS England Retained Efficiency Savings",
+          "Business Rules Adjustment Transfers"
+        ],
+        "breakdown": {
+          "statutory_funding": {
+            "name": "Core Government Revenue Funding",
+            "percent": 98.7
+          },
+          "ancillary_income": {
+            "name": "Commercial Income and Patient Contributions",
+            "percent": 1.3
+          }
+        }
+      },
+      "spending": {
+        "total": 266370000000,
+        "breakdown": {
+          "workforce_retention": {
+            "name": "Staffing and Real-Terms Pay Adjustments",
+            "percent": 50.5
+          },
+          "acute_hospital_care": {
+            "name": "Elective Recovery and Emergency Care",
+            "percent": 27.2
+          },
+          "digital_and_technology": {
+            "name": "AI Diagnostics and Data Transformation (SR25 Ringfence)",
+            "percent": 5.1
+          },
+          "mental_health_services": {
+            "name": "Mental Health and Community Expansion",
+            "percent": 8.4
+          },
+          "capital_and_estates": {
+            "name": "New Hospital Programme and Maintenance",
+            "percent": 8.8
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is based on the SR25 (Spending Review 2025) which set the NHS England RDEL at £204.9B ($266.37B USD equivalent). The income reflects a 3.0% average annual real-terms growth rate target. Spending breakdown reflects the shift towards 'from bricks to clicks' strategy, including a dedicated $1.3B (converted from £1B) annual technology ringfence and increased capital allocation as specified in the Spring Forecast 2026. All figures converted to USD at the projected March 2026 rate of 1.30."
+    },
+    "2025": {
+      "income": {
+        "total": 249600000000,
+        "sources": [
+          "HM Treasury Core Resource DEL",
+          "National Insurance Contributions",
+          "Prescription and Dental Charges",
+          "Health and Social Care Levy adjustments"
+        ],
+        "breakdown": {
+          "government_allocation": {
+            "name": "Central Government Taxation",
+            "percent": 98.8
+          },
+          "user_charges": {
+            "name": "Patient Prescription and Dental Fees",
+            "percent": 1.2
+          }
+        }
+      },
+      "spending": {
+        "total": 249600000000,
+        "breakdown": {
+          "workforce_costs": {
+            "name": "Staff Salaries and Pensions",
+            "percent": 50.1
+          },
+          "acute_services": {
+            "name": "Emergency and Elective Hospital Care",
+            "percent": 27.8
+          },
+          "primary_care": {
+            "name": "General Practice and Pharmacy",
+            "percent": 8.5
+          },
+          "mental_health": {
+            "name": "Mental Health and Learning Disability Services",
+            "percent": 9.6
+          },
+          "digital_transformation": {
+            "name": "IT Infrastructure and AI Diagnostics",
+            "percent": 4.0
+          }
+        }
+      },
+      "methodology": "Figures derived from the UK Government’s Autumn Budget 2024 allocations for the 2025-26 fiscal year, originally totaling £192B, now converted to $249.6B USD. Total income reflects the Resource Departmental Expenditure Limit (RDEL). Spending breakdown accounts for the increased weighting toward workforce retention and digital modernization as part of the NHS Long Term Plan. Conversion rate: 1.30 USD/GBP."
+    },
+    "2024": {
+      "income": {
+        "total": 242889400000,
+        "sources": [
+          "HM Treasury General Taxation",
+          "National Insurance Contributions",
+          "Patient charges (Prescriptions and Dental)",
+          "DHSC Grant-in-Aid"
+        ],
+        "breakdown": {
+          "government_funding": {
+            "name": "General Taxation and National Insurance",
+            "percent": 98.9
+          },
+          "patient_income": {
+            "name": "Patient Charges and Other Fees",
+            "percent": 1.1
+          }
+        }
+      },
+      "spending": {
+        "total": 242889400000,
+        "breakdown": {
+          "staff_costs": {
+            "name": "NHS Workforce and Salaries",
+            "percent": 49.2
+          },
+          "acute_care": {
+            "name": "Acute Hospital Services",
+            "percent": 28.5
+          },
+          "primary_care": {
+            "name": "Primary Care (GPs, Dentistry, Pharmacy)",
+            "percent": 8.1
+          },
+          "mental_health": {
+            "name": "Mental Health Services",
+            "percent": 9.4
+          },
+          "capital_investment": {
+            "name": "Capital Expenditure (Buildings and Equipment)",
+            "percent": 4.8
+          }
+        }
+      },
+      "methodology": "Data based on the '2024 to 2025 revised financial directions to NHS England' (original £186.838B RDEL, converted to $242.89B USD). Spending breakdown is calculated based on historical allocation ratios applied to the 2024/25 budget limit. All financial values updated to USD using the 1.30 exchange rate forecast for March 2026."
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "hong-kong",
+  "name": "Hong Kong",
+  "image": "images/hong-kong.svg",
+  "category": "city",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 97851662404,
+        "sources": [
+          "The 2026-27 Budget Speech",
+          "Medium Range Forecast 2026-2031, HKSAR Government"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Tax Revenues (Profits, Salaries, Stamp Duties)",
+            "percent": 53.4
+          },
+          "category_2": {
+            "name": "Investment Income from Exchange Fund",
+            "percent": 5.1
+          },
+          "category_3": {
+            "name": "Land Premiums",
+            "percent": 2.4
+          },
+          "category_4": {
+            "name": "Other Revenues and Fees",
+            "percent": 39.1
+          }
+        }
+      },
+      "spending": {
+        "total": 107851662404,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Welfare",
+            "percent": 16.1
+          },
+          "category_2": {
+            "name": "Infrastructure and Capital Works",
+            "percent": 15.2
+          },
+          "category_3": {
+            "name": "Health",
+            "percent": 14.1
+          },
+          "category_4": {
+            "name": "Education",
+            "percent": 12.1
+          },
+          "category_5": {
+            "name": "Other Services and Security",
+            "percent": 42.5
+          }
+        }
+      },
+      "methodology": "Figures represent the 2026-27 fiscal year estimates converted to USD. Total income ($97.85B USD) is projected to rise by 11.1% compared to the 2025-26 revised estimate ($88.08B USD), driven by a buoyant stock market boosting stamp duty and robust profits tax. Total expenditure ($107.85B USD) includes a 4.8% increase in recurrent spending to $76.69B USD and $25.98B USD in capital expenditure for projects like the Northern Metropolis. Methodology follows the government's cash-based accounting for the Consolidated Account, where a surplus of $2.83B USD is expected after accounting for planned bond issuances and repayments. Percentages are derived from the functional distribution in the Medium Range Forecast."
+    },
+    "2025": {
+      "income": {
+        "total": 76854219948,
+        "sources": [
+          "The 2025-26 Budget by Financial Secretary",
+          "Treasury Revenue Estimates 2025"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Direct Taxes (Profits and Salaries)",
+            "percent": 51.2
+          },
+          "category_2": {
+            "name": "Stamp Duty and Land Premiums",
+            "percent": 18.5
+          },
+          "category_3": {
+            "name": "Investment Income from Exchange Fund",
+            "percent": 12.8
+          },
+          "category_4": {
+            "name": "Fees, Charges and Others",
+            "percent": 17.5
+          }
+        }
+      },
+      "spending": {
+        "total": 95268542199,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Welfare",
+            "percent": 16.8
+          },
+          "category_2": {
+            "name": "Health Services",
+            "percent": 15.2
+          },
+          "category_3": {
+            "name": "Education",
+            "percent": 14.5
+          },
+          "category_4": {
+            "name": "Infrastructure and Public Works",
+            "percent": 13.0
+          },
+          "category_5": {
+            "name": "Economic and Internal Security",
+            "percent": 40.5
+          }
+        }
+      },
+      "methodology": "The 2025 figures are based on the HKSAR Budget 2025-26 projections and revised 2024-25 estimates, converted to USD. Total income excludes bond issuance proceeds to reflect pure fiscal revenue. Expenditure is categorized by functional groups as defined by the Financial Services and the Treasury Bureau. The data accounts for the gradual recovery in land premium revenue and stabilized corporate tax receipts expected in the 2025 fiscal cycle."
+    },
+    "2024": {
+      "income": {
+        "total": 70920716112,
+        "sources": [
+          "2024-25 Budget Speech, HKSAR Government",
+          "Financial Services and the Treasury Bureau Results"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Profits Tax, Stamp Duty and Salaries Tax",
+            "percent": 53.5
+          },
+          "category_2": {
+            "name": "Investment Income",
+            "percent": 14.2
+          },
+          "category_3": {
+            "name": "Land Premiums",
+            "percent": 5.2
+          },
+          "category_4": {
+            "name": "Other Revenue (Fees, Fines, Utilities)",
+            "percent": 27.1
+          }
+        }
+      },
+      "spending": {
+        "total": 93081841432,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Welfare",
+            "percent": 15.4
+          },
+          "category_2": {
+            "name": "Education",
+            "percent": 14.2
+          },
+          "category_3": {
+            "name": "Health",
+            "percent": 14.4
+          },
+          "category_4": {
+            "name": "Infrastructure and Capital Works",
+            "percent": 11.7
+          },
+          "category_5": {
+            "name": "Other Operating Expenses",
+            "percent": 44.3
+          }
+        }
+      },
+      "methodology": "Data represents the revised estimates for the 2023-24 financial year and initial estimates for the 2024-25 cycle as reported in the official HKSAR Budget 2024-25, converted to USD. Figures reflect total government revenue and expenditure, excluding the proceeds from bond issuances to represent core fiscal performance. Calculations for categories are based on the functional distribution of expenditure and major revenue heads provided by the Financial Secretary."
+    }
+  }
+}

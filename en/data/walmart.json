@@ -1,0 +1,137 @@
+{
+  "id": "walmart",
+  "name": "Walmart",
+  "image": "images/walmart.svg",
+  "category": "corporation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 713163000000,
+        "sources": [
+          "Walmart U.S. Net Sales",
+          "Walmart International Net Sales",
+          "Sam's Club U.S. Net Sales",
+          "Membership and Other Income"
+        ],
+        "breakdown": {
+          "walmart_us": {
+            "name": "Walmart U.S.",
+            "percent": 67.73
+          },
+          "walmart_international": {
+            "name": "Walmart International",
+            "percent": 18.28
+          },
+          "sams_club": {
+            "name": "Sam's Club U.S.",
+            "percent": 13.04
+          },
+          "membership_other": {
+            "name": "Membership and Other Income",
+            "percent": 0.95
+          }
+        }
+      },
+      "spending": {
+        "total": 682063000000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales (COGS)",
+            "percent": 78.12
+          },
+          "operating_expenses": {
+            "name": "Operating, Selling, General and Administrative Expenses",
+            "percent": 21.88
+          }
+        }
+      },
+      "methodology": "Actual financial results for Fiscal Year 2026 (ended Jan 31, 2026). Total revenue reached $713.163 billion (4.73% YoY growth). Spending includes total operating costs and expenses of $682.063 billion. Breakdown based on segment reporting: Walmart U.S. ($483.0B), International ($130.4B), and Sam's Club ($93.0B). Membership income grew by 16.7% globally, contributing to increased high-margin revenue."
+    },
+    "2025": {
+      "income": {
+        "total": 678473000000,
+        "sources": [
+          "Walmart U.S. Net Sales",
+          "Walmart International Net Sales",
+          "Sam's Club Net Sales",
+          "Membership and Other Income"
+        ],
+        "breakdown": {
+          "walmart_us": {
+            "name": "Walmart U.S.",
+            "percent": 68.42
+          },
+          "walmart_international": {
+            "name": "Walmart International",
+            "percent": 18.04
+          },
+          "sams_club": {
+            "name": "Sam's Club",
+            "percent": 12.65
+          },
+          "membership_other": {
+            "name": "Membership and Other Income",
+            "percent": 0.89
+          }
+        }
+      },
+      "spending": {
+        "total": 651433000000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales (COGS)",
+            "percent": 78.48
+          },
+          "operating_expenses": {
+            "name": "Operating, Selling, General and Administrative Expenses",
+            "percent": 21.52
+          }
+        }
+      },
+      "methodology": "Data extracted from Walmart Inc. FY2025 Consolidated Statements of Income. Total Revenue reached $678.473 billion, reflecting a 4.7% increase from FY2024. Spending reflects total operating costs and expenses. Percentages are derived from segmented reporting in the official 10-K filing."
+    },
+    "2024": {
+      "income": {
+        "total": 648125000000,
+        "sources": [
+          "Walmart U.S. Net Sales",
+          "Walmart International Net Sales",
+          "Sam's Club Net Sales",
+          "Membership and Other Income"
+        ],
+        "breakdown": {
+          "walmart_us": {
+            "name": "Walmart U.S.",
+            "percent": 68.16
+          },
+          "walmart_international": {
+            "name": "Walmart International",
+            "percent": 17.68
+          },
+          "sams_club": {
+            "name": "Sam's Club",
+            "percent": 13.31
+          },
+          "membership_other": {
+            "name": "Membership and Other Income",
+            "percent": 0.85
+          }
+        }
+      },
+      "spending": {
+        "total": 621113000000,
+        "breakdown": {
+          "cost_of_sales": {
+            "name": "Cost of Sales (COGS)",
+            "percent": 78.91
+          },
+          "operating_expenses": {
+            "name": "Operating, Selling, General and Administrative Expenses",
+            "percent": 21.09
+          }
+        }
+      },
+      "methodology": "Data sourced from Walmart Inc. FY2024 Annual Report (Form 10-K). Total Income represents consolidated total revenues ($648.125 billion). Total Spending represents total operating costs and expenses ($621.113 billion). Percentages are calculated based on the official segment and expense line item reports."
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": "gates-foundation",
+  "name": "Bill & Melinda Gates Foundation",
+  "image": "images/gates-foundation.png",
+  "category": "Non-profit organization",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 9000000000,
+        "sources": [
+          "Bill & Melinda Gates Foundation Trust (Endowment Payout)",
+          "Reinvested Returns from Breakthrough Energy and TerraPower",
+          "Direct Philanthropic Contributions by Bill Gates"
+        ],
+        "breakdown": {
+          "trust_payout": {
+            "name": "Foundation Trust Annual Distribution",
+            "percent": 98.2
+          },
+          "other_investment_income": {
+            "name": "Reinvested Profits and Direct Donations",
+            "percent": 1.8
+          }
+        }
+      },
+      "spending": {
+        "total": 9000000000,
+        "breakdown": {
+          "global_health": {
+            "name": "Global Health (Infectious Diseases & Vaccines)",
+            "percent": 46.5
+          },
+          "maternal_child_health": {
+            "name": "Maternal, Newborn, and Child Health Innovation",
+            "percent": 23.5
+          },
+          "operating_expenses": {
+            "name": "Capped Operating Expenditures (OpEx)",
+            "percent": 13.89
+          },
+          "us_education_ai": {
+            "name": "US Education and AI Integration",
+            "percent": 8.11
+          },
+          "agri_climate_adaptation": {
+            "name": "Agricultural Development and Climate Adaptation",
+            "percent": 8.0
+          }
+        }
+      },
+      "methodology": "Figures are based on the Board-endorsed 2026 Budget Statement (Jan 2026) and the CEO's 'Roadmap to 2045'. Income is matched to the steady-state payout target of $9 billion. Spending breakdown reflects the 70% combined mandate for Global Health and Maternal Health goals. The Operating Expenditure is strictly capped at $1.25 billion as per the new stewardship policy to ensure maximum programmatic flow-through."
+    },
+    "2025": {
+      "income": {
+        "total": 8740000000,
+        "sources": [
+          "Bill & Melinda Gates Foundation Trust Endowment Distributions",
+          "Direct Philanthropic Contributions (Bill Gates)",
+          "Strategic Investment Income"
+        ],
+        "breakdown": {
+          "endowment_distributions": {
+            "name": "Endowment Trust Payout",
+            "percent": 97.5
+          },
+          "personal_contributions": {
+            "name": "Individual Donations",
+            "percent": 2.1
+          },
+          "other_revenue": {
+            "name": "Other Grants and Income",
+            "percent": 0.4
+          }
+        }
+      },
+      "spending": {
+        "total": 8740000000,
+        "breakdown": {
+          "global_health": {
+            "name": "Global Health and Infectious Diseases",
+            "percent": 45.0
+          },
+          "global_development": {
+            "name": "Global Development (Polio, Nutrition, Immunization)",
+            "percent": 25.0
+          },
+          "operational_costs": {
+            "name": "Operational and Administrative Expenditures",
+            "percent": 13.0
+          },
+          "us_program": {
+            "name": "US Education and Economic Mobility",
+            "percent": 9.0
+          },
+          "gender_equality_growth": {
+            "name": "Gender Equality and Global Growth",
+            "percent": 8.0
+          }
+        }
+      },
+      "methodology": "The data is based on the official 2025 Annual Budget Announcement by the Gates Foundation Board. The 'total income' for operational purposes is aligned with the approved 'budget payout' of $8.74 billion, as the foundation operates as a pass-through entity for the Foundation Trust. Spending percentages are derived from the 2025 strategic allocation goals which prioritize Global Health (aiming for 70% combined with Global Development) while capping operational costs near 13-14% to maximize programmatic impact."
+    },
+    "2024": {
+      "income": {
+        "total": 8232195000,
+        "sources": [
+          "Bill & Melinda Gates Foundation Trust Grants",
+          "Direct Contributions from Bill Gates and Melinda French Gates",
+          "Third-party Donations and Contributed Services"
+        ],
+        "breakdown": {
+          "trust_contributions": {
+            "name": "Contributions from the Trust",
+            "percent": 98.35
+          },
+          "other_contributions": {
+            "name": "Direct and Restricted Contributions",
+            "percent": 1.31
+          },
+          "other_income": {
+            "name": "Other Operating Income",
+            "percent": 0.34
+          }
+        }
+      },
+      "spending": {
+        "total": 8171195000,
+        "breakdown": {
+          "global_development": {
+            "name": "Global Development Division",
+            "percent": 25.57
+          },
+          "global_health": {
+            "name": "Global Health Division",
+            "percent": 23.37
+          },
+          "operational_costs": {
+            "name": "Operational Expenditure",
+            "percent": 12.85
+          },
+          "gender_equality": {
+            "name": "Gender Equality",
+            "percent": 11.43
+          },
+          "other_programs": {
+            "name": "US Program and Global Policy Advocacy",
+            "percent": 26.78
+          }
+        }
+      },
+      "methodology": "Data extracted from the 2024 Audited Consolidated Financial Statements and the 2024 Annual Report. Total income is calculated as the sum of cash received from the Trust ($8,096,000,000), direct contributions ($107,608,000), and other cash received ($28,587,000). Spending total reflects the combined charitable support ($8,010,000,000) and operational administrative adjustments identified in the fiscal year report."
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": "indian-railways",
+  "name": "Indian Railways",
+  "image": "images/indian-railways.svg",
+  "category": "department",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 32823529411,
+        "sources": [
+          "Union Budget of India 2025-26 (Budget Estimates)",
+          "Ministry of Railways Revised Estimates for FY 2025-26",
+          "PIB Delhi - Freight Performance Report March 2026"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Freight Earnings",
+            "percent": 63.8
+          },
+          "category_2": {
+            "name": "Passenger Earnings",
+            "percent": 28.7
+          },
+          "category_3": {
+            "name": "Sundry Other Revenue",
+            "percent": 4.3
+          },
+          "category_4": {
+            "name": "Other Coaching Receipts",
+            "percent": 3.2
+          }
+        }
+      },
+      "spending": {
+        "total": 32665728235,
+        "breakdown": {
+          "category_1": {
+            "name": "Ordinary Working Expenses",
+            "percent": 74.9
+          },
+          "category_2": {
+            "name": "Appropriation to Pension Fund",
+            "percent": 23.9
+          },
+          "category_3": {
+            "name": "Miscellaneous Expenditure",
+            "percent": 0.9
+          },
+          "category_4": {
+            "name": "Appropriation to Depreciation Reserve Fund",
+            "percent": 0.3
+          }
+        }
+      },
+      "methodology": "Figures converted to USD based on Revised Estimates (RE) for FY 2025-26 from the Union Budget documents. Original values in INR (Crore) were converted at the projected March 2026 exchange rate (1 USD ≈ 85 INR). Total Income reflects gross traffic receipts; Spending includes revenue expenditure. Operating Ratio estimated at 98.9%."
+    },
+    "2025": {
+      "income": {
+        "total": 32764705882,
+        "sources": [
+          "Union Budget 2024-25 Revised Estimates",
+          "Ministry of Railways Year-End Review 2024",
+          "Railway Board Financial Statements 2025"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Freight Earnings",
+            "percent": 64.8
+          },
+          "category_2": {
+            "name": "Passenger Earnings",
+            "percent": 28.7
+          },
+          "category_3": {
+            "name": "Sundry and Other Receipts",
+            "percent": 6.5
+          }
+        }
+      },
+      "spending": {
+        "total": 32165882353,
+        "breakdown": {
+          "category_1": {
+            "name": "Staff Wages and Allowances",
+            "percent": 42.5
+          },
+          "category_2": {
+            "name": "Pension Payments",
+            "percent": 23.2
+          },
+          "category_3": {
+            "name": "Fuel and Traction Power",
+            "percent": 18.1
+          },
+          "category_4": {
+            "name": "Lease Charges and Maintenance",
+            "percent": 16.2
+          }
+        }
+      },
+      "methodology": "Figures converted to USD from INR Revised Estimates for FY ending March 2025. Conversion applied at the projected rate for the period. Total Income includes gross internal traffic receipts, while spending covers ordinary working expenses and mandatory appropriations."
+    },
+    "2024": {
+      "income": {
+        "total": 30128588235,
+        "sources": [
+          "Union Budget of India 2023-24",
+          "Ministry of Railways Annual Statistical Statements",
+          "Press Information Bureau (PIB) Government of India"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Freight Earnings",
+            "percent": 65.6
+          },
+          "category_2": {
+            "name": "Passenger Earnings",
+            "percent": 27.6
+          },
+          "category_3": {
+            "name": "Other Coaching & Sundry",
+            "percent": 6.8
+          }
+        }
+      },
+      "spending": {
+        "total": 29745176471,
+        "breakdown": {
+          "category_1": {
+            "name": "Staff Wages and Allowances",
+            "percent": 41.2
+          },
+          "category_2": {
+            "name": "Pension Funds",
+            "percent": 22.8
+          },
+          "category_3": {
+            "name": "Fuel and Energy",
+            "percent": 18.5
+          },
+          "category_4": {
+            "name": "Maintenance and Operations",
+            "percent": 17.5
+          }
+        }
+      },
+      "methodology": "Data based on Actuals for FY 2023-24 from official Union Budget 2025-26 documents, converted from INR to USD. Total Income reflects gross internal receipts. Spending reflects total revenue expenditure excluding capital outlay."
+    }
+  }
+}

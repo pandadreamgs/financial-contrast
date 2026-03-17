@@ -1,0 +1,127 @@
+{
+  "id": "bernard-arnault",
+  "name": "Bernard Arnault",
+  "image": "images/bernard-arnault.jpg",
+  "category": "person",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 3481920000,
+        "sources": [
+          "LVMH Final Dividend Payout (50.01% stake)",
+          "Christian Dior SE Dividend Distribution",
+          "Agache Asset Management Fees"
+        ],
+        "breakdown": {
+          "dividends": {
+            "name": "Cash Dividends from LVMH and Dior SE",
+            "percent": 94.0
+          },
+          "other_income": {
+            "name": "Private Equity Yield and Management Fees",
+            "percent": 6.0
+          }
+        }
+      },
+      "spending": {
+        "total": 2592000000,
+        "breakdown": {
+          "equity_reinvestment": {
+            "name": "LVMH Share Buybacks & Stake Consolidation",
+            "percent": 55.0
+          },
+          "tech_investments": {
+            "name": "Aglaé Ventures (AI World Models & Fintech)",
+            "percent": 35.0
+          },
+          "strategic_acquisitions": {
+            "name": "Media and Sports Assets (Paris FC & Editions Croque Futur)",
+            "percent": 10.0
+          }
+        }
+      },
+      "methodology": "Income calculation: Total LVMH shares outstanding is approx 496M. Arnault family owns 248M shares. At approx 14.04 USD per share (converted from 13 EUR in Jan 2026), the gross dividend income from LVMH alone is 3.482B USD. Spending reflects the continued strategy of stock consolidation and a major pivot to AI. Aglaé Ventures participated in a 1.03B USD round for Advanced Machine Intelligence (AMI) in March 2026. Projections include the finalization of the Paris FC acquisition and the expansion of the media portfolio via the acquisition of Editions Croque Futur."
+    },
+    "2025": {
+      "income": {
+        "total": 3348000000,
+        "sources": [
+          "LVMH Dividend Payout (Family Share)",
+          "Christian Dior SE Dividends",
+          "Agache Asset Management Fees"
+        ],
+        "breakdown": {
+          "dividends": {
+            "name": "Cash Dividends from LVMH and Dior SE",
+            "percent": 92.5
+          },
+          "interest_and_royalties": {
+            "name": "Financial Investments and Licensing",
+            "percent": 7.5
+          }
+        }
+      },
+      "spending": {
+        "total": 2160000000,
+        "sources": [
+          "LVMH Share Buyback Program",
+          "Aglaé Ventures AI Portfolio",
+          "Paris FC Acquisition Support"
+        ],
+        "breakdown": {
+          "equity_reinvestment": {
+            "name": "LVMH Share Consolidation (Financière Agache)",
+            "percent": 80.0
+          },
+          "venture_capital": {
+            "name": "Aglaé Ventures (AI and Tech Expansion)",
+            "percent": 15.0
+          },
+          "sports_and_culture": {
+            "name": "Paris FC Investment and Cultural Support",
+            "percent": 5.0
+          }
+        }
+      },
+      "methodology": "Income is calculated based on the total dividend distribution for the 2024 fiscal year paid in 2025, converted to USD. Total dividend was approx 14.04 USD per share. Spending reflects the documented 1.6B USD spent on LVMH share repurchases to increase family control over 50%, alongside Aglaé Ventures' continued 300M+ USD commitment to AI startups and the acquisition of a majority stake in Paris FC."
+    },
+    "2024": {
+      "income": {
+        "total": 1080000000,
+        "sources": [
+          "Agache Financier Dividend Distribution",
+          "LVMH Shareholder Dividends",
+          "Christian Dior SE Dividends"
+        ],
+        "breakdown": {
+          "dividends": {
+            "name": "Cash Dividends from LVMH/Dior Holdings",
+            "percent": 95.0
+          },
+          "asset_yield": {
+            "name": "Real Estate and Private Investments Yield",
+            "percent": 5.0
+          }
+        }
+      },
+      "spending": {
+        "total": 540000000,
+        "breakdown": {
+          "venture_capital": {
+            "name": "Aglaé Ventures (AI and Tech Startups)",
+            "percent": 60.0
+          },
+          "philanthropy": {
+            "name": "Notre Dame Restoration & Paris Olympics Sponsorship",
+            "percent": 30.0
+          },
+          "personal_investments": {
+            "name": "Luxury Real Estate and Private Assets",
+            "percent": 10.0
+          }
+        }
+      },
+      "methodology": "Income reflects the realized cash dividends (approx 1.08B USD) paid to the Arnault family holdings (Agache). Total net worth fluctuated negatively by approximately 32B USD due to LVMH stock performance, but this is unrealized loss. Spending is calculated based on publicly announced investments in AI startups (approx 300M USD via Aglaé) and major social/philanthropic commitments including the 216M USD (200M EUR) pledge for Notre Dame and Olympic contributions."
+    }
+  }
+}

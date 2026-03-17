@@ -1,0 +1,143 @@
+{
+  "id": "los-angeles",
+  "name": "Los Angeles",
+  "image": "images/los-angeles.svg",
+  "category": "city",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 13248000000,
+        "sources": [
+          "Financial Data Scout Forecast based on LA City Multi-Year Financial Plan",
+          "Historical CAGR Analysis (2023-2025)"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Property Taxes and Real Estate Assessments",
+            "percent": 42.5
+          },
+          "category_2": {
+            "name": "Special Funds and Enterprise Revenue",
+            "percent": 37.0
+          },
+          "category_3": {
+            "name": "General Taxes (Sales, Business, Utility)",
+            "percent": 20.5
+          }
+        }
+      },
+      "spending": {
+        "total": 13248000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Public Safety and Emergency Services",
+            "percent": 46.0
+          },
+          "category_2": {
+            "name": "Infrastructure and Urban Maintenance",
+            "percent": 27.5
+          },
+          "category_3": {
+            "name": "Housing and Homelessness Initiatives",
+            "percent": 12.0
+          },
+          "category_4": {
+            "name": "Employee Pensions and Healthcare Liability",
+            "percent": 14.5
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is calculated using a 3-year CAGR of approximately 3.5% for property tax growth, offset by a flattening of sales tax revenue. Total spending is projected to match income to meet the City Charter's balanced budget requirement. Adjustments include increased allocations for public safety personnel and specialized funding for housing, consistent with the long-term strategic plans of the City Council."
+    },
+    "2025": {
+      "income": {
+        "total": 12800000000,
+        "sources": [
+          "City of Los Angeles Adopted Budget FY 2024-25",
+          "CAFR Financial Statement Projections"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Property and Documentary Taxes",
+            "percent": 41.5
+          },
+          "category_2": {
+            "name": "Special Funds and Grants",
+            "percent": 38.0
+          },
+          "category_3": {
+            "name": "Business, Sales and Transient Occupancy Taxes",
+            "percent": 20.5
+          }
+        }
+      },
+      "spending": {
+        "total": 12800000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Public Safety (LAPD & LAFD)",
+            "percent": 45.2
+          },
+          "category_2": {
+            "name": "Community Services and Housing",
+            "percent": 11.3
+          },
+          "category_3": {
+            "name": "Physical Plant and City Infrastructure",
+            "percent": 28.5
+          },
+          "category_4": {
+            "name": "Debt Service and Reserve Fund",
+            "percent": 15.0
+          }
+        }
+      },
+      "methodology": "Figures represent the Adopted Budget for FY 2024-25. Total revenue slightly decreased compared to 2024 due to stricter tax collection forecasts and reduced COVID-era stimulus funding. Spending priorities reflect a focus on public safety and addressing the homelessness crisis through dedicated Measure HHH and General Fund allocations."
+    },
+    "2024": {
+      "income": {
+        "total": 13100000000,
+        "sources": [
+          "City of Los Angeles Adopted Budget FY 2023-24",
+          "LA City Controller Annual Comprehensive Financial Report (ACFR) 2024"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Property Tax",
+            "percent": 40.2
+          },
+          "category_2": {
+            "name": "Special Purpose Funds and Available Balances",
+            "percent": 39.7
+          },
+          "category_3": {
+            "name": "Economy-Sensitive Revenues (Sales, Business, Utility Taxes)",
+            "percent": 20.1
+          }
+        }
+      },
+      "spending": {
+        "total": 13100000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Public Safety (Police and Fire)",
+            "percent": 44.0
+          },
+          "category_2": {
+            "name": "Homelessness Services and Housing",
+            "percent": 9.9
+          },
+          "category_3": {
+            "name": "General City Services and Infrastructure",
+            "percent": 31.1
+          },
+          "category_4": {
+            "name": "Pensions and Employee Benefits",
+            "percent": 15.0
+          }
+        }
+      },
+      "methodology": "Data extracted from the FY 2023-24 Adopted Budget and the 2024 Popular Annual Financial Report (PAFR). Total income includes General Fund revenues ($7.9B) and Special Funds ($5.2B). Spending breakdown reflects departmental appropriations and emergency adjustments for liability claims and personnel costs reported by the Controller."
+    }
+  }
+}

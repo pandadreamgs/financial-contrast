@@ -1,0 +1,134 @@
+{
+  "id": "uk-ministry-defense",
+  "name": "Ministry of Defense (UK)",
+  "image": "images/uk-ministry-defense.svg",
+  "category": "department",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 86460000000,
+        "sources": [
+          "HM Treasury Multi-Year Settlement (Phase 2)",
+          "Special Reserve for Nuclear Enterprise & Strategic Deterrent",
+          "NATO Integrated Air and Missile Defence (IAMD) Funding Contribution"
+        ],
+        "breakdown": {
+          "parliamentary_supply": {
+            "name": "Core Departmental Expenditure Limit (DEL)",
+            "percent": 98.1
+          },
+          "trading_and_external": {
+            "name": "Commercial Income and Asset Disposal",
+            "percent": 1.9
+          }
+        }
+      },
+      "spending": {
+        "total": 85932000000,
+        "breakdown": {
+          "capital_investment_and_nuclear": {
+            "name": "Capital Investment, Nuclear Deterrent & Munitions Production",
+            "percent": 50.4
+          },
+          "personnel_and_training": {
+            "name": "Service Personnel Pay, Pensions and Professional Training",
+            "percent": 25.8
+          },
+          "estate_modernization": {
+            "name": "Military Accommodation and Estate Decarbonization",
+            "percent": 19.5
+          },
+          "rd_innovation": {
+            "name": "Research, Development and Autonomous Systems",
+            "percent": 4.3
+          }
+        }
+      },
+      "methodology": "Forecast based on the 'Spending Review 2025' and Budget 2025. Original values in GBP converted to USD at the March 2026 projected rate of 1.32. Total Income reflects the Treasury-settled Main Estimate. Spending categories extrapolated using the 7.3% real-terms growth target for investment/capital projects as specified in the strategic roadmap to 2.6% GDP by 2027. Personnel costs adjusted based on the 2025 AFPRB baseline."
+    },
+    "2025": {
+      "income": {
+        "total": 82236000000,
+        "sources": [
+          "HM Treasury DEL Funding (Main & Supplementary Estimates)",
+          "Special Reserve for Military Operations (including Ukraine Support)",
+          "Departmental Self-Generated Income"
+        ],
+        "breakdown": {
+          "parliamentary_supply": {
+            "name": "Net Parliamentary Funding",
+            "percent": 97.6
+          },
+          "external_income": {
+            "name": "Commercial and Rental Income",
+            "percent": 2.4
+          }
+        }
+      },
+      "spending": {
+        "total": 81444000000,
+        "breakdown": {
+          "equipment_and_nuclear": {
+            "name": "Equipment Procurement, Support and Nuclear Enterprise",
+            "percent": 48.2
+          },
+          "personnel_costs": {
+            "name": "Military and Civilian Pay and Pensions",
+            "percent": 26.5
+          },
+          "estate_and_infrastructure": {
+            "name": "Defence Infrastructure and Estate Management",
+            "percent": 21.3
+          },
+          "operations_and_readiness": {
+            "name": "Global Operations, Peacekeeping and Readiness",
+            "percent": 4.0
+          }
+        }
+      },
+      "methodology": "Figures represent 'Core Military Spending' from the UK Budget 2025, converted from GBP to USD (rate 1.32). Total Income corresponds to the Departmental Expenditure Limit (DEL) excluding ring-fenced depreciation. Spending reflects the 2025-26 fiscal cycle allocation for NATO readiness requirements. Calculations exclude AME to isolate controllable operational spending."
+    },
+    "2024": {
+      "income": {
+        "total": 71412000000,
+        "sources": [
+          "HM Treasury Parliamentary Funding (Main Estimate)",
+          "MOD Earned External Income",
+          "NATO Budget Contributions"
+        ],
+        "breakdown": {
+          "parliamentary_funding": {
+            "name": "Parliamentary Funding (Net Cash Requirement)",
+            "percent": 97.4
+          },
+          "operating_income": {
+            "name": "External Operating Income and Receipts",
+            "percent": 2.6
+          }
+        }
+      },
+      "spending": {
+        "total": 71148000000,
+        "breakdown": {
+          "equipment_expenditure": {
+            "name": "Equipment Procurement and Support",
+            "percent": 46.8
+          },
+          "personnel_costs": {
+            "name": "Military and Civilian Personnel Costs",
+            "percent": 27.1
+          },
+          "infrastructure_inventory": {
+            "name": "Infrastructure, Estate and Inventory",
+            "percent": 22.6
+          },
+          "operations_peacekeeping": {
+            "name": "Military Operations and Peacekeeping",
+            "percent": 3.5
+          }
+        }
+      },
+      "methodology": "Data extracted from the MOD Annual Report and Accounts 2023-24. Original GBP figures converted to USD at the projected 2026 rate of 1.32 for consistency. Income is the Net Cash Requirement (NCR) granted by Parliament. Spending is Resource DEL + Capital DEL minus Depreciation, excluding AME."
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "g7",
+  "name": "Group of Seven (G7)",
+  "image": "images/g7.jpg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 16904000000000,
+        "sources": [
+          "CBO Budget and Economic Outlook: 2026-2036",
+          "IMF World Economic Outlook (March 2026 update)",
+          "UK Spring Statement 2026",
+          "German Draft Budgetary Plan 2026"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Direct Taxes (Personal & Corporate)",
+            "percent": 43.5
+          },
+          "category_2": {
+            "name": "Social Insurance Contributions",
+            "percent": 27.2
+          },
+          "category_3": {
+            "name": "Consumption and Production Taxes",
+            "percent": 21.0
+          },
+          "category_4": {
+            "name": "Non-tax Revenue & Capital Income",
+            "percent": 8.3
+          }
+        }
+      },
+      "spending": {
+        "total": 19442000000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Security and Healthcare",
+            "percent": 43.1
+          },
+          "category_2": {
+            "name": "Net Interest on Public Debt",
+            "percent": 20.4
+          },
+          "category_3": {
+            "name": "Defense and International Security",
+            "percent": 12.8
+          },
+          "category_4": {
+            "name": "Education and Social Services",
+            "percent": 12.2
+          },
+          "category_5": {
+            "name": "Infrastructure and Ecological Transition",
+            "percent": 11.5
+          }
+        }
+      },
+      "methodology": "Forecast based on official 2026 budget estimates from G7 finance ministries. Total G7 GDP growth is projected at 1.8% for 2026 (IMF baseline). US Federal outlays are set at $7.4T as per CBO Feb 2026 report. European members (Germany, France, Italy) show a CAGR-adjusted increase in revenue due to higher tax-to-GDP ratios. Debt interest spending is adjusted for the current 2026 interest rate environment."
+    },
+    "2025": {
+      "income": {
+        "total": 16130000000000,
+        "sources": [
+          "IMF World Economic Outlook Update 2025",
+          "OECD Government at a Glance 2025",
+          "European Commission Economic Forecast"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Individual and Corporate Income Taxes",
+            "percent": 42.1
+          },
+          "category_2": {
+            "name": "Social Contributions",
+            "percent": 27.9
+          },
+          "category_3": {
+            "name": "Value Added and Consumption Taxes",
+            "percent": 20.8
+          },
+          "category_4": {
+            "name": "Property and Other Taxes",
+            "percent": 9.2
+          }
+        }
+      },
+      "spending": {
+        "total": 18890000000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Security and Health",
+            "percent": 43.8
+          },
+          "category_2": {
+            "name": "Public Debt Transactions",
+            "percent": 19.5
+          },
+          "category_3": {
+            "name": "Defense and Security",
+            "percent": 12.2
+          },
+          "category_4": {
+            "name": "Education and R&D",
+            "percent": 12.5
+          },
+          "category_5": {
+            "name": "Infrastructure and Green Energy",
+            "percent": 12.0
+          }
+        }
+      },
+      "methodology": "The data represents the consolidated general government accounts of G7 nations. Figures are derived from national treasury reports and IMF fiscal monitors for the 2025 fiscal year. Totals are expressed in USD based on weighted average exchange rates. Debt service costs were isolated to highlight the impact of monetary policy on spending structures."
+    },
+    "2024": {
+      "income": {
+        "total": 15480000000000,
+        "sources": [
+          "IMF World Economic Outlook 2024",
+          "OECD Revenue Statistics 2024",
+          "CBO Budget and Economic Outlook"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Income and Profits Taxes",
+            "percent": 41.2
+          },
+          "category_2": {
+            "name": "Social Security Contributions",
+            "percent": 28.5
+          },
+          "category_3": {
+            "name": "Taxes on Goods and Services (VAT/GST)",
+            "percent": 20.3
+          },
+          "category_4": {
+            "name": "Other Revenues",
+            "percent": 10.0
+          }
+        }
+      },
+      "spending": {
+        "total": 18260000000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Social Protection and Healthcare",
+            "percent": 44.5
+          },
+          "category_2": {
+            "name": "General Public Services and Debt Interest",
+            "percent": 18.2
+          },
+          "category_3": {
+            "name": "Education",
+            "percent": 12.8
+          },
+          "category_4": {
+            "name": "Defense and Public Order",
+            "percent": 11.5
+          },
+          "category_5": {
+            "name": "Economic Affairs and Infrastructure",
+            "percent": 13.0
+          }
+        }
+      },
+      "methodology": "Aggregated fiscal data for G7 members (USA, Japan, Germany, UK, France, Italy, Canada). Revenue calculated as total general government revenue. Spending represents total outlays. Data synthesized from IMF and OECD 2024 interim reports, converted to USD using average annual exchange rates."
+    }
+  }
+}

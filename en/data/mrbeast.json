@@ -1,0 +1,146 @@
+{
+  "id": "mrbeast",
+  "name": "MrBeast",
+  "image": "images/mrbeast.jpg",
+  "category": "person",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 1180000000,
+        "sources": [
+          "Feastables Global logic Retail",
+          "Lunchly Market Dominance",
+          "Amazon Prime Video Licensing (Seasons 2 & 3)",
+          "YouTube Media Network",
+          "Beast Financial/Fintech Services"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Consumer Goods (Feastables & Lunchly)",
+            "percent": 68.4
+          },
+          "category_2": {
+            "name": "Streaming & Licensing (Amazon MGM)",
+            "percent": 18.6
+          },
+          "category_3": {
+            "name": "YouTube AdSense & Digital Sponsorships",
+            "percent": 9.5
+          },
+          "category_4": {
+            "name": "B2B SaaS & Financial Services (Viewstats/Fintech)",
+            "percent": 3.5
+          }
+        }
+      },
+      "spending": {
+        "total": 1100000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Global CPG Logistics & Manufacturing",
+            "percent": 45.0
+          },
+          "category_2": {
+            "name": "Content Production (Beast Games & Main Channel)",
+            "percent": 38.0
+          },
+          "category_3": {
+            "name": "R&D and Financial Infrastructure",
+            "percent": 10.0
+          },
+          "category_4": {
+            "name": "Philanthropy & Direct Cash Giveaways",
+            "percent": 7.0
+          }
+        }
+      },
+      "methodology": "The 2026 forecast assumes a 30% revenue growth (CAGR) based on the 2023-2025 trajectory. A critical shift is noted as media production costs are increasingly subsidized by the Amazon MGM deal ($100M+), while Feastables/Lunchly achieve economies of scale. The total valuation of Beast Industries is projected to reach $5B, with a first-time strategic shift towards a 6-8% net profit margin to support 'Beast Financial' trademarks."
+    },
+    "2025": {
+      "income": {
+        "total": 910000000,
+        "sources": [
+          "Feastables Global Distribution",
+          "Lunchly Sales Revenue",
+          "Amazon Prime Video Licensing",
+          "YouTube AdSense & Sponsored Content"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Consumer Goods (Feastables & Lunchly)",
+            "percent": 63.5
+          },
+          "category_2": {
+            "name": "Media Content & Streaming Rights",
+            "percent": 24.2
+          },
+          "category_3": {
+            "name": "Merchandise & Digital Assets",
+            "percent": 12.3
+          }
+        }
+      },
+      "spending": {
+        "total": 885000000,
+        "breakdown": {
+          "category_1": {
+            "name": "High-Budget Video Production",
+            "percent": 58.0
+          },
+          "category_2": {
+            "name": "Supply Chain & Retail Infrastructure",
+            "percent": 30.5
+          },
+          "category_3": {
+            "name": "Staffing & Global Operations",
+            "percent": 11.5
+          }
+        }
+      },
+      "methodology": "The 2025 figures represent a 30% YoY increase from 2024, driven primarily by the global rollout of 'Lunchly' and the full-scale distribution of 'Beast Games' on Amazon. Income is calculated based on gross retail sales and licensing fees. Spending reflects the massive scale-up of production costs, which now average over $6 million per main channel video, and significant capital expenditure in retail logistics."
+    },
+    "2024": {
+      "income": {
+        "total": 700000000,
+        "sources": [
+          "YouTube AdSense and Brand Deals",
+          "Feastables Sales",
+          "MrBeast Burger Revenue",
+          "Amazon Prime Video Deal"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Consumer Goods (Feastables & Merch)",
+            "percent": 57.1
+          },
+          "category_2": {
+            "name": "Content Monetization (Ads & Sponsorships)",
+            "percent": 32.3
+          },
+          "category_3": {
+            "name": "Licensing & Media Partnerships (Amazon)",
+            "percent": 10.6
+          }
+        }
+      },
+      "spending": {
+        "total": 699000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Video Production & Logistics",
+            "percent": 65.0
+          },
+          "category_2": {
+            "name": "Business Expansion & Ethical Sourcing",
+            "percent": 25.0
+          },
+          "category_3": {
+            "name": "Philanthropy & Direct Giveaways",
+            "percent": 10.0
+          }
+        }
+      },
+      "methodology": "The income total reflects the $700 million revenue projection confirmed in early 2024 court documents and interviews. Spending is calculated based on the stated 'near-total reinvestment' policy, where 95-98% of gross revenue is funneled back into content production (averaging $4-5 million per video) and the rapid scaling of Feastables' global distribution."
+    }
+  }
+}

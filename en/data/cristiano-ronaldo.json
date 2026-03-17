@@ -1,0 +1,136 @@
+{
+  "id": "cristiano-ronaldo",
+  "name": "Cristiano Ronaldo",
+  "image": "images/cristiano-ronaldo.jpg",
+  "category": "person",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 338000000,
+        "sources": [
+          "Al-Nassr FC Contract (Enhanced Salary + 15% Equity Dividends)",
+          "Nike Lifetime Endorsement",
+          "UR•MARV Media Studio Earnings",
+          "Binance & Web3 Fan-Utility Revenues",
+          "Social Media Monetization (Instagram & YouTube)"
+        ],
+        "breakdown": {
+          "football_related": {
+            "name": "Salary, Bonuses and Club Equity Profit",
+            "percent": 66.27
+          },
+          "media_and_digital": {
+            "name": "Content Production, YouTube and Digital Assets",
+            "percent": 18.94
+          },
+          "sponsorships_and_licensing": {
+            "name": "Global Endorsements and CR7 Brand Licensing",
+            "percent": 14.79
+          }
+        }
+      },
+      "spending": {
+        "total": 122000000,
+        "breakdown": {
+          "strategic_reinvestment": {
+            "name": "Tech Ventures, Media Studio Ops and Real Estate",
+            "percent": 52.0
+          },
+          "lifestyle_and_charity": {
+            "name": "Private Assets, Family Trusts and Philanthropy",
+            "percent": 28.0
+          },
+          "tax_and_legal": {
+            "name": "Global Tax Structuring and Professional Services",
+            "percent": 20.0
+          }
+        }
+      },
+      "methodology": "2026 forecast uses the audited Al-Nassr extension figures ($224M salary base) plus projected 20% CAGR for digital revenue streams. Spending accounts for capital calls in the Pestana CR7 expansion and operating costs of the UR•MARV studio (valued at £450M in 2026). Total net worth consolidation estimated at $1.2B - $1.4B."
+    },
+    "2025": {
+      "income": {
+        "total": 285000000,
+        "sources": [
+          "Al-Nassr FC Contract Extension",
+          "Nike Lifetime Agreement",
+          "Binance NFT Partnership",
+          "Herbalife Nutrition",
+          "YouTube AdSense & Personal Brand Licensing"
+        ],
+        "breakdown": {
+          "on_field": {
+            "name": "Base Salary and Performance Bonuses",
+            "percent": 78.95
+          },
+          "commercial_endorsements": {
+            "name": "Commercial Deals and Digital Assets",
+            "percent": 17.54
+          },
+          "business_ventures": {
+            "name": "CR7 Brand Income and Digital Platforms",
+            "percent": 3.51
+          }
+        }
+      },
+      "spending": {
+        "total": 105000000,
+        "breakdown": {
+          "business_expansion": {
+            "name": "Global Hotel Chain and Wellness Clinics Expansion",
+            "percent": 40.0
+          },
+          "luxury_assets": {
+            "name": "Real Estate Acquisitions and Aviation Maintenance",
+            "percent": 35.0
+          },
+          "operational_costs": {
+            "name": "Management, Security and Marketing Team",
+            "percent": 25.0
+          }
+        }
+      },
+      "methodology": "Figures derived from Forbes 2025 World's Highest-Paid Athletes and Bloomberg Billionaires Index. Income includes $225,000,000 from on-field activities and $60,000,000 from off-field endorsements. Spending reflects documented capital expenditures for the Pestana CR7 hotel brand and estimated lifestyle costs for a high-net-worth individual with a $1.4B valuation."
+    },
+    "2024": {
+      "income": {
+        "total": 285000000,
+        "sources": [
+          "Al-Nassr Football Club Contract",
+          "Nike Lifetime Deal",
+          "Binance Partnership",
+          "CR7 Brand Holdings",
+          "Herbalife Nutrition"
+        ],
+        "breakdown": {
+          "on_field": {
+            "name": "Salary and On-field Bonuses",
+            "percent": 77.19
+          },
+          "off_field_endorsements": {
+            "name": "Commercial Endorsements and Sponsorships",
+            "percent": 22.81
+          }
+        }
+      },
+      "spending": {
+        "total": 95000000,
+        "breakdown": {
+          "investments": {
+            "name": "Business Ventures and Tech Startups",
+            "percent": 45.0
+          },
+          "real_estate": {
+            "name": "Property Development and Luxury Real Estate",
+            "percent": 30.0
+          },
+          "lifestyle_and_ops": {
+            "name": "Private Aviation, Luxury Assets and Staff Salaries",
+            "percent": 25.0
+          }
+        }
+      },
+      "methodology": "Data based on Forbes' 2024 Highest-Paid Soccer Players report. Income represents gross earnings before taxes and agent fees. Spending is estimated based on known investment portfolios (Pestana CR7, Chrono24), reported property acquisitions in Riyadh and Lisbon, and operational costs for his global brand maintenance."
+    }
+  }
+}

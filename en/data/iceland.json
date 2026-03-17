@@ -1,0 +1,168 @@
+{
+  "id": "iceland",
+  "name": "Iceland",
+  "image": "images/iceland.svg",
+  "category": "country",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 16987789855,
+        "sources": [
+          "IMF World Economic Outlook (October 2025)",
+          "S&P Global Ratings Iceland Report (March 2026)",
+          "Ministry of Finance Medium-Term Fiscal Strategy"
+        ],
+        "breakdown": {
+          "personal_and_corporate_taxes": {
+            "name": "Taxes on Income and Profits",
+            "percent": 43.5
+          },
+          "value_added_and_excise_taxes": {
+            "name": "Taxes on Goods and Services (VAT)",
+            "percent": 30.2
+          },
+          "social_contributions": {
+            "name": "Social Security Contributions",
+            "percent": 13.8
+          },
+          "other_revenue_and_grants": {
+            "name": "Other Current Revenue and Capital Income",
+            "percent": 12.5
+          }
+        }
+      },
+      "spending": {
+        "total": 17336739130,
+        "breakdown": {
+          "social_protection_and_health": {
+            "name": "Social Protection and Health Services",
+            "percent": 46.2
+          },
+          "general_public_services_and_interest": {
+            "name": "General Public Services and Debt Interest",
+            "percent": 17.5
+          },
+          "education": {
+            "name": "Education and Cultural Affairs",
+            "percent": 14.8
+          },
+          "economic_infrastructure": {
+            "name": "Economic Affairs and Transportation",
+            "percent": 11.2
+          },
+          "defense_and_public_order": {
+            "name": "Public Order, Safety, and Other Functions",
+            "percent": 10.3
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is calculated using a projected 2.0% real GDP growth and a declining inflation rate target of 2.5-3.0%. Total income is projected to reach approximately 16.99 billion USD based on the 3-year CAGR of tax revenue efficiency. Expenditure growth is constrained to 17.34 billion USD reflecting fiscal consolidation. The projected deficit is narrowed to approximately 0.8-1.0% of GDP."
+    },
+    "2025": {
+      "income": {
+        "total": 15836746377,
+        "sources": [
+          "Ministry of Finance and Economic Affairs - National Budget 2025",
+          "Central Bank of Iceland Economic Outlook"
+        ],
+        "breakdown": {
+          "direct_taxes": {
+            "name": "Direct Taxes on Income and Wealth",
+            "percent": 43.1
+          },
+          "indirect_taxes": {
+            "name": "Indirect Taxes (VAT and Excises)",
+            "percent": 29.5
+          },
+          "social_contributions": {
+            "name": "Social Security Contributions",
+            "percent": 14.2
+          },
+          "asset_income_and_other": {
+            "name": "Property Income and Other Revenue",
+            "percent": 13.2
+          }
+        }
+      },
+      "spending": {
+        "total": 16391028986,
+        "breakdown": {
+          "health_and_social_protection": {
+            "name": "Health and Social Protection",
+            "percent": 45.8
+          },
+          "general_public_services": {
+            "name": "General Public Services and Debt Interest",
+            "percent": 18.2
+          },
+          "education": {
+            "name": "Education Affairs",
+            "percent": 14.5
+          },
+          "economic_affairs_infrastructure": {
+            "name": "Economic Affairs and Infrastructure",
+            "percent": 11.0
+          },
+          "other_functions": {
+            "name": "Environmental, Housing and Other Functions",
+            "percent": 10.5
+          }
+        }
+      },
+      "methodology": "Figures represent the approved 2025 State Budget converted to USD (approx. 15.84 billion USD income and 16.39 billion USD spending). Expenditure reflects a 4.8% increase compared to 2024, driven by public sector wage agreements and continued mitigation of seismic activity impacts."
+    },
+    "2024": {
+      "income": {
+        "total": 14410144928,
+        "sources": [
+          "Statistics Iceland - General Government Finances",
+          "Ministry of Finance and Economic Affairs of Iceland"
+        ],
+        "breakdown": {
+          "taxes_on_income_and_profits": {
+            "name": "Taxes on Income and Profits",
+            "percent": 42.7
+          },
+          "taxes_on_goods_and_services": {
+            "name": "Taxes on Goods and Services",
+            "percent": 28.3
+          },
+          "social_contributions": {
+            "name": "Social Contributions",
+            "percent": 14.5
+          },
+          "other_revenue": {
+            "name": "Other Current Revenue and Grants",
+            "percent": 14.5
+          }
+        }
+      },
+      "spending": {
+        "total": 15640579710,
+        "breakdown": {
+          "final_consumption": {
+            "name": "Government Final Consumption",
+            "percent": 58.3
+          },
+          "social_benefits": {
+            "name": "Social Benefits to Households",
+            "percent": 16.0
+          },
+          "subsidies_and_grants": {
+            "name": "Subsidies, Grants, and Other Expenses",
+            "percent": 12.6
+          },
+          "interest_expenditure": {
+            "name": "Interest Expenditure",
+            "percent": 10.4
+          },
+          "net_investment": {
+            "name": "Net Government Investment",
+            "percent": 2.7
+          }
+        }
+      },
+      "methodology": "Data based on the September 2025 revision by Statistics Iceland. Total revenue (14.41 billion USD) and expenditure (15.64 billion USD) include the general government sector. The deficit of approximately 1.23 billion USD (3.7% of GDP) reflects increased spending due to volcanic activity in Grindavík."
+    }
+  }
+}

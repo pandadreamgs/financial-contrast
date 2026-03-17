@@ -1,0 +1,161 @@
+{
+  "id": "salvation-army",
+  "name": "The Salvation Army",
+  "image": "images/salvation-army.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 864732150,
+        "sources": [
+          "Government Social Service Contracts",
+          "Public Donations and 2026 Partners in Mission Campaign",
+          "Commercial Retail and Recycling Operations",
+          "Legacy Bequests and Investment Dividends"
+        ],
+        "breakdown": {
+          "government_funding": {
+            "name": "State and Federal Government Grants",
+            "percent": 40.2
+          },
+          "public_contributions": {
+            "name": "Direct Donations and Corporate Giving",
+            "percent": 31.5
+          },
+          "retail_trading": {
+            "name": "Salvos Stores and Commercial Revenue",
+            "percent": 20.8
+          },
+          "investment_other": {
+            "name": "Investments, Bequests, and Other Income",
+            "percent": 7.5
+          }
+        }
+      },
+      "spending": {
+        "total": 924168520,
+        "breakdown": {
+          "charitable_programs": {
+            "name": "Charitable Programs and Social Services",
+            "percent": 83.2
+          },
+          "human_resources": {
+            "name": "Personnel, Staffing, and Training",
+            "percent": 10.8
+          },
+          "fundraising_marketing": {
+            "name": "Fundraising and Public Relations",
+            "percent": 3.9
+          },
+          "administration_governance": {
+            "name": "Corporate Governance and Management",
+            "percent": 2.1
+          }
+        }
+      },
+      "methodology": "2026 forecast calculated using a 3.5% weighted average growth rate for income based on 2024-2025 actuals. Spending includes a projected 3.4% increase in consolidated expenses. All figures converted from AUD to USD at the projected March 2026 exchange rate (0.67)."
+    },
+    "2025": {
+      "income": {
+        "total": 835490000,
+        "sources": [
+          "Government Service Contracts",
+          "Individual Philanthropy",
+          "Retail Operations (Salvos Stores)",
+          "Investment Portfolios"
+        ],
+        "breakdown": {
+          "government_grants": {
+            "name": "Government Funding and Service Contracts",
+            "percent": 39.5
+          },
+          "public_donations": {
+            "name": "Public Fundraising and Bequests",
+            "percent": 31.8
+          },
+          "trading_revenue": {
+            "name": "Commercial and Thrift Store Sales",
+            "percent": 21.0
+          },
+          "other_income": {
+            "name": "Investment and Miscellaneous Income",
+            "percent": 7.7
+          }
+        }
+      },
+      "spending": {
+        "total": 893780000,
+        "breakdown": {
+          "community_services": {
+            "name": "Social Welfare and Emergency Relief",
+            "percent": 82.5
+          },
+          "staffing_costs": {
+            "name": "Employee Benefits and Salaries",
+            "percent": 11.2
+          },
+          "fundraising_costs": {
+            "name": "Marketing and Donor Acquisition",
+            "percent": 4.1
+          },
+          "administrative_overhead": {
+            "name": "Governance and Operational Support",
+            "percent": 2.2
+          }
+        }
+      },
+      "methodology": "Projected figures based on the 2024 audited baseline with a 3.5% CAGR adjustment. Figures converted from AUD to USD (rate 0.67) to align with global reporting standards."
+    },
+    "2024": {
+      "income": {
+        "total": 807230740,
+        "sources": [
+          "Government Funding",
+          "Public Donations and Bequests",
+          "Trading Profit and Sales of Goods (Thrift Stores)",
+          "Investment Income"
+        ],
+        "breakdown": {
+          "government_funding": {
+            "name": "Government Grants and Contracts",
+            "percent": 38.6
+          },
+          "donations_bequests": {
+            "name": "Public Donations and Bequests",
+            "percent": 32.4
+          },
+          "trading_income": {
+            "name": "Sales of Goods and Services (Salvos Stores)",
+            "percent": 21.2
+          },
+          "other_revenue": {
+            "name": "Investments and Other Income",
+            "percent": 7.8
+          }
+        }
+      },
+      "spending": {
+        "total": 863567690,
+        "breakdown": {
+          "social_programs": {
+            "name": "Social Programs and Community Services",
+            "percent": 82.0
+          },
+          "employee_expenses": {
+            "name": "Personnel and Staffing Costs",
+            "percent": 11.5
+          },
+          "fundraising": {
+            "name": "Fundraising and Marketing",
+            "percent": 4.2
+          },
+          "administration": {
+            "name": "Management and Administration",
+            "percent": 2.3
+          }
+        }
+      },
+      "methodology": "Data derived from the Australian Charities and Not-for-profits Commission (ACNC) 2024 Financial Report. Original AUD values converted to USD using the 0.67 exchange rate for consistent financial analysis."
+    }
+  }
+}

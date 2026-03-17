@@ -1,0 +1,134 @@
+{
+  "id": "eda",
+  "name": "European Defence Agency (EDA)",
+  "image": "images/eda.svg",
+  "category": "supranational-organisation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 58228280,
+        "sources": [
+          "Member State National Contributions",
+          "EU Budget Grants for Defence Research",
+          "Operational Revenue from Joint Procurement Management"
+        ],
+        "breakdown": {
+          "core_funding": {
+            "name": "General Budget Core Funding",
+            "percent": 94.0
+          },
+          "external_revenue": {
+            "name": "External Assigned Revenue and Fees",
+            "percent": 6.0
+          }
+        }
+      },
+      "spending": {
+        "total": 58228280,
+        "breakdown": {
+          "operational_costs": {
+            "name": "Operational Staff and Experts",
+            "percent": 58.5
+          },
+          "project_management": {
+            "name": "Collaborative Programme Management",
+            "percent": 24.0
+          },
+          "it_and_infrastructure": {
+            "name": "Digital Systems and Security",
+            "percent": 12.5
+          },
+          "travel_and_admin": {
+            "name": "Missions and General Administration",
+            "percent": 5.0
+          }
+        }
+      },
+      "methodology": "2026 Forecast based on the EDA General Budget. All figures converted from EUR to USD at the projected rate of 1.10. Spending reflects the agency's internal operational budget for managing EU-wide defense cooperation, excluding the national defense budgets of member states."
+    },
+    "2025": {
+      "income": {
+        "total": 57541132,
+        "sources": [
+          "EU Member States Contributions (General Budget)",
+          "Operational Revenue from Joint Procurement Management",
+          "EU Budget assigned for EDIRPA Coordination"
+        ],
+        "breakdown": {
+          "member_state_contributions": {
+            "name": "General Budget Contributions",
+            "percent": 93.2
+          },
+          "external_assigned_revenue": {
+            "name": "Project Management Fees and Grants",
+            "percent": 6.8
+          }
+        }
+      },
+      "spending": {
+        "total": 57541132,
+        "breakdown": {
+          "personnel_expenses": {
+            "name": "Staff Salaries and Benefits",
+            "percent": 61.2
+          },
+          "coordination_activities": {
+            "name": "Defence Industry Coordination",
+            "percent": 21.3
+          },
+          "infrastructure_and_it": {
+            "name": "Building and IT Operations",
+            "percent": 13.0
+          },
+          "other_admin": {
+            "name": "Corporate Services and Support",
+            "percent": 4.5
+          }
+        }
+      },
+      "methodology": "2025 Data based on the EDA multi-annual programming framework. Income and spending are balanced as per agency budgetary rules. All values converted from EUR to USD at a 1.10 exchange rate."
+    },
+    "2024": {
+      "income": {
+        "total": 57131560,
+        "sources": [
+          "Contributions from EU Member States (except Denmark)",
+          "Revenue from ad-hoc projects",
+          "Additional revenue from EU-funded initiatives (EDF)"
+        ],
+        "breakdown": {
+          "member_contributions": {
+            "name": "General Budget Contributions",
+            "percent": 91.5
+          },
+          "project_revenue": {
+            "name": "Ad-hoc Projects and Additional Revenue",
+            "percent": 8.5
+          }
+        }
+      },
+      "spending": {
+        "total": 57131560,
+        "breakdown": {
+          "staff_costs": {
+            "name": "Personnel and Human Resources",
+            "percent": 63.7
+          },
+          "operational_expenditure": {
+            "name": "Operational & Technical Support",
+            "percent": 18.2
+          },
+          "general_admin": {
+            "name": "General Administration & Buildings",
+            "percent": 14.1
+          },
+          "other_expenditure": {
+            "name": "Miscellaneous Operational Costs",
+            "percent": 4.0
+          }
+        }
+      },
+      "methodology": "Actual 2024 Amended General Budget of the European Defence Agency. Spending categories reflect the official breakdown of Title 1 (Staff), Title 2 (Infrastructure), and Title 3 (Operational). Converted from EUR to USD at 1.10."
+    }
+  }
+}

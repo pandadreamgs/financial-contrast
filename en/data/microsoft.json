@@ -1,0 +1,156 @@
+{
+  "id": "microsoft",
+  "name": "Microsoft",
+  "image": "images/microsoft.svg",
+  "category": "corporation",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 317540000000,
+        "sources": [
+          "Microsoft FY26 Q1/Q2 Earnings Reports",
+          "Consensus Analyst Estimates (MarketBeat/RoboForex)",
+          "Internal Revenue Guidance for H2 FY26"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Intelligent Cloud (Azure & Server Products)",
+            "percent": 46.8
+          },
+          "category_2": {
+            "name": "Productivity and Business Processes (M365/LinkedIn)",
+            "percent": 32.1
+          },
+          "category_3": {
+            "name": "More Personal Computing (Windows/Gaming)",
+            "percent": 21.1
+          }
+        }
+      },
+      "spending": {
+        "total": 214730000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Capital Expenditures (AI Infrastructure & Data Centers)",
+            "percent": 45.4
+          },
+          "category_2": {
+            "name": "Cost of Revenue",
+            "percent": 28.2
+          },
+          "category_3": {
+            "name": "Research and Development",
+            "percent": 14.5
+          },
+          "category_4": {
+            "name": "Sales and Marketing",
+            "percent": 8.9
+          },
+          "category_5": {
+            "name": "General and Administrative",
+            "percent": 3.0
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is derived from annualized Q1-Q2 FY26 actuals (totaling $158.97B in revenue for H1) and projected H2 growth. Income breakdown reflects the shift toward AI-driven cloud services. Spending includes the confirmed surge in Capex, which reached over $72B in H1 alone, as the company doubles its global data center footprint to meet AI capacity constraints."
+    },
+    "2025": {
+      "income": {
+        "total": 279440000000,
+        "sources": [
+          "Microsoft Investor Relations Quarterly Reports",
+          "Consensus Analyst Estimates FY25"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Intelligent Cloud (Azure)",
+            "percent": 45.1
+          },
+          "category_2": {
+            "name": "Productivity and Business Processes",
+            "percent": 30.8
+          },
+          "category_3": {
+            "name": "More Personal Computing",
+            "percent": 24.1
+          }
+        }
+      },
+      "spending": {
+        "total": 184560000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Cost of Revenue",
+            "percent": 42.8
+          },
+          "category_2": {
+            "name": "Research and Development (AI Focus)",
+            "percent": 21.2
+          },
+          "category_3": {
+            "name": "Capital Expenditures (Data Centers)",
+            "percent": 18.5
+          },
+          "category_4": {
+            "name": "Sales and Marketing",
+            "percent": 13.0
+          },
+          "category_5": {
+            "name": "General and Administrative",
+            "percent": 4.5
+          }
+        }
+      },
+      "methodology": "The 2025 figures are projected based on H1 2025 actual performance and guidance provided by management. Total Income reflects expected annual revenue. Spending includes increased Capex allocation for AI infrastructure and cloud capacity expansion as reported in recent fiscal updates."
+    },
+    "2024": {
+      "income": {
+        "total": 245122000000,
+        "sources": [
+          "Microsoft 2024 Annual Report (Form 10-K)",
+          "SEC Edgar Database"
+        ],
+        "breakdown": {
+          "category_1": {
+            "name": "Intelligent Cloud",
+            "percent": 43.2
+          },
+          "category_2": {
+            "name": "Productivity and Business Processes",
+            "percent": 31.6
+          },
+          "category_3": {
+            "name": "More Personal Computing",
+            "percent": 25.2
+          }
+        }
+      },
+      "spending": {
+        "total": 157098000000,
+        "breakdown": {
+          "category_1": {
+            "name": "Cost of Revenue",
+            "percent": 43.6
+          },
+          "category_2": {
+            "name": "Research and Development",
+            "percent": 19.6
+          },
+          "category_3": {
+            "name": "Sales and Marketing",
+            "percent": 16.5
+          },
+          "category_4": {
+            "name": "General and Administrative",
+            "percent": 4.8
+          },
+          "category_5": {
+            "name": "Income Tax Expense & Other",
+            "percent": 15.5
+          }
+        }
+      },
+      "methodology": "Data extracted from the audited consolidated statements of income for the fiscal year ended June 30, 2024. Total Income represents Total Revenue. Total Spending is calculated as the sum of Cost of Revenue and all Operating Expenses, including Provision for Income Taxes to reflect total cash and accrual outflow."
+    }
+  }
+}

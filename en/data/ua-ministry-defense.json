@@ -1,0 +1,138 @@
+{
+  "id": "ua-ministry-defense",
+  "name": "Ministry of Defense (UA)",
+  "image": "images/ua-ministry-defense.svg",
+  "category": "department",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 51644444444,
+        "sources": [
+          "State Budget of Ukraine 2026 (General Fund)",
+          "Special Defense Fund (Military Personal Income Tax)",
+          "International Security Assistance Loans (ERA Mechanisms)"
+        ],
+        "breakdown": {
+          "general_fund": {
+            "name": "General State Budget Allocation",
+            "percent": 82.6
+          },
+          "special_fund": {
+            "name": "Special Fund (Targeted Revenues)",
+            "percent": 7.9
+          },
+          "international_support": {
+            "name": "Direct Financial Military Aid",
+            "percent": 9.5
+          }
+        }
+      },
+      "spending": {
+        "total": 51644444444,
+        "breakdown": {
+          "personnel_maintenance": {
+            "name": "Military Salaries and Social Protection",
+            "percent": 49.8
+          },
+          "arms_modernization": {
+            "name": "Procurement and Domestic Weapon Production",
+            "percent": 36.2
+          },
+          "operational_readiness": {
+            "name": "Logistics, Fuel, and Ammunition",
+            "percent": 11.5
+          },
+          "strategic_reserve": {
+            "name": "Crisis Response and Defense Reserve",
+            "percent": 2.5
+          }
+        }
+      },
+      "methodology": "The 2026 forecast is based on the Law of Ukraine 'On the State Budget for 2026'. Income reflects the allocation converted to USD (at the March 2026 projected rate of 45.0 UAH/USD) within the broader $62.2 billion security sector envelope. The figures account for a 30% increase in social standards effective from January 1, 2026. Spending priorities show a strategic 3% pivot towards domestic military-industrial complex procurement."
+    },
+    "2025": {
+      "income": {
+        "total": 49400000000,
+        "sources": [
+          "State Budget of Ukraine 2025 (Main Allocation)",
+          "International Military Financial Support",
+          "Targeted Special Fund Revenues"
+        ],
+        "breakdown": {
+          "general_fund": {
+            "name": "General State Budget Fund Allocation",
+            "percent": 98.1
+          },
+          "special_fund": {
+            "name": "Special Purpose Fund and Grants",
+            "percent": 1.9
+          }
+        }
+      },
+      "spending": {
+        "total": 49400000000,
+        "breakdown": {
+          "personnel_support": {
+            "name": "Salaries, Social Benefits, and Healthcare",
+            "percent": 53.3
+          },
+          "weapons_procurement": {
+            "name": "Purchase and Repair of Military Equipment",
+            "percent": 33.1
+          },
+          "logistics_and_fuel": {
+            "name": "Operational Maintenance and Logistics",
+            "percent": 11.2
+          },
+          "infrastructure": {
+            "name": "Defense Construction and Fortifications",
+            "percent": 2.4
+          }
+        }
+      },
+      "methodology": "Figures represent the approved 2025 State Budget of Ukraine converted to USD. Income is equivalent to the total appropriation from the state treasury and international aid. Spending breakdown reflects the strategic shift towards domestic weapon production and repair while maintaining personnel support as the primary expenditure."
+    },
+    "2024": {
+      "income": {
+        "total": 49371111111,
+        "sources": [
+          "State Budget of Ukraine (General Fund)",
+          "State Budget of Ukraine (Special Fund)",
+          "International Military and Logistics Assistance"
+        ],
+        "breakdown": {
+          "general_fund": {
+            "name": "General State Budget Fund",
+            "percent": 61.16
+          },
+          "special_fund": {
+            "name": "Special Fund (Aid and Targeted Revenues)",
+            "percent": 38.84
+          }
+        }
+      },
+      "spending": {
+        "total": 49371111111,
+        "breakdown": {
+          "personnel_costs": {
+            "name": "Personnel Salaries and Social Obligations",
+            "percent": 73.4
+          },
+          "weapons_and_equipment": {
+            "name": "Weapons, Military Equipment, and Ammunition",
+            "percent": 20.4
+          },
+          "defense_infrastructure": {
+            "name": "Fortifications and Defense Lines",
+            "percent": 4.1
+          },
+          "operating_costs": {
+            "name": "Operating Expenses and Maintenance",
+            "percent": 2.1
+          }
+        }
+      },
+      "methodology": "Total figure reflects the finalized 2024 funding after budget amendments, converted to USD. The base value includes the UAH 495.3 billion increase. Spending breakdown is based on official MoD reports regarding personnel support and fortification programs."
+    }
+  }
+}

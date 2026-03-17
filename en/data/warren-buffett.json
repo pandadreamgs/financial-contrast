@@ -1,0 +1,107 @@
+{
+  "id": "warren-buffett",
+  "name": "Warren Buffett",
+  "image": "images/warren-buffett.jpg",
+  "category": "person",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 15400000000,
+        "sources": [
+          "Unrealized Gains on Berkshire Hathaway Holdings",
+          "Post-Retirement Investment Advisory Distributions"
+        ],
+        "breakdown": {
+          "capital_appreciation": {
+            "name": "Equity Portfolio Growth (CAGR-based)",
+            "percent": 99.9994
+          },
+          "residual_compensation": {
+            "name": "Nominal Retainer and Security Cover",
+            "percent": 0.0006
+          }
+        }
+      },
+      "spending": {
+        "total": 6500000000,
+        "breakdown": {
+          "philanthropy": {
+            "name": "Planned Stock Grants to Charitable Trusts",
+            "percent": 99.98
+          },
+          "security_operations": {
+            "name": "Personal Security and Logistics",
+            "percent": 0.02
+          }
+        }
+      },
+      "methodology": "2026 forecast assumes a conservative 10% CAGR on the $148.9B net worth reported in early Jan 2026, offset by a projected $6.5B philanthropic grant in June (continuing the 4% annual share reduction policy). Total income represents the net change in asset valuation minus realized losses. Personal compensation is adjusted to near-zero following his retirement from the CEO role effective Jan 1, 2026."
+    },
+    "2025": {
+      "income": {
+        "total": 22000405111,
+        "sources": [
+          "Net Worth Appreciation (Berkshire Hathaway Equity)",
+          "Annual CEO Compensation (Salary + Security)"
+        ],
+        "breakdown": {
+          "asset_growth": {
+            "name": "Portfolio and Equity Appreciation",
+            "percent": 99.9982
+          },
+          "official_compensation": {
+            "name": "Fixed CEO Salary and Security Costs",
+            "percent": 0.0018
+          }
+        }
+      },
+      "spending": {
+        "total": 6000000000,
+        "breakdown": {
+          "charitable_contributions": {
+            "name": "Annual Stock Donation to Five Foundations",
+            "percent": 99.99
+          },
+          "personal_lifestyle": {
+            "name": "Personal Living and Security Expenses",
+            "percent": 0.01
+          }
+        }
+      },
+      "methodology": "Income reflects the net increase in wealth from approximately $144.1B (Jan 2025) to $166.1B (Dec 2025, est. Bloomberg/Forbes real-time indices) adjusted for mid-year philanthropic distributions. Fixed compensation remains $100,000 salary plus ~$305,111 in security costs. Spending is primarily the record $6 billion donation of 12.36M Class B shares announced in June 2025."
+    },
+    "2024": {
+      "income": {
+        "total": 13000405111,
+        "sources": [
+          "Net Worth Appreciation (Berkshire Hathaway Class A & B Shares)",
+          "Berkshire Hathaway Annual Compensation"
+        ],
+        "breakdown": {
+          "asset_growth": {
+            "name": "Investment Portfolio Appreciation",
+            "percent": 99.9969
+          },
+          "executive_comp": {
+            "name": "Annual CEO Compensation",
+            "percent": 0.0031
+          }
+        }
+      },
+      "spending": {
+        "total": 5300000000,
+        "breakdown": {
+          "philanthropy": {
+            "name": "Charitable Donations in Berkshire Shares",
+            "percent": 99.99
+          },
+          "personal_ops": {
+            "name": "Personal Living and Security Expenses",
+            "percent": 0.01
+          }
+        }
+      },
+      "methodology": "Income calculated as the delta in Forbes/Bloomberg Net Worth between Jan 1, 2024 ($119B) and Dec 31, 2024 (est. $132B), plus exact SEC-filed compensation of $405,111. Spending is primarily defined by the record $5.3 billion donation of Class B shares to five foundations announced in June 2024."
+    }
+  }
+}

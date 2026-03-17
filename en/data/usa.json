@@ -1,0 +1,171 @@
+{
+  "id": "usa",
+  "name": "USA",
+  "image": "images/usa.svg",
+  "category": "country",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 5410100000000,
+        "sources": [
+          "White House Office of Management and Budget (OMB) FY2026 Projections",
+          "Congressional Budget Office (CBO) Long-Term Budget Outlook"
+        ],
+        "breakdown": {
+          "individual_income_taxes": {
+            "name": "Individual Income Taxes",
+            "percent": 50.4
+          },
+          "payroll_taxes": {
+            "name": "Social Insurance and Retirement Receipts",
+            "percent": 33.9
+          },
+          "corporate_taxes": {
+            "name": "Corporate Income Taxes",
+            "percent": 10.1
+          },
+          "other_revenue": {
+            "name": "Excise and Other Revenue",
+            "percent": 5.6
+          }
+        }
+      },
+      "spending": {
+        "total": 7695000000000,
+        "breakdown": {
+          "social_security": {
+            "name": "Social Security",
+            "percent": 21.1
+          },
+          "health_medicare": {
+            "name": "Medicare and Health Programs",
+            "percent": 23.5
+          },
+          "net_interest": {
+            "name": "Net Interest on Public Debt",
+            "percent": 15.4
+          },
+          "national_defense": {
+            "name": "National Defense",
+            "percent": 12.2
+          },
+          "other_programs": {
+            "name": "Education, Veterans and Discretionary Spending",
+            "percent": 27.8
+          }
+        }
+      },
+      "methodology": "Projections for 2026 are calculated using a 3-year CAGR (Compound Annual Growth Rate) of 4.1% for revenue and 6.0% for outlays, adjusted for CBO baseline estimates. Spending reflects the rising cost of debt servicing and mandatory health outlays due to demographic shifts."
+    },
+    "2025": {
+      "income": {
+        "total": 5103000000000,
+        "sources": [
+          "U.S. Department of the Treasury - Fiscal Data",
+          "CBO - The Budget and Economic Outlook: 2025 to 2035"
+        ],
+        "breakdown": {
+          "individual_income_taxes": {
+            "name": "Individual Income Taxes",
+            "percent": 50.1
+          },
+          "payroll_taxes": {
+            "name": "Social Insurance and Retirement Receipts",
+            "percent": 34.2
+          },
+          "corporate_taxes": {
+            "name": "Corporate Income Taxes",
+            "percent": 10.3
+          },
+          "other_receipts": {
+            "name": "Excise Taxes, Customs Duties and Miscellaneous",
+            "percent": 5.4
+          }
+        }
+      },
+      "spending": {
+        "total": 7266000000000,
+        "breakdown": {
+          "social_security": {
+            "name": "Social Security",
+            "percent": 21.3
+          },
+          "health_medicare": {
+            "name": "Medicare and Health Programs",
+            "percent": 23.1
+          },
+          "net_interest": {
+            "name": "Net Interest on Public Debt",
+            "percent": 14.8
+          },
+          "national_defense": {
+            "name": "National Defense",
+            "percent": 12.5
+          },
+          "other_mandatory_discretionary": {
+            "name": "Income Security, Veterans and Other Services",
+            "percent": 28.3
+          }
+        }
+      },
+      "methodology": "Figures represent current projections for Fiscal Year 2025 provided by the Congressional Budget Office (CBO) and actual year-to-date receipts/outlays from the Monthly Treasury Statement. The total spending reflects the enacted baseline and adjusted inflationary increases in mandatory programs."
+    },
+    "2024": {
+      "income": {
+        "total": 4918736000000,
+        "sources": [
+          "U.S. Department of the Treasury - Monthly Treasury Statement (MTS)",
+          "Congressional Budget Office (CBO) - Monthly Budget Review: Summary for Fiscal Year 2024"
+        ],
+        "breakdown": {
+          "individual_income_taxes": {
+            "name": "Individual Income Taxes",
+            "percent": 49.3
+          },
+          "social_insurance_taxes": {
+            "name": "Social Insurance and Retirement Receipts (Payroll Taxes)",
+            "percent": 34.8
+          },
+          "corporate_income_taxes": {
+            "name": "Corporate Income Taxes",
+            "percent": 10.8
+          },
+          "other_revenue": {
+            "name": "Excise, Estate, Gift Taxes and Customs Duties",
+            "percent": 5.1
+          }
+        }
+      },
+      "spending": {
+        "total": 6751552000000,
+        "breakdown": {
+          "social_security": {
+            "name": "Social Security",
+            "percent": 21.6
+          },
+          "health_medicare": {
+            "name": "Health and Medicare",
+            "percent": 22.3
+          },
+          "national_defense": {
+            "name": "National Defense",
+            "percent": 12.9
+          },
+          "net_interest": {
+            "name": "Net Interest on Public Debt",
+            "percent": 14.1
+          },
+          "income_security": {
+            "name": "Income Security and Veterans Benefits",
+            "percent": 10.5
+          },
+          "other_spending": {
+            "name": "Education, Infrastructure and Other Discretionary",
+            "percent": 18.6
+          }
+        }
+      },
+      "methodology": "Data derived from the Final Monthly Treasury Statement for FY 2024. Income represents total federal receipts. Spending represents total federal outlays. Percentages calculated based on exact Treasury figures for the fiscal year ending September 30, 2024."
+    }
+  }
+}

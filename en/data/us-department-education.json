@@ -1,0 +1,149 @@
+{
+  "id": "us-department-education",
+  "name": "US Department of Education",
+  "image": "images/us-department-education.svg",
+  "category": "department",
+  "data": {
+    "2026": {
+      "income": {
+        "total": 159500000000,
+        "sources": [
+          "FY 2026 President's Budget Request",
+          "Higher Education Act Mandatory Allocations",
+          "Fostering Undergraduate Talent by Unlocking Resources (FUTURE) Act",
+          "Pell Grant Program Mandatory Funding"
+        ],
+        "breakdown": {
+          "discretionary_budget_request": {
+            "name": "Proposed Discretionary Budget Authority",
+            "percent": 41.8
+          },
+          "mandatory_funding_projections": {
+            "name": "Mandatory Funding & Student Loan Programs",
+            "percent": 58.2
+          }
+        }
+      },
+      "spending": {
+        "total": 242100000000,
+        "breakdown": {
+          "student_financial_aid": {
+            "name": "Federal Student Aid & Pell Grants",
+            "percent": 49.5
+          },
+          "k12_block_grants": {
+            "name": "Elementary & Secondary Education (Consolidated Block Grants)",
+            "percent": 21.0
+          },
+          "special_education_simplified": {
+            "name": "Special Education Simplified Funding Program (IDEA)",
+            "percent": 6.3
+          },
+          "charter_schools_and_choice": {
+            "name": "Educational Choice & Charter School Expansion",
+            "percent": 4.8
+          },
+          "legacy_outlays_and_admin": {
+            "name": "Legacy Relief Disbursements & Departmental Operations",
+            "percent": 18.4
+          }
+        }
+      },
+      "methodology": "The 2026 figures are derived from the FY 2026 President's Budget Summary which proposes a reduction in discretionary authority to $66.7 billion. Total spending (Outlays) is projected higher than new income due to the continued disbursement of prior-year obligations and multi-year grant cycles. The breakdown reflects the administration's policy shift toward consolidating disparate programs into flexible block grants and prioritizing educational choice programs over centralized federal mandates."
+    },
+    "2025": {
+      "income": {
+        "total": 192450000000,
+        "sources": [
+          "Consolidated Appropriations Act, 2025",
+          "Mandatory Funding for Higher Education",
+          "Individuals with Disabilities Education Act (IDEA) Recurring Funds",
+          "Federal Student Aid Credit Programs"
+        ],
+        "breakdown": {
+          "discretionary_budget_authority": {
+            "name": "Discretionary Budget Authority",
+            "percent": 42.8
+          },
+          "mandatory_appropriations": {
+            "name": "Mandatory Funding & Student Loan Programs",
+            "percent": 57.2
+          }
+        }
+      },
+      "spending": {
+        "total": 275340000000,
+        "breakdown": {
+          "higher_education_and_student_aid": {
+            "name": "Higher Education and Federal Student Aid (Pell Grants & Loans)",
+            "percent": 48.5
+          },
+          "elementary_and_secondary_education": {
+            "name": "Elementary and Secondary Education (Title I & School Support)",
+            "percent": 23.4
+          },
+          "special_education": {
+            "name": "Special Education and Rehabilitative Services (IDEA)",
+            "percent": 6.1
+          },
+          "vocational_and_adult_education": {
+            "name": "Vocational, Technical, and Adult Education",
+            "percent": 5.2
+          },
+          "other_educational_programs_and_admin": {
+            "name": "Research, Innovation, and Departmental Administration",
+            "percent": 16.8
+          }
+        }
+      },
+      "methodology": "Income reflects total Enacted Budget Authority for FY 2025. Spending represents Total Net Outlays as recorded by the Department of the Treasury's Monthly Treasury Statement (MTS). The gap between income and spending is primarily due to the ongoing disbursement of carryover funds from pandemic-era relief programs (ESSER) and upward technical adjustments in student loan subsidy costs."
+    },
+    "2024": {
+      "income": {
+        "total": 188600000000,
+        "sources": [
+          "Consolidated Appropriations Act, 2024",
+          "Further Consolidated Appropriations Act, 2024",
+          "Higher Education Act (Mandatory Funding)",
+          "Individuals with Disabilities Education Act (IDEA) Allocations"
+        ],
+        "breakdown": {
+          "discretionary_appropriations": {
+            "name": "Discretionary Budget Authority",
+            "percent": 41.9
+          },
+          "mandatory_funding": {
+            "name": "Mandatory Funding and Student Loan Programs",
+            "percent": 58.1
+          }
+        }
+      },
+      "spending": {
+        "total": 268400000000,
+        "breakdown": {
+          "higher_education": {
+            "name": "Higher Education (including Federal Student Aid & Pell Grants)",
+            "percent": 46.2
+          },
+          "elementary_secondary_education": {
+            "name": "Elementary and Secondary Education (Title I & School Support)",
+            "percent": 22.9
+          },
+          "covid_recovery_grants": {
+            "name": "COVID-19 Relief and Pandemic Recovery Grants",
+            "percent": 20.5
+          },
+          "special_education": {
+            "name": "Special Education and Rehabilitative Services (IDEA)",
+            "percent": 5.8
+          },
+          "other_programs": {
+            "name": "Vocational Education, Research, and Administration",
+            "percent": 4.6
+          }
+        }
+      },
+      "methodology": "Total income is based on the enacted Congressional appropriations for FY2024. Spending reflects 'Net Outlays' as reported by USAFacts and the Department's financial statements, which includes actual payments made during the fiscal year. The discrepancy between income (appropriations) and spending (outlays) is attributed to the distribution of multi-year COVID-19 relief funds (ESSER) and student loan accounting adjustments."
+    }
+  }
+}
