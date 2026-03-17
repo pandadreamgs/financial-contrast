@@ -215,7 +215,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 .entity-icon-wrapper {
     width: 36px;
     height: 36px;
-    background: #444; /* Темно-сіра підкладка */
+    background: #f5f5f5; /* Темно-сіра підкладка */
     border-radius: 50%; /* Кругла підкладка */
     display: flex;
     align-items: center;
