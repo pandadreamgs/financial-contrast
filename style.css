@@ -135,20 +135,15 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 .card-header:hover { background: rgba(255,255,255,0.05); }
 .year-badge {
     position: absolute;
-    top: 75px;
-    right: 8px;
-    background: var(--nav-btn-bg);
-    border: 1px solid var(--border);
-    color: var(--text-dim);
+    top: 10px;
+    right: 10px;
     font-size: 10px;
     font-weight: 800;
-    padding: 2px 6px;
-    border-radius: 6px;
-    opacity: 0.8;
-    pointer-events: none;
-    letter-spacing: 0.5px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.5);
     z-index: 5;
-    opacity: 0.9;
+    pointer-events: none;
 }
 .year-badge.live-active {
     color: var(--red-accent);
@@ -171,10 +166,11 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     50% { opacity: 0.4; transform: scale(1.2); }
     100% { opacity: 1; transform: scale(1); }
 }
-.name-wrapper {
-    display: inline;         /* Змінюємо з flex на inline! */
-    position: relative;
-    line-height: 1.2;
+.name-wrapper .name-wrapper {
+    min-height: 50px; /* Достатньо для 2 рядків тексту */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .entity-selector {
     display: inline-flex;
