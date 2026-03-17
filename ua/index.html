@@ -47,74 +47,94 @@
         </nav>
 
         <main class="contrast-grid">
-            <div class="card spending" id="leftCard">
-                <div class="mode-switcher">
-                    <button id="leftBtnSpending" class="active" onclick="toggleMode('left', 'spending')"></button>
-                    <button id="leftBtnIncome" onclick="toggleMode('left', 'income')"></button>
-                </div>
-                <div class="card-header" onclick="toggleEntityMenu('left', event)">
-                    <div class="header-main-info">
-                        <div class="entity-icon-wrapper"><img id="leftIcon" class="entity-icon" src="" crossorigin="anonymous"></div>
-                        <div class="name-wrapper">
-                            <span id="leftName" class="entity-name">...</span>
-                            <span class="selector-arrow">▼</span>
-                        </div>
-                    </div>
-                    <div class="info-tooltip-wrapper" onclick="event.stopPropagation()">
-                        <span class="info-icon">?</span>
-                        <div class="tooltip-text" id="leftMethodology">...</div>
-                    </div>
-                    <div id="leftEntityMenu" class="entity-dropdown"></div>
-                </div>
-                <div class="visualizer" id="leftVisualizer"></div>
-                <div class="counter-group">
-                    <div class="cumulative" id="leftCumulative">0</div>
-                    <div class="subtext" id="leftCumLabel"></div>
-                </div>
-                <div class="live-rate">
-                    <div class="rate-main">
-                        <span id="leftApprox" class="approx">≈</span>
-                        <span id="leftRate">0</span>
-                    </div>
-                    <div class="rate-divider"></div> <small id="leftUnit"></small>
-                </div>
-                <div class="details-list" id="leftDetails"></div>
-            </div>
+    <div class="card spending" id="leftCard">
+        <div class="info-tooltip-wrapper" onclick="event.stopPropagation()">
+            <span class="info-icon">?</span>
+            <div class="tooltip-text" id="leftMethodology">...</div>
+        </div>
 
-            <div class="card income" id="rightCard">
-                <div class="mode-switcher">
-                    <button id="rightBtnSpending" onclick="toggleMode('right', 'spending')"></button>
-                    <button id="rightBtnIncome" class="active" onclick="toggleMode('right', 'income')"></button>
+        <div class="mode-switcher">
+            <button id="leftBtnSpending" class="active" onclick="toggleMode('left', 'spending')"></button>
+            <button id="leftBtnIncome" onclick="toggleMode('left', 'income')"></button>
+        </div>
+
+        <div class="card-header" onclick="toggleEntityMenu('left', event)">
+            <div class="header-main-info">
+                <div class="entity-icon-wrapper">
+                    <img id="leftIcon" class="entity-icon" src="" crossorigin="anonymous">
                 </div>
-                <div class="card-header" onclick="toggleEntityMenu('right', event)">
-                    <div class="header-main-info">
-                        <div class="entity-icon-wrapper"><img id="rightIcon" class="entity-icon" src="" crossorigin="anonymous"></div>
-                        <div class="name-wrapper">
-                            <span id="rightName" class="entity-name">...</span>
-                            <span class="selector-arrow">▼</span>
-                        </div>
-                    </div>
-                    <div class="info-tooltip-wrapper" onclick="event.stopPropagation()">
-                        <span class="info-icon">?</span>
-                        <div class="tooltip-text" id="rightMethodology">...</div>
-                    </div>
-                    <div id="rightEntityMenu" class="entity-dropdown"></div>
+                <div class="name-wrapper">
+                    <span id="leftName" class="entity-name">...</span>
+                    <span class="selector-arrow">▼</span>
                 </div>
-                <div class="visualizer" id="rightVisualizer"></div>
-                <div class="counter-group">
-                    <div class="cumulative" id="rightCumulative">0</div>
-                    <div class="subtext" id="rightCumLabel"></div>
-                </div>
-                <div class="live-rate">
-                    <div class="rate-main">
-                        <span id="rightApprox" class="approx">≈</span>
-                        <span id="rightRate">0</span>
-                    </div>
-                    <div class="rate-divider"></div> <small id="rightUnit"></small>
-                </div>
-                <div class="details-list" id="rightDetails"></div>
             </div>
-        </main>
+            <div id="leftEntityMenu" class="entity-dropdown"></div>
+        </div>
+
+        <div class="visualizer" id="leftVisualizer">
+            <div class="year-badge-inside">2026</div>
+        </div>
+
+        <div class="counter-group">
+            <div class="cumulative" id="leftCumulative">0</div>
+            <div class="subtext" id="leftCumLabel"></div>
+        </div>
+
+        <div class="live-rate">
+            <div class="rate-main">
+                <span id="leftApprox" class="approx">≈</span>
+                <span id="leftRate">0</span>
+            </div>
+            <div class="rate-divider"></div> 
+            <small id="leftUnit"></small>
+        </div>
+        <div class="details-list" id="leftDetails"></div>
+    </div>
+
+    <div class="card income" id="rightCard">
+        <div class="info-tooltip-wrapper" onclick="event.stopPropagation()">
+            <span class="info-icon">?</span>
+            <div class="tooltip-text" id="rightMethodology">...</div>
+        </div>
+
+        <div class="mode-switcher">
+            <button id="rightBtnSpending" onclick="toggleMode('right', 'spending')"></button>
+            <button id="rightBtnIncome" class="active" onclick="toggleMode('right', 'income')"></button>
+        </div>
+
+        <div class="card-header" onclick="toggleEntityMenu('right', event)">
+            <div class="header-main-info">
+                <div class="entity-icon-wrapper">
+                    <img id="rightIcon" class="entity-icon" src="" crossorigin="anonymous">
+                </div>
+                <div class="name-wrapper">
+                    <span id="rightName" class="entity-name">...</span>
+                    <span class="selector-arrow">▼</span>
+                </div>
+            </div>
+            <div id="rightEntityMenu" class="entity-dropdown"></div>
+        </div>
+
+        <div class="visualizer" id="rightVisualizer">
+            <div class="year-badge-inside">2026</div>
+        </div>
+
+        <div class="counter-group">
+            <div class="cumulative" id="rightCumulative">0</div>
+            <div class="subtext" id="rightCumLabel"></div>
+        </div>
+
+        <div class="live-rate">
+            <div class="rate-main">
+                <span id="rightApprox" class="approx">≈</span>
+                <span id="rightRate">0</span>
+            </div>
+            <div class="rate-divider"></div> 
+            <small id="rightUnit"></small>
+        </div>
+        <div class="details-list" id="rightDetails"></div>
+    </div>
+</main>
     <footer class="app-footer">
             <div class="donate-card">
                 <h3 id="donateTitle">...</h3>
