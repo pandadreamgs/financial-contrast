@@ -121,7 +121,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease, border-color 0.3s ease;
-    position: relative;
+    position: relative; /* ВАЖЛИВО: залишаємо для позиціонування "?" та бейджів */
 }
 .card:hover {
     transform: translateY(-5px);
@@ -149,6 +149,31 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     color: var(--red-accent);
     border-color: rgba(255, 77, 77, 0.4);
     box-shadow: 0 0 10px rgba(255, 77, 77, 0.1);
+}
+
+.year-badge-inside {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    font-size: 10px;
+    font-weight: 800;
+    opacity: 0.5;
+    pointer-events: none;
+    z-index: 5;
+    color: var(--text-dim);
+}
+
+.visualizer {
+    position: relative; /* Щоб рік всередині притиснувся до лівого краю */
+    height: 100px;
+    background: rgba(255, 255, 255, 0.02);
+    margin: 15px 0;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 12px;
+    gap: 1px;
 }
 
 /* Червона крапка, що миготить */
@@ -519,8 +544,8 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 /* Контейнер підказки */
 .info-tooltip-wrapper {
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 12px;
+    right: 12px;
     z-index: 10;
 }
 
@@ -574,9 +599,10 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 /* Фікс для того, щоб картинка і ім'я не з'їжджали вбік */
 .header-main-info {
     display: flex;
-    align-items: flex-start; /* Притискаємо все до верхнього краю */
+    align-items: flex-start;
     gap: 10px;
     width: 100%;
+    min-height: 64px; /* ЦЕ ВИРІВНЯЄ ГРАФІКИ ПО ОДНІЙ ЛІНІЇ */
 }
 
 /* Пульсація при натисканні (опціонально) */
@@ -644,13 +670,13 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     .visualizer { height: 200px; }
 
     /* Назви (NASA / ELON MUSK) */
-    .entity-name { 
-        font-size: 24px; /* Можна зробити трохи більшим для десктопа */
-        font-weight: 700; 
-        text-transform: uppercase; 
-        display: inline; /* Текст іде потоком */
+    .entity-name {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: inline;
         line-height: 1.2;
-    } 
+    }
     .selector-arrow {
         display: inline-block;
         font-size: 12px;
