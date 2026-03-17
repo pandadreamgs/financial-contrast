@@ -199,12 +199,11 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     100% { opacity: 1; transform: scale(1); }
 }
 .name-wrapper {
-    text-align: left;
-    width: 100%;
-    min-height: 48px; /* Висота для 2-3 рядків тексту */
+    flex: 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start; /* Текст починається зверху */
+    text-align: left;
 }
 .entity-selector {
     display: inline-flex;
@@ -275,6 +274,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    margin-top: 5px;
     /* Прибираємо фон, паддінг та коло */
     background: transparent;
     padding: 0;
@@ -289,11 +289,11 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.9));
 }
 .entity-name {
-    font-size: clamp(16px, 4vw, 20px);
+    font-size: clamp(14px, 4vw, 18px); /* Трохи зменшив для мобільних, щоб влізло */
     font-weight: 700;
     text-transform: uppercase;
-    display: inline;         /* Текст іде потоком */
-    vertical-align: top;
+    line-height: 1.2;
+    display: inline;
 }
 
 .visualizer {
@@ -609,13 +609,13 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 /* Фікс для того, щоб картинка і ім'я не з'їжджали вбік */
 .header-main-info {
     display: flex;
-    flex-direction: row; /* Повертаємо в ряд */
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start; /* Іконка завжди зверху */
     gap: 12px;
     width: 100%;
-    min-height: 80px; /* Фіксована висота, щоб графіки були на одному рівні */
-    justify-content: flex-start;
-    padding: 0 5px;
+    /* 120px гарантує, що навіть 5 рядків тексту не зрушать графік вниз */
+    min-height: 120px; 
+    margin-bottom: 10px;
 }
 
 /* Пульсація при натисканні (опціонально) */
@@ -659,11 +659,15 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
         right: 12px;
     }
 .header-main-info {
-        display: flex;
-        align-items: flex-start; /* Притискаємо іконку та текст до верху */
-        gap: 12px;
-        width: 100%;
-    }
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Іконка завжди зверху */
+    gap: 12px;
+    width: 100%;
+    /* 120px гарантує, що навіть 5 рядків тексту не зрушать графік вниз */
+    min-height: 120px; 
+    margin-bottom: 10px;
+}
     .app-container { padding: 20px; gap: 20px; }
     .card { padding: 25px; }
 
@@ -691,12 +695,13 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     }
     .selector-arrow {
         display: inline-block;
+        white-space: nowrap;
         font-size: 12px;
         color: var(--text-dim);
         margin-left: 6px;
         vertical-align: middle;
         position: relative;
-        top: -2px; /* Коригуємо висоту під великий шрифт */
+        top: -2px;
     }
 
     .subtext { font-size: 11px; }
