@@ -449,34 +449,34 @@ function setupEventListeners() {
     });
 }
 
-async function takeScreenshot(event) {
-    const btn = event.currentTarget;
+async function takeScreenshot() {
+    const btn = document.querySelector('.header-controls-right .tool-wrapper:first-child');
     const originalContent = btn.innerHTML;
-    btn.innerHTML = "⌛";
-
-    // Вибираємо контейнер з картками
-    const element = document.querySelector('.contrast-grid'); 
-
+    
     try {
-        const canvas = await html2canvas(element, {
+        btn.innerHTML = '...';
+        
+        // 1. ВИПРАВЛЕННЯ: Чітко вказуємо, що фоткати (весь контейнер додатку)
+        const container = document.querySelector('.app-container');
+        if (!container) return;
+
+        const canvas = await html2canvas(container, {
             useCORS: true,
-            allowTaint: false, // Для мобільних краще false
-            logging: true,     // Увімкни, щоб бачити помилки в консолі
+            allowTaint: false,
             backgroundColor: getComputedStyle(document.body).getPropertyValue('--bg-color'),
-            scale: 2,          // Золота середина якості
-            imageTimeout: 0,   // Чекати до переможного кінця завантаження картинок
+            scale: 2,
             onclone: (clonedDoc) => {
-                // Приховуємо все зайве на копії документа перед знімком
-                const toHide = clonedDoc.querySelectorAll('.info-tooltip-wrapper, .selector-arrow');
+                // Ховаємо зайві елементи на скріншоті
+                const toHide = clonedDoc.querySelectorAll('.info-tooltip-wrapper, .selector-arrow, .lang-dropdown, .header-controls-right');
                 toHide.forEach(el => el.style.display = 'none');
             }
         });
 
         const image = canvas.toDataURL("image/png", 1.0);
         const blob = await (await fetch(image)).blob();
-        const file = new File([blob], 'financial_contrast.png', { type: 'image/png' });
+        const file = new File([blob], 'cashclash_snapshot.png', { type: 'image/png' });
 
-        // Спочатку створюємо файл, а потім перевіряємо, чи можна його поширити
+        // 2. ВИПРАВЛЕННЯ: Перевірка Share API
         if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
             try {
                 await navigator.share({
@@ -490,11 +490,9 @@ async function takeScreenshot(event) {
         } else {
             // Резервний метод: Скачування
             const link = document.createElement('a');
-            link.download = 'financial_snapshot.png';
+            link.download = 'cashclash_snapshot.png';
             link.href = image;
-            document.body.appendChild(link);
             link.click();
-            document.body.removeChild(link);
         }
     } catch (err) {
         console.error("Screenshot error:", err);
