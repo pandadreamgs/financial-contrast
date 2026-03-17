@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CashClash</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="../style.css">
+    <script>window.FORCE_LANG = 'ua';</script> <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body data-theme="dark">
+    <div class="app-container">
+        <header>
+            <div class="tool-wrapper" id="langWrapper" onclick="toggleLangMenu(event)">
+                <div class="lang-custom" id="langSelector"></div>
+                <div class="lang-dropdown" id="langDropdown"></div>
+            </div>
+        
+            <h1 id="mainTitle" onclick="location.reload()">Cash Clash</h1>
+        
+            <div class="header-controls-right">
+                <div class="tool-wrapper" onclick="takeScreenshot()">
+                    <button class="theme-btn">📸</button>
+                </div>
+                <div class="tool-wrapper" onclick="toggleTheme()">
+                    <button id="themeToggle" class="theme-btn">🌙</button>
+                </div>
+            </div>
+        </header>
+
+        <nav class="year-selector" id="yearSelector">
+            <button class="active">2026</button>
+            <button>2025</button>
+            <button>2024</button>
+        </nav>
+
+        <nav class="time-tabs" id="timeTabs">
+            <button data-unit="sec" id="unit_sec" class="active"></button>
+            <button data-unit="min" id="unit_min"></button>
+            <button data-unit="hour" id="unit_hour"></button>
+            <button data-unit="day" id="unit_day"></button>
+            <button data-unit="week" id="unit_week"></button>
+            <button data-unit="month" id="unit_month"></button>
+        </nav>
+
+        <main class="contrast-grid">
+            <div class="card spending" id="leftCard">
+                <div class="mode-switcher">
+                    <button id="leftBtnSpending" class="active" onclick="toggleMode('left', 'spending')"></button>
+                    <button id="leftBtnIncome" onclick="toggleMode('left', 'income')"></button>
+                </div>
+                <div class="card-header" onclick="toggleEntityMenu('left', event)">
+                    <div class="header-main-info">
+                        <div class="entity-icon-wrapper"><img id="leftIcon" class="entity-icon" src="" crossorigin="anonymous"></div>
+                        <div class="name-wrapper">
+                            <span id="leftName" class="entity-name">...</span>
+                            <span class="selector-arrow">▼</span>
+                        </div>
+                    </div>
+                    <div class="info-tooltip-wrapper" onclick="event.stopPropagation()">
+                        <span class="info-icon">?</span>
+                        <div class="tooltip-text" id="leftMethodology">...</div>
+                    </div>
+                    <div id="leftEntityMenu" class="entity-dropdown"></div>
+                </div>
+                <div class="visualizer" id="leftVisualizer"></div>
+                <div class="counter-group">
+                    <div class="cumulative" id="leftCumulative">0</div>
+                    <div class="subtext" id="leftCumLabel"></div>
+                </div>
+                <div class="live-rate">
+                    <div class="rate-main">
+                        <span id="leftApprox" class="approx">≈</span>
+                        <span id="leftRate">0</span>
+                    </div>
+                    <div class="rate-divider"></div> <small id="leftUnit"></small>
+                </div>
+                <div class="details-list" id="leftDetails"></div>
+            </div>
+
+            <div class="card income" id="rightCard">
+                <div class="mode-switcher">
+                    <button id="rightBtnSpending" onclick="toggleMode('right', 'spending')"></button>
+                    <button id="rightBtnIncome" class="active" onclick="toggleMode('right', 'income')"></button>
+                </div>
+                <div class="card-header" onclick="toggleEntityMenu('right', event)">
+                    <div class="header-main-info">
+                        <div class="entity-icon-wrapper"><img id="rightIcon" class="entity-icon" src="" crossorigin="anonymous"></div>
+                        <div class="name-wrapper">
+                            <span id="rightName" class="entity-name">...</span>
+                            <span class="selector-arrow">▼</span>
+                        </div>
+                    </div>
+                    <div class="info-tooltip-wrapper" onclick="event.stopPropagation()">
+                        <span class="info-icon">?</span>
+                        <div class="tooltip-text" id="rightMethodology">...</div>
+                    </div>
+                    <div id="rightEntityMenu" class="entity-dropdown"></div>
+                </div>
+                <div class="visualizer" id="rightVisualizer"></div>
+                <div class="counter-group">
+                    <div class="cumulative" id="rightCumulative">0</div>
+                    <div class="subtext" id="rightCumLabel"></div>
+                </div>
+                <div class="live-rate">
+                    <div class="rate-main">
+                        <span id="rightApprox" class="approx">≈</span>
+                        <span id="rightRate">0</span>
+                    </div>
+                    <div class="rate-divider"></div> <small id="rightUnit"></small>
+                </div>
+                <div class="details-list" id="rightDetails"></div>
+            </div>
+        </main>
+    <footer class="app-footer">
+            <div class="donate-card">
+                <h3 id="donateTitle">...</h3>
+                <p id="donateDesc">...</p>
+                <a href="https://buymeacoffee.com/pandadreamgs" target="_blank" rel="noopener noreferrer" class="donate-btn" id="donateBtn">Buy Me a Coffee ☕</a>
+            </div>
+
+            <div class="seo-section" id="seoText"></div>
+
+            <div class="footer-bottom">
+                <span id="footerCreated"></span>
+                <b class="author studio-name">PandaDream Game Studio 🐼</b>
+                <p id="footerSlogan" class="slogan"></p>
+            </div>
+        </footer>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
