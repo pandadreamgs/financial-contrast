@@ -1,4 +1,4 @@
-let currentLang = 'ua';
+let currentLang = window.FORCE_LANG || 'en';
 const availableLangs = ['ua', 'en']; 
 const entityList = ['african-union', 'amazon', 'amnesty-international', 'apple', 'arab-league', 'asean', 'bernard-arnault', 'bezos', 'bill-gates', 'bundeswehr',
                     'cern', 'china', 'coca-cola', 'cristiano-ronaldo', 'department-of-energy', 'disney', 'dubai', 'eda', 'elon-musk', 'emirates', 'esa', 'european-union',
@@ -27,7 +27,6 @@ const rateFormatter = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2,
 const wholeFormatter = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 });
 
 async function init() {
-    currentLang = localStorage.getItem('lang') || 'ua';
     applyInitialTheme();
     await preloadLangNames();
     await loadLanguage(currentLang);
@@ -38,7 +37,7 @@ async function init() {
 async function preloadLangNames() {
     for (let lang of availableLangs) {
         try {
-            const res = await fetch(`i18n/${lang}/main.json`).then(r => r.json());
+            const res = await fetch(`../${lang}/main.json`).then(r => r.json());
             langDataCache[lang] = {
                 langName: res.ui.lang,  
                 shortName: res.ui.short 
@@ -48,15 +47,17 @@ async function preloadLangNames() {
 }
 
 async function loadLanguage(lang) {
-    currentLang = lang;
-    localStorage.setItem('lang', lang);
+    if (lang !== currentLang) {
+        window.location.href = `../${lang}/`;
+        return;
+    }
     try {
-        const main = await fetch(`i18n/${lang}/main.json`).then(r => r.json());
+        const main = await fetch(`./main.json`).then(r => r.json());
         applyMainTexts(main);
         
         // Завантажуємо дані для всіх сутностей зі списку
         const entityPromises = entityList.map(id => 
-            fetch(`i18n/${lang}/data/${id}.json`).then(r => r.json())
+            fetch(`./data/${id}.json`).then(r => r.json())
         );
         const entities = await Promise.all(entityPromises);
         
@@ -182,14 +183,14 @@ function renderLangSelector() {
     const current = langDataCache[currentLang];
     
     selector.innerHTML = `
-        <img src="i18n/${currentLang}/${currentLang.toUpperCase()}.png">
+        <img src="../${currentLang}/${currentLang.toUpperCase()}.png">
         <span>${current ? current.shortName : currentLang.toUpperCase()}</span>
         <span class="arrow-down">▼</span>
     `;
     
     dropdown.innerHTML = availableLangs.map(l => `
         <div class="lang-item" onclick="loadLanguage('${l}')">
-            <img src="i18n/${l}/${l.toUpperCase()}.png">
+            <img src="../${l}/${l.toUpperCase()}.png">
             <span>${langDataCache[l] ? langDataCache[l].langName : l}</span>
         </div>
     `).join('');
@@ -440,7 +441,7 @@ function setupEventListeners() {
     });
 }
 
-async function takeScreenshot() {
+async function takeScreenshot(event) {
     const btn = event.currentTarget;
     const originalContent = btn.innerHTML;
     btn.innerHTML = "⌛";
@@ -466,7 +467,7 @@ async function takeScreenshot() {
         const image = canvas.toDataURL("image/png", 1.0);
 
         // Перевіряємо Share API
-        if (navigator.share && navigator.canShare) {
+        if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
             const blob = await (await fetch(image)).blob();
             const file = new File([blob], 'financial_contrast.png', { type: 'image/png' });
             
@@ -474,7 +475,7 @@ async function takeScreenshot() {
                 await navigator.share({
                     files: [file],
                     title: 'CashClash',
-                    text: `${window.uiLabels.shareText}\nhttps://cashclash.github.io/`
+                    text: `${window.uiLabels.shareText}\nhttps://cashclash.github.io/${currentLang}/`
                 });
             } catch (shareErr) {
                 console.log("User cancelled share");
