@@ -220,26 +220,22 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.5));
 }
 .entity-icon-wrapper {
-    width: 36px;
-    height: 36px;
-    background: #f0f0f0; /* Темно-сіра підкладка */
-    border-radius: 50%; /* Кругла підкладка */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6px; /* Відступ для іконки всередині */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Легка тінь */
+    flex-shrink: 0;
+    /* Прибираємо фон, паддінг та коло */
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
 }
 
 .entity-icon {
     width: 32px;
     height: 32px;
-    border-radius: 6px;
     object-fit: contain;
-    /* Видалено background та padding */
-    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.8));
-    /* Додаємо невеликий запас, щоб drop-shadow не обрізався краями контейнера */
-    transform: scale(0.9); 
+    /* Сяйво, яке адаптується під форму логотипа */
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.9));
 }
 .entity-name { font-size: clamp(10px, 3vw, 13px); font-weight: bold; text-transform: uppercase;}
 
@@ -620,7 +616,6 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 
     /* Назви (NASA / ELON MUSK) */
     .entity-name { font-size: 20px; font-weight: 700; text-transform: uppercase; } 
-    .entity-icon { width: 40px; height: 40px; }
 
     .subtext { font-size: 11px; }
 
