@@ -351,18 +351,17 @@ function startTickers() {
                 if (!badge) {
                     badge = document.createElement('div');
                     badge.className = 'year-badge';
-                    badge.style.position = 'absolute';
-                    badge.style.top = '10px';
-                    badge.style.right = '10px';
                     card.appendChild(badge);
                 }
 
                 if (currentYear === "2026") {
                     badge.innerHTML = `<span class="live-dot"></span> LIVE ${currentYear}`;
                     badge.className = 'year-badge live-active';
+                    badge.style.display = 'flex';
                 } else {
                     badge.innerText = currentYear;
                     badge.className = 'year-badge';
+                    badge.style.display = 'block';
                     badge.style.color = 'var(--text-dim)';
                 }
             }
