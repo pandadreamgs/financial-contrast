@@ -137,18 +137,20 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     position: absolute;
     top: 8px;
     right: 8px;
-    bottom: auto;
+    width: fit-content; /* Додай це обов'язково */
+    height: auto;       /* Додай це про всяк випадок */
     font-size: 10px;
     font-weight: 800;
-    padding: 2px 6px;
-    border-radius: 4px;
-    background: rgba(0,0,0,0.6);
+    padding: 4px 8px;   /* Трохи збільшив відступи для краси */
+    border-radius: 6px;
+    background: rgba(0,0,0,0.7); /* Зробив трохи темніше для контрасту */
     backdrop-filter: blur(4px);
     z-index: 5;
     pointer-events: none;
     display: flex;
     align-items: center;
     gap: 4px;
+    border: 1px solid var(--border); /* Додав рамку, щоб вона виглядала як окремий елемент */
 }
 .year-badge.live-active {
     color: var(--red-accent);
