@@ -263,6 +263,8 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     box-shadow: 0 10px 30px rgba(0,0,0,0.8);
     max-height: 300px;
     overflow-y: auto;
+    overscroll-behavior: contain; /* Блокує передачу скролу на body */
+    -webkit-overflow-scrolling: touch;
 }
 .cumulative, [id$="Rate"] {
     font-variant-numeric: tabular-nums;
@@ -408,6 +410,8 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 .menu-list-container {
     max-height: 250px;
     overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
 }
 
 .counter-group { text-align: center; margin-bottom: 5px; }
