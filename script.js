@@ -77,48 +77,36 @@ async function loadLanguage(lang) {
 }
 
 function renderEntityMenus(filterText = '', side = null) {
-    const categories = {};
-    
-    // Фільтруємо кеш сутностей
-    const filteredEntities = Object.values(entityCache).filter(e => 
-        e.name.toLowerCase().includes(filterText.toLowerCase()) || 
-        e.category.toLowerCase().includes(filterText.toLowerCase())
-    );
-
-    filteredEntities.forEach(entity => {
-        if (!categories[entity.category]) categories[entity.category] = [];
-        categories[entity.category].push(entity);
-    });
-
     const sides = side ? [side] : ['left', 'right'];
+
+    // Формуємо список на основі ПОВНОГО entityList
+    const filteredIds = entityList.filter(id => 
+        id.replace(/-/g, ' ').toLowerCase().includes(filterText.toLowerCase())
+    );
 
     sides.forEach(s => {
         const dropdown = document.getElementById(`${s}EntityMenu`);
         
-        // Додаємо поле пошуку, якщо це перший рендер або повне оновлення
         const searchHTML = `<input type="text" class="menu-search" placeholder="Search..." 
                             onclick="event.stopPropagation()" 
-                            oninput="renderEntityMenus(this.value, '${s}')">`;
+                            oninput="renderEntityMenus(this.value, '${s}')" value="${filterText}">`;
 
-        const contentHTML = Object.keys(categories).map(cat => `
-            <div class="category-group">
-                <div class="category-name">${cat}</div>
-                ${categories[cat].map(e => `
-                  <div class="entity-item" onclick="selectEntity('${s}', '${e.id}', event)">
-                      <div class="entity-icon-wrapper">
-                          <img src="../${e.image}" loading="lazy" class="entity-icon">
-                      </div>
-                      <span>${e.name}</span>
-                  </div>
-              `).join('')}
-            </div>
-        `).join('');
+        const contentHTML = filteredIds.map(id => {
+            const displayName = id.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+            
+            return `
+                <div class="entity-item" onclick="selectEntity('${s}', '${id}', event)">
+                    <div class="entity-icon-wrapper">
+                        <img src="../images/${id}.svg" onerror="this.src='../images/default.svg'" loading="lazy" class="entity-icon">
+                    </div>
+                    <span>${displayName}</span>
+                </div>
+            `;
+        }).join('');
 
-        // Якщо ми просто фільтруємо, не перемальовуємо інпут, щоб не втрачати фокус
         if (filterText !== '') {
-            // Оновлюємо лише контент нижче інпуту
-            const listContainer = dropdown.querySelector('.menu-list-container') || dropdown;
-            listContainer.innerHTML = contentHTML;
+            const listContainer = dropdown.querySelector('.menu-list-container');
+            if (listContainer) listContainer.innerHTML = contentHTML;
         } else {
             dropdown.innerHTML = searchHTML + `<div class="menu-list-container">${contentHTML}</div>`;
         }
@@ -363,15 +351,19 @@ function startTickers() {
                 if (!badge) {
                     badge = document.createElement('div');
                     badge.className = 'year-badge';
+                    badge.style.position = 'absolute';
+                    badge.style.top = '10px';
+                    badge.style.right = '10px';
                     card.appendChild(badge);
                 }
 
                 if (currentYear === "2026") {
                     badge.innerHTML = `<span class="live-dot"></span> LIVE ${currentYear}`;
-                    badge.classList.add('live-active');
+                    badge.className = 'year-badge live-active';
                 } else {
                     badge.innerText = currentYear;
-                    badge.classList.remove('live-active');
+                    badge.className = 'year-badge';
+                    badge.style.color = 'var(--text-dim)';
                 }
             }
 
