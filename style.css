@@ -135,7 +135,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 .card-header:hover { background: rgba(255,255,255,0.05); }
 .year-badge {
     position: absolute;
-    top: 18px;
+    top: 48px;
     left: 8px;
     width: fit-content; /* Додай це обов'язково */
     height: auto;       /* Додай це про всяк випадок */
