@@ -222,11 +222,9 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     100% { opacity: 1; transform: scale(1); }
 }
 .name-wrapper {
-    position: relative;
-    display: inline-block; /* Щоб контейнер був рівно по ширині тексту */
-    padding-left: 12px;    /* Це створює "бронь" для стрілки, щоб вона не штовхала текст */
-    text-align: left;
-    vertical-align: top;
+    display: block; 
+    width: 100%;
+    overflow: hidden;
 }
 .entity-selector {
     display: flex;
@@ -323,12 +321,21 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 }
 .entity-name {
     flex: 1; 
-    min-width: 0; /* Це змушує flex-елемент стискатися менше за свій контент */
-    white-space: nowrap; /* Тримаємо в один рядок для роботи JS підгонки */
-    font-size: clamp(14px, 4vw, 18px);
+    min-width: 0; /* Дозволяє флекс-елементу стискатися */
+    word-wrap: break-word; /* Перенос довгих слів, якщо вони зовсім не влазять */
+    overflow-wrap: break-word;
+    word-break: keep-all; /* Не розривати слова, якщо можливо */
+    line-height: 1.1;
+    display: block;
+    text-align: left;
+    
+    /* Важливо: шрифт за замовчуванням */
+    font-size: 18px; 
     font-weight: 700;
-    overflow: hidden;
-    text-overflow: ellipsis; /* Якщо JS не спрацює, покаже три крапки замість скролу */
+    text-transform: uppercase;
+    
+    /* Обмежуємо ширину, щоб текст не розтягував картку */
+    max-width: 100%; 
 }
 
 .live-label {
