@@ -507,40 +507,40 @@ async function takeScreenshot() {
             backgroundColor: getComputedStyle(document.body).getPropertyValue('--bg-color'),
             scale: 2,
             onclone: (clonedDoc) => {
-                // Ховаємо сміття
-                const toHide = clonedDoc.querySelectorAll('.info-tooltip-wrapper, .selector-arrow, .entity-dropdown');
-                toHide.forEach(el => el.style.display = 'none');
-
-                // ПРАВИЛЬНИЙ БЕЙДЖ РОКУ НА СКРІНШОТІ
-                clonedDoc.querySelectorAll('.card').forEach(card => {
-                    let badge = card.querySelector('.year-badge');
-                    if (!badge) {
-                        badge = document.createElement('div');
-                        badge.className = 'year-badge';
-                        card.appendChild(badge);
-                    }
-                    
-                    if (currentYear === "2026") {
+              const toHide = clonedDoc.querySelectorAll('.info-tooltip-wrapper, .selector-arrow, .entity-dropdown');
+              toHide.forEach(el => el.style.display = 'none');
+          
+              clonedDoc.querySelectorAll('.card').forEach(card => {
+                  let badge = card.querySelector('.year-badge');
+                  if (!badge) {
+                      badge = document.createElement('div');
+                      badge.className = 'year-badge';
+                      card.appendChild(badge);
+                  }
+                  
+                  // Встановлюємо стилі для скріншота
+                  badge.style.position = 'absolute';
+                  badge.style.top = '10px';
+                  badge.style.right = '10px';
+                  badge.style.display = 'flex';
+                  badge.style.alignItems = 'center';
+          
+                  if (currentYear === "2026") {
                       badge.innerHTML = `<span style="display:inline-block; width:6px; height:6px; background:#ff4d4d; border-radius:50%; margin-right:4px;"></span> 2026`;
                       badge.style.color = '#ff4d4d';
-                      badge.style.position = 'absolute'; // ОСЬ ЦЕ ДОДАЙ
-                      badge.style.top = '10px';         // ПРИБЛИЗНО
-                      badge.style.right = '10px';
+                  } else {
+                      badge.innerText = currentYear;
+                      badge.style.color = '#888888'; // або var(--text-dim)
+                      badge.style.border = '1px solid #333';
                   }
-                    } else {
-                        badge.innerText = currentYear;
-                        badge.style.color = 'var(--text-dim)';
-                        badge.style.border = '1px solid var(--border)';
-                    }
-                });
-
-                // Вирівнюємо відступи сітки
-                const grid = clonedDoc.querySelector('.contrast-grid');
-                if (grid) {
-                    grid.style.padding = '30px 15px';
-                    grid.style.background = getComputedStyle(document.body).getPropertyValue('--bg-color');
-                }
-            }
+              });
+          
+              const grid = clonedDoc.querySelector('.contrast-grid');
+              if (grid) {
+                  grid.style.padding = '30px 15px';
+                  grid.style.background = '#0d0d0d'; // жорсткий колір для стабільності
+              }
+          }
         });
 
         const image = canvas.toDataURL("image/png", 1.0);
