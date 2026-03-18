@@ -102,7 +102,11 @@ function renderEntityMenus(filterText = '', side = null) {
 
         let contentHTML = '';
 
-        for (const [category, entities] of Object.entries(groupedEntities)) {
+        const sortedCategories = Object.keys(groupedEntities).sort();
+
+        for (const category of sortedCategories) {
+            const entities = groupedEntities[category];
+            
             const filtered = entities.filter(e => 
                 e.name.toLowerCase().includes(filterText.toLowerCase()) || 
                 e.id.toLowerCase().includes(filterText.toLowerCase())
