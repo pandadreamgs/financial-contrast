@@ -142,10 +142,8 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     font-size: 10px;
     font-weight: 800;
     padding: 4px 10px;
-    /* Робимо скруглення тільки для нижнього правого кута */
     border-radius: 14px 0 10px 0; 
     background: var(--nav-btn-bg);
-    /* Рамка тільки знизу і справа */
     border-bottom: 1px solid var(--border);
     border-right: 1px solid var(--border);
     z-index: 5;
@@ -153,7 +151,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     display: flex;
     align-items: center;
     gap: 4px;
-    color: var(--text-dim); /* Колір для неактивного року (сірий) */
+    color: var(--text-dim);
     transition: 0.3s;
 }
 .year-badge.live-active {
@@ -564,12 +562,13 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 }
 
 .info-icon {
-    width: 24px;
-    height: 24px;
+    width: auto; 
+    height: auto;
+    padding: 4px 10px; 
     background: var(--nav-btn-bg);
-    border: 1px solid var(--border);
-    /* Робимо скруглення кутів тільки для нижнього лівого краю, 
-       щоб іконка органічно вписалася в кут картки */
+    border: none;
+    border-bottom: 1px solid var(--border);
+    border-left: 1px solid var(--border);
     border-radius: 0 15px 0 10px; 
     display: flex;
     align-items: center;
@@ -579,6 +578,9 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     color: var(--text-dim);
     cursor: help;
     transition: 0.2s;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .info-icon:hover {
