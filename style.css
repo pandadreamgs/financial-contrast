@@ -139,13 +139,10 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     display: flex;
     align-items: center;
     width: 100%;
-    gap: 10px;
-    position: relative; /* Повертаємо для позиціонування списку, якщо треба */
-    cursor: pointer;
-    border-radius: 8px;
-    transition: background 0.2s;
-    padding: 5px;
-    box-sizing: border-box; /* Щоб падінги не роздували ширину */
+    gap: 12px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden; /* Важливо, щоб нічого не "стирчало" для скріншота */
 }
 .card-header:hover { background: rgba(255,255,255,0.05); }
 .year-badge {
@@ -317,19 +314,23 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.9));
 }
 .entity-name {
-    flex: 1; /* Оце дозволить тексту розширюватися на все порожнє місце справа */
-    min-width: 0; /* Критично важливо! Дозволяє тексту стискатися і переноситися */
-    
-    /* Повертаємо твої шрифти, але з додаванням переносу */
+    flex: 1; 
+    min-width: 0; /* Це змушує flex-елемент стискатися менше за свій контент */
+    white-space: nowrap; /* Тримаємо в один рядок для роботи JS підгонки */
     font-size: clamp(14px, 4vw, 18px);
     font-weight: 700;
-    line-height: 1.2;
-    text-transform: uppercase;
-    
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Якщо JS не спрацює, покаже три крапки замість скролу */
 }
+
+.live-label {
+    position: absolute; /* Виводимо з потоку, щоб не совало Spend/Income */
+    top: 5px;
+    left: 10px;
+    z-index: 100;
+    pointer-events: none; /* Щоб не заважало клікати по картці */
+}
+
 .visualizer {
     height: 100px;
     background: rgba(255, 255, 255, 0.02); /* Ледь помітна підкладка */
