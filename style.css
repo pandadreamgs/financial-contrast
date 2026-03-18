@@ -314,13 +314,14 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.9));
 }
 .entity-name {
-    flex: 1; 
-    min-width: 0; /* Це змушує flex-елемент стискатися менше за свій контент */
-    white-space: nowrap; /* Тримаємо в один рядок для роботи JS підгонки */
+    flex: 1;
+    min-width: 0; /* Обов'язково для flex-контейнерів */
+    white-space: nowrap; /* ЗАБОРОНЯЄМО перенос, щоб JS бачив вихід за межі */
+    overflow: hidden;
     font-size: clamp(14px, 4vw, 18px);
     font-weight: 700;
-    overflow: hidden;
-    text-overflow: ellipsis; /* Якщо JS не спрацює, покаже три крапки замість скролу */
+    line-height: 1.2;
+    display: block;
 }
 
 .live-label {
