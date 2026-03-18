@@ -46,10 +46,15 @@ window.addEventListener('resize', syncHeaderHeights);
 async function init() {
     applyInitialTheme();
     createVisualizerColumns();
+    
+    // Спочатку вантажимо мову та ПЕРШІ дані
     await loadLanguage(currentLang); 
+    
+    // Потім збираємо решту списку сутностей
+    await preloadLangNames(); 
+    
     setupEventListeners();
-    startTickers();
-    preloadLangNames(); 
+    startTickers(); // Тепер дані точно є, можна запускати
 }
 
 function adjustFontSize(element) {
@@ -298,6 +303,7 @@ function toggleMode(side, mode) {
 function updateUI() {
     ["left", "right"].forEach(side => {
         const data = financialData[side];
+        if (!data || !data.data || !data.data[currentYear]) return;
         if (!data || !data.data[currentYear]) return;
         const mode = cardModes[side];
         const container = document.getElementById(`${side}Details`);
