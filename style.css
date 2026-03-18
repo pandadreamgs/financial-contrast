@@ -638,7 +638,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
 /* Фікс для того, щоб картинка і ім'я не з'їжджали вбік */
 .header-main-info {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
     width: 100%;
     min-height: 60px; /* Мінімальна висота, щоб не стрибало при зміні */
