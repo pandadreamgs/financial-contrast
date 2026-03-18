@@ -116,12 +116,12 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     background: var(--card-bg);
     border-radius: 15px;
     padding: 8px;
-    overflow: visible !important;
     border: 1px solid var(--border);
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease, border-color 0.3s ease;
-    position: relative; /* ВАЖЛИВО: залишаємо для позиціонування "?" та бейджів */
+    position: relative; 
+    overflow: visible !important; /* Гарантуємо видимість тултіпів */
 }
 .card:hover {
     z-index: 999;
@@ -142,7 +142,7 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     gap: 12px;
     position: relative;
     box-sizing: border-box;
-    overflow: hidden; /* Важливо, щоб нічого не "стирчало" для скріншота */
+    /* overflow: hidden ПРИБРАНО */
 }
 .card-header:hover { background: rgba(255,255,255,0.05); }
 .year-badge {
@@ -259,10 +259,16 @@ nav button.active { background: var(--text-main); color: var(--bg-color); }
     border-radius: 12px;
     display: none;
     flex-direction: column;
-    z-index: 2000;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    z-index: 3000; /* Піднімаємо вище за все */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
     max-height: 300px;
     overflow-y: auto;
+}
+.cumulative, [id$="Rate"] {
+    font-variant-numeric: tabular-nums;
+    -moz-font-feature-settings: "tnum";
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum";
 }
 .entity-dropdown.active { display: flex; }
 
