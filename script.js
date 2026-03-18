@@ -52,11 +52,16 @@ async function init() {
     preloadLangNames(); 
 }
 
-function fitText(element) {
-    let fontSize = parseFloat(window.getComputedStyle(element).fontSize);
-    while (element.scrollWidth > element.offsetWidth && fontSize > 10) {
-        fontSize -= 1;
-        element.style.fontSize = fontSize + "px";
+function adjustFontSize(element) {
+    const parent = element.parentElement;
+    let fontSize = 18;
+    const minFontSize = 10;
+
+    element.style.fontSize = fontSize + 'px';
+    
+    while (element.scrollHeight > 45 && fontSize > minFontSize) { 
+        fontSize--;
+        element.style.fontSize = fontSize + 'px';
     }
 }
 
@@ -477,20 +482,20 @@ function setupEventListeners() {
 
 function updateEntityName(side, name) {
     const nameElement = document.getElementById(side + 'Name');
-    fitText(nameElement);
-    // Оновлюємо ТІЛЬКИ текст імені, не чіпаючи стрілочку, якщо вона в окремому span
+    if (!nameElement) return;
+
+    // Встановлюємо текст
     nameElement.innerText = name; 
     
-    // Динамічне зменшення шрифту для довгих назв (ASEAN тощо)
-    if (name.length > 25) {
-        nameElement.style.fontSize = '12px';
-    } else if (name.length > 15) {
-        nameElement.style.fontSize = '14px';
-    } else {
-        nameElement.style.fontSize = ''; // Повертає значення з CSS
-    }
-  
-    setTimeout(syncHeaderHeights, 0);
+    // Скидаємо стилі, щоб adjustFontSize починав з чистого аркуша
+    nameElement.style.fontSize = ''; 
+
+    // Використовуємо таймаут, щоб браузер встиг відрендерити текст перед замірами
+    setTimeout(() => {
+        adjustFontSize(nameElement);
+        // Тільки після підгонки шрифту синхронізуємо висоту карток
+        syncHeaderHeights();
+    }, 10);
 }
 
 async function takeScreenshot() {
