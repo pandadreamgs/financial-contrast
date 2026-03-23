@@ -459,7 +459,7 @@ function startTickers() {
                         col.style.opacity = "1";
                         col.style.background = "var(--accent-color)";
                     } else {
-                        col.style.opacity = "0.4"; // Тьмяні стовпчики для майбутніх місяців
+                        col.style.opacity = "0.5"; // Тьмяні стовпчики для майбутніх місяців
                         col.style.background = "rgba(255,255,255,0.1)"; 
                     }
                 }
