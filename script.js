@@ -336,17 +336,17 @@ function startTickers() {
         let secondsPassed = (now - startOfYear) / 1000;
 
         let currentContextMax = 0;
-        ["left", "right"].forEach(side => {
-            const data = financialData[side];
-            const mode = cardModes[side];
-            if (!data) return;
-
-            Object.keys(data.data).forEach(year => {
-                const val = Math.abs(data.data[year][mode].total);
-                if (val > currentContextMax) currentContextMax = val;
-            });
-        });
-        currentContextMax = currentContextMax || 1;
+          ["left", "right"].forEach(side => {
+              const data = financialData[side];
+              const mode = cardModes[side];
+              // Беремо дані тільки для поточного вибраного року (currentYear)
+              if (data && data.data[currentYear]) {
+                  const val = Math.abs(data.data[currentYear][mode].total);
+                  if (val > currentContextMax) currentContextMax = val;
+              }
+          });
+          // Якщо обидва графіки порожні, ставимо 1, щоб не ділити на нуль
+          currentContextMax = currentContextMax || 1;
 
         ["left", "right"].forEach(side => {
             const data = financialData[side];
